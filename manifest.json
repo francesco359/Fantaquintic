@@ -1,8 +1,8 @@
 {
   "schema": "FantaSuite.manifest.v1",
-  "updated_at": "2026-10-15T19:30:08+00:00",
+  "updated_at": "2026-10-15T20:37:16+00:00",
   "files": {
-    "latest": "data/latest.json"
+    "latest": "latest.json"
   },
   "status": "bootstrap",
   "provider_mode": "authorized-only"
