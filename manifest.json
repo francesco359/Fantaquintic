@@ -1,0 +1,68 @@
+{
+  "package": "FantaSuite v14 Complete GitHub",
+  "generatedAt": "2026-10-20T21:47:00+02:00",
+  "entrypoint": "index.html",
+  "workflow": ".github/workflows/update.yml",
+  "files": [
+    {
+      "path": ".github/workflows/update.yml",
+      "size": 2111,
+      "sha256": "fa759573498eebb7626db79557e08620dc008296cffaf0a91627944672611534"
+    },
+    {
+      "path": ".nojekyll",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "README.md",
+      "size": 1229,
+      "sha256": "10c97929624dc8585e5e797811c9bb2bcbaefe49567045bcf1ff1c9ce7db1c1a"
+    },
+    {
+      "path": "backup/index_originale.html",
+      "size": 458262,
+      "sha256": "7a2abc01ea944b824591554691a13bef92f6e0fcac915368a34c7550c5493cda"
+    },
+    {
+      "path": "data/latest.json",
+      "size": 11419,
+      "sha256": "0a37e356d5b325eb718bc6e47e1d0dea0aa100f3b42dd791564735a19c4b7e36"
+    },
+    {
+      "path": "data/status.json",
+      "size": 279,
+      "sha256": "1ccd44a4ad523c3a25403116f37b32868c906bd4d34d953bed463f924f528445"
+    },
+    {
+      "path": "data/tactical_integration.js",
+      "size": 6075,
+      "sha256": "74551f1be4147840e83696df7e6642c6c19e5c965ddb9e364570808c4169791b"
+    },
+    {
+      "path": "data/tactical_integration.json",
+      "size": 11208,
+      "sha256": "edbe3cee0ea85c93943fff0d4034e6237359c866db42995d1fbbf9528c3d8c4d"
+    },
+    {
+      "path": "database/fantaquintoc_tactical_model.sql",
+      "size": 30151,
+      "sha256": "167ebbd9205629ba78ade40740438f1f7e19c426a2c4d36a6f8cee4f7f4a7975"
+    },
+    {
+      "path": "docs/VALIDATION_REPORT.json",
+      "size": 346,
+      "sha256": "1652ca84994a47f834f528165714bd5532c1f0120ad7a993dbd2eb7e7c81c819"
+    },
+    {
+      "path": "index.html",
+      "size": 458381,
+      "sha256": "bfef2bcb04dc554d4f6313b58616c50a3a430ac90a8087ff28d1fdc45bd160da"
+    },
+    {
+      "path": "scripts/fs-v140-final-tactical-runtime.js",
+      "size": 1961,
+      "sha256": "c062c70ce0c6afe3bfb4516f2d1da9531396cc1003bb0eb94f3cb9570fc0085c"
+    }
+  ]
+}
