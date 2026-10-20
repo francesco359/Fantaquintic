@@ -1,0 +1,21 @@
+{
+  "schema_version": 2,
+  "generato_il": "2026-10-20T22:00:22Z",
+  "aggiornamento_riuscito": false,
+  "dati_precedenti_mantenuti": true,
+  "fonti": [
+    {
+      "nome": "football-data.org",
+      "stato": "non_configurata"
+    }
+  ],
+  "errori": [],
+  "serie_a": {},
+  "dati_extra": {},
+  "fantacalcio": {
+    "infortunati": [],
+    "squalificati": [],
+    "probabili_formazioni": [],
+    "giocatori": []
+  }
+}
