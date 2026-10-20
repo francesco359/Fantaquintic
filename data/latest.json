@@ -2,7 +2,7 @@
   "schema": "FantaSuite.full-update.v1",
   "title": "Esportazione stato FantaSuite",
   "season": "2026-2027",
-  "generated_at": "2026-10-20T08:12:38.577Z",
+  "generated_at": "2026-10-20T21:10:41.621553+02:00",
   "round": 8,
   "players": [
     {
@@ -16021,34 +16021,46 @@
       "m": "433",
       "players": [
         {
-          "id": 0,
-          "name": "De Gea",
+          "id": 176,
+          "name": "Skorupski",
           "role": "P",
-          "club": "FIO"
+          "club": "BOL"
         },
         {
-          "id": 3,
-          "name": "Belghali",
+          "id": 130,
+          "name": "Doekhi",
           "role": "D",
-          "club": "TOR"
+          "club": "LAZ"
         },
         {
-          "id": 6,
-          "name": "Jimenez A.",
+          "id": 84,
+          "name": "Oyono A.",
           "role": "D",
-          "club": "FIO"
+          "club": "FRO"
         },
         {
-          "id": 7,
-          "name": "Lucumi",
+          "id": 178,
+          "name": "Bracaglia",
           "role": "D",
-          "club": "JUV"
+          "club": "FRO"
         },
         {
-          "id": 8,
-          "name": "Pavlovic",
+          "id": 35,
+          "name": "Valle",
           "role": "D",
-          "club": "MIL"
+          "club": "COM"
+        },
+        {
+          "id": 65,
+          "name": "Matic",
+          "role": "C",
+          "club": "SAS"
+        },
+        {
+          "id": 91,
+          "name": "Schmid",
+          "role": "C",
+          "club": "FRO"
         },
         {
           "id": 11,
@@ -16057,16 +16069,10 @@
           "club": "FRO"
         },
         {
-          "id": 12,
-          "name": "Da Cunha",
-          "role": "C",
-          "club": "COM"
-        },
-        {
-          "id": 13,
-          "name": "De Bruyne",
-          "role": "C",
-          "club": "NAP"
+          "id": 124,
+          "name": "Raimondo",
+          "role": "A",
+          "club": "FRO"
         },
         {
           "id": 19,
@@ -16075,52 +16081,58 @@
           "club": "SAS"
         },
         {
-          "id": 20,
-          "name": "Malen",
+          "id": 46,
+          "name": "Ghedjemis",
           "role": "A",
-          "club": "ROM"
-        },
-        {
-          "id": 21,
-          "name": "Robinson J.",
-          "role": "A",
-          "club": "MON"
+          "club": "FRO"
         }
       ],
-      "expectedSubs": 2.31
+      "expectedSubs": 0.84
     },
     "surprises_global_433": {
       "m": "433",
       "players": [
         {
-          "id": 0,
-          "name": "De Gea",
+          "id": 176,
+          "name": "Skorupski",
           "role": "P",
-          "club": "FIO"
+          "club": "BOL"
         },
         {
-          "id": 3,
-          "name": "Belghali",
+          "id": 130,
+          "name": "Doekhi",
           "role": "D",
-          "club": "TOR"
+          "club": "LAZ"
         },
         {
-          "id": 6,
-          "name": "Jimenez A.",
+          "id": 84,
+          "name": "Oyono A.",
           "role": "D",
-          "club": "FIO"
+          "club": "FRO"
         },
         {
-          "id": 7,
-          "name": "Lucumi",
+          "id": 178,
+          "name": "Bracaglia",
           "role": "D",
-          "club": "JUV"
+          "club": "FRO"
         },
         {
-          "id": 8,
-          "name": "Pavlovic",
+          "id": 35,
+          "name": "Valle",
           "role": "D",
-          "club": "MIL"
+          "club": "COM"
+        },
+        {
+          "id": 65,
+          "name": "Matic",
+          "role": "C",
+          "club": "SAS"
+        },
+        {
+          "id": 91,
+          "name": "Schmid",
+          "role": "C",
+          "club": "FRO"
         },
         {
           "id": 11,
@@ -16129,16 +16141,10 @@
           "club": "FRO"
         },
         {
-          "id": 12,
-          "name": "Da Cunha",
-          "role": "C",
-          "club": "COM"
-        },
-        {
-          "id": 13,
-          "name": "De Bruyne",
-          "role": "C",
-          "club": "NAP"
+          "id": 124,
+          "name": "Raimondo",
+          "role": "A",
+          "club": "FRO"
         },
         {
           "id": 19,
@@ -16147,19 +16153,20 @@
           "club": "SAS"
         },
         {
-          "id": 20,
-          "name": "Malen",
+          "id": 46,
+          "name": "Ghedjemis",
           "role": "A",
-          "club": "ROM"
-        },
-        {
-          "id": 21,
-          "name": "Robinson J.",
-          "role": "A",
-          "club": "MON"
+          "club": "FRO"
         }
       ],
-      "expectedSubs": 2.31
+      "expectedSubs": 0.84
     }
-  }
+  },
+  "automation": {
+    "errors": [
+      "calendar: 'calendar_json'"
+    ],
+    "lineups_frozen": false
+  },
+  "update_mode": "automatic"
 }
