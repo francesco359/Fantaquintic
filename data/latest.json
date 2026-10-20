@@ -1,572 +1,3715 @@
 {
-  "schema": "FantaSuite.tactical-integration.v1",
-  "version": "14.0 Final Tactical Integration",
-  "generated_at": "2026-10-20T21:47:00+02:00",
-  "season": "2026-2027",
-  "round": null,
-  "players": [],
-  "teams": {
-    "ATA": {
-      "club": "ATA",
-      "team": "Atalanta",
-      "coach": "Maurizio Sarri",
-      "module": "4-3-3",
-      "valuedRoles": [
-        {
-          "role": "ALA",
-          "score": 12
-        },
-        {
-          "role": "MEZZALA",
-          "score": 8
-        }
-      ],
-      "penalizedRoles": [
-        {
-          "role": "ESTERNO_TUTTA_FASCIA",
-          "score": -12
-        },
-        {
-          "role": "TREQ_PURO",
-          "score": -8
-        }
-      ],
-      "confidence": 0.85,
-      "validFrom": "2026-10-20"
-    },
-    "BOL": {
-      "club": "BOL",
-      "team": "Bologna",
-      "coach": "Raffaele Palladino",
-      "module": "3-4-3",
-      "valuedRoles": [
-        {
-          "role": "ESTERNO_TUTTA_FASCIA",
-          "score": 12
-        },
-        {
-          "role": "ALA",
-          "score": 8
-        }
-      ],
-      "penalizedRoles": [
-        {
-          "role": "TERZINO_PURO",
-          "score": -12
-        },
-        {
-          "role": "REGISTA_STATICO",
-          "score": -8
-        }
-      ],
-      "confidence": 0.72,
-      "validFrom": "2026-10-20"
-    },
-    "CAG": {
-      "club": "CAG",
-      "team": "Cagliari",
-      "coach": "Fabio Pisacane",
-      "module": "4-3-3",
-      "valuedRoles": [
-        {
-          "role": "ALA",
-          "score": 12
-        },
-        {
-          "role": "MEZZALA",
-          "score": 8
-        }
-      ],
-      "penalizedRoles": [
-        {
-          "role": "TREQ_PURO",
-          "score": -12
-        },
-        {
-          "role": "SECONDA_PUNTA",
-          "score": -8
-        }
-      ],
-      "confidence": 0.65,
-      "validFrom": "2026-10-20"
-    },
-    "COM": {
-      "club": "COM",
-      "team": "Como",
-      "coach": "Cesc Fàbregas",
-      "module": "4-2-3-1",
-      "valuedRoles": [
-        {
-          "role": "TREQ",
-          "score": 12
-        },
-        {
-          "role": "ALA",
-          "score": 8
-        }
-      ],
-      "penalizedRoles": [
-        {
-          "role": "ESTERNO_TUTTA_FASCIA",
-          "score": -12
-        },
-        {
-          "role": "SECONDA_PUNTA",
-          "score": -8
-        }
-      ],
-      "confidence": 0.88,
-      "validFrom": "2026-10-20"
-    },
-    "FIO": {
+  "schema": "FantaSuite.latest.v5",
+  "generated_at": "2026-10-20T23:10:00+02:00",
+  "round": 8,
+  "players": [
+    {
+      "id": 0,
+      "name": "De Gea",
+      "team": "Tel Aviv F.C.",
       "club": "FIO",
-      "team": "Fiorentina",
-      "coach": "Paolo Vanoli",
-      "module": "4-1-4-1",
-      "valuedRoles": [
-        {
-          "role": "MEZZALA_OFFENSIVA",
-          "score": 12
-        },
-        {
-          "role": "ALA",
-          "score": 8
-        }
-      ],
-      "penalizedRoles": [
-        {
-          "role": "SECONDA_PUNTA",
-          "score": -12
-        },
-        {
-          "role": "TREQ_PURO",
-          "score": -8
-        }
-      ],
-      "confidence": 0.68,
-      "validFrom": "2026-10-20"
+      "role": "P",
+      "efm": 5.95,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
     },
-    "FRO": {
-      "club": "FRO",
-      "team": "Frosinone",
-      "coach": "Massimiliano Alvini",
-      "module": "4-2-3-1",
-      "valuedRoles": [
-        {
-          "role": "TREQ",
-          "score": 12
-        },
-        {
-          "role": "ALA",
-          "score": 8
-        }
-      ],
-      "penalizedRoles": [
-        {
-          "role": "ESTERNO_TUTTA_FASCIA",
-          "score": -12
-        },
-        {
-          "role": "SECONDA_PUNTA",
-          "score": -8
-        }
-      ],
-      "confidence": 0.8,
-      "validFrom": "2026-10-20"
-    },
-    "GEN": {
-      "club": "GEN",
-      "team": "Genoa",
-      "coach": "Daniele De Rossi",
-      "module": "3-4-2-1",
-      "valuedRoles": [
-        {
-          "role": "TREQ",
-          "score": 12
-        },
-        {
-          "role": "ESTERNO_TUTTA_FASCIA",
-          "score": 8
-        }
-      ],
-      "penalizedRoles": [
-        {
-          "role": "TERZINO_PURO",
-          "score": -12
-        },
-        {
-          "role": "SECONDA_PUNTA",
-          "score": -8
-        }
-      ],
-      "confidence": 0.77,
-      "validFrom": "2026-10-20"
-    },
-    "INT": {
-      "club": "INT",
-      "team": "Inter",
-      "coach": "Cristian Chivu",
-      "module": "3-5-2",
-      "valuedRoles": [
-        {
-          "role": "ESTERNO_TUTTA_FASCIA",
-          "score": 12
-        },
-        {
-          "role": "MEZZALA",
-          "score": 8
-        }
-      ],
-      "penalizedRoles": [
-        {
-          "role": "ALA_PURA",
-          "score": -12
-        },
-        {
-          "role": "TREQ_PURO",
-          "score": -8
-        }
-      ],
-      "confidence": 0.9,
-      "validFrom": "2026-10-20"
-    },
-    "JUV": {
-      "club": "JUV",
-      "team": "Juventus",
-      "coach": "Luciano Spalletti",
-      "module": "4-2-3-1",
-      "valuedRoles": [
-        {
-          "role": "TREQ",
-          "score": 12
-        },
-        {
-          "role": "ALA",
-          "score": 8
-        }
-      ],
-      "penalizedRoles": [
-        {
-          "role": "ESTERNO_TUTTA_FASCIA",
-          "score": -12
-        },
-        {
-          "role": "SECONDA_PUNTA",
-          "score": -8
-        }
-      ],
-      "confidence": 0.62,
-      "validFrom": "2026-10-20"
-    },
-    "LAZ": {
+    {
+      "id": 1,
+      "name": "Mandas",
+      "team": "Tel Aviv F.C.",
       "club": "LAZ",
-      "team": "Lazio",
-      "coach": "Gennaro Gattuso",
-      "module": "4-3-3",
-      "valuedRoles": [
-        {
-          "role": "ALA",
-          "score": 12
-        },
-        {
-          "role": "MEZZALA",
-          "score": 8
-        }
-      ],
-      "penalizedRoles": [
-        {
-          "role": "TREQ_PURO",
-          "score": -12
-        },
-        {
-          "role": "ESTERNO_TUTTA_FASCIA",
-          "score": -8
-        }
-      ],
-      "confidence": 0.86,
-      "validFrom": "2026-10-20"
+      "role": "P",
+      "efm": 6.27,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
     },
-    "LEC": {
-      "club": "LEC",
-      "team": "Lecce",
-      "coach": "Eusebio Di Francesco",
-      "module": "4-3-3",
-      "valuedRoles": [
-        {
-          "role": "ALA",
-          "score": 12
-        },
-        {
-          "role": "MEZZALA",
-          "score": 8
-        }
-      ],
-      "penalizedRoles": [
-        {
-          "role": "TREQ_PURO",
-          "score": -12
-        },
-        {
-          "role": "SECONDA_PUNTA",
-          "score": -8
-        }
-      ],
-      "confidence": 0.84,
-      "validFrom": "2026-10-20"
-    },
-    "MIL": {
-      "club": "MIL",
-      "team": "Milan",
-      "coach": "Rúben Amorim",
-      "module": "3-4-2-1",
-      "valuedRoles": [
-        {
-          "role": "TREQ",
-          "score": 12
-        },
-        {
-          "role": "ESTERNO_TUTTA_FASCIA",
-          "score": 8
-        }
-      ],
-      "penalizedRoles": [
-        {
-          "role": "TERZINO_PURO",
-          "score": -12
-        },
-        {
-          "role": "ALA_PURA",
-          "score": -8
-        }
-      ],
-      "confidence": 0.91,
-      "validFrom": "2026-10-20"
-    },
-    "MON": {
-      "club": "MON",
-      "team": "Monza",
-      "coach": "Ivan Jurić",
-      "module": "3-4-2-1",
-      "valuedRoles": [
-        {
-          "role": "TREQ",
-          "score": 12
-        },
-        {
-          "role": "ESTERNO_TUTTA_FASCIA",
-          "score": 8
-        }
-      ],
-      "penalizedRoles": [
-        {
-          "role": "TERZINO_PURO",
-          "score": -12
-        },
-        {
-          "role": "ALA_PURA",
-          "score": -8
-        }
-      ],
-      "confidence": 0.88,
-      "validFrom": "2026-10-20"
-    },
-    "NAP": {
-      "club": "NAP",
-      "team": "Napoli",
-      "coach": "Massimiliano Allegri",
-      "module": "4-3-3",
-      "valuedRoles": [
-        {
-          "role": "ALA",
-          "score": 12
-        },
-        {
-          "role": "MEZZALA",
-          "score": 8
-        }
-      ],
-      "penalizedRoles": [
-        {
-          "role": "TREQ_PURO",
-          "score": -12
-        },
-        {
-          "role": "ESTERNO_TUTTA_FASCIA",
-          "score": -8
-        }
-      ],
-      "confidence": 0.82,
-      "validFrom": "2026-10-20"
-    },
-    "PAR": {
-      "club": "PAR",
-      "team": "Parma",
-      "coach": "Alberto Gilardino",
-      "module": "3-4-2-1",
-      "valuedRoles": [
-        {
-          "role": "TREQ",
-          "score": 12
-        },
-        {
-          "role": "ESTERNO_TUTTA_FASCIA",
-          "score": 8
-        }
-      ],
-      "penalizedRoles": [
-        {
-          "role": "TERZINO_PURO",
-          "score": -12
-        },
-        {
-          "role": "ALA_PURA",
-          "score": -8
-        }
-      ],
-      "confidence": 0.7,
-      "validFrom": "2026-10-20"
-    },
-    "ROM": {
-      "club": "ROM",
-      "team": "Roma",
-      "coach": "Gian Piero Gasperini",
-      "module": "3-4-2-1",
-      "valuedRoles": [
-        {
-          "role": "TREQ",
-          "score": 12
-        },
-        {
-          "role": "ESTERNO_TUTTA_FASCIA",
-          "score": 8
-        }
-      ],
-      "penalizedRoles": [
-        {
-          "role": "TERZINO_PURO",
-          "score": -12
-        },
-        {
-          "role": "REGISTA_STATICO",
-          "score": -8
-        }
-      ],
-      "confidence": 0.92,
-      "validFrom": "2026-10-20"
-    },
-    "SAS": {
-      "club": "SAS",
-      "team": "Sassuolo",
-      "coach": "Alberto Aquilani",
-      "module": "4-2-3-1",
-      "valuedRoles": [
-        {
-          "role": "TREQ",
-          "score": 12
-        },
-        {
-          "role": "ALA",
-          "score": 8
-        }
-      ],
-      "penalizedRoles": [
-        {
-          "role": "ESTERNO_TUTTA_FASCIA",
-          "score": -12
-        },
-        {
-          "role": "SECONDA_PUNTA",
-          "score": -8
-        }
-      ],
-      "confidence": 0.68,
-      "validFrom": "2026-10-20"
-    },
-    "TOR": {
-      "club": "TOR",
-      "team": "Torino",
-      "coach": "Ignazio Abate",
-      "module": "3-5-1-1",
-      "valuedRoles": [
-        {
-          "role": "TREQ",
-          "score": 12
-        },
-        {
-          "role": "ESTERNO_TUTTA_FASCIA",
-          "score": 8
-        }
-      ],
-      "penalizedRoles": [
-        {
-          "role": "ALA_PURA",
-          "score": -12
-        },
-        {
-          "role": "SECONDA_PUNTA",
-          "score": -8
-        }
-      ],
-      "confidence": 0.85,
-      "validFrom": "2026-10-20"
-    },
-    "UDI": {
+    {
+      "id": 2,
+      "name": "Okoye",
+      "team": "Tel Aviv F.C.",
       "club": "UDI",
-      "team": "Udinese",
-      "coach": "Kosta Runjaić",
-      "module": "3-4-2-1",
-      "valuedRoles": [
-        {
-          "role": "TREQ",
-          "score": 12
-        },
-        {
-          "role": "ESTERNO_TUTTA_FASCIA",
-          "score": 8
-        }
-      ],
-      "penalizedRoles": [
-        {
-          "role": "TERZINO_PURO",
-          "score": -12
-        },
-        {
-          "role": "ALA_PURA",
-          "score": -8
-        }
-      ],
-      "confidence": 0.82,
-      "validFrom": "2026-10-20"
+      "role": "P",
+      "efm": 6.1,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
     },
-    "VEN": {
+    {
+      "id": 3,
+      "name": "Belghali",
+      "team": "Tel Aviv F.C.",
+      "club": "TOR",
+      "role": "D",
+      "efm": 6.18,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 4,
+      "name": "Couto",
+      "team": "Tel Aviv F.C.",
+      "club": "COM",
+      "role": "D",
+      "efm": 6.23,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 5,
+      "name": "Favasuli",
+      "team": "Tel Aviv F.C.",
+      "club": "NAP",
+      "role": "D",
+      "efm": 6.16,
+      "starter": 0.0,
+      "appearance": 0.0,
+      "status": "unavailable"
+    },
+    {
+      "id": 6,
+      "name": "Jimenez A.",
+      "team": "Tel Aviv F.C.",
+      "club": "FIO",
+      "role": "D",
+      "efm": 6.11,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 7,
+      "name": "Lucumi",
+      "team": "Tel Aviv F.C.",
+      "club": "JUV",
+      "role": "D",
+      "efm": 6.05,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 8,
+      "name": "Pavlovic",
+      "team": "Tel Aviv F.C.",
+      "club": "MIL",
+      "role": "D",
+      "efm": 6.45,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 9,
+      "name": "Solet",
+      "team": "Tel Aviv F.C.",
+      "club": "UDI",
+      "role": "D",
+      "efm": 6.28,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 10,
+      "name": "Tiago Gabriel",
+      "team": "Tel Aviv F.C.",
+      "club": "LEC",
+      "role": "D",
+      "efm": 6.21,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 11,
+      "name": "Calo",
+      "team": "Tel Aviv F.C.",
+      "club": "FRO",
+      "role": "C",
+      "efm": 6.79,
+      "starter": 91.0,
+      "appearance": 99.5,
+      "status": "available"
+    },
+    {
+      "id": 12,
+      "name": "Da Cunha",
+      "team": "Tel Aviv F.C.",
+      "club": "COM",
+      "role": "C",
+      "efm": 6.61,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 13,
+      "name": "De Bruyne",
+      "team": "Tel Aviv F.C.",
+      "club": "NAP",
+      "role": "C",
+      "efm": 6.76,
+      "starter": 46.0,
+      "appearance": 71.0,
+      "status": "available"
+    },
+    {
+      "id": 14,
+      "name": "Jones C.",
+      "team": "Tel Aviv F.C.",
+      "club": "INT",
+      "role": "C",
+      "efm": 6.03,
+      "starter": 0.0,
+      "appearance": 0.0,
+      "status": "unavailable"
+    },
+    {
+      "id": 15,
+      "name": "Njie",
+      "team": "Tel Aviv F.C.",
+      "club": "FIO",
+      "role": "C",
+      "efm": 6.53,
+      "starter": 68.0,
+      "appearance": 93.0,
+      "status": "available"
+    },
+    {
+      "id": 16,
+      "name": "Rowe",
+      "team": "Tel Aviv F.C.",
+      "club": "ATA",
+      "role": "C",
+      "efm": 6.5,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 17,
+      "name": "Vergara",
+      "team": "Tel Aviv F.C.",
+      "club": "NAP",
+      "role": "C",
+      "efm": 6.08,
+      "starter": 0.0,
+      "appearance": 0.0,
+      "status": "unavailable"
+    },
+    {
+      "id": 18,
+      "name": "Zielinski",
+      "team": "Tel Aviv F.C.",
+      "club": "INT",
+      "role": "C",
+      "efm": 6.66,
+      "starter": 70.0,
+      "appearance": 95.0,
+      "status": "available"
+    },
+    {
+      "id": 19,
+      "name": "Berardi",
+      "team": "Tel Aviv F.C.",
+      "club": "SAS",
+      "role": "A",
+      "efm": 7.21,
+      "starter": 91.0,
+      "appearance": 99.5,
+      "status": "available"
+    },
+    {
+      "id": 20,
+      "name": "Malen",
+      "team": "Tel Aviv F.C.",
+      "club": "ROM",
+      "role": "A",
+      "efm": 6.59,
+      "starter": 0.0,
+      "appearance": 0.0,
+      "status": "unavailable"
+    },
+    {
+      "id": 21,
+      "name": "Robinson J.",
+      "team": "Tel Aviv F.C.",
+      "club": "MON",
+      "role": "A",
+      "efm": 6.89,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 22,
+      "name": "Santos A.",
+      "team": "Tel Aviv F.C.",
+      "club": "NAP",
+      "role": "A",
+      "efm": 6.4,
+      "starter": 35.0,
+      "appearance": 84.7,
+      "status": "available"
+    },
+    {
+      "id": 23,
+      "name": "Woltemade",
+      "team": "Tel Aviv F.C.",
+      "club": "JUV",
+      "role": "A",
+      "efm": 6.69,
+      "starter": 58.0,
+      "appearance": 66.4,
+      "status": "available"
+    },
+    {
+      "id": 24,
+      "name": "Yeboah J.",
+      "team": "Tel Aviv F.C.",
       "club": "VEN",
-      "team": "Venezia",
-      "coach": "Davide Nicola",
-      "module": "3-5-2",
-      "valuedRoles": [
-        {
-          "role": "ESTERNO_TUTTA_FASCIA",
-          "score": 12
-        },
-        {
-          "role": "MEZZALA",
-          "score": 8
-        }
-      ],
-      "penalizedRoles": [
-        {
-          "role": "ALA_PURA",
-          "score": -12
-        },
-        {
-          "role": "TREQ_PURO",
-          "score": -8
-        }
-      ],
-      "confidence": 0.45,
-      "validFrom": "2026-10-20"
+      "role": "A",
+      "efm": 6.64,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 25,
+      "name": "Martinez Jo.",
+      "team": "A-S-SODICUORI",
+      "club": "INT",
+      "role": "P",
+      "efm": 6.05,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 26,
+      "name": "Perri",
+      "team": "A-S-SODICUORI",
+      "club": "TOR",
+      "role": "P",
+      "efm": 5.88,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 27,
+      "name": "Provedel",
+      "team": "A-S-SODICUORI",
+      "club": "INT",
+      "role": "P",
+      "efm": 6.01,
+      "starter": 100.0,
+      "appearance": 4.4,
+      "status": "available"
+    },
+    {
+      "id": 28,
+      "name": "Balerdi",
+      "team": "A-S-SODICUORI",
+      "club": "ROM",
+      "role": "D",
+      "efm": 6.28,
+      "starter": 82.8,
+      "appearance": 60.5,
+      "status": "available"
+    },
+    {
+      "id": 29,
+      "name": "Bastoni",
+      "team": "A-S-SODICUORI",
+      "club": "INT",
+      "role": "D",
+      "efm": 6.23,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 30,
+      "name": "Doig",
+      "team": "A-S-SODICUORI",
+      "club": "SAS",
+      "role": "D",
+      "efm": 6.1,
+      "starter": 86.0,
+      "appearance": 96.0,
+      "status": "available"
+    },
+    {
+      "id": 31,
+      "name": "Hermoso",
+      "team": "A-S-SODICUORI",
+      "club": "ROM",
+      "role": "D",
+      "efm": 6.41,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 32,
+      "name": "Kaiki",
+      "team": "A-S-SODICUORI",
+      "club": "COM",
+      "role": "D",
+      "efm": 6.52,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 33,
+      "name": "Mancini",
+      "team": "A-S-SODICUORI",
+      "club": "ROM",
+      "role": "D",
+      "efm": 6.33,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 34,
+      "name": "Spinazzola",
+      "team": "A-S-SODICUORI",
+      "club": "NAP",
+      "role": "D",
+      "efm": 6.27,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 35,
+      "name": "Valle",
+      "team": "A-S-SODICUORI",
+      "club": "COM",
+      "role": "D",
+      "efm": 6.18,
+      "starter": 87.7,
+      "appearance": 93.6,
+      "status": "available"
+    },
+    {
+      "id": 36,
+      "name": "Adzic",
+      "team": "A-S-SODICUORI",
+      "club": "SAS",
+      "role": "C",
+      "efm": 7.21,
+      "starter": 67.0,
+      "appearance": 77.0,
+      "status": "available"
+    },
+    {
+      "id": 37,
+      "name": "Baturina",
+      "team": "A-S-SODICUORI",
+      "club": "COM",
+      "role": "C",
+      "efm": 6.98,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 38,
+      "name": "Cambiaghi",
+      "team": "A-S-SODICUORI",
+      "club": "BOL",
+      "role": "C",
+      "efm": 6.34,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 39,
+      "name": "Cisse A.",
+      "team": "A-S-SODICUORI",
+      "club": "MIL",
+      "role": "C",
+      "efm": 6.77,
+      "starter": 84.5,
+      "appearance": 77.0,
+      "status": "available"
+    },
+    {
+      "id": 40,
+      "name": "Cristante",
+      "team": "A-S-SODICUORI",
+      "club": "ROM",
+      "role": "C",
+      "efm": 6.51,
+      "starter": 93.7,
+      "appearance": 96.9,
+      "status": "doubt"
+    },
+    {
+      "id": 41,
+      "name": "De Roon",
+      "team": "A-S-SODICUORI",
+      "club": "ROM",
+      "role": "C",
+      "efm": 6.33,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 42,
+      "name": "Mbangula",
+      "team": "A-S-SODICUORI",
+      "club": "BOL",
+      "role": "C",
+      "efm": 6.31,
+      "starter": 32.1,
+      "appearance": 60.3,
+      "status": "available"
+    },
+    {
+      "id": 43,
+      "name": "Rabiot",
+      "team": "A-S-SODICUORI",
+      "club": "MIL",
+      "role": "C",
+      "efm": 6.93,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 44,
+      "name": "Beto",
+      "team": "A-S-SODICUORI",
+      "club": "FIO",
+      "role": "A",
+      "efm": 6.74,
+      "starter": 56.0,
+      "appearance": 81.0,
+      "status": "available"
+    },
+    {
+      "id": 45,
+      "name": "Castro S.",
+      "team": "A-S-SODICUORI",
+      "club": "ROM",
+      "role": "A",
+      "efm": 6.99,
+      "starter": 92.0,
+      "appearance": 98.0,
+      "status": "available"
+    },
+    {
+      "id": 46,
+      "name": "Ghedjemis",
+      "team": "A-S-SODICUORI",
+      "club": "FRO",
+      "role": "A",
+      "efm": 6.85,
+      "starter": 91.0,
+      "appearance": 99.5,
+      "status": "available"
+    },
+    {
+      "id": 47,
+      "name": "Lontani",
+      "team": "A-S-SODICUORI",
+      "club": "PAR",
+      "role": "A",
+      "efm": 6.78,
+      "starter": 81.0,
+      "appearance": 80.3,
+      "status": "available"
+    },
+    {
+      "id": 48,
+      "name": "Pellegrino M.",
+      "team": "A-S-SODICUORI",
+      "club": "FIO",
+      "role": "A",
+      "efm": 6.41,
+      "starter": 44.0,
+      "appearance": 69.0,
+      "status": "available"
+    },
+    {
+      "id": 49,
+      "name": "Thuram",
+      "team": "A-S-SODICUORI",
+      "club": "INT",
+      "role": "A",
+      "efm": 7.82,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 50,
+      "name": "Caprile",
+      "team": "Asse Roma-Berli…",
+      "club": "CAG",
+      "role": "P",
+      "efm": 6.18,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 51,
+      "name": "Carnesecchi",
+      "team": "Asse Roma-Berli…",
+      "club": "ATA",
+      "role": "P",
+      "efm": 6.28,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 52,
+      "name": "Sanchez Ro.",
+      "team": "Asse Roma-Berli…",
+      "club": "COM",
+      "role": "P",
+      "efm": 6.02,
+      "starter": 100.0,
+      "appearance": 11.8,
+      "status": "available"
+    },
+    {
+      "id": 53,
+      "name": "Akanji",
+      "team": "Asse Roma-Berli…",
+      "club": "INT",
+      "role": "D",
+      "efm": 6.08,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 54,
+      "name": "Alaba",
+      "team": "Asse Roma-Berli…",
+      "club": "UDI",
+      "role": "D",
+      "efm": 6.09,
+      "starter": 49.1,
+      "appearance": 61.7,
+      "status": "available"
+    },
+    {
+      "id": 55,
+      "name": "Carlos Augusto",
+      "team": "Asse Roma-Berli…",
+      "club": "INT",
+      "role": "D",
+      "efm": 6.42,
+      "starter": 45.0,
+      "appearance": 70.0,
+      "status": "available"
+    },
+    {
+      "id": 56,
+      "name": "Celik",
+      "team": "Asse Roma-Berli…",
+      "club": "JUV",
+      "role": "D",
+      "efm": 6.17,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 57,
+      "name": "Ndicka",
+      "team": "Asse Roma-Berli…",
+      "club": "ROM",
+      "role": "D",
+      "efm": 6.26,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 58,
+      "name": "Stones",
+      "team": "Asse Roma-Berli…",
+      "club": "INT",
+      "role": "D",
+      "efm": 6.02,
+      "starter": 15.0,
+      "appearance": 81.9,
+      "status": "doubt"
+    },
+    {
+      "id": 59,
+      "name": "Valeri",
+      "team": "Asse Roma-Berli…",
+      "club": "PAR",
+      "role": "D",
+      "efm": 6.08,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 60,
+      "name": "Vojvoda",
+      "team": "Asse Roma-Berli…",
+      "club": "UDI",
+      "role": "D",
+      "efm": 6.15,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 61,
+      "name": "Alajbegovic",
+      "team": "Asse Roma-Berli…",
+      "club": "JUV",
+      "role": "C",
+      "efm": 6.69,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 62,
+      "name": "Barella",
+      "team": "Asse Roma-Berli…",
+      "club": "INT",
+      "role": "C",
+      "efm": 6.61,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 63,
+      "name": "Gonzalez N.",
+      "team": "Asse Roma-Berli…",
+      "club": "JUV",
+      "role": "C",
+      "efm": 6.98,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 64,
+      "name": "Kone M.",
+      "team": "Asse Roma-Berli…",
+      "club": "ROM",
+      "role": "C",
+      "efm": 6.6,
+      "starter": 88.7,
+      "appearance": 99.5,
+      "status": "doubt"
+    },
+    {
+      "id": 65,
+      "name": "Matic",
+      "team": "Asse Roma-Berli…",
+      "club": "SAS",
+      "role": "C",
+      "efm": 6.31,
+      "starter": 91.0,
+      "appearance": 99.5,
+      "status": "available"
+    },
+    {
+      "id": 66,
+      "name": "McTominay",
+      "team": "Asse Roma-Berli…",
+      "club": "NAP",
+      "role": "C",
+      "efm": 6.81,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 67,
+      "name": "Perrone",
+      "team": "Asse Roma-Berli…",
+      "club": "COM",
+      "role": "C",
+      "efm": 6.26,
+      "starter": 52.0,
+      "appearance": 77.0,
+      "status": "available"
+    },
+    {
+      "id": 68,
+      "name": "Saelemaekers",
+      "team": "Asse Roma-Berli…",
+      "club": "MIL",
+      "role": "C",
+      "efm": 6.09,
+      "starter": 0.0,
+      "appearance": 0.0,
+      "status": "unavailable"
+    },
+    {
+      "id": 69,
+      "name": "Adams A.",
+      "team": "Asse Roma-Berli…",
+      "club": "VEN",
+      "role": "A",
+      "efm": 6.67,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 70,
+      "name": "Bowie",
+      "team": "Asse Roma-Berli…",
+      "club": "SAS",
+      "role": "A",
+      "efm": 6.98,
+      "starter": 50.0,
+      "appearance": 82.7,
+      "status": "available"
+    },
+    {
+      "id": 71,
+      "name": "Diao",
+      "team": "Asse Roma-Berli…",
+      "club": "COM",
+      "role": "A",
+      "efm": 6.2,
+      "starter": 0.0,
+      "appearance": 0.0,
+      "status": "unavailable"
+    },
+    {
+      "id": 72,
+      "name": "Douvikas",
+      "team": "Asse Roma-Berli…",
+      "club": "COM",
+      "role": "A",
+      "efm": 7.28,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 73,
+      "name": "Mendy P.",
+      "team": "Asse Roma-Berli…",
+      "club": "CAG",
+      "role": "A",
+      "efm": 7.05,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 74,
+      "name": "Scamacca",
+      "team": "Asse Roma-Berli…",
+      "club": "ATA",
+      "role": "A",
+      "efm": 6.8,
+      "starter": 38.0,
+      "appearance": 63.0,
+      "status": "available"
+    },
+    {
+      "id": 75,
+      "name": "Corvi",
+      "team": "Camicie Nere",
+      "club": "PAR",
+      "role": "P",
+      "efm": 6.12,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 76,
+      "name": "Maignan",
+      "team": "Camicie Nere",
+      "club": "MIL",
+      "role": "P",
+      "efm": 6.09,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 77,
+      "name": "Terracciano",
+      "team": "Camicie Nere",
+      "club": "MIL",
+      "role": "P",
+      "efm": 6.0,
+      "starter": 100.0,
+      "appearance": 10.6,
+      "status": "available"
+    },
+    {
+      "id": 78,
+      "name": "Birindelli",
+      "team": "Camicie Nere",
+      "club": "MON",
+      "role": "D",
+      "efm": 6.25,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 79,
+      "name": "Chalobah T.",
+      "team": "Camicie Nere",
+      "club": "COM",
+      "role": "D",
+      "efm": 6.29,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 80,
+      "name": "De Winter",
+      "team": "Camicie Nere",
+      "club": "MIL",
+      "role": "D",
+      "efm": 6.26,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 81,
+      "name": "Hainaut",
+      "team": "Camicie Nere",
+      "club": "VEN",
+      "role": "D",
+      "efm": 6.35,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 82,
+      "name": "Kamara H.",
+      "team": "Camicie Nere",
+      "club": "UDI",
+      "role": "D",
+      "efm": 6.31,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 83,
+      "name": "Miranda J.",
+      "team": "Camicie Nere",
+      "club": "BOL",
+      "role": "D",
+      "efm": 6.15,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 84,
+      "name": "Oyono A.",
+      "team": "Camicie Nere",
+      "club": "FRO",
+      "role": "D",
+      "efm": 6.29,
+      "starter": 91.0,
+      "appearance": 99.5,
+      "status": "available"
+    },
+    {
+      "id": 85,
+      "name": "Provstgaard",
+      "team": "Camicie Nere",
+      "club": "LAZ",
+      "role": "D",
+      "efm": 6.07,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 86,
+      "name": "Adopo",
+      "team": "Camicie Nere",
+      "club": "CAG",
+      "role": "C",
+      "efm": 6.3,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 87,
+      "name": "Chukwueze",
+      "team": "Camicie Nere",
+      "club": "MIL",
+      "role": "C",
+      "efm": 6.79,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 88,
+      "name": "Goncalves P.",
+      "team": "Camicie Nere",
+      "club": "FIO",
+      "role": "C",
+      "efm": 6.88,
+      "starter": 66.0,
+      "appearance": 96.8,
+      "status": "available"
+    },
+    {
+      "id": 89,
+      "name": "Mandragora",
+      "team": "Camicie Nere",
+      "club": "TOR",
+      "role": "C",
+      "efm": 6.67,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 90,
+      "name": "Pulisic",
+      "team": "Camicie Nere",
+      "club": "MIL",
+      "role": "C",
+      "efm": 7.45,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 91,
+      "name": "Schmid",
+      "team": "Camicie Nere",
+      "club": "FRO",
+      "role": "C",
+      "efm": 6.64,
+      "starter": 91.0,
+      "appearance": 99.5,
+      "status": "available"
+    },
+    {
+      "id": 92,
+      "name": "Taylor K.",
+      "team": "Camicie Nere",
+      "club": "LAZ",
+      "role": "C",
+      "efm": 6.68,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 93,
+      "name": "Zaccagni",
+      "team": "Camicie Nere",
+      "club": "LAZ",
+      "role": "C",
+      "efm": 6.8,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 94,
+      "name": "Krstovic",
+      "team": "Camicie Nere",
+      "club": "ATA",
+      "role": "A",
+      "efm": 6.93,
+      "starter": 72.0,
+      "appearance": 97.0,
+      "status": "available"
+    },
+    {
+      "id": 95,
+      "name": "Kvernadze",
+      "team": "Camicie Nere",
+      "club": "FRO",
+      "role": "A",
+      "efm": 7.07,
+      "starter": 91.0,
+      "appearance": 99.5,
+      "status": "available"
+    },
+    {
+      "id": 96,
+      "name": "Martinez L.",
+      "team": "Camicie Nere",
+      "club": "INT",
+      "role": "A",
+      "efm": 6.48,
+      "starter": 0.0,
+      "appearance": 0.0,
+      "status": "unavailable"
+    },
+    {
+      "id": 97,
+      "name": "Osmajic",
+      "team": "Camicie Nere",
+      "club": "GEN",
+      "role": "A",
+      "efm": 6.88,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 98,
+      "name": "Pinamonti",
+      "team": "Camicie Nere",
+      "club": "LAZ",
+      "role": "A",
+      "efm": 6.47,
+      "starter": 68.4,
+      "appearance": 92.8,
+      "status": "available"
+    },
+    {
+      "id": 99,
+      "name": "Romero D.",
+      "team": "Camicie Nere",
+      "club": "PAR",
+      "role": "A",
+      "efm": 7.34,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 100,
+      "name": "Neto",
+      "team": "KFC",
+      "club": "JUV",
+      "role": "P",
+      "efm": 6.0,
+      "starter": 100.0,
+      "appearance": 2.1,
+      "status": "available"
+    },
+    {
+      "id": 101,
+      "name": "Palmisani",
+      "team": "KFC",
+      "club": "FRO",
+      "role": "P",
+      "efm": 6.33,
+      "starter": 91.0,
+      "appearance": 99.5,
+      "status": "available"
+    },
+    {
+      "id": 102,
+      "name": "Vicario",
+      "team": "KFC",
+      "club": "JUV",
+      "role": "P",
+      "efm": 6.18,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 103,
+      "name": "Bremer",
+      "team": "KFC",
+      "club": "JUV",
+      "role": "D",
+      "efm": 6.51,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 104,
+      "name": "Cambiaso",
+      "team": "KFC",
+      "club": "JUV",
+      "role": "D",
+      "efm": 6.21,
+      "starter": 71.1,
+      "appearance": 61.3,
+      "status": "available"
+    },
+    {
+      "id": 105,
+      "name": "Floriani Mussolini",
+      "team": "KFC",
+      "club": "LAZ",
+      "role": "D",
+      "efm": 6.06,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 106,
+      "name": "Gaspar K.",
+      "team": "KFC",
+      "club": "LEC",
+      "role": "D",
+      "efm": 5.82,
+      "starter": 96.7,
+      "appearance": 99.5,
+      "status": "available"
+    },
+    {
+      "id": 107,
+      "name": "Koulierakis",
+      "team": "KFC",
+      "club": "ROM",
+      "role": "D",
+      "efm": 6.24,
+      "starter": 74.6,
+      "appearance": 38.5,
+      "status": "available"
+    },
+    {
+      "id": 108,
+      "name": "Ramon",
+      "team": "KFC",
+      "club": "COM",
+      "role": "D",
+      "efm": 6.27,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 109,
+      "name": "Spence",
+      "team": "KFC",
+      "club": "INT",
+      "role": "D",
+      "efm": 6.11,
+      "starter": 76.4,
+      "appearance": 44.3,
+      "status": "available"
+    },
+    {
+      "id": 110,
+      "name": "Vasquez",
+      "team": "KFC",
+      "club": "GEN",
+      "role": "D",
+      "efm": 6.0,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 111,
+      "name": "Kessie",
+      "team": "KFC",
+      "club": "ATA",
+      "role": "C",
+      "efm": 5.99,
+      "starter": 0.0,
+      "appearance": 0.0,
+      "status": "unavailable"
+    },
+    {
+      "id": 112,
+      "name": "Mastantuono",
+      "team": "KFC",
+      "club": "FIO",
+      "role": "C",
+      "efm": 6.64,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 113,
+      "name": "McKennie",
+      "team": "KFC",
+      "club": "JUV",
+      "role": "C",
+      "efm": 6.51,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 114,
+      "name": "Modric",
+      "team": "KFC",
+      "club": "MIL",
+      "role": "C",
+      "efm": 6.37,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 115,
+      "name": "Moreira",
+      "team": "KFC",
+      "club": "MIL",
+      "role": "C",
+      "efm": 6.81,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 116,
+      "name": "Pisilli",
+      "team": "KFC",
+      "club": "ROM",
+      "role": "C",
+      "efm": 6.71,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 117,
+      "name": "Politano",
+      "team": "KFC",
+      "club": "NAP",
+      "role": "C",
+      "efm": 6.38,
+      "starter": 89.6,
+      "appearance": 99.5,
+      "status": "available"
+    },
+    {
+      "id": 118,
+      "name": "Vlasic",
+      "team": "KFC",
+      "club": "TOR",
+      "role": "C",
+      "efm": 6.39,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 119,
+      "name": "Boga",
+      "team": "KFC",
+      "club": "JUV",
+      "role": "A",
+      "efm": 6.39,
+      "starter": 38.2,
+      "appearance": 70.2,
+      "status": "unavailable"
+    },
+    {
+      "id": 120,
+      "name": "Bonny",
+      "team": "KFC",
+      "club": "INT",
+      "role": "A",
+      "efm": 6.59,
+      "starter": 45.0,
+      "appearance": 70.0,
+      "status": "available"
+    },
+    {
+      "id": 121,
+      "name": "De Ketelaere",
+      "team": "KFC",
+      "club": "ATA",
+      "role": "A",
+      "efm": 6.64,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 122,
+      "name": "Esposito F.P.",
+      "team": "KFC",
+      "club": "INT",
+      "role": "A",
+      "efm": 6.95,
+      "starter": 55.0,
+      "appearance": 80.0,
+      "status": "available"
+    },
+    {
+      "id": 123,
+      "name": "Hojlund",
+      "team": "KFC",
+      "club": "NAP",
+      "role": "A",
+      "efm": 6.48,
+      "starter": 18.0,
+      "appearance": 43.0,
+      "status": "available"
+    },
+    {
+      "id": 124,
+      "name": "Raimondo",
+      "team": "KFC",
+      "club": "FRO",
+      "role": "A",
+      "efm": 7.1,
+      "starter": 86.0,
+      "appearance": 96.0,
+      "status": "available"
+    },
+    {
+      "id": 125,
+      "name": "Gollini",
+      "team": "Paracetamomo",
+      "club": "ROM",
+      "role": "P",
+      "efm": 6.0,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 126,
+      "name": "Stankovic F.",
+      "team": "Paracetamomo",
+      "club": "VEN",
+      "role": "P",
+      "efm": 6.01,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 127,
+      "name": "Svilar",
+      "team": "Paracetamomo",
+      "club": "ROM",
+      "role": "P",
+      "efm": 6.2,
+      "starter": 0.0,
+      "appearance": 0.0,
+      "status": "unavailable"
+    },
+    {
+      "id": 128,
+      "name": "Bisseck",
+      "team": "Paracetamomo",
+      "club": "INT",
+      "role": "D",
+      "efm": 6.6,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 129,
+      "name": "Dimarco",
+      "team": "Paracetamomo",
+      "club": "INT",
+      "role": "D",
+      "efm": 6.78,
+      "starter": 55.0,
+      "appearance": 80.0,
+      "status": "available"
+    },
+    {
+      "id": 130,
+      "name": "Doekhi",
+      "team": "Paracetamomo",
+      "club": "LAZ",
+      "role": "D",
+      "efm": 6.37,
+      "starter": 100.0,
+      "appearance": 86.3,
+      "status": "available"
+    },
+    {
+      "id": 131,
+      "name": "Holm",
+      "team": "Paracetamomo",
+      "club": "BOL",
+      "role": "D",
+      "efm": 6.01,
+      "starter": 0.0,
+      "appearance": 0.0,
+      "status": "unavailable"
+    },
+    {
+      "id": 132,
+      "name": "Molina N.",
+      "team": "Paracetamomo",
+      "club": "ROM",
+      "role": "D",
+      "efm": 6.25,
+      "starter": 38.0,
+      "appearance": 63.0,
+      "status": "available"
+    },
+    {
+      "id": 133,
+      "name": "Ostigard",
+      "team": "Paracetamomo",
+      "club": "GEN",
+      "role": "D",
+      "efm": 6.1,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 134,
+      "name": "Rrahmani",
+      "team": "Paracetamomo",
+      "club": "NAP",
+      "role": "D",
+      "efm": 6.25,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 135,
+      "name": "Zortea",
+      "team": "Paracetamomo",
+      "club": "BOL",
+      "role": "D",
+      "efm": 6.28,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 136,
+      "name": "Baldanzi",
+      "team": "Paracetamomo",
+      "club": "GEN",
+      "role": "C",
+      "efm": 6.2,
+      "starter": 76.9,
+      "appearance": 99.5,
+      "status": "available"
+    },
+    {
+      "id": 137,
+      "name": "Bernardeschi",
+      "team": "Paracetamomo",
+      "club": "BOL",
+      "role": "C",
+      "efm": 6.86,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 138,
+      "name": "Colpani",
+      "team": "Paracetamomo",
+      "club": "MON",
+      "role": "C",
+      "efm": 6.33,
+      "starter": 71.9,
+      "appearance": 77.2,
+      "status": "available"
+    },
+    {
+      "id": 139,
+      "name": "Ekkelenkamp",
+      "team": "Paracetamomo",
+      "club": "UDI",
+      "role": "C",
+      "efm": 6.66,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 140,
+      "name": "Fagioli",
+      "team": "Paracetamomo",
+      "club": "FIO",
+      "role": "C",
+      "efm": 6.22,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 141,
+      "name": "Gudmundsson A.",
+      "team": "Paracetamomo",
+      "club": "LAZ",
+      "role": "C",
+      "efm": 6.34,
+      "starter": 25.1,
+      "appearance": 90.0,
+      "status": "available"
+    },
+    {
+      "id": 142,
+      "name": "Mora",
+      "team": "Paracetamomo",
+      "club": "ROM",
+      "role": "C",
+      "efm": 6.82,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 143,
+      "name": "Orsolini",
+      "team": "Paracetamomo",
+      "club": "BOL",
+      "role": "C",
+      "efm": 6.1,
+      "starter": 0.0,
+      "appearance": 0.0,
+      "status": "unavailable"
+    },
+    {
+      "id": 144,
+      "name": "Dovbyk",
+      "team": "Paracetamomo",
+      "club": "BOL",
+      "role": "A",
+      "efm": 7.03,
+      "starter": 43.8,
+      "appearance": 94.9,
+      "status": "available"
+    },
+    {
+      "id": 145,
+      "name": "Dybala",
+      "team": "Paracetamomo",
+      "club": "ROM",
+      "role": "A",
+      "efm": 7.55,
+      "starter": 80.0,
+      "appearance": 99.5,
+      "status": "doubt"
+    },
+    {
+      "id": 146,
+      "name": "Kolo Muani",
+      "team": "Paracetamomo",
+      "club": "JUV",
+      "role": "A",
+      "efm": 6.66,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 147,
+      "name": "Piccoli",
+      "team": "Paracetamomo",
+      "club": "BOL",
+      "role": "A",
+      "efm": 6.63,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 148,
+      "name": "Raspadori",
+      "team": "Paracetamomo",
+      "club": "ATA",
+      "role": "A",
+      "efm": 6.61,
+      "starter": 52.6,
+      "appearance": 76.7,
+      "status": "doubt"
+    },
+    {
+      "id": 149,
+      "name": "Simeone",
+      "team": "Paracetamomo",
+      "club": "TOR",
+      "role": "A",
+      "efm": 6.77,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 150,
+      "name": "Falcone",
+      "team": "Salernitana",
+      "club": "LEC",
+      "role": "P",
+      "efm": 6.02,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 151,
+      "name": "Meret",
+      "team": "Salernitana",
+      "club": "NAP",
+      "role": "P",
+      "efm": 6.13,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 152,
+      "name": "Milinkovic-Savic",
+      "team": "Salernitana",
+      "club": "NAP",
+      "role": "P",
+      "efm": 6.12,
+      "starter": 100.0,
+      "appearance": 33.0,
+      "status": "available"
+    },
+    {
+      "id": 153,
+      "name": "Bellanova",
+      "team": "Salernitana",
+      "club": "ATA",
+      "role": "D",
+      "efm": 6.15,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 154,
+      "name": "Bernasconi",
+      "team": "Salernitana",
+      "club": "ATA",
+      "role": "D",
+      "efm": 6.07,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 155,
+      "name": "Delprato",
+      "team": "Salernitana",
+      "club": "PAR",
+      "role": "D",
+      "efm": 6.2,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 156,
+      "name": "Gila",
+      "team": "Salernitana",
+      "club": "MIL",
+      "role": "D",
+      "efm": 6.23,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 157,
+      "name": "Kalulu",
+      "team": "Salernitana",
+      "club": "JUV",
+      "role": "D",
+      "efm": 6.2,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 158,
+      "name": "Tavares N.",
+      "team": "Salernitana",
+      "club": "LAZ",
+      "role": "D",
+      "efm": 6.44,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 159,
+      "name": "Theate",
+      "team": "Salernitana",
+      "club": "BOL",
+      "role": "D",
+      "efm": 6.07,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 160,
+      "name": "Zappacosta",
+      "team": "Salernitana",
+      "club": "ATA",
+      "role": "D",
+      "efm": 6.32,
+      "starter": 80.8,
+      "appearance": 65.6,
+      "status": "available"
+    },
+    {
+      "id": 161,
+      "name": "Atta",
+      "team": "Salernitana",
+      "club": "FIO",
+      "role": "C",
+      "efm": 6.19,
+      "starter": 74.8,
+      "appearance": 99.5,
+      "status": "unavailable"
+    },
+    {
+      "id": 162,
+      "name": "Calhanoglu",
+      "team": "Salernitana",
+      "club": "INT",
+      "role": "C",
+      "efm": 7.1,
+      "starter": 48.0,
+      "appearance": 73.0,
+      "status": "available"
+    },
+    {
+      "id": 163,
+      "name": "Conceicao",
+      "team": "Salernitana",
+      "club": "JUV",
+      "role": "C",
+      "efm": 6.7,
+      "starter": 82.7,
+      "appearance": 99.5,
+      "status": "available"
+    },
+    {
+      "id": 164,
+      "name": "Diouf",
+      "team": "Salernitana",
+      "club": "INT",
+      "role": "C",
+      "efm": 6.45,
+      "starter": 47.4,
+      "appearance": 95.4,
+      "status": "available"
+    },
+    {
+      "id": 165,
+      "name": "Pellegrini Lo.",
+      "team": "Salernitana",
+      "club": "ROM",
+      "role": "C",
+      "efm": 6.57,
+      "starter": 81.9,
+      "appearance": 42.0,
+      "status": "available"
+    },
+    {
+      "id": 166,
+      "name": "Volpato",
+      "team": "Salernitana",
+      "club": "SAS",
+      "role": "C",
+      "efm": 6.53,
+      "starter": 61.7,
+      "appearance": 68.0,
+      "status": "available"
+    },
+    {
+      "id": 167,
+      "name": "Zaniolo",
+      "team": "Salernitana",
+      "club": "UDI",
+      "role": "C",
+      "efm": 6.54,
+      "starter": 90.0,
+      "appearance": 91.2,
+      "status": "available"
+    },
+    {
+      "id": 168,
+      "name": "Zhegrova",
+      "team": "Salernitana",
+      "club": "JUV",
+      "role": "C",
+      "efm": 6.29,
+      "starter": 0.0,
+      "appearance": 92.3,
+      "status": "available"
+    },
+    {
+      "id": 169,
+      "name": "Adams C.",
+      "team": "Salernitana",
+      "club": "TOR",
+      "role": "A",
+      "efm": 7.07,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 170,
+      "name": "Maldini",
+      "team": "Salernitana",
+      "club": "CAG",
+      "role": "A",
+      "efm": 7.09,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 171,
+      "name": "Ramos G.",
+      "team": "Salernitana",
+      "club": "MIL",
+      "role": "A",
+      "efm": 7.52,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 172,
+      "name": "Soule",
+      "team": "Salernitana",
+      "club": "ROM",
+      "role": "A",
+      "efm": 7.13,
+      "starter": 85.0,
+      "appearance": 98.0,
+      "status": "available"
+    },
+    {
+      "id": 173,
+      "name": "Varela G.",
+      "team": "Salernitana",
+      "club": "MON",
+      "role": "A",
+      "efm": 7.28,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 174,
+      "name": "Yildiz",
+      "team": "Salernitana",
+      "club": "JUV",
+      "role": "A",
+      "efm": 6.04,
+      "starter": 0.0,
+      "appearance": 0.0,
+      "status": "unavailable"
+    },
+    {
+      "id": 175,
+      "name": "Butez",
+      "team": "odio Napoli",
+      "club": "COM",
+      "role": "P",
+      "efm": 6.08,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 176,
+      "name": "Skorupski",
+      "team": "odio Napoli",
+      "club": "BOL",
+      "role": "P",
+      "efm": 5.77,
+      "starter": 100.0,
+      "appearance": 99.5,
+      "status": "available"
+    },
+    {
+      "id": 177,
+      "name": "Sportiello",
+      "team": "odio Napoli",
+      "club": "ATA",
+      "role": "P",
+      "efm": 6.0,
+      "starter": 100.0,
+      "appearance": 2.1,
+      "status": "available"
+    },
+    {
+      "id": 178,
+      "name": "Bracaglia",
+      "team": "odio Napoli",
+      "club": "FRO",
+      "role": "D",
+      "efm": 6.42,
+      "starter": 91.0,
+      "appearance": 99.5,
+      "status": "available"
+    },
+    {
+      "id": 179,
+      "name": "Cinquegrano",
+      "team": "odio Napoli",
+      "club": "SAS",
+      "role": "D",
+      "efm": 6.12,
+      "starter": 69.0,
+      "appearance": 79.0,
+      "status": "available"
+    },
+    {
+      "id": 180,
+      "name": "Di Lorenzo",
+      "team": "odio Napoli",
+      "club": "NAP",
+      "role": "D",
+      "efm": 6.27,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 181,
+      "name": "Lulli",
+      "team": "odio Napoli",
+      "club": "ROM",
+      "role": "D",
+      "efm": 6.22,
+      "starter": 62.0,
+      "appearance": 87.0,
+      "status": "available"
+    },
+    {
+      "id": 182,
+      "name": "Mangas",
+      "team": "odio Napoli",
+      "club": "MON",
+      "role": "D",
+      "efm": 6.43,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 183,
+      "name": "Marcandalli",
+      "team": "odio Napoli",
+      "club": "GEN",
+      "role": "D",
+      "efm": 5.72,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 184,
+      "name": "Scalvini",
+      "team": "odio Napoli",
+      "club": "ATA",
+      "role": "D",
+      "efm": 5.91,
+      "starter": 0.0,
+      "appearance": 0.0,
+      "status": "unavailable"
+    },
+    {
+      "id": 185,
+      "name": "Wesley",
+      "team": "odio Napoli",
+      "club": "ROM",
+      "role": "D",
+      "efm": 6.61,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 186,
+      "name": "Ederson D.S.",
+      "team": "odio Napoli",
+      "club": "ATA",
+      "role": "C",
+      "efm": 6.35,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 187,
+      "name": "Frattesi",
+      "team": "odio Napoli",
+      "club": "LAZ",
+      "role": "C",
+      "efm": 7.19,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 188,
+      "name": "Milla",
+      "team": "odio Napoli",
+      "club": "COM",
+      "role": "C",
+      "efm": 6.33,
+      "starter": 72.0,
+      "appearance": 97.0,
+      "status": "available"
+    },
+    {
+      "id": 189,
+      "name": "Monteiro J.",
+      "team": "odio Napoli",
+      "club": "LEC",
+      "role": "C",
+      "efm": 6.17,
+      "starter": 85.7,
+      "appearance": 85.2,
+      "status": "available"
+    },
+    {
+      "id": 190,
+      "name": "Paz N.",
+      "team": "odio Napoli",
+      "club": "COM",
+      "role": "C",
+      "efm": 7.14,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 191,
+      "name": "Samardzic",
+      "team": "odio Napoli",
+      "club": "ATA",
+      "role": "C",
+      "efm": 6.29,
+      "starter": 45.0,
+      "appearance": 70.0,
+      "status": "available"
+    },
+    {
+      "id": 192,
+      "name": "Unai Gomez",
+      "team": "odio Napoli",
+      "club": "UDI",
+      "role": "C",
+      "efm": 6.04,
+      "starter": 50.8,
+      "appearance": 78.0,
+      "status": "available"
+    },
+    {
+      "id": 193,
+      "name": "Zambo Anguissa",
+      "team": "odio Napoli",
+      "club": "NAP",
+      "role": "C",
+      "efm": 6.16,
+      "starter": 55.0,
+      "appearance": 76.7,
+      "status": "available"
+    },
+    {
+      "id": 194,
+      "name": "Colombo",
+      "team": "odio Napoli",
+      "club": "GEN",
+      "role": "A",
+      "efm": 5.87,
+      "starter": 0.0,
+      "appearance": 0.0,
+      "status": "unavailable"
+    },
+    {
+      "id": 195,
+      "name": "Davis K.",
+      "team": "odio Napoli",
+      "club": "UDI",
+      "role": "A",
+      "efm": 7.16,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 196,
+      "name": "Esposito Se.",
+      "team": "odio Napoli",
+      "club": "SAS",
+      "role": "A",
+      "efm": 6.76,
+      "starter": 66.0,
+      "appearance": 76.0,
+      "status": "available"
+    },
+    {
+      "id": 197,
+      "name": "Kean",
+      "team": "odio Napoli",
+      "club": "COM",
+      "role": "A",
+      "efm": 6.12,
+      "starter": 0.0,
+      "appearance": 0.0,
+      "status": "unavailable"
+    },
+    {
+      "id": 198,
+      "name": "Lauriente",
+      "team": "odio Napoli",
+      "club": "SAS",
+      "role": "A",
+      "efm": 6.98,
+      "starter": 91.0,
+      "appearance": 99.5,
+      "status": "available"
+    },
+    {
+      "id": 199,
+      "name": "Noslin",
+      "team": "odio Napoli",
+      "club": "LAZ",
+      "role": "A",
+      "efm": 7.09,
+      "starter": 82.0,
+      "appearance": 92.0,
+      "status": "available"
+    },
+    {
+      "id": 200,
+      "name": "Kolasinac",
+      "team": "Svincolati",
+      "club": "ATA",
+      "role": "D",
+      "efm": 6.11,
+      "starter": 79.5,
+      "appearance": 88.3,
+      "status": "available"
+    },
+    {
+      "id": 201,
+      "name": "Gaetano",
+      "team": "Svincolati",
+      "club": "ATA",
+      "role": "C",
+      "efm": 6.36,
+      "starter": 66.0,
+      "appearance": 77.7,
+      "status": "available"
+    },
+    {
+      "id": 202,
+      "name": "Ferguson",
+      "team": "Svincolati",
+      "club": "BOL",
+      "role": "C",
+      "efm": 6.48,
+      "starter": 93.0,
+      "appearance": 99.0,
+      "status": "available"
+    },
+    {
+      "id": 203,
+      "name": "Heggem",
+      "team": "Svincolati",
+      "club": "BOL",
+      "role": "D",
+      "efm": 6.1,
+      "starter": 93.0,
+      "appearance": 99.0,
+      "status": "available"
+    },
+    {
+      "id": 204,
+      "name": "Odgaard",
+      "team": "Svincolati",
+      "club": "BOL",
+      "role": "C",
+      "efm": 6.5,
+      "starter": 79.5,
+      "appearance": 88.3,
+      "status": "available"
+    },
+    {
+      "id": 205,
+      "name": "Pobega",
+      "team": "Svincolati",
+      "club": "BOL",
+      "role": "C",
+      "efm": 6.59,
+      "starter": 79.5,
+      "appearance": 88.3,
+      "status": "available"
+    },
+    {
+      "id": 206,
+      "name": "Helland",
+      "team": "Svincolati",
+      "club": "BOL",
+      "role": "D",
+      "efm": 5.96,
+      "starter": 66.0,
+      "appearance": 77.7,
+      "status": "available"
+    },
+    {
+      "id": 207,
+      "name": "Deiola",
+      "team": "Svincolati",
+      "club": "CAG",
+      "role": "C",
+      "efm": 6.4,
+      "starter": 93.0,
+      "appearance": 99.0,
+      "status": "available"
+    },
+    {
+      "id": 208,
+      "name": "Obert",
+      "team": "Svincolati",
+      "club": "CAG",
+      "role": "D",
+      "efm": 6.1,
+      "starter": 93.0,
+      "appearance": 99.0,
+      "status": "available"
+    },
+    {
+      "id": 209,
+      "name": "Rodriguez Ju.",
+      "team": "Svincolati",
+      "club": "CAG",
+      "role": "D",
+      "efm": 6.23,
+      "starter": 93.0,
+      "appearance": 99.0,
+      "status": "available"
+    },
+    {
+      "id": 210,
+      "name": "Romano",
+      "team": "Svincolati",
+      "club": "CAG",
+      "role": "C",
+      "efm": 6.36,
+      "starter": 93.0,
+      "appearance": 99.0,
+      "status": "available"
+    },
+    {
+      "id": 211,
+      "name": "Winks",
+      "team": "Svincolati",
+      "club": "CAG",
+      "role": "C",
+      "efm": 6.36,
+      "starter": 93.0,
+      "appearance": 99.0,
+      "status": "available"
+    },
+    {
+      "id": 212,
+      "name": "Zè Pedro",
+      "team": "Svincolati",
+      "club": "CAG",
+      "role": "D",
+      "efm": 6.18,
+      "starter": 93.0,
+      "appearance": 99.0,
+      "status": "available"
+    },
+    {
+      "id": 213,
+      "name": "Fadera",
+      "team": "Svincolati",
+      "club": "CAG",
+      "role": "C",
+      "efm": 6.15,
+      "starter": 66.0,
+      "appearance": 77.7,
+      "status": "available"
+    },
+    {
+      "id": 214,
+      "name": "Fazzini",
+      "team": "Svincolati",
+      "club": "CAG",
+      "role": "C",
+      "efm": 6.15,
+      "starter": 66.0,
+      "appearance": 77.7,
+      "status": "available"
+    },
+    {
+      "id": 215,
+      "name": "Kevin Carlos",
+      "team": "Svincolati",
+      "club": "CAG",
+      "role": "A",
+      "efm": 6.11,
+      "starter": 39.0,
+      "appearance": 56.3,
+      "status": "available"
+    },
+    {
+      "id": 216,
+      "name": "Kofler",
+      "team": "Svincolati",
+      "club": "CAG",
+      "role": "D",
+      "efm": 5.74,
+      "starter": 39.0,
+      "appearance": 56.3,
+      "status": "available"
+    },
+    {
+      "id": 217,
+      "name": "Mina",
+      "team": "Svincolati",
+      "club": "CAG",
+      "role": "D",
+      "efm": 5.74,
+      "starter": 39.0,
+      "appearance": 56.3,
+      "status": "available"
+    },
+    {
+      "id": 218,
+      "name": "Borrelli",
+      "team": "Svincolati",
+      "club": "CAG",
+      "role": "A",
+      "efm": 5.78,
+      "starter": 25.5,
+      "appearance": 45.7,
+      "status": "available"
+    },
+    {
+      "id": 219,
+      "name": "Caqueret",
+      "team": "Svincolati",
+      "club": "COM",
+      "role": "C",
+      "efm": 6.1,
+      "starter": 66.0,
+      "appearance": 77.7,
+      "status": "available"
+    },
+    {
+      "id": 220,
+      "name": "Dragusin",
+      "team": "Svincolati",
+      "club": "FIO",
+      "role": "D",
+      "efm": 6.14,
+      "starter": 93.0,
+      "appearance": 99.0,
+      "status": "available"
+    },
+    {
+      "id": 221,
+      "name": "Ndour",
+      "team": "Svincolati",
+      "club": "FIO",
+      "role": "C",
+      "efm": 6.44,
+      "starter": 93.0,
+      "appearance": 99.0,
+      "status": "available"
+    },
+    {
+      "id": 222,
+      "name": "Viery",
+      "team": "Svincolati",
+      "club": "FIO",
+      "role": "D",
+      "efm": 6.11,
+      "starter": 79.5,
+      "appearance": 88.3,
+      "status": "available"
+    },
+    {
+      "id": 223,
+      "name": "Kean",
+      "team": "Svincolati",
+      "club": "FIO",
+      "role": "A",
+      "efm": 6.27,
+      "starter": 66.0,
+      "appearance": 77.7,
+      "status": "available"
+    },
+    {
+      "id": 224,
+      "name": "Oulai",
+      "team": "Svincolati",
+      "club": "FIO",
+      "role": "C",
+      "efm": 6.1,
+      "starter": 66.0,
+      "appearance": 77.7,
+      "status": "available"
+    },
+    {
+      "id": 225,
+      "name": "Ranieri L.",
+      "team": "Svincolati",
+      "club": "FIO",
+      "role": "D",
+      "efm": 5.91,
+      "starter": 66.0,
+      "appearance": 77.7,
+      "status": "available"
+    },
+    {
+      "id": 226,
+      "name": "Brescianini",
+      "team": "Svincolati",
+      "club": "FIO",
+      "role": "C",
+      "efm": 6.18,
+      "starter": 52.5,
+      "appearance": 67.0,
+      "status": "available"
+    },
+    {
+      "id": 227,
+      "name": "Calvani",
+      "team": "Svincolati",
+      "club": "FRO",
+      "role": "D",
+      "efm": 6.14,
+      "starter": 93.0,
+      "appearance": 99.0,
+      "status": "available"
+    },
+    {
+      "id": 228,
+      "name": "Cittadini",
+      "team": "Svincolati",
+      "club": "FRO",
+      "role": "D",
+      "efm": 6.23,
+      "starter": 93.0,
+      "appearance": 99.0,
+      "status": "available"
+    },
+    {
+      "id": 229,
+      "name": "Masini",
+      "team": "Svincolati",
+      "club": "FRO",
+      "role": "C",
+      "efm": 6.32,
+      "starter": 93.0,
+      "appearance": 99.0,
+      "status": "available"
+    },
+    {
+      "id": 230,
+      "name": "Fini",
+      "team": "Svincolati",
+      "club": "FRO",
+      "role": "C",
+      "efm": 6.34,
+      "starter": 79.5,
+      "appearance": 88.3,
+      "status": "available"
+    },
+    {
+      "id": 231,
+      "name": "Monterisi",
+      "team": "Svincolati",
+      "club": "FRO",
+      "role": "D",
+      "efm": 5.96,
+      "starter": 66.0,
+      "appearance": 77.7,
+      "status": "available"
+    },
+    {
+      "id": 232,
+      "name": "Terzic",
+      "team": "Svincolati",
+      "club": "FRO",
+      "role": "D",
+      "efm": 5.86,
+      "starter": 52.5,
+      "appearance": 67.0,
+      "status": "available"
+    },
+    {
+      "id": 233,
+      "name": "Cichella",
+      "team": "Svincolati",
+      "club": "FRO",
+      "role": "C",
+      "efm": 6.01,
+      "starter": 39.0,
+      "appearance": 56.3,
+      "status": "available"
+    },
+    {
+      "id": 234,
+      "name": "Hasa",
+      "team": "Svincolati",
+      "club": "FRO",
+      "role": "C",
+      "efm": 5.96,
+      "starter": 39.0,
+      "appearance": 56.3,
+      "status": "available"
+    },
+    {
+      "id": 235,
+      "name": "Bijlow",
+      "team": "Svincolati",
+      "club": "GEN",
+      "role": "P",
+      "efm": 6.12,
+      "starter": 93.0,
+      "appearance": 99.0,
+      "status": "available"
+    },
+    {
+      "id": 236,
+      "name": "Ellertsson",
+      "team": "Svincolati",
+      "club": "GEN",
+      "role": "C",
+      "efm": 6.44,
+      "starter": 93.0,
+      "appearance": 99.0,
+      "status": "available"
+    },
+    {
+      "id": 237,
+      "name": "Frendrup",
+      "team": "Svincolati",
+      "club": "GEN",
+      "role": "C",
+      "efm": 6.32,
+      "starter": 93.0,
+      "appearance": 99.0,
+      "status": "available"
+    },
+    {
+      "id": 238,
+      "name": "Sow",
+      "team": "Svincolati",
+      "club": "GEN",
+      "role": "C",
+      "efm": 6.21,
+      "starter": 79.5,
+      "appearance": 88.3,
+      "status": "available"
+    },
+    {
+      "id": 239,
+      "name": "Vitinha O.",
+      "team": "Svincolati",
+      "club": "GEN",
+      "role": "A",
+      "efm": 6.28,
+      "starter": 79.5,
+      "appearance": 88.3,
+      "status": "available"
+    },
+    {
+      "id": 240,
+      "name": "Otoa",
+      "team": "Svincolati",
+      "club": "GEN",
+      "role": "D",
+      "efm": 5.86,
+      "starter": 52.5,
+      "appearance": 67.0,
+      "status": "available"
+    },
+    {
+      "id": 241,
+      "name": "Meichtry",
+      "team": "Svincolati",
+      "club": "GEN",
+      "role": "C",
+      "efm": 6.14,
+      "starter": 39.0,
+      "appearance": 56.3,
+      "status": "available"
+    },
+    {
+      "id": 242,
+      "name": "Norton-Cuffy",
+      "team": "Svincolati",
+      "club": "GEN",
+      "role": "D",
+      "efm": 5.74,
+      "starter": 39.0,
+      "appearance": 56.3,
+      "status": "available"
+    },
+    {
+      "id": 243,
+      "name": "Puczka",
+      "team": "Svincolati",
+      "club": "GEN",
+      "role": "D",
+      "efm": 5.63,
+      "starter": 25.5,
+      "appearance": 45.7,
+      "status": "available"
+    },
+    {
+      "id": 244,
+      "name": "Sabelli",
+      "team": "Svincolati",
+      "club": "GEN",
+      "role": "D",
+      "efm": 5.63,
+      "starter": 25.5,
+      "appearance": 45.7,
+      "status": "available"
+    },
+    {
+      "id": 245,
+      "name": "Belahyane",
+      "team": "Svincolati",
+      "club": "LAZ",
+      "role": "C",
+      "efm": 6.21,
+      "starter": 79.5,
+      "appearance": 88.3,
+      "status": "available"
+    },
+    {
+      "id": 246,
+      "name": "Pedraza",
+      "team": "Svincolati",
+      "club": "LAZ",
+      "role": "D",
+      "efm": 5.86,
+      "starter": 52.5,
+      "appearance": 67.0,
+      "status": "available"
+    },
+    {
+      "id": 247,
+      "name": "Sutalo J.",
+      "team": "Svincolati",
+      "club": "LAZ",
+      "role": "D",
+      "efm": 5.86,
+      "starter": 52.5,
+      "appearance": 67.0,
+      "status": "available"
+    },
+    {
+      "id": 248,
+      "name": "Dele-Bashiru",
+      "team": "Svincolati",
+      "club": "LAZ",
+      "role": "C",
+      "efm": 6.01,
+      "starter": 39.0,
+      "appearance": 56.3,
+      "status": "available"
+    },
+    {
+      "id": 249,
+      "name": "Dia",
+      "team": "Svincolati",
+      "club": "LAZ",
+      "role": "A",
+      "efm": 6.11,
+      "starter": 39.0,
+      "appearance": 56.3,
+      "status": "available"
+    },
+    {
+      "id": 250,
+      "name": "Maleh",
+      "team": "Svincolati",
+      "club": "LEC",
+      "role": "C",
+      "efm": 6.4,
+      "starter": 93.0,
+      "appearance": 99.0,
+      "status": "available"
+    },
+    {
+      "id": 251,
+      "name": "Ngom",
+      "team": "Svincolati",
+      "club": "LEC",
+      "role": "C",
+      "efm": 6.36,
+      "starter": 93.0,
+      "appearance": 99.0,
+      "status": "available"
+    },
+    {
+      "id": 252,
+      "name": "Pierotti",
+      "team": "Svincolati",
+      "club": "LEC",
+      "role": "C",
+      "efm": 6.36,
+      "starter": 93.0,
+      "appearance": 99.0,
+      "status": "available"
+    },
+    {
+      "id": 253,
+      "name": "Siebert",
+      "team": "Svincolati",
+      "club": "LEC",
+      "role": "D",
+      "efm": 6.1,
+      "starter": 93.0,
+      "appearance": 99.0,
+      "status": "available"
+    },
+    {
+      "id": 254,
+      "name": "Veiga D.",
+      "team": "Svincolati",
+      "club": "LEC",
+      "role": "D",
+      "efm": 6.23,
+      "starter": 93.0,
+      "appearance": 99.0,
+      "status": "available"
+    },
+    {
+      "id": 255,
+      "name": "Gallo",
+      "team": "Svincolati",
+      "club": "LEC",
+      "role": "D",
+      "efm": 6.11,
+      "starter": 79.5,
+      "appearance": 88.3,
+      "status": "available"
+    },
+    {
+      "id": 256,
+      "name": "N'Dri",
+      "team": "Svincolati",
+      "club": "LEC",
+      "role": "A",
+      "efm": 6.83,
+      "starter": 79.5,
+      "appearance": 88.3,
+      "status": "available"
+    },
+    {
+      "id": 257,
+      "name": "Stulic",
+      "team": "Svincolati",
+      "club": "LEC",
+      "role": "A",
+      "efm": 6.65,
+      "starter": 79.5,
+      "appearance": 88.3,
+      "status": "available"
+    },
+    {
+      "id": 258,
+      "name": "Geubbels",
+      "team": "Svincolati",
+      "club": "LEC",
+      "role": "A",
+      "efm": 6.25,
+      "starter": 52.5,
+      "appearance": 67.0,
+      "status": "available"
+    },
+    {
+      "id": 259,
+      "name": "Ndaba",
+      "team": "Svincolati",
+      "club": "LEC",
+      "role": "D",
+      "efm": 5.74,
+      "starter": 39.0,
+      "appearance": 56.3,
+      "status": "available"
+    },
+    {
+      "id": 260,
+      "name": "Kaba",
+      "team": "Svincolati",
+      "club": "LEC",
+      "role": "C",
+      "efm": 5.85,
+      "starter": 25.5,
+      "appearance": 45.7,
+      "status": "available"
+    },
+    {
+      "id": 261,
+      "name": "Estupinan",
+      "team": "Svincolati",
+      "club": "MIL",
+      "role": "D",
+      "efm": 6.13,
+      "starter": 79.5,
+      "appearance": 88.3,
+      "status": "available"
+    },
+    {
+      "id": 262,
+      "name": "Loftus-Cheek",
+      "team": "Svincolati",
+      "club": "MIL",
+      "role": "C",
+      "efm": 6.29,
+      "starter": 79.5,
+      "appearance": 88.3,
+      "status": "available"
+    },
+    {
+      "id": 263,
+      "name": "Musah",
+      "team": "Svincolati",
+      "club": "MIL",
+      "role": "C",
+      "efm": 6.42,
+      "starter": 79.5,
+      "appearance": 88.3,
+      "status": "available"
+    },
+    {
+      "id": 264,
+      "name": "Carboni A.",
+      "team": "Svincolati",
+      "club": "MON",
+      "role": "D",
+      "efm": 6.26,
+      "starter": 93.0,
+      "appearance": 99.0,
+      "status": "available"
+    },
+    {
+      "id": 265,
+      "name": "Kouadio",
+      "team": "Svincolati",
+      "club": "MON",
+      "role": "D",
+      "efm": 6.34,
+      "starter": 93.0,
+      "appearance": 99.0,
+      "status": "available"
+    },
+    {
+      "id": 266,
+      "name": "Lucchesi",
+      "team": "Svincolati",
+      "club": "MON",
+      "role": "D",
+      "efm": 6.3,
+      "starter": 93.0,
+      "appearance": 99.0,
+      "status": "available"
+    },
+    {
+      "id": 267,
+      "name": "Akinsanmiro",
+      "team": "Svincolati",
+      "club": "MON",
+      "role": "C",
+      "efm": 6.21,
+      "starter": 79.5,
+      "appearance": 88.3,
+      "status": "available"
+    },
+    {
+      "id": 268,
+      "name": "Bakoune",
+      "team": "Svincolati",
+      "club": "MON",
+      "role": "D",
+      "efm": 5.91,
+      "starter": 66.0,
+      "appearance": 77.7,
+      "status": "available"
+    },
+    {
+      "id": 269,
+      "name": "Cutrone",
+      "team": "Svincolati",
+      "club": "MON",
+      "role": "A",
+      "efm": 6.36,
+      "starter": 66.0,
+      "appearance": 77.7,
+      "status": "available"
+    },
+    {
+      "id": 270,
+      "name": "Forson O.",
+      "team": "Svincolati",
+      "club": "MON",
+      "role": "C",
+      "efm": 6.0,
+      "starter": 52.5,
+      "appearance": 67.0,
+      "status": "available"
+    },
+    {
+      "id": 271,
+      "name": "Mota",
+      "team": "Svincolati",
+      "club": "MON",
+      "role": "A",
+      "efm": 6.54,
+      "starter": 52.5,
+      "appearance": 67.0,
+      "status": "available"
+    },
+    {
+      "id": 272,
+      "name": "Thiam",
+      "team": "Svincolati",
+      "club": "MON",
+      "role": "P",
+      "efm": 5.84,
+      "starter": 52.5,
+      "appearance": 67.0,
+      "status": "available"
+    },
+    {
+      "id": 273,
+      "name": "Colombo L.",
+      "team": "Svincolati",
+      "club": "MON",
+      "role": "C",
+      "efm": 5.85,
+      "starter": 25.5,
+      "appearance": 45.7,
+      "status": "available"
+    },
+    {
+      "id": 274,
+      "name": "Delli Carri",
+      "team": "Svincolati",
+      "club": "MON",
+      "role": "D",
+      "efm": 5.63,
+      "starter": 25.5,
+      "appearance": 45.7,
+      "status": "available"
+    },
+    {
+      "id": 275,
+      "name": "Lobotka",
+      "team": "Svincolati",
+      "club": "NAP",
+      "role": "C",
+      "efm": 6.48,
+      "starter": 93.0,
+      "appearance": 99.0,
+      "status": "available"
+    },
+    {
+      "id": 276,
+      "name": "Marin R.",
+      "team": "Svincolati",
+      "club": "NAP",
+      "role": "D",
+      "efm": 6.1,
+      "starter": 93.0,
+      "appearance": 99.0,
+      "status": "available"
+    },
+    {
+      "id": 277,
+      "name": "Lang",
+      "team": "Svincolati",
+      "club": "NAP",
+      "role": "A",
+      "efm": 6.57,
+      "starter": 79.5,
+      "appearance": 88.3,
+      "status": "available"
+    },
+    {
+      "id": 278,
+      "name": "Keita M.",
+      "team": "Svincolati",
+      "club": "PAR",
+      "role": "C",
+      "efm": 6.76,
+      "starter": 93.0,
+      "appearance": 99.0,
+      "status": "available"
+    },
+    {
+      "id": 279,
+      "name": "Tourè E.",
+      "team": "Svincolati",
+      "club": "PAR",
+      "role": "A",
+      "efm": 7.1,
+      "starter": 93.0,
+      "appearance": 99.0,
+      "status": "available"
+    },
+    {
+      "id": 280,
+      "name": "Troilo",
+      "team": "Svincolati",
+      "club": "PAR",
+      "role": "D",
+      "efm": 6.23,
+      "starter": 93.0,
+      "appearance": 99.0,
+      "status": "available"
+    },
+    {
+      "id": 281,
+      "name": "Bernabè",
+      "team": "Svincolati",
+      "club": "PAR",
+      "role": "C",
+      "efm": 6.36,
+      "starter": 66.0,
+      "appearance": 77.7,
+      "status": "available"
+    },
+    {
+      "id": 282,
+      "name": "Elphege",
+      "team": "Svincolati",
+      "club": "PAR",
+      "role": "A",
+      "efm": 6.57,
+      "starter": 66.0,
+      "appearance": 77.7,
+      "status": "available"
+    },
+    {
+      "id": 283,
+      "name": "Britschgi",
+      "team": "Svincolati",
+      "club": "PAR",
+      "role": "D",
+      "efm": 5.86,
+      "starter": 52.5,
+      "appearance": 67.0,
+      "status": "available"
+    },
+    {
+      "id": 284,
+      "name": "Ordonez C.",
+      "team": "Svincolati",
+      "club": "PAR",
+      "role": "C",
+      "efm": 6.18,
+      "starter": 52.5,
+      "appearance": 67.0,
+      "status": "available"
+    },
+    {
+      "id": 285,
+      "name": "Frigan",
+      "team": "Svincolati",
+      "club": "PAR",
+      "role": "A",
+      "efm": 6.11,
+      "starter": 39.0,
+      "appearance": 56.3,
+      "status": "available"
+    },
+    {
+      "id": 286,
+      "name": "Carboni F.",
+      "team": "Svincolati",
+      "club": "PAR",
+      "role": "D",
+      "efm": 5.63,
+      "starter": 25.5,
+      "appearance": 45.7,
+      "status": "available"
+    },
+    {
+      "id": 287,
+      "name": "Cremaschi",
+      "team": "Svincolati",
+      "club": "PAR",
+      "role": "C",
+      "efm": 5.85,
+      "starter": 25.5,
+      "appearance": 45.7,
+      "status": "available"
+    },
+    {
+      "id": 288,
+      "name": "Ndiaye",
+      "team": "Svincolati",
+      "club": "PAR",
+      "role": "D",
+      "efm": 5.63,
+      "starter": 25.5,
+      "appearance": 45.7,
+      "status": "available"
+    },
+    {
+      "id": 289,
+      "name": "Leysen F.",
+      "team": "Svincolati",
+      "club": "SAS",
+      "role": "D",
+      "efm": 6.1,
+      "starter": 93.0,
+      "appearance": 99.0,
+      "status": "available"
+    },
+    {
+      "id": 290,
+      "name": "Bakola",
+      "team": "Svincolati",
+      "club": "SAS",
+      "role": "C",
+      "efm": 6.34,
+      "starter": 79.5,
+      "appearance": 88.3,
+      "status": "available"
+    },
+    {
+      "id": 291,
+      "name": "Dominguez B.",
+      "team": "Svincolati",
+      "club": "SAS",
+      "role": "C",
+      "efm": 6.1,
+      "starter": 66.0,
+      "appearance": 77.7,
+      "status": "available"
+    },
+    {
+      "id": 292,
+      "name": "Idzes",
+      "team": "Svincolati",
+      "club": "SAS",
+      "role": "D",
+      "efm": 5.86,
+      "starter": 52.5,
+      "appearance": 67.0,
+      "status": "available"
+    },
+    {
+      "id": 293,
+      "name": "Lipani",
+      "team": "Svincolati",
+      "club": "SAS",
+      "role": "C",
+      "efm": 6.18,
+      "starter": 52.5,
+      "appearance": 67.0,
+      "status": "available"
+    },
+    {
+      "id": 294,
+      "name": "Odenthal",
+      "team": "Svincolati",
+      "club": "SAS",
+      "role": "D",
+      "efm": 6.32,
+      "starter": 39.0,
+      "appearance": 56.3,
+      "status": "available"
+    },
+    {
+      "id": 295,
+      "name": "Obrador",
+      "team": "Svincolati",
+      "club": "SAS",
+      "role": "D",
+      "efm": 5.63,
+      "starter": 25.5,
+      "appearance": 45.7,
+      "status": "available"
+    },
+    {
+      "id": 296,
+      "name": "Cacciamani",
+      "team": "Svincolati",
+      "club": "TOR",
+      "role": "C",
+      "efm": 6.32,
+      "starter": 93.0,
+      "appearance": 99.0,
+      "status": "available"
+    },
+    {
+      "id": 297,
+      "name": "Coco",
+      "team": "Svincolati",
+      "club": "TOR",
+      "role": "D",
+      "efm": 6.3,
+      "starter": 93.0,
+      "appearance": 99.0,
+      "status": "available"
+    },
+    {
+      "id": 298,
+      "name": "Fitz-Jim",
+      "team": "Svincolati",
+      "club": "TOR",
+      "role": "C",
+      "efm": 6.55,
+      "starter": 79.5,
+      "appearance": 88.3,
+      "status": "available"
+    },
+    {
+      "id": 299,
+      "name": "Fortini",
+      "team": "Svincolati",
+      "club": "TOR",
+      "role": "D",
+      "efm": 6.01,
+      "starter": 79.5,
+      "appearance": 88.3,
+      "status": "available"
+    },
+    {
+      "id": 300,
+      "name": "Ismajli",
+      "team": "Svincolati",
+      "club": "TOR",
+      "role": "D",
+      "efm": 6.11,
+      "starter": 79.5,
+      "appearance": 88.3,
+      "status": "available"
+    },
+    {
+      "id": 301,
+      "name": "Comert",
+      "team": "Svincolati",
+      "club": "TOR",
+      "role": "D",
+      "efm": 5.98,
+      "starter": 66.0,
+      "appearance": 77.7,
+      "status": "available"
+    },
+    {
+      "id": 302,
+      "name": "Gineitis",
+      "team": "Svincolati",
+      "club": "TOR",
+      "role": "C",
+      "efm": 6.1,
+      "starter": 66.0,
+      "appearance": 77.7,
+      "status": "available"
+    },
+    {
+      "id": 303,
+      "name": "Ilkhan",
+      "team": "Svincolati",
+      "club": "TOR",
+      "role": "C",
+      "efm": 6.36,
+      "starter": 66.0,
+      "appearance": 77.7,
+      "status": "available"
+    },
+    {
+      "id": 304,
+      "name": "Mascardi",
+      "team": "Svincolati",
+      "club": "TOR",
+      "role": "P",
+      "efm": 5.75,
+      "starter": 39.0,
+      "appearance": 56.3,
+      "status": "available"
+    },
+    {
+      "id": 305,
+      "name": "Oristanio",
+      "team": "Svincolati",
+      "club": "TOR",
+      "role": "C",
+      "efm": 5.9,
+      "starter": 39.0,
+      "appearance": 56.3,
+      "status": "available"
+    },
+    {
+      "id": 306,
+      "name": "Abankwah",
+      "team": "Svincolati",
+      "club": "UDI",
+      "role": "D",
+      "efm": 6.22,
+      "starter": 93.0,
+      "appearance": 99.0,
+      "status": "available"
+    },
+    {
+      "id": 307,
+      "name": "Ebosse",
+      "team": "Svincolati",
+      "club": "UDI",
+      "role": "D",
+      "efm": 6.23,
+      "starter": 93.0,
+      "appearance": 99.0,
+      "status": "available"
+    },
+    {
+      "id": 308,
+      "name": "Karlstrom",
+      "team": "Svincolati",
+      "club": "UDI",
+      "role": "C",
+      "efm": 6.4,
+      "starter": 93.0,
+      "appearance": 99.0,
+      "status": "available"
+    },
+    {
+      "id": 309,
+      "name": "Miller L.",
+      "team": "Svincolati",
+      "club": "UDI",
+      "role": "C",
+      "efm": 6.21,
+      "starter": 79.5,
+      "appearance": 88.3,
+      "status": "available"
+    },
+    {
+      "id": 310,
+      "name": "Gueye",
+      "team": "Svincolati",
+      "club": "UDI",
+      "role": "A",
+      "efm": 6.63,
+      "starter": 66.0,
+      "appearance": 77.7,
+      "status": "available"
+    },
+    {
+      "id": 311,
+      "name": "Bayo V.",
+      "team": "Svincolati",
+      "club": "UDI",
+      "role": "A",
+      "efm": 6.35,
+      "starter": 52.5,
+      "appearance": 67.0,
+      "status": "available"
+    },
+    {
+      "id": 312,
+      "name": "Bertola",
+      "team": "Svincolati",
+      "club": "UDI",
+      "role": "D",
+      "efm": 5.86,
+      "starter": 52.5,
+      "appearance": 67.0,
+      "status": "available"
+    },
+    {
+      "id": 313,
+      "name": "Perez K.",
+      "team": "Svincolati",
+      "club": "VEN",
+      "role": "C",
+      "efm": 6.32,
+      "starter": 93.0,
+      "appearance": 99.0,
+      "status": "available"
+    },
+    {
+      "id": 314,
+      "name": "Schingtienne",
+      "team": "Svincolati",
+      "club": "VEN",
+      "role": "D",
+      "efm": 6.01,
+      "starter": 79.5,
+      "appearance": 88.3,
+      "status": "available"
+    },
+    {
+      "id": 315,
+      "name": "Sohm",
+      "team": "Svincolati",
+      "club": "VEN",
+      "role": "C",
+      "efm": 6.21,
+      "starter": 79.5,
+      "appearance": 88.3,
+      "status": "available"
+    },
+    {
+      "id": 316,
+      "name": "Busio",
+      "team": "Svincolati",
+      "club": "VEN",
+      "role": "C",
+      "efm": 6.19,
+      "starter": 66.0,
+      "appearance": 77.7,
+      "status": "available"
+    },
+    {
+      "id": 317,
+      "name": "Correia T.",
+      "team": "Svincolati",
+      "club": "VEN",
+      "role": "D",
+      "efm": 6.14,
+      "starter": 66.0,
+      "appearance": 77.7,
+      "status": "available"
+    },
+    {
+      "id": 318,
+      "name": "Haps",
+      "team": "Svincolati",
+      "club": "VEN",
+      "role": "D",
+      "efm": 6.14,
+      "starter": 66.0,
+      "appearance": 77.7,
+      "status": "available"
+    },
+    {
+      "id": 319,
+      "name": "Moreno M.",
+      "team": "Svincolati",
+      "club": "VEN",
+      "role": "D",
+      "efm": 6.0,
+      "starter": 66.0,
+      "appearance": 77.7,
+      "status": "available"
+    },
+    {
+      "id": 320,
+      "name": "Basic",
+      "team": "Svincolati",
+      "club": "VEN",
+      "role": "C",
+      "efm": 6.0,
+      "starter": 52.5,
+      "appearance": 67.0,
+      "status": "available"
+    },
+    {
+      "id": 321,
+      "name": "Halhal",
+      "team": "Svincolati",
+      "club": "VEN",
+      "role": "D",
+      "efm": 5.86,
+      "starter": 52.5,
+      "appearance": 67.0,
+      "status": "available"
+    },
+    {
+      "id": 322,
+      "name": "Franjic",
+      "team": "Svincolati",
+      "club": "VEN",
+      "role": "D",
+      "efm": 5.91,
+      "starter": 39.0,
+      "appearance": 56.3,
+      "status": "available"
+    },
+    {
+      "id": 323,
+      "name": "Helgason",
+      "team": "Svincolati",
+      "club": "VEN",
+      "role": "C",
+      "efm": 5.9,
+      "starter": 39.0,
+      "appearance": 56.3,
+      "status": "available"
+    },
+    {
+      "id": 324,
+      "name": "Rrahmani Al.",
+      "team": "Svincolati",
+      "club": "VEN",
+      "role": "A",
+      "efm": 5.92,
+      "starter": 39.0,
+      "appearance": 56.3,
+      "status": "available"
+    },
+    {
+      "id": 325,
+      "name": "Berisha M.",
+      "team": "Svincolati",
+      "club": "LEC",
+      "role": "C",
+      "efm": 6.14,
+      "starter": 15.0,
+      "appearance": 35.0,
+      "status": "available"
     }
-  },
-  "recommended_formations": {},
-  "note": "File compatibilità. I dati giocatori completi restano incorporati in index.html; questo file contiene l'integrazione tattica v14."
+  ],
+  "recommended_formations": {
+    "best_global_433": {
+      "module": "4-3-3",
+      "players": [
+        {
+          "id": 101,
+          "name": "Palmisani",
+          "role": "P"
+        },
+        {
+          "id": 178,
+          "name": "Bracaglia",
+          "role": "D"
+        },
+        {
+          "id": 265,
+          "name": "Kouadio",
+          "role": "D"
+        },
+        {
+          "id": 266,
+          "name": "Lucchesi",
+          "role": "D"
+        },
+        {
+          "id": 297,
+          "name": "Coco",
+          "role": "D"
+        },
+        {
+          "id": 278,
+          "name": "Keita M.",
+          "role": "C"
+        },
+        {
+          "id": 11,
+          "name": "Calo",
+          "role": "C"
+        },
+        {
+          "id": 90,
+          "name": "Pulisic",
+          "role": "C"
+        },
+        {
+          "id": 19,
+          "name": "Berardi",
+          "role": "A"
+        },
+        {
+          "id": 145,
+          "name": "Dybala",
+          "role": "A"
+        },
+        {
+          "id": 279,
+          "name": "Tourè E.",
+          "role": "A"
+        }
+      ]
+    },
+    "surprises_global_433": {
+      "module": "4-3-3",
+      "players": [
+        {
+          "id": 101,
+          "name": "Palmisani",
+          "role": "P"
+        },
+        {
+          "id": 178,
+          "name": "Bracaglia",
+          "role": "D"
+        },
+        {
+          "id": 265,
+          "name": "Kouadio",
+          "role": "D"
+        },
+        {
+          "id": 266,
+          "name": "Lucchesi",
+          "role": "D"
+        },
+        {
+          "id": 297,
+          "name": "Coco",
+          "role": "D"
+        },
+        {
+          "id": 278,
+          "name": "Keita M.",
+          "role": "C"
+        },
+        {
+          "id": 11,
+          "name": "Calo",
+          "role": "C"
+        },
+        {
+          "id": 90,
+          "name": "Pulisic",
+          "role": "C"
+        },
+        {
+          "id": 19,
+          "name": "Berardi",
+          "role": "A"
+        },
+        {
+          "id": 145,
+          "name": "Dybala",
+          "role": "A"
+        },
+        {
+          "id": 279,
+          "name": "Tourè E.",
+          "role": "A"
+        }
+      ]
+    }
+  }
 }

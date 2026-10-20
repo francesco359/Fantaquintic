@@ -1,14 +1,10 @@
 {
-  "schema": "FantaSuite.status.v1",
-  "version": "14.0",
-  "generated_at": "2026-10-20T21:47:00+02:00",
-  "season": "2026-2027",
-  "teams": 20,
-  "tactical_profiles": 20,
-  "status": "ok",
-  "errors": [],
+  "generated_at": "2026-10-20T23:10:00+02:00",
+  "round": 8,
+  "players": 326,
   "sources_ok": [
-    "embedded-model",
-    "tactical-integration"
-  ]
+    "listone incorporato",
+    "motore v5"
+  ],
+  "errors": []
 }
