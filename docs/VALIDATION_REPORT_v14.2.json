@@ -1,0 +1,17 @@
+{
+  "build": "v14.2 chirurgica",
+  "players": 502,
+  "unique_ids": 502,
+  "roles": {
+    "P": 66,
+    "D": 192,
+    "C": 168,
+    "A": 76
+  },
+  "duplicate_ids": 0,
+  "functions_changed": [
+    "compare"
+  ],
+  "projection_source_changed_only": true,
+  "official_engine": true
+}
