@@ -1,11 +1,12 @@
 {
-  "version": "2026.10.20.2112",
-  "generated_at": "2026-10-20T21:12:21.761949+02:00",
+  "version": "13.4-seed",
+  "generated_at": "2026-10-20T21:30:00+02:00",
   "round": 8,
   "players": 502,
-  "checksum": "c9148343417b798502c7061f20b645dfc9f3faf16b0f8da82a06dcafcb083528",
-  "errors": [
-    "calendar: 'calendar_json'",
-    "calendar: 'calendar_json'"
-  ]
+  "update_mode": "seed",
+  "sources_ok": [
+    "dataset iniziale"
+  ],
+  "errors": [],
+  "lineups_frozen": false
 }
