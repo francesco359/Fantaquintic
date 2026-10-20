@@ -1,0 +1,19 @@
+{
+  "all_ok": true,
+  "external_references_ok": true,
+  "json_files_ok": true,
+  "javascript": [
+    {
+      "file": "data/tactical_integration.js",
+      "ok": true,
+      "stderr": ""
+    },
+    {
+      "file": "scripts/fs-v140-final-tactical-runtime.js",
+      "ok": true,
+      "stderr": ""
+    }
+  ],
+  "profiles": 20,
+  "unique_clubs": 20
+}
