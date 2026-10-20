@@ -1,0 +1,38 @@
+{
+  "embedded_players": 502,
+  "embedded_unique": 502,
+  "online_players": 502,
+  "online_unique": 502,
+  "status_players": 502,
+  "Malen_embedded": {
+    "status": "available",
+    "appearance": 0.9400000000000001,
+    "starter": 0.9,
+    "minutes": 81,
+    "base": 6.589
+  },
+  "Malen_online": {
+    "status": "available",
+    "appearance_probability": 0.9400000000000001,
+    "starter_probability": 0.9,
+    "expected_minutes": 81,
+    "expected_fantasy_average": 8.6
+  },
+  "DeBruyne": {
+    "status": "available",
+    "appearance": 0.9400000000000001,
+    "starter": 0.9,
+    "minutes": 81,
+    "fm": 7.1
+  },
+  "v145_wrapper_count": 0,
+  "main_expected_label_count": 1,
+  "advanced_expected_label_count": 0,
+  "short_habitual_count": 0,
+  "full_habitual_count": 1,
+  "online_502_guard": true,
+  "online_authoritative_assign": true,
+  "js_syntax_errors": [],
+  "updater_runs": true,
+  "workflow_malen_assert": true
+}
