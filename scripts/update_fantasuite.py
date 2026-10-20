@@ -3,7 +3,9 @@ from pathlib import Path
 from datetime import datetime,timedelta
 from zoneinfo import ZoneInfo
 from urllib.request import Request,urlopen
-R=Path(__file__).resolve().parents[1]; C=json.loads((R/'config.json').read_text()); D=R/'data'; TZ=ZoneInfo(C['timezone'])
+R=Path(__file__).resolve().parents[1]; C=json.loads((R/'config.json').read_text()); D=R/'data'; TZ=ZoneInfo(C['timezone'])D.mkdir(parents=True, exist_ok=True)
+(D / 'history').mkdir(parents=True, exist_ok=True)
+
 def get(u):
  with urlopen(Request(u,headers={'User-Agent':'Mozilla/5.0 FantaSuiteBot/13.2','Accept-Language':'it-IT'}),timeout=25) as r:return re.sub(r'\s+',' ',re.sub(r'<[^>]+>',' ',r.read().decode('utf-8','replace')))
 def fixtures():return sorted([datetime.fromisoformat(x['kickoff']).astimezone(TZ) for x in C['fixtures']])
