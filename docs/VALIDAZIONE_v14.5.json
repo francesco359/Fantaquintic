@@ -1,0 +1,12 @@
+{
+  "players": 502,
+  "unique_ids": 502,
+  "Malen_status": "available",
+  "Malen_reference": 8.57,
+  "engine_count": 1,
+  "double_penalty": false,
+  "explicit_unavailable_only": true,
+  "expected_fm_count": 1,
+  "habitual_count": 1,
+  "syntax_ok": true
+}
