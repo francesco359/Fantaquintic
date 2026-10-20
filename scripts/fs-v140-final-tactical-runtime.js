@@ -1,2 +1,2 @@
-/* FantaSuite v14 Tactical Runtime */
-(()=>{'use strict';const D=window.FS_TACTICAL_DATA_V140;if(!D?.teams)return;try{if(window.TACT?.teams){for(const [k,v] of Object.entries(D.teams))window.TACT.teams[k]={...(window.TACT.teams[k]||{}),...v};window.TACT.updated=D.generatedAt}if(typeof window.invalidatePrecision118==='function')window.invalidatePrecision118()}catch(e){console.warn('Tactical runtime',e)}window.FS_TACTICAL_V140={data:D,version:D.version};})();
+/* runtime compatibilità v5 */
+window.FS_TACTICAL_RUNTIME_EXTERNAL=true;
