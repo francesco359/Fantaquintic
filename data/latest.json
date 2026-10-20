@@ -2,7 +2,7 @@
   "schema": "FantaSuite.full-update.v1",
   "title": "Esportazione stato FantaSuite",
   "season": "2026-2027",
-  "generated_at": "2026-10-20T21:10:41.621553+02:00",
+  "generated_at": "2026-10-20T21:12:21.761949+02:00",
   "round": 8,
   "players": [
     {
@@ -16164,6 +16164,7 @@
   },
   "automation": {
     "errors": [
+      "calendar: 'calendar_json'",
       "calendar: 'calendar_json'"
     ],
     "lineups_frozen": false
