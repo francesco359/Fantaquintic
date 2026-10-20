@@ -1,15 +1,14 @@
 {
-  "version": "2026.10.20.2200",
-  "generated_at": "2026-10-20T22:00:15.100200+02:00",
-  "round": 8,
-  "players": 502,
-  "update_mode": "automatic",
-  "sources_ok": [
-    "calendar",
-    "injuries",
-    "lineups"
-  ],
+  "schema": "FantaSuite.status.v1",
+  "version": "14.0",
+  "generated_at": "2026-10-20T21:47:00+02:00",
+  "season": "2026-2027",
+  "teams": 20,
+  "tactical_profiles": 20,
+  "status": "ok",
   "errors": [],
-  "lineups_frozen": false,
-  "checksum": "48a69c62738a7fb47e6493780b3148515774a7a65e0aaa384ae37a0ff5f92cb2"
+  "sources_ok": [
+    "embedded-model",
+    "tactical-integration"
+  ]
 }
