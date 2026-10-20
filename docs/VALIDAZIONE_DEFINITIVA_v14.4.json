@@ -1,0 +1,12 @@
+{
+  "players": 502,
+  "unique_ids": 502,
+  "official_engine": true,
+  "single_visible_expected_fm": true,
+  "tactical_duplicate": 0,
+  "advanced_expected_duplicate": 0,
+  "habitual_fm": 1,
+  "delta_habitual": 1,
+  "html_balanced": true,
+  "javascript_syntax": true
+}
