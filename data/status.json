@@ -1,7 +1,10 @@
 {
-  "version": "2026.10.20.1405",
-  "generated_at": "2026-10-20T08:12:38.577Z",
+  "version": "2026.10.20.2006",
+  "generated_at": "2026-10-20T20:06:35.783438+02:00",
   "round": 8,
   "players": 502,
-  "update_mode": "seed"
+  "update_mode": "normal",
+  "lineups_frozen": false,
+  "checksum": "853f18d0bb65d0719264a1b6edafca8a8a429a7d2cfa2a0c32c1a68a6de5420a",
+  "errors": []
 }
