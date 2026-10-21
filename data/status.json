@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T20:53:17Z",
+  "generated_at": "2026-10-21T22:50:45Z",
   "round": 8,
   "players": 502,
   "player_updates": 264,
@@ -12,7 +12,7 @@
       "records_extracted": 88,
       "players_updated": 64,
       "source_updated_at": null,
-      "sha256": "5c0ca5b77bafdaf7e07aef3097926b8c1c38cb1a75f6f4790d90b178ab09ec67"
+      "sha256": "51678415c98e500061345bc6ef18492cb2a7793bde4509211690d7857d04b64d"
     },
     {
       "name": "injuries_sky",
@@ -21,7 +21,7 @@
       "records_extracted": 22,
       "players_updated": 0,
       "source_updated_at": null,
-      "sha256": "c55e1f50aa3468703d287c6affc0876f54f65dd186f936e8333f1cf318940d56"
+      "sha256": "f33bcb56be71a0be758d531287a162bd27e0ebdbcb2baa7690eb000ef81691d7"
     },
     {
       "name": "votes",
@@ -30,7 +30,7 @@
       "records_extracted": 0,
       "players_updated": 0,
       "source_updated_at": null,
-      "sha256": "0ddf0798c35531a3c6da153a7263d0baf5f00101e8fb9d780d7521b734342f73"
+      "sha256": "59df1995da90ae794747b1d93762d2cc53e1193ffbb128e9a298e324f0659702"
     },
     {
       "name": "injuries_official",
@@ -38,8 +38,8 @@
       "status": "data_applied",
       "records_extracted": 44,
       "players_updated": 34,
-      "source_updated_at": "21/10/2026",
-      "sha256": "2002b602b310c576aa510444706b64b58763fd9285f1c85ad9f68b45eea89126"
+      "source_updated_at": "22/10/2026",
+      "sha256": "11624d74f5de0aa6349e8fc8942f5a217b8aeec755ed262aacbacc7704d67a15"
     },
     {
       "name": "lineups_fantacalcio",
@@ -48,7 +48,7 @@
       "records_extracted": 470,
       "players_updated": 0,
       "source_updated_at": "21/10/2026 19:12",
-      "sha256": "7cd3cd31bbbe0fc99d816f33f290af21f622dda4f701ae739fe526551ae50cad"
+      "sha256": "d57253a9db4844c3e7a8e54c13f20f58a6a4772793102d2abd1507c5bc152a34"
     },
     {
       "name": "lineups_sosfanta",
@@ -57,7 +57,7 @@
       "records_extracted": 515,
       "players_updated": 0,
       "source_updated_at": null,
-      "sha256": "3f3f80bc548b98cc9a072a82a4de098af07ef30ac07ebbefd1ed7a78eb0d1507"
+      "sha256": "a9682dd08f287eb3218884d2b4ab08fee463c38cc0828ab16c362821e75fc835"
     },
     {
       "name": "lineups_gazzetta",
@@ -66,7 +66,7 @@
       "records_extracted": 0,
       "players_updated": 0,
       "source_updated_at": null,
-      "sha256": "3047d2fb021415482a2d3db7a0a39ec6f4778817c852425266ae2eaa5af9f366"
+      "sha256": "0b609aad4932650ea100c54729340912906845bba82133afe29259a9296ee014"
     },
     {
       "name": "lineup_consensus",
