@@ -1,15 +1,15 @@
-name: FantaSuite v13.4 Precision
+name: FantaQuintoc HTML Update
 
 on:
   schedule:
-    - cron: "7,37 * * * *"
+    - cron: "17 */2 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
 concurrency:
-  group: fantasuite-v134
+  group: fantaquintoc-html-update
   cancel-in-progress: false
 
 jobs:
@@ -17,33 +17,68 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Scarica il repository
         uses: actions/checkout@v4
 
-      - name: Setup Python
+      - name: Configura Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+          cache: pip
 
-      - name: Prepara cartelle ed esegui aggiornamento
-        run: |
-          mkdir -p data/history
-          python scripts/update_fantasuite.py
+      - name: Installa le dipendenze
+        run: pip install -r requirements.txt
 
-      - name: Verifica JSON
+      - name: Aggiorna e valida i dati
+        env:
+          FANTASUITE_MIN_PLAYERS: "490"
+        run: python scripts/update_fantasuite.py
+
+      - name: Verifica i file generati
         run: |
           python -m json.tool data/latest.json > /dev/null
           python -m json.tool data/status.json > /dev/null
+          python -m json.tool data/fantasuite.json > /dev/null
 
-      - name: Pubblica aggiornamento
+          python - <<'PY'
+          import json
+
+          with open("data/latest.json", encoding="utf-8") as file:
+              data = json.load(file)
+
+          players = data.get("players", [])
+          validation = data.get("validation", {})
+          errors = validation.get("critical_errors", [])
+
+          assert len(players) >= 490, (
+              f"Catalogo incompleto: {len(players)} giocatori"
+          )
+
+          assert not errors, (
+              f"Errori critici rilevati: {errors}"
+          )
+
+          print("Giocatori:", len(players))
+          print(
+              "Aggiornamenti:",
+              validation.get("player_updates", 0)
+          )
+          print(
+              "Dati freschi:",
+              validation.get("fresh_player_data", False)
+          )
+          PY
+
+      - name: Pubblica l'aggiornamento
         run: |
-          git config user.name "FantaSuite Bot"
+          git config user.name "FantaQuintoc Bot"
           git config user.email "actions@users.noreply.github.com"
+
           git add data/
 
           if git diff --cached --quiet; then
             echo "Nessuna modifica da pubblicare"
           else
-            git commit -m "v13.4 precision update"
+            git commit -m "Aggiornamento HTML validato"
             git push
           fi
