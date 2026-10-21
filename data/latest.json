@@ -1,6 +1,6 @@
 {
   "schema": "FantaSuite.latest.v6.2",
-  "generated_at": "2026-10-21T13:25:22Z",
+  "generated_at": "2026-10-21T13:34:39Z",
   "round": 8,
   "players": [
     {
@@ -110,9 +110,9 @@
       "club": "NAP",
       "role": "D",
       "efm": 0.0,
-      "starter": 0.0,
-      "appearance": 0.0,
-      "status": "unavailable",
+      "starter": 0,
+      "appearance": 0,
+      "status": "doubt",
       "usual": 7.25,
       "delta": -7.25,
       "surprise": 0.0,
@@ -121,7 +121,11 @@
       "matchup": 43.6,
       "coach": "Massimiliano Allegri",
       "coachScore": 38.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Lesione di secondo grado del retto femorale della coscia destra, in dubbio per la 12a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 6,
@@ -290,9 +294,9 @@
       "club": "INT",
       "role": "C",
       "efm": 0.0,
-      "starter": 0.0,
-      "appearance": 0.0,
-      "status": "unavailable",
+      "starter": 0,
+      "appearance": 0,
+      "status": "doubt",
       "usual": 6.0,
       "delta": -6.0,
       "surprise": 0.0,
@@ -301,7 +305,11 @@
       "matchup": 79.3,
       "coach": "Cristian Chivu",
       "coachScore": 74.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Risentimento miofasciale agli adduttori della coscia destra, in dubbio per la 11a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 15,
@@ -452,7 +460,7 @@
       "efm": 6.36,
       "starter": 35.0,
       "appearance": 84.7,
-      "status": "available",
+      "status": "doubt",
       "usual": 6.0,
       "delta": 0.36,
       "surprise": 56.0,
@@ -461,7 +469,11 @@
       "matchup": 43.6,
       "coach": "Massimiliano Allegri",
       "coachScore": 38.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Lesione distrattiva di medio grado del bicipite femorale sinistro, in dubbio per la 16a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 23,
@@ -1092,7 +1104,7 @@
       "efm": 6.01,
       "starter": 49.1,
       "appearance": 61.7,
-      "status": "available",
+      "status": "doubt",
       "usual": 6.04,
       "delta": -0.03,
       "surprise": 50.2,
@@ -1101,7 +1113,11 @@
       "matchup": 47.8,
       "coach": "Kosta Runjaić",
       "coachScore": 14.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Risentimento muscolare al polpaccio destro, in dubbio per la 12a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 55,
@@ -1181,7 +1197,11 @@
       "matchup": 79.3,
       "coach": "Cristian Chivu",
       "coachScore": 74.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Risentimento ai flessori della coscia sinistra, in dubbio per la 9a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 59,
@@ -1381,7 +1401,11 @@
       "matchup": 60.8,
       "coach": "Rúben Amorim",
       "coachScore": 62.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Sarà sottoposto ad intervento chirurgico per un problema alla caviglia destra, rientro previsto per il 2027 inoltrato.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 69,
@@ -1430,9 +1454,9 @@
       "club": "COM",
       "role": "A",
       "efm": 0.0,
-      "starter": 0.0,
-      "appearance": 0.0,
-      "status": "unavailable",
+      "starter": 0,
+      "appearance": 0,
+      "status": "doubt",
       "usual": 7.8,
       "delta": -7.8,
       "surprise": 0.0,
@@ -1441,7 +1465,11 @@
       "matchup": 62.2,
       "coach": "Cesc Fàbregas",
       "coachScore": 74.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Problema muscolare, in dubbio per l'11a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 72,
@@ -1552,7 +1580,7 @@
       "efm": 6.05,
       "starter": 100,
       "appearance": 100,
-      "status": "available",
+      "status": "doubt",
       "usual": 6.0,
       "delta": 0.05,
       "surprise": 52.4,
@@ -1561,7 +1589,11 @@
       "matchup": 60.8,
       "coach": "Rúben Amorim",
       "coachScore": 62.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Trauma alla spalla destra, in dubbio per l'8a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 78,
@@ -1601,7 +1633,11 @@
       "matchup": 62.2,
       "coach": "Cesc Fàbregas",
       "coachScore": 74.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Affaticamento muscolare, in dubbio per la 10a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 80,
@@ -1752,7 +1788,7 @@
       "efm": 6.85,
       "starter": 82.0,
       "appearance": 92.0,
-      "status": "available",
+      "status": "doubt",
       "usual": 6.8,
       "delta": 0.05,
       "surprise": 65.8,
@@ -1761,7 +1797,11 @@
       "matchup": 60.8,
       "coach": "Rúben Amorim",
       "coachScore": 62.0,
-      "surpriseEligible": true
+      "surpriseEligible": true,
+      "reason": "- Problema all'anca, in dubbio per la 9a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 88,
@@ -1930,9 +1970,9 @@
       "club": "INT",
       "role": "A",
       "efm": 0.0,
-      "starter": 0.0,
-      "appearance": 0.0,
-      "status": "unavailable",
+      "starter": 0,
+      "appearance": 0,
+      "status": "doubt",
       "usual": 9.5,
       "delta": -9.5,
       "surprise": 0.0,
@@ -1941,7 +1981,11 @@
       "matchup": 79.3,
       "coach": "Cristian Chivu",
       "coachScore": 74.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Risentimento muscolare ai flessori della coscia sinistra, in dubbio per la 12a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 97,
@@ -2550,9 +2594,9 @@
       "club": "ROM",
       "role": "P",
       "efm": 0.0,
-      "starter": 0.0,
-      "appearance": 0.0,
-      "status": "unavailable",
+      "starter": 0,
+      "appearance": 0,
+      "status": "doubt",
       "usual": 5.7,
       "delta": -5.7,
       "surprise": 0.0,
@@ -2561,7 +2605,11 @@
       "matchup": 50.8,
       "coach": "Gian Piero Gasperini",
       "coachScore": 74.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Frattura da stress al quinto dito del piede, in dubbio per la 12a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 128,
@@ -2641,7 +2689,11 @@
       "matchup": 36.6,
       "coach": "Raffaele Palladino",
       "coachScore": 26.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Intervento chirurgico di sutura del tendine degli hamstring della coscia destra, tempi di recupero previsti di 4-6 mesi dal 1 ottobre.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 132,
@@ -2832,7 +2884,7 @@
       "efm": 6.45,
       "starter": 25.1,
       "appearance": 90.0,
-      "status": "available",
+      "status": "doubt",
       "usual": 6.5,
       "delta": -0.05,
       "surprise": 57.9,
@@ -2841,7 +2893,11 @@
       "matchup": 63.6,
       "coach": "Gennaro Gattuso",
       "coachScore": 86.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Lussazione dell’articolazione gleno-omerale destra, spontaneamente ridotta, in dubbio per la 9a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 142,
@@ -2870,9 +2926,9 @@
       "club": "BOL",
       "role": "C",
       "efm": 0.0,
-      "starter": 0.0,
-      "appearance": 0.0,
-      "status": "unavailable",
+      "starter": 0,
+      "appearance": 0,
+      "status": "doubt",
       "usual": 5.83,
       "delta": -5.83,
       "surprise": 0.0,
@@ -2881,7 +2937,11 @@
       "matchup": 36.6,
       "coach": "Raffaele Palladino",
       "coachScore": 26.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Lesione di primo grado al bicipite femorale della coscia destra. in dubbio per la 9a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 144,
@@ -2921,7 +2981,11 @@
       "matchup": 50.8,
       "coach": "Gian Piero Gasperini",
       "coachScore": 74.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Lesione muscolare, in dubbio per l'11a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 146,
@@ -2961,7 +3025,11 @@
       "matchup": 36.6,
       "coach": "Raffaele Palladino",
       "coachScore": 26.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Lesione del bicipite femorale della coscia destra, in dubbio per la 12a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 148,
@@ -2970,9 +3038,9 @@
       "club": "ATA",
       "role": "A",
       "efm": 0.0,
-      "starter": 0.0,
-      "appearance": 0.0,
-      "status": "unavailable",
+      "starter": 0,
+      "appearance": 0,
+      "status": "doubt",
       "usual": 6.62,
       "delta": -6.62,
       "surprise": 0.0,
@@ -2981,7 +3049,11 @@
       "matchup": 52.1,
       "coach": "Maurizio Sarri",
       "coachScore": 38.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Distrazione di basso grado del bicipite femorale della coscia destra, in dubbio per la 9a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 149,
@@ -3241,7 +3313,11 @@
       "matchup": 42.3,
       "coach": "Paolo Vanoli",
       "coachScore": 26.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Sovraccarico funzionale all'addome, in dubbio per l'8a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 162,
@@ -3272,7 +3348,7 @@
       "efm": 6.62,
       "starter": 82.7,
       "appearance": 99.5,
-      "status": "available",
+      "status": "doubt",
       "usual": 7.1,
       "delta": -0.48,
       "surprise": 48.3,
@@ -3281,7 +3357,11 @@
       "matchup": 48.0,
       "coach": "Luciano Spalletti",
       "coachScore": 14.0,
-      "surpriseEligible": true
+      "surpriseEligible": true,
+      "reason": "- Lussazione gleno-omerale, in dubbio per la 12a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 164,
@@ -3312,7 +3392,7 @@
       "efm": 6.62,
       "starter": 81.9,
       "appearance": 81.9,
-      "status": "available",
+      "status": "doubt",
       "usual": 6.02,
       "delta": 0.6,
       "surprise": 69.1,
@@ -3321,7 +3401,11 @@
       "matchup": 50.8,
       "coach": "Gian Piero Gasperini",
       "coachScore": 74.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Problema muscolare, in dubbio per la 9a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 166,
@@ -3352,7 +3436,7 @@
       "efm": 6.46,
       "starter": 90.0,
       "appearance": 91.2,
-      "status": "available",
+      "status": "doubt",
       "usual": 5.5,
       "delta": 0.96,
       "surprise": 54.6,
@@ -3361,7 +3445,11 @@
       "matchup": 47.8,
       "coach": "Kosta Runjaić",
       "coachScore": 14.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Lesione al bicipite femorale della coscia destra, in dubbio per l'8a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 168,
@@ -3432,7 +3520,7 @@
       "efm": 7.83,
       "starter": 88.0,
       "appearance": 92.0,
-      "status": "available",
+      "status": "doubt",
       "usual": 7.0,
       "delta": 0.83,
       "surprise": 34.0,
@@ -3441,7 +3529,11 @@
       "matchup": 60.8,
       "coach": "Rúben Amorim",
       "coachScore": 62.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Sovraccarico muscolare al polpaccio, in dubbio per l'8a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 172,
@@ -3490,9 +3582,9 @@
       "club": "JUV",
       "role": "A",
       "efm": 0.0,
-      "starter": 0.0,
-      "appearance": 0.0,
-      "status": "unavailable",
+      "starter": 0,
+      "appearance": 0,
+      "status": "doubt",
       "usual": 5.5,
       "delta": -5.5,
       "surprise": 0.0,
@@ -3501,7 +3593,11 @@
       "matchup": 48.0,
       "coach": "Luciano Spalletti",
       "coachScore": 14.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Operato per frattura al quinto metatarso del piede sinistro, in dubbio per la 13a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 175,
@@ -3690,9 +3786,9 @@
       "club": "ATA",
       "role": "D",
       "efm": 0.0,
-      "starter": 0.0,
-      "appearance": 0.0,
-      "status": "unavailable",
+      "starter": 0,
+      "appearance": 0,
+      "status": "doubt",
       "usual": 5.7,
       "delta": -5.7,
       "surprise": 0.0,
@@ -3701,7 +3797,11 @@
       "matchup": 52.1,
       "coach": "Maurizio Sarri",
       "coachScore": 38.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Distrazione di basso grado dei muscoli flessori della gamba sinistra, in dubbio per la 9a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 185,
@@ -3890,9 +3990,9 @@
       "club": "GEN",
       "role": "A",
       "efm": 0.0,
-      "starter": 0.0,
-      "appearance": 0.0,
-      "status": "unavailable",
+      "starter": 0,
+      "appearance": 0,
+      "status": "doubt",
       "usual": 5.4,
       "delta": -5.4,
       "surprise": 0.0,
@@ -3901,7 +4001,11 @@
       "matchup": 55.0,
       "coach": "Daniele De Rossi",
       "coachScore": 26.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Distorsione alla caviglia, in dubbio per l'8a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 195,
@@ -3961,7 +4065,11 @@
       "matchup": 62.2,
       "coach": "Cesc Fàbregas",
       "coachScore": 74.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Forte contusione, in dubbio per la 9a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 198,
@@ -4092,7 +4200,7 @@
       "efm": 5.94,
       "starter": 21.1,
       "appearance": 41.1,
-      "status": "available",
+      "status": "doubt",
       "usual": 6.56,
       "delta": -0.62,
       "surprise": 22.6,
@@ -4101,7 +4209,11 @@
       "matchup": 47.8,
       "coach": "Kosta Runjaić",
       "coachScore": 14.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Intervento chirurgico alla caviglia destra, in dubbio per la 17a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 210,
@@ -4190,9 +4302,9 @@
       "club": "NAP",
       "role": "A",
       "efm": 0.0,
-      "starter": 0.0,
-      "appearance": 0.0,
-      "status": "unavailable",
+      "starter": 0,
+      "appearance": 0,
+      "status": "doubt",
       "usual": 6.68,
       "delta": -6.68,
       "surprise": 0.0,
@@ -4201,7 +4313,11 @@
       "matchup": 43.6,
       "coach": "Massimiliano Allegri",
       "coachScore": 38.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Lesione di basso grado del muscolo semimembranoso della coscia destra, in dubbio per l'11a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 218,
@@ -4230,9 +4346,9 @@
       "club": "ATA",
       "role": "A",
       "efm": 0.0,
-      "starter": 0.0,
-      "appearance": 0.0,
-      "status": "unavailable",
+      "starter": 0,
+      "appearance": 0,
+      "status": "doubt",
       "usual": 6.52,
       "delta": -6.52,
       "surprise": 0.0,
@@ -4241,7 +4357,11 @@
       "matchup": 52.1,
       "coach": "Maurizio Sarri",
       "coachScore": 38.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Lesione del collaterale mediale di secondo grado del ginocchio sinistro, in dubbio per l'8a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 221,
@@ -4352,7 +4472,7 @@
       "efm": 5.89,
       "starter": 12.9,
       "appearance": 32.9,
-      "status": "available",
+      "status": "doubt",
       "usual": 6.49,
       "delta": -0.6,
       "surprise": 22.8,
@@ -4361,7 +4481,11 @@
       "matchup": 55.0,
       "coach": "Daniele De Rossi",
       "coachScore": 26.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Infortunio alla caviglia, in dubbio per l'8a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 233,
@@ -4672,7 +4796,7 @@
       "efm": 5.91,
       "starter": 38.0,
       "appearance": 58.0,
-      "status": "available",
+      "status": "doubt",
       "usual": 6.23,
       "delta": -0.32,
       "surprise": 33.8,
@@ -4681,7 +4805,11 @@
       "matchup": 29.4,
       "coach": "Alberto Gilardino",
       "coachScore": 14.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Lesione di basso grado del polpaccio della gamba sinistra, in dubbio per la 9a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 262,
@@ -4742,10 +4870,10 @@
       "coach": "Daniele De Rossi",
       "coachScore": 26.0,
       "surpriseEligible": false,
-      "reason": "Lesione al bicipite femorale sinistro.",
-      "availability_type": "doubt",
-      "updated_by": "injuries_sky",
-      "updated_at": "2026-10-21T13:25:13Z"
+      "reason": "- Distrazione muscolare al bicipite femorale della coscia sinistra, in dubbio per l'8a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 269,
@@ -4996,7 +5124,7 @@
       "efm": 6.2,
       "starter": 47.4,
       "appearance": 67.4,
-      "status": "available",
+      "status": "doubt",
       "usual": 6.29,
       "delta": -0.09,
       "surprise": 48.4,
@@ -5005,7 +5133,11 @@
       "matchup": 49.4,
       "coach": "Ivan Jurić",
       "coachScore": 98.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Operato per lussazione della rotula del ginocchio destro, in dubbio per la 12a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 298,
@@ -5176,7 +5308,7 @@
       "efm": 6.05,
       "starter": 32.0,
       "appearance": 46.0,
-      "status": "available",
+      "status": "doubt",
       "usual": 6.15,
       "delta": -0.1,
       "surprise": 45.8,
@@ -5185,7 +5317,11 @@
       "matchup": 60.7,
       "coach": "Ignazio Abate",
       "coachScore": 86.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Problema all'adduttore, in dubbio per la 10a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 315,
@@ -5216,7 +5352,7 @@
       "efm": 6.06,
       "starter": 29.5,
       "appearance": 49.5,
-      "status": "available",
+      "status": "doubt",
       "usual": 6.19,
       "delta": -0.13,
       "surprise": 43.7,
@@ -5225,7 +5361,11 @@
       "matchup": 49.4,
       "coach": "Ivan Jurić",
       "coachScore": 98.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Sta recuperando da un infortunio al ginocchio, in dubbio per l'8a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 320,
@@ -5266,10 +5406,10 @@
       "coach": "Daniele De Rossi",
       "coachScore": 26.0,
       "surpriseEligible": false,
-      "reason": "Distrazione della muscolatura di un’anca.",
-      "availability_type": "doubt",
-      "updated_by": "injuries_sky",
-      "updated_at": "2026-10-21T13:25:13Z"
+      "reason": "- Distrazione della muscolatura di un’anca, in dubbio per l'8a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 325,
@@ -5280,7 +5420,7 @@
       "efm": 6.06,
       "starter": 33.6,
       "appearance": 53.6,
-      "status": "available",
+      "status": "doubt",
       "usual": 6.2,
       "delta": -0.14,
       "surprise": 43.8,
@@ -5289,7 +5429,11 @@
       "matchup": 49.3,
       "coach": "Eusebio Di Francesco",
       "coachScore": 86.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Sovraccarico, in dubbio per l'8a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 326,
@@ -5418,9 +5562,9 @@
       "club": "FRO",
       "role": "C",
       "efm": 0.0,
-      "starter": 0.0,
-      "appearance": 0.0,
-      "status": "unavailable",
+      "starter": 0,
+      "appearance": 0,
+      "status": "doubt",
       "usual": 6.16,
       "delta": -6.16,
       "surprise": 0.0,
@@ -5429,7 +5573,11 @@
       "matchup": 52.3,
       "coach": "Massimiliano Alvini",
       "coachScore": 74.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Intervento chirurgico per il trattamento di Sports Hernia destra, in dubbio per la 9a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 333,
@@ -5910,10 +6058,10 @@
       "coach": "Daniele De Rossi",
       "coachScore": 26.0,
       "surpriseEligible": false,
-      "reason": "In recupero da operazione al tendine rotuleo.",
-      "availability_type": "doubt",
-      "updated_by": "injuries_sky",
-      "updated_at": "2026-10-21T13:25:13Z"
+      "reason": "- Intervento chirurgico di “pulizia” del tendine rotuleo, in dubbio per l'8a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 357,
@@ -6004,7 +6152,7 @@
       "efm": 5.76,
       "starter": 12.1,
       "appearance": 32.1,
-      "status": "available",
+      "status": "doubt",
       "usual": 6.06,
       "delta": -0.3,
       "surprise": 32.6,
@@ -6013,7 +6161,11 @@
       "matchup": 45.2,
       "coach": "Alberto Aquilani",
       "coachScore": 26.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Intervento chirurgico in artroscopia al ginocchio sinistro per la pulizia meniscale e l’applicazione di PRP, in dubbio per l'8a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 362,
@@ -6222,9 +6374,9 @@
       "club": "SAS",
       "role": "D",
       "efm": 5.88,
-      "starter": 45.1,
-      "appearance": 65.1,
-      "status": "available",
+      "starter": 0.0,
+      "appearance": 0.0,
+      "status": "unavailable",
       "usual": 5.93,
       "delta": -0.05,
       "surprise": 47.4,
@@ -6233,7 +6385,11 @@
       "matchup": 45.2,
       "coach": "Alberto Aquilani",
       "coachScore": 26.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Lesione del legamento crociato anteriore della gamba sinistra, tempi da definire.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 373,
@@ -6502,9 +6658,9 @@
       "club": "ATA",
       "role": "D",
       "efm": 0.0,
-      "starter": 0.0,
-      "appearance": 0.0,
-      "status": "unavailable",
+      "starter": 0,
+      "appearance": 0,
+      "status": "doubt",
       "usual": 5.91,
       "delta": -5.91,
       "surprise": 0.0,
@@ -6513,7 +6669,11 @@
       "matchup": 52.1,
       "coach": "Maurizio Sarri",
       "coachScore": 38.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Fuori per una lesione del tendine prossimale del muscolo semimembranoso della coscia sinistra, in dubbio per la 12a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 387,
@@ -6533,7 +6693,11 @@
       "matchup": 52.1,
       "coach": "Maurizio Sarri",
       "coachScore": 38.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Distrazione di basso grado del retto femorale della coscia sinistra., in dubbio per la 10a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 388,
@@ -6624,7 +6788,7 @@
       "efm": 5.88,
       "starter": 45.1,
       "appearance": 65.1,
-      "status": "available",
+      "status": "doubt",
       "usual": 5.93,
       "delta": -0.05,
       "surprise": 47.4,
@@ -6633,7 +6797,11 @@
       "matchup": 45.2,
       "coach": "Alberto Aquilani",
       "coachScore": 26.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Lesione di grado moderato al quadricipite della gamba sinistra, in dubbio per l'8a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 393,
@@ -6664,7 +6832,7 @@
       "efm": 5.86,
       "starter": 28.7,
       "appearance": 48.7,
-      "status": "available",
+      "status": "doubt",
       "usual": 5.85,
       "delta": 0.01,
       "surprise": 46.9,
@@ -6673,7 +6841,11 @@
       "matchup": 45.1,
       "coach": "Davide Nicola",
       "coachScore": 62.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Problema muscolare, in dubbio per l'8a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 395,
@@ -6724,7 +6896,7 @@
       "efm": 6.07,
       "starter": 51.8,
       "appearance": 71.8,
-      "status": "available",
+      "status": "doubt",
       "usual": 5.97,
       "delta": 0.1,
       "surprise": 57.6,
@@ -6733,7 +6905,11 @@
       "matchup": 60.7,
       "coach": "Ignazio Abate",
       "coachScore": 86.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Problema muscolare alla coscia destra, in dubbio per l'8a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 398,
@@ -6882,9 +7058,9 @@
       "club": "INT",
       "role": "D",
       "efm": 0.0,
-      "starter": 0.0,
-      "appearance": 0.0,
-      "status": "unavailable",
+      "starter": 0,
+      "appearance": 0,
+      "status": "doubt",
       "usual": 5.91,
       "delta": -5.91,
       "surprise": 0.0,
@@ -6893,7 +7069,11 @@
       "matchup": 79.3,
       "coach": "Cristian Chivu",
       "coachScore": 74.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Risentimento agli adduttori della coscia destra, in dubbio per la 11a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 406,
@@ -6962,9 +7142,9 @@
       "club": "MIL",
       "role": "D",
       "efm": 0.0,
-      "starter": 0.0,
-      "appearance": 0.0,
-      "status": "unavailable",
+      "starter": 0,
+      "appearance": 0,
+      "status": "doubt",
       "usual": 5.91,
       "delta": -5.91,
       "surprise": 0.0,
@@ -6973,7 +7153,11 @@
       "matchup": 60.8,
       "coach": "Rúben Amorim",
       "coachScore": 62.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Lesione del muscolo flessore della coscia sinistra, con parziale interessamento tendineo, in dubbio per la 20a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 410,
@@ -7004,7 +7188,7 @@
       "efm": 5.87,
       "starter": 39.1,
       "appearance": 59.1,
-      "status": "available",
+      "status": "doubt",
       "usual": 5.91,
       "delta": -0.04,
       "surprise": 46.6,
@@ -7013,7 +7197,11 @@
       "matchup": 43.6,
       "coach": "Massimiliano Allegri",
       "coachScore": 38.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Intervento chirurgico di riparazione della radice del menisco mediale del ginocchio destro, in dubbio per la 12a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 412,
@@ -7124,7 +7312,7 @@
       "efm": 5.97,
       "starter": 33.4,
       "appearance": 53.4,
-      "status": "available",
+      "status": "doubt",
       "usual": 5.87,
       "delta": 0.1,
       "surprise": 54.1,
@@ -7133,7 +7321,11 @@
       "matchup": 60.7,
       "coach": "Ignazio Abate",
       "coachScore": 86.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Lesione tendinea di basso grado ai muscoli flessori della coscia sinistra, in dubbio per la 10a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 418,
@@ -7262,9 +7454,9 @@
       "club": "MON",
       "role": "D",
       "efm": 0.0,
-      "starter": 0.0,
-      "appearance": 0.0,
-      "status": "unavailable",
+      "starter": 0,
+      "appearance": 0,
+      "status": "doubt",
       "usual": 5.93,
       "delta": -5.93,
       "surprise": 0.0,
@@ -7273,7 +7465,11 @@
       "matchup": 49.4,
       "coach": "Ivan Jurić",
       "coachScore": 98.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Problema fisico, in dubbio per l'8a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 425,
@@ -7464,7 +7660,7 @@
       "efm": 5.95,
       "starter": 45.1,
       "appearance": 65.1,
-      "status": "available",
+      "status": "doubt",
       "usual": 5.93,
       "delta": 0.02,
       "surprise": 50.1,
@@ -7473,7 +7669,11 @@
       "matchup": 45.1,
       "coach": "Davide Nicola",
       "coachScore": 62.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Problema fisico, in dubbio per l'8a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 435,
@@ -7564,7 +7764,7 @@
       "efm": 5.91,
       "starter": 82.0,
       "appearance": 94.0,
-      "status": "available",
+      "status": "doubt",
       "usual": 5.91,
       "delta": 0.0,
       "surprise": 53.7,
@@ -7573,7 +7773,11 @@
       "matchup": 55.0,
       "coach": "Daniele De Rossi",
       "coachScore": 26.0,
-      "surpriseEligible": true
+      "surpriseEligible": true,
+      "reason": "- Fastidio muscolare, in dubbio per l'8a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 440,
@@ -7602,9 +7806,9 @@
       "club": "ATA",
       "role": "D",
       "efm": 0.0,
-      "starter": 0.0,
-      "appearance": 0.0,
-      "status": "unavailable",
+      "starter": 0,
+      "appearance": 0,
+      "status": "doubt",
       "usual": 5.97,
       "delta": -5.97,
       "surprise": 0.0,
@@ -7613,7 +7817,11 @@
       "matchup": 52.1,
       "coach": "Maurizio Sarri",
       "coachScore": 38.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Lesione di medio-alto grado del bicipite femorale della coscia sinistra, in dubbio per la 12a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 442,
@@ -7662,9 +7870,9 @@
       "club": "FIO",
       "role": "D",
       "efm": 0.0,
-      "starter": 0.0,
-      "appearance": 0.0,
-      "status": "unavailable",
+      "starter": 0,
+      "appearance": 0,
+      "status": "doubt",
       "usual": 5.86,
       "delta": -5.86,
       "surprise": 0.0,
@@ -7673,7 +7881,11 @@
       "matchup": 42.3,
       "coach": "Paolo Vanoli",
       "coachScore": 26.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Intervento chirurgico per la lesione del legamento crociato anteriore del ginocchio destro, in dubbio per la 10a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 445,
@@ -8084,7 +8296,7 @@
       "efm": 5.76,
       "starter": 11.7,
       "appearance": 31.7,
-      "status": "available",
+      "status": "doubt",
       "usual": 5.76,
       "delta": 0.0,
       "surprise": 43.5,
@@ -8093,7 +8305,11 @@
       "matchup": 45.1,
       "coach": "Davide Nicola",
       "coachScore": 62.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Intervento chirurgico per una lussazione acromion-claveare, in dubbio per la 15a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 466,
@@ -8104,7 +8320,7 @@
       "efm": 5.84,
       "starter": 11.7,
       "appearance": 31.7,
-      "status": "available",
+      "status": "doubt",
       "usual": 5.76,
       "delta": 0.08,
       "surprise": 47.5,
@@ -8113,7 +8329,11 @@
       "matchup": 49.4,
       "coach": "Ivan Jurić",
       "coachScore": 98.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Problema fisico, in dubbio per l'8a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 467,
@@ -8204,7 +8424,7 @@
       "efm": 5.65,
       "starter": 0,
       "appearance": 0,
-      "status": "available",
+      "status": "doubt",
       "usual": 5.78,
       "delta": -0.13,
       "surprise": 36.0,
@@ -8213,7 +8433,11 @@
       "matchup": 47.8,
       "coach": "Fabio Pisacane",
       "coachScore": 2.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Intervento chirurgico di ricostruzione del legamento crociato anteriore del ginocchio sinistro, in dubbio per l'8a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 472,
@@ -8524,7 +8748,7 @@
       "efm": 5.88,
       "starter": 16.8,
       "appearance": 36.8,
-      "status": "available",
+      "status": "doubt",
       "usual": 5.79,
       "delta": 0.09,
       "surprise": 48.7,
@@ -8533,7 +8757,11 @@
       "matchup": 49.4,
       "coach": "Ivan Jurić",
       "coachScore": 98.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Problema alla fascia plantare, in dubbio per la 12a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 488,
@@ -8604,7 +8832,7 @@
       "efm": 5.76,
       "starter": 11.7,
       "appearance": 31.7,
-      "status": "available",
+      "status": "doubt",
       "usual": 5.76,
       "delta": 0.0,
       "surprise": 43.5,
@@ -8613,7 +8841,11 @@
       "matchup": 45.1,
       "coach": "Davide Nicola",
       "coachScore": 62.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Infortunio alle anche, in dubbio per l'8a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 492,
@@ -9482,9 +9714,9 @@
       "club": "JUV",
       "role": "P",
       "efm": 0.0,
-      "starter": 0.0,
-      "appearance": 0.0,
-      "status": "unavailable",
+      "starter": 0,
+      "appearance": 0,
+      "status": "doubt",
       "usual": 5.74,
       "delta": -5.74,
       "surprise": 0.0,
@@ -9493,7 +9725,11 @@
       "matchup": 48.0,
       "coach": "Luciano Spalletti",
       "coachScore": 14.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Lesione del legamento crociato anteriore del ginocchio destro, in dubbio per la 30a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 536,
@@ -9544,7 +9780,7 @@
       "efm": 5.83,
       "starter": 30.1,
       "appearance": 50.1,
-      "status": "available",
+      "status": "doubt",
       "usual": 5.74,
       "delta": 0.09,
       "surprise": 52.3,
@@ -9553,7 +9789,11 @@
       "matchup": 52.1,
       "coach": "Maurizio Sarri",
       "coachScore": 38.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Frattura della falange intermedia della mano destra, in dubbio per la 12a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 539,
@@ -9962,9 +10202,9 @@
       "club": "CAG",
       "role": "C",
       "efm": 0.0,
-      "starter": 0.0,
-      "appearance": 0.0,
-      "status": "unavailable",
+      "starter": 0,
+      "appearance": 0,
+      "status": "doubt",
       "usual": 6.0,
       "delta": -6.0,
       "surprise": 0.0,
@@ -9973,7 +10213,11 @@
       "matchup": 47.8,
       "coach": "Fabio Pisacane",
       "coachScore": 2.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Rottura del legamento crociato anteriore, in dubbio per 29a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 560,
@@ -10002,9 +10246,9 @@
       "club": "JUV",
       "role": "C",
       "efm": 0.0,
-      "starter": 0.0,
-      "appearance": 0.0,
-      "status": "unavailable",
+      "starter": 0,
+      "appearance": 0,
+      "status": "doubt",
       "usual": 6.0,
       "delta": -6.0,
       "surprise": 0.0,
@@ -10013,7 +10257,11 @@
       "matchup": 48.0,
       "coach": "Luciano Spalletti",
       "coachScore": 14.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "- Operazione al menisco del ginocchio, in dubbio per la 17a.",
+      "availability_type": "injury",
+      "updated_by": "injuries_sos",
+      "updated_at": "2026-10-21T13:34:33Z"
     },
     {
       "id": 562,
@@ -10121,7 +10369,7 @@
   "validation": {
     "records": 502,
     "critical_errors": [],
-    "player_updates": 3,
+    "player_updates": 65,
     "fresh_player_data": true
   }
 }
