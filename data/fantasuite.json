@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-21T13:15:15Z",
+  "generated_at": "2026-10-21T13:25:22Z",
   "aggiornamento_riuscito": true,
   "dati_precedenti_mantenuti": false,
   "fonti": [
@@ -8,10 +8,10 @@
       "name": "injuries_sos",
       "url": "https://www.sosfanta.com/indisponibili-e-squalificati/tabella-indisponibili-seriea-fantacalcio-asta-infortunati-tempi-recupero-squalificati-diffidati/",
       "status": "reachable_no_updates",
-      "records_extracted": 3,
+      "records_extracted": 0,
       "players_updated": 0,
       "source_updated_at": null,
-      "sha256": "272840503bafbde83292a148a6517fb8b5d39e01308fb285d8a8d9237301a5f2"
+      "sha256": "cf251322329d6c3c50eb1d2129c6e0b38bc5b45f0a64bcd14c0a6cbac7f7296a"
     },
     {
       "name": "injuries_sky",
@@ -20,7 +20,7 @@
       "records_extracted": 3,
       "players_updated": 3,
       "source_updated_at": null,
-      "sha256": "c3a7f04aaf0ec1732d7886930dcd3e47fec4ed41596f0519e489ae4f3e472532"
+      "sha256": "229fa33a235416e6e0108659ca14925af2e0c76f86c4d03d4b7317e34369008e"
     },
     {
       "name": "votes",
@@ -32,61 +32,40 @@
       "sha256": "714285b988cc8ac7ccfd0d2ccdbc6bf916ade2fdb93cc7b5fca6e2246feddfb8"
     },
     {
-      "name": "injuries_official",
-      "url": "https://www.fantacalcio-online.com/it/infortunati-serie-a",
+      "name": "lineups_fantacalcio",
+      "url": "https://www.fantacalcio.it/probabili-formazioni-serie-a/",
       "status": "reachable_no_updates",
       "records_extracted": 0,
       "players_updated": 0,
-      "source_updated_at": "21/10/2026",
-      "sha256": "c9b080fdbd48816699961ef9b9d80304213592072774e0d21dbb1242bc18b912"
-    },
-    {
-      "name": "lineups_fantacalcio",
-      "url": "https://www.fantacalcio.it/probabili-formazioni-serie-a/",
-      "status": "extracted",
-      "records_extracted": 467,
-      "players_updated": 0,
-      "source_updated_at": "21/10/2026 14:15",
+      "source_updated_at": "2026-10-21T14:15+02:00",
       "sha256": "c4d6d0dccdcc79117f6c5a36d0732c827c47b0cd46135a341bcc167ddfcc7372"
     },
     {
       "name": "lineups_sosfanta",
       "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
-      "status": "extracted",
-      "records_extracted": 516,
-      "players_updated": 0,
-      "source_updated_at": null,
-      "sha256": "100c38d53cd5cbc78da3e2cd99ba47248ce354634eae972196aeea0d7708b1f1"
-    },
-    {
-      "name": "lineups_fantamaster",
-      "url": "https://www.fantamaster.it/probabili-formazioni-serie-a-live/",
       "status": "reachable_no_updates",
       "records_extracted": 0,
       "players_updated": 0,
       "source_updated_at": null,
-      "sha256": "33c23bcd682710dabe341141c570480cbcc751accd874968bf01b72f73cb23b4"
+      "sha256": "b338e30fd034a35253cc521e6f64c19c6eb5c3acfc78e811771b4a64253e80e7"
     },
     {
-      "name": "lineups_consensus",
-      "url": "https://www.fantacalcio-online.com/it/serie-a/2026-2027/probabili-formazioni/ultima-giornata",
+      "name": "lineups_gazzetta",
+      "url": "https://www.gazzetta.it/Calcio/prob_form/",
       "status": "reachable_no_updates",
       "records_extracted": 0,
       "players_updated": 0,
-      "source_updated_at": "21 ottobre 2026 15:00",
-      "sha256": "54d9856222821fdcfcb4bf14ec43972cfb62280746c9a0c7275132db7cf7442f"
+      "source_updated_at": null,
+      "sha256": "c7841a6edd898591e03304705e7ca54640018dfb0a689cee4c3ee044007cec55"
     },
     {
       "name": "lineup_consensus",
       "status": "insufficient_consensus",
       "players_updated": 0,
-      "minimum_sources": 3
+      "minimum_sources": 3,
+      "sample": []
     }
   ],
   "errori": [],
-  "non_associati": [
-    "injuries_sos:BREAKING",
-    "injuries_sos:FLASH",
-    "injuries_sos:NEWS"
-  ]
+  "non_associati": []
 }
