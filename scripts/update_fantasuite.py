@@ -82,15 +82,32 @@ def formations(ps):
 def main():
  cfg=load(CONFIG,{}) or {};old=load(LATEST,{}) or {};oldps=old.get('players',[])
  if len(oldps)<MIN_PLAYERS:print(f'ERRORE: latest.json ha {len(oldps)} giocatori; caricare prima il catalogo completo',file=sys.stderr);return 1
- ps=json.loads(json.dumps(oldps));logs=[];total=0;all_unmatched=[]
+ ps=json.loads(json.dumps(oldps));logs=[];total=0;all_unmatched=[];lineup_votes={}
  for name,url in (cfg.get('sources')or{}).items():
   try:
    raw,ctype=fetch(url);digest=hashlib.sha256(raw).hexdigest();isjson='json'in ctype.lower() or raw.lstrip().startswith((b'{',b'['))
    if isjson:parsed={'records':records_json(json.loads(raw.decode('utf-8-sig'))),'updated_at':None,'kind':'json'}
    else:parsed=parse_source(name,raw.decode('utf-8','replace'))
-   n,miss=apply(ps,parsed['records'],name);total+=n;all_unmatched += [f'{name}:{x}' for x in miss]
-   logs.append({'name':name,'url':url,'status':'data_applied' if n else 'reachable_no_updates','records_extracted':len(parsed['records']),'players_updated':n,'source_updated_at':parsed.get('updated_at'),'sha256':digest})
+   if parsed.get('kind')=='lineups':
+    for rec in parsed['records']:
+     key=(norm(rec.get('name','')),rec.get('club'))
+     lineup_votes.setdefault(key,[]).append({'source':name,'starter':float(rec['starter']),'record':rec})
+    n=0;miss=[]
+   else:
+    n,miss=apply(ps,parsed['records'],name);total+=n;all_unmatched += [f'{name}:{x}' for x in miss]
+   logs.append({'name':name,'url':url,'status':'extracted' if parsed.get('kind')=='lineups' and parsed['records'] else ('data_applied' if n else 'reachable_no_updates'),'records_extracted':len(parsed['records']),'players_updated':n,'source_updated_at':parsed.get('updated_at'),'sha256':digest})
   except Exception as ex:logs.append({'name':name,'url':url,'status':'error','error':f'{type(ex).__name__}: {ex}'})
+ # Applica la titolarità solo con almeno tre fonti indipendenti.
+ consensus_updates=0
+ for key,votes in lineup_votes.items():
+  if len({v['source'] for v in votes})<3:continue
+  vals=sorted(v['starter'] for v in votes);median=vals[len(vals)//2]
+  kept=[v for v in votes if abs(v['starter']-median)<=35]
+  if len({v['source'] for v in kept})<3:continue
+  rec=dict(kept[0]['record']);rec['starter']=round(sum(v['starter'] for v in kept)/len(kept),1)
+  n,miss=apply(ps,[rec],'lineup_consensus_3_sources');consensus_updates+=n;all_unmatched += [f'consensus:{x}' for x in miss]
+ total+=consensus_updates
+ logs.append({'name':'lineup_consensus','status':'data_applied' if consensus_updates else 'insufficient_consensus','players_updated':consensus_updates,'minimum_sources':3})
  normalize(ps);errors=validate(ps,len(oldps));stamp=now();roundno=int(cfg.get('round',old.get('round',0)))
  stat={'generated_at':stamp,'round':roundno,'players':len(ps),'player_updates':total,'fresh_player_data':total>0,'sources':logs,'unmatched':all_unmatched[:100],'errors':errors}
  write(STATUS,stat);write(FANTASUITE,{'schema_version':4,'generated_at':stamp,'aggiornamento_riuscito':total>0 and not errors,'dati_precedenti_mantenuti':total==0,'fonti':logs,'errori':errors,'non_associati':all_unmatched[:100]})
