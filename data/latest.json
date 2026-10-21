@@ -1,6 +1,6 @@
 {
   "schema": "FantaSuite.latest.v6.2",
-  "generated_at": "2026-10-21T11:46:22Z",
+  "generated_at": "2026-10-21T11:55:37Z",
   "round": 8,
   "players": [
     {
@@ -4745,7 +4745,7 @@
       "reason": "Lesione al bicipite femorale sinistro.",
       "availability_type": "doubt",
       "updated_by": "injuries_sky",
-      "updated_at": "2026-10-21T11:46:20Z"
+      "updated_at": "2026-10-21T11:55:34Z"
     },
     {
       "id": 269,
@@ -5269,7 +5269,7 @@
       "reason": "Distrazione della muscolatura di un’anca.",
       "availability_type": "doubt",
       "updated_by": "injuries_sky",
-      "updated_at": "2026-10-21T11:46:20Z"
+      "updated_at": "2026-10-21T11:55:34Z"
     },
     {
       "id": 325,
@@ -5913,7 +5913,7 @@
       "reason": "In recupero da operazione al tendine rotuleo.",
       "availability_type": "doubt",
       "updated_by": "injuries_sky",
-      "updated_at": "2026-10-21T11:46:20Z"
+      "updated_at": "2026-10-21T11:55:34Z"
     },
     {
       "id": 357,

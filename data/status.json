@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T11:46:22Z",
+  "generated_at": "2026-10-21T11:55:37Z",
   "round": 8,
   "players": 502,
   "player_updates": 3,
@@ -12,7 +12,7 @@
       "records_extracted": 0,
       "players_updated": 0,
       "source_updated_at": null,
-      "sha256": "8c6e840917c6c45ece711eea5510f04936ecb11412d687d196b922162b4c4ff0"
+      "sha256": "82d0225f2476aa44b30eba58e21a85b31fdae2ab26cbaefe38ef5c53883d4893"
     },
     {
       "name": "injuries_sky",
@@ -21,16 +21,16 @@
       "records_extracted": 3,
       "players_updated": 3,
       "source_updated_at": null,
-      "sha256": "d23596ea0b6230b4fc2a3a382d0216fc63039465ed8fc4613fb9de02a17c1015"
+      "sha256": "773013d52c535f8837120cc2c2c24d8ce8437c022661f773832b0f906c7a9a82"
     },
     {
       "name": "lineups",
       "url": "https://www.fantacalcio-online.com/it/serie-a/2026-2027/probabili-formazioni/ultima-giornata",
       "status": "reachable_no_updates",
-      "records_extracted": 1,
+      "records_extracted": 0,
       "players_updated": 0,
       "source_updated_at": null,
-      "sha256": "55e0d6a8a55d278bd9ca05306be36aaf18da6be856fd4a168c5a31328b8d7825"
+      "sha256": "961b4e53a2f4b34c6723841832b7672fb48e07aff774439a4b12d9fa26967410"
     },
     {
       "name": "votes",
@@ -42,8 +42,6 @@
       "sha256": "714285b988cc8ac7ccfd0d2ccdbc6bf916ade2fdb93cc7b5fca6e2246feddfb8"
     }
   ],
-  "unmatched": [
-    "lineups:Il mercato le dà la vittoria al"
-  ],
+  "unmatched": [],
   "errors": []
 }
