@@ -1,21 +1,48 @@
 {
-  "schema_version": 2,
-  "generato_il": "2026-10-20T22:00:22Z",
-  "aggiornamento_riuscito": false,
-  "dati_precedenti_mantenuti": true,
+  "schema_version": 4,
+  "generated_at": "2026-10-21T11:46:22Z",
+  "aggiornamento_riuscito": true,
+  "dati_precedenti_mantenuti": false,
   "fonti": [
     {
-      "nome": "football-data.org",
-      "stato": "non_configurata"
+      "name": "injuries_sos",
+      "url": "https://www.sosfanta.com/indisponibili-e-squalificati/tabella-indisponibili-seriea-fantacalcio-asta-infortunati-tempi-recupero-squalificati-diffidati/",
+      "status": "reachable_no_updates",
+      "records_extracted": 0,
+      "players_updated": 0,
+      "source_updated_at": null,
+      "sha256": "8c6e840917c6c45ece711eea5510f04936ecb11412d687d196b922162b4c4ff0"
+    },
+    {
+      "name": "injuries_sky",
+      "url": "https://sport.sky.it/calcio/serie-a/2026/10/20/serie-a-indisponibili-infortunati-squalificati-giornata-8",
+      "status": "data_applied",
+      "records_extracted": 3,
+      "players_updated": 3,
+      "source_updated_at": null,
+      "sha256": "d23596ea0b6230b4fc2a3a382d0216fc63039465ed8fc4613fb9de02a17c1015"
+    },
+    {
+      "name": "lineups",
+      "url": "https://www.fantacalcio-online.com/it/serie-a/2026-2027/probabili-formazioni/ultima-giornata",
+      "status": "reachable_no_updates",
+      "records_extracted": 1,
+      "players_updated": 0,
+      "source_updated_at": null,
+      "sha256": "55e0d6a8a55d278bd9ca05306be36aaf18da6be856fd4a168c5a31328b8d7825"
+    },
+    {
+      "name": "votes",
+      "url": "https://www.fantacalcio.it/voti-fantacalcio-serie-a",
+      "status": "reachable_no_updates",
+      "records_extracted": 0,
+      "players_updated": 0,
+      "source_updated_at": null,
+      "sha256": "714285b988cc8ac7ccfd0d2ccdbc6bf916ade2fdb93cc7b5fca6e2246feddfb8"
     }
   ],
   "errori": [],
-  "serie_a": {},
-  "dati_extra": {},
-  "fantacalcio": {
-    "infortunati": [],
-    "squalificati": [],
-    "probabili_formazioni": [],
-    "giocatori": []
-  }
+  "non_associati": [
+    "lineups:Il mercato le dà la vittoria al"
+  ]
 }

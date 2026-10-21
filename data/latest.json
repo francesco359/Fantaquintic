@@ -1,6 +1,6 @@
 {
-  "schema": "FantaSuite.latest.v6",
-  "generated_at": "2026-10-21T13:02:00+02:00",
+  "schema": "FantaSuite.latest.v6.2",
+  "generated_at": "2026-10-21T11:46:22Z",
   "round": 8,
   "players": [
     {
@@ -550,8 +550,8 @@
       "club": "INT",
       "role": "P",
       "efm": 6.13,
-      "starter": 100.0,
-      "appearance": 100.0,
+      "starter": 100,
+      "appearance": 100,
       "status": "available",
       "usual": 6.01,
       "delta": 0.12,
@@ -1050,8 +1050,8 @@
       "club": "COM",
       "role": "P",
       "efm": 6.09,
-      "starter": 100.0,
-      "appearance": 100.0,
+      "starter": 100,
+      "appearance": 100,
       "status": "available",
       "usual": 5.0,
       "delta": 1.09,
@@ -1550,8 +1550,8 @@
       "club": "MIL",
       "role": "P",
       "efm": 6.05,
-      "starter": 100.0,
-      "appearance": 100.0,
+      "starter": 100,
+      "appearance": 100,
       "status": "available",
       "usual": 6.0,
       "delta": 0.05,
@@ -2010,8 +2010,8 @@
       "club": "JUV",
       "role": "P",
       "efm": 5.93,
-      "starter": 100.0,
-      "appearance": 100.0,
+      "starter": 100,
+      "appearance": 100,
       "status": "available",
       "usual": 6.0,
       "delta": -0.07,
@@ -2610,8 +2610,8 @@
       "club": "LAZ",
       "role": "D",
       "efm": 6.48,
-      "starter": 100.0,
-      "appearance": 100.0,
+      "starter": 100,
+      "appearance": 100,
       "status": "available",
       "usual": 6.67,
       "delta": -0.19,
@@ -3050,8 +3050,8 @@
       "club": "NAP",
       "role": "P",
       "efm": 6.08,
-      "starter": 100.0,
-      "appearance": 100.0,
+      "starter": 100,
+      "appearance": 100,
       "status": "available",
       "usual": 6.0,
       "delta": 0.08,
@@ -3370,7 +3370,7 @@
       "club": "JUV",
       "role": "C",
       "efm": 6.22,
-      "starter": 0.0,
+      "starter": 0,
       "appearance": 92.3,
       "status": "available",
       "usual": 8.83,
@@ -3530,8 +3530,8 @@
       "club": "BOL",
       "role": "P",
       "efm": 5.69,
-      "starter": 100.0,
-      "appearance": 100.0,
+      "starter": 100,
+      "appearance": 100,
       "status": "available",
       "usual": 4.0,
       "delta": 1.69,
@@ -3550,8 +3550,8 @@
       "club": "ATA",
       "role": "P",
       "efm": 5.98,
-      "starter": 100.0,
-      "appearance": 100.0,
+      "starter": 100,
+      "appearance": 100,
       "status": "available",
       "usual": 6.0,
       "delta": -0.02,
@@ -4730,9 +4730,9 @@
       "club": "GEN",
       "role": "C",
       "efm": 0.0,
-      "starter": 0.0,
-      "appearance": 0.0,
-      "status": "unavailable",
+      "starter": 0,
+      "appearance": 0,
+      "status": "doubt",
       "usual": 6.3,
       "delta": -6.3,
       "surprise": 0.0,
@@ -4741,7 +4741,11 @@
       "matchup": 55.0,
       "coach": "Daniele De Rossi",
       "coachScore": 26.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "Lesione al bicipite femorale sinistro.",
+      "availability_type": "doubt",
+      "updated_by": "injuries_sky",
+      "updated_at": "2026-10-21T11:46:20Z"
     },
     {
       "id": 269,
@@ -5261,7 +5265,11 @@
       "matchup": 55.0,
       "coach": "Daniele De Rossi",
       "coachScore": 26.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "Distrazione della muscolatura di un’anca.",
+      "availability_type": "doubt",
+      "updated_by": "injuries_sky",
+      "updated_at": "2026-10-21T11:46:20Z"
     },
     {
       "id": 325,
@@ -5850,8 +5858,8 @@
       "club": "FRO",
       "role": "C",
       "efm": 5.85,
-      "starter": 0.0,
-      "appearance": 0.0,
+      "starter": 0,
+      "appearance": 0,
       "status": "available",
       "usual": 6.1,
       "delta": -0.25,
@@ -5890,9 +5898,9 @@
       "club": "GEN",
       "role": "C",
       "efm": 0.0,
-      "starter": 0.0,
-      "appearance": 0.0,
-      "status": "unavailable",
+      "starter": 0,
+      "appearance": 0,
+      "status": "doubt",
       "usual": 6.09,
       "delta": -6.09,
       "surprise": 0.0,
@@ -5901,7 +5909,11 @@
       "matchup": 55.0,
       "coach": "Daniele De Rossi",
       "coachScore": 26.0,
-      "surpriseEligible": false
+      "surpriseEligible": false,
+      "reason": "In recupero da operazione al tendine rotuleo.",
+      "availability_type": "doubt",
+      "updated_by": "injuries_sky",
+      "updated_at": "2026-10-21T11:46:20Z"
     },
     {
       "id": 357,
@@ -8190,8 +8202,8 @@
       "club": "CAG",
       "role": "D",
       "efm": 5.65,
-      "starter": 0.0,
-      "appearance": 0.0,
+      "starter": 0,
+      "appearance": 0,
       "status": "available",
       "usual": 5.78,
       "delta": -0.13,
@@ -10104,77 +10116,12 @@
           "role": "A"
         }
       ]
-    },
-    "surprises_global_433": {
-      "module": "4-3-3",
-      "players": [
-        {
-          "id": 25,
-          "name": "Martinez Jo.",
-          "role": "P"
-        },
-        {
-          "id": 29,
-          "name": "Bastoni",
-          "role": "D"
-        },
-        {
-          "id": 133,
-          "name": "Ostigard",
-          "role": "D"
-        },
-        {
-          "id": 53,
-          "name": "Akanji",
-          "role": "D"
-        },
-        {
-          "id": 8,
-          "name": "Pavlovic",
-          "role": "D"
-        },
-        {
-          "id": 16,
-          "name": "Rowe",
-          "role": "C"
-        },
-        {
-          "id": 118,
-          "name": "Vlasic",
-          "role": "C"
-        },
-        {
-          "id": 61,
-          "name": "Alajbegovic",
-          "role": "C"
-        },
-        {
-          "id": 98,
-          "name": "Pinamonti",
-          "role": "A"
-        },
-        {
-          "id": 46,
-          "name": "Ghedjemis",
-          "role": "A"
-        },
-        {
-          "id": 198,
-          "name": "Lauriente",
-          "role": "A"
-        }
-      ]
     }
   },
   "validation": {
     "records": 502,
-    "catalog_source": "FS_SUPER.analytics",
-    "id_min": 0,
-    "id_max": 563,
     "critical_errors": [],
-    "manual_verified_overrides": [
-      "Hojlund",
-      "Malen"
-    ]
+    "player_updates": 3,
+    "fresh_player_data": true
   }
 }
