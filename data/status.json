@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T19:02:05Z",
+  "generated_at": "2026-10-21T20:53:17Z",
   "round": 8,
   "players": 502,
   "player_updates": 264,
@@ -12,7 +12,7 @@
       "records_extracted": 88,
       "players_updated": 64,
       "source_updated_at": null,
-      "sha256": "3575494ef57c88ce66f969d6dca59529b289f2823f9d540e2e5652c08ca73aeb"
+      "sha256": "5c0ca5b77bafdaf7e07aef3097926b8c1c38cb1a75f6f4790d90b178ab09ec67"
     },
     {
       "name": "injuries_sky",
@@ -21,7 +21,7 @@
       "records_extracted": 22,
       "players_updated": 0,
       "source_updated_at": null,
-      "sha256": "a7778749f4502ffbb0746d105c2f9190b16acbac663bb45fd74c916031ab7484"
+      "sha256": "c55e1f50aa3468703d287c6affc0876f54f65dd186f936e8333f1cf318940d56"
     },
     {
       "name": "votes",
@@ -39,7 +39,7 @@
       "records_extracted": 44,
       "players_updated": 34,
       "source_updated_at": "21/10/2026",
-      "sha256": "a4fa76afe927bf8bc6a3efa817bd914e3eed45f3f2d770babe7a49f7cd54d428"
+      "sha256": "2002b602b310c576aa510444706b64b58763fd9285f1c85ad9f68b45eea89126"
     },
     {
       "name": "lineups_fantacalcio",
@@ -48,7 +48,7 @@
       "records_extracted": 470,
       "players_updated": 0,
       "source_updated_at": "21/10/2026 19:12",
-      "sha256": "9fcd289dc9b89c7fe391a0b4ffa64ceb1ece70a31c58254c7cae107dd7815f63"
+      "sha256": "7cd3cd31bbbe0fc99d816f33f290af21f622dda4f701ae739fe526551ae50cad"
     },
     {
       "name": "lineups_sosfanta",
@@ -57,7 +57,7 @@
       "records_extracted": 515,
       "players_updated": 0,
       "source_updated_at": null,
-      "sha256": "b26bdbef2c028064094bce5378e8a52925a19fae44f1bff3eea47b4a5a3de64a"
+      "sha256": "3f3f80bc548b98cc9a072a82a4de098af07ef30ac07ebbefd1ed7a78eb0d1507"
     },
     {
       "name": "lineups_gazzetta",
@@ -66,7 +66,7 @@
       "records_extracted": 0,
       "players_updated": 0,
       "source_updated_at": null,
-      "sha256": "29d7ac91131d7fc0162f2bf58b68a42de31028b898bb975fb84a9bfaefa08c98"
+      "sha256": "3047d2fb021415482a2d3db7a0a39ec6f4778817c852425266ae2eaa5af9f366"
     },
     {
       "name": "lineup_consensus",
