@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-10-21T16:54:20Z",
+  "generated_at": "2026-10-21T19:02:05Z",
   "aggiornamento_riuscito": true,
   "dati_precedenti_mantenuti": false,
   "fonti": [
@@ -11,7 +11,7 @@
       "records_extracted": 88,
       "players_updated": 64,
       "source_updated_at": null,
-      "sha256": "8f213aa186e7f8e416065b91268dca2230b0499fa10e1f9757b78a890ba71743"
+      "sha256": "3575494ef57c88ce66f969d6dca59529b289f2823f9d540e2e5652c08ca73aeb"
     },
     {
       "name": "injuries_sky",
@@ -20,7 +20,7 @@
       "records_extracted": 22,
       "players_updated": 0,
       "source_updated_at": null,
-      "sha256": "fe2d470e9cd38fca01bc2ba5928c60462826d01a9b244a0e823152e4cc7a0826"
+      "sha256": "a7778749f4502ffbb0746d105c2f9190b16acbac663bb45fd74c916031ab7484"
     },
     {
       "name": "votes",
@@ -29,7 +29,7 @@
       "records_extracted": 0,
       "players_updated": 0,
       "source_updated_at": null,
-      "sha256": "714285b988cc8ac7ccfd0d2ccdbc6bf916ade2fdb93cc7b5fca6e2246feddfb8"
+      "sha256": "0ddf0798c35531a3c6da153a7263d0baf5f00101e8fb9d780d7521b734342f73"
     },
     {
       "name": "injuries_official",
@@ -38,25 +38,25 @@
       "records_extracted": 44,
       "players_updated": 34,
       "source_updated_at": "21/10/2026",
-      "sha256": "f96c032a9e7dd2e08ad7e7126449b52fd02be008305452fc468c902252878878"
+      "sha256": "a4fa76afe927bf8bc6a3efa817bd914e3eed45f3f2d770babe7a49f7cd54d428"
     },
     {
       "name": "lineups_fantacalcio",
       "url": "https://www.fantacalcio.it/probabili-formazioni-serie-a/",
       "status": "extracted",
-      "records_extracted": 469,
+      "records_extracted": 470,
       "players_updated": 0,
-      "source_updated_at": "21/10/2026 17:06",
-      "sha256": "856fad1b4b8ec232cfcbb272416df4a9945af6481e3788c7a82aaf51eca434cd"
+      "source_updated_at": "21/10/2026 19:12",
+      "sha256": "9fcd289dc9b89c7fe391a0b4ffa64ceb1ece70a31c58254c7cae107dd7815f63"
     },
     {
       "name": "lineups_sosfanta",
       "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
       "status": "extracted",
-      "records_extracted": 514,
+      "records_extracted": 515,
       "players_updated": 0,
       "source_updated_at": null,
-      "sha256": "39c03d2b4c6c503239f9df95d231e51ff4db2a2927c8d22211a231431c982372"
+      "sha256": "b26bdbef2c028064094bce5378e8a52925a19fae44f1bff3eea47b4a5a3de64a"
     },
     {
       "name": "lineups_gazzetta",
@@ -65,12 +65,12 @@
       "records_extracted": 0,
       "players_updated": 0,
       "source_updated_at": null,
-      "sha256": "155e048c33ef974f2030a01fc20cb405f4ae524e4427bac557ddcc59b34612f2"
+      "sha256": "29d7ac91131d7fc0162f2bf58b68a42de31028b898bb975fb84a9bfaefa08c98"
     },
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 165,
+      "players_updated": 166,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
