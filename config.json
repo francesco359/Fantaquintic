@@ -5,11 +5,11 @@
   "sources": {
     "injuries_sos": "https://www.sosfanta.com/indisponibili-e-squalificati/tabella-indisponibili-seriea-fantacalcio-asta-infortunati-tempi-recupero-squalificati-diffidati/",
     "injuries_sky": "https://sport.sky.it/calcio/serie-a/2026/10/20/serie-a-indisponibili-infortunati-squalificati-giornata-8",
+    "votes": "https://www.fantacalcio.it/voti-fantacalcio-serie-a",
     "injuries_official": "https://www.fantacalcio-online.com/it/infortunati-serie-a",
     "lineups_fantacalcio": "https://www.fantacalcio.it/probabili-formazioni-serie-a/",
     "lineups_sosfanta": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
-    "lineups_gazzetta": "https://www.gazzetta.it/Calcio/prob_form/",
-    "votes": "https://www.fantacalcio.it/voti-fantacalcio-serie-a"
+    "lineups_gazzetta": "https://www.gazzetta.it/Calcio/prob_form/"
   },
   "fixtures": [
     {
