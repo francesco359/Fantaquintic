@@ -89,11 +89,9 @@ def main():
    if isjson:parsed={'records':records_json(json.loads(raw.decode('utf-8-sig'))),'updated_at':None,'kind':'json'}
    else:parsed=parse_source(name,raw.decode('utf-8','replace'))
    if parsed.get('kind')=='lineups':
-    for rec in parsed['records']:
-     lineup_votes.setdefault((norm(rec.get('name','')),rec.get('club')),[]).append((name,float(rec['starter']),rec))
+    for rec in parsed['records']:lineup_votes.setdefault((norm(rec.get('name','')),rec.get('club')),[]).append((name,float(rec['starter']),rec))
     n=0;miss=[]
-   else:
-    n,miss=apply(ps,parsed['records'],name);total+=n;all_unmatched += [f'{name}:{x}' for x in miss]
+   else:n,miss=apply(ps,parsed['records'],name);total+=n;all_unmatched += [f'{name}:{x}' for x in miss]
    logs.append({'name':name,'url':url,'status':'extracted' if parsed.get('kind')=='lineups' and parsed['records'] else ('data_applied' if n else 'reachable_no_updates'),'records_extracted':len(parsed['records']),'players_updated':n,'source_updated_at':parsed.get('updated_at'),'sha256':digest})
   except Exception as ex:logs.append({'name':name,'url':url,'status':'error','error':f'{type(ex).__name__}: {ex}'})
  consensus=0;details=[]
@@ -101,8 +99,7 @@ def main():
   if len({x[0] for x in v})<3:continue
   vals=sorted(x[1] for x in v);med=vals[len(vals)//2];kept=[x for x in v if abs(x[1]-med)<=35]
   if len({x[0] for x in kept})<3:continue
-  r=dict(kept[0][2]);r['starter']=round(sum(x[1] for x in kept)/len(kept),1)
-  n,miss=apply(ps,[r],'lineup_consensus_3_sources');consensus+=n
+  r=dict(kept[0][2]);r['starter']=round(sum(x[1] for x in kept)/len(kept),1);n,miss=apply(ps,[r],'lineup_consensus_3_sources');consensus+=n
   if n:details.append({'name':r.get('name'),'club':r.get('club'),'starter':r['starter'],'sources':{x[0]:x[1] for x in kept}})
  total+=consensus;logs.append({'name':'lineup_consensus','status':'data_applied' if consensus else 'insufficient_consensus','players_updated':consensus,'minimum_sources':3,'sample':details[:20]})
  normalize(ps);errors=validate(ps,len(oldps));stamp=now();roundno=int(cfg.get('round',old.get('round',0)))

@@ -1,117 +1,108 @@
 #!/usr/bin/env python3
-"""Parser HTML conservativi per FantaQuintoc.
-Non inventano valori: producono record solo quando nome e percentuale/stato
-sono esplicitamente presenti nel testo della pagina.
-"""
 from __future__ import annotations
-import re
-import unicodedata
+import re, unicodedata
 from datetime import datetime
-from typing import Any
 from bs4 import BeautifulSoup
-
-TEAM_MAP={
- 'atalanta':'ATA','bologna':'BOL','cagliari':'CAG','como':'COM','fiorentina':'FIO',
- 'frosinone':'FRO','genoa':'GEN','inter':'INT','juventus':'JUV','lazio':'LAZ',
- 'lecce':'LEC','milan':'MIL','monza':'MON','napoli':'NAP','parma':'PAR','roma':'ROM',
- 'sassuolo':'SAS','torino':'TOR','udinese':'UDI','venezia':'VEN'
-}
-HEADINGS=set(TEAM_MAP)|{'panchina','squalificati','diffidati','infortunati','in dubbio','ballottaggi'}
-
-def clean(x:str)->str:
- x=unicodedata.normalize('NFKC',x or '').replace('\xa0',' ')
- return re.sub(r'\s+',' ',x).strip()
-
-def soup_text(html:str)->str:
- soup=BeautifulSoup(html,'html.parser')
- for tag in soup(['script','style','noscript','svg']): tag.decompose()
- return '\n'.join(clean(x) for x in soup.stripped_strings if clean(x))
-
-def detect_updated_at(text:str)->str|None:
+TEAM_MAP={'atalanta':'ATA','bologna':'BOL','cagliari':'CAG','como':'COM','fiorentina':'FIO','frosinone':'FRO','genoa':'GEN','inter':'INT','juventus':'JUV','lazio':'LAZ','lecce':'LEC','milan':'MIL','monza':'MON','napoli':'NAP','parma':'PAR','roma':'ROM','sassuolo':'SAS','torino':'TOR','udinese':'UDI','venezia':'VEN'}
+PCT=re.compile(r'^(100|[1-9]?\d(?:[.,]\d)?)\s*%$')
+def clean(x):return re.sub(r'\s+',' ',unicodedata.normalize('NFKC',str(x or '')).replace('\xa0',' ')).strip()
+def norm(x):
+ x=clean(x).casefold().replace('ø','o');x=''.join(c for c in unicodedata.normalize('NFD',x) if unicodedata.category(c)!='Mn')
+ return re.sub(r'[^a-z0-9]+',' ',x).strip()
+def soup(html):
+ s=BeautifulSoup(html,'html.parser')
+ for t in s(['script','style','noscript','svg','iframe']):t.decompose()
+ return s
+def club(x):return TEAM_MAP.get(norm(x))
+def valid_name(x):return 2<=len(clean(x))<=48 and 1<=len(clean(x).split())<=5 and bool(re.fullmatch(r"[A-Za-zÀ-ÖØ-öø-ÿ.'’\- ]+",clean(x)))
+def stamp(text):
  m=re.search(r'(?:Ultimo aggiornamento|Aggiornato(?: il)?|Al)\s*(\d{1,2}/\d{1,2}/\d{4})(?:\s*[-–]\s*(\d{1,2}:\d{2}))?',text,re.I)
- if not m:return None
- try:
-  dt=datetime.strptime(m.group(1)+' '+(m.group(2) or '00:00'),'%d/%m/%Y %H:%M')
-  return dt.isoformat(timespec='minutes')+'+02:00'
- except ValueError:return None
+ return ' '.join(x for x in m.groups() if x) if m else None
+def dedupe(xs):
+ d={}
+ for x in xs:
+  if x.get('club') and valid_name(x.get('name')):d[(norm(x['name']),x['club'])]=x
+ return list(d.values())
+def R(name,c,pct,source,**extra):return {'name':clean(name),'club':c,'starter':float(str(pct).replace(',','.')),'status':'available','source':source,**extra}
 
-def find_club_context(lines:list[str],i:int)->str|None:
- for j in range(i,max(-1,i-80),-1):
-  low=lines[j].casefold().strip(' :')
-  if low in TEAM_MAP:return TEAM_MAP[low]
- return None
+def parse_fantacalcio(html,source):
+ s=soup(html);out=[];h=re.compile(r'/serie-a/squadre/([^/]+)/[^/]+/\d+',re.I)
+ for a in s.find_all('a',href=True):
+  m=h.search(a.get('href',''));name=clean(a.get_text(' ',strip=True))
+  if not m or not valid_name(name):continue
+  c=club(m.group(1));pct=None;count=0
+  for n in a.next_elements:
+   if n is not a and getattr(n,'name',None)=='a':break
+   if isinstance(n,str):
+    z=clean(n)
+    if not z:continue
+    count+=1;q=PCT.match(z)
+    if q:pct=q.group(1);break
+    if count>7:break
+  if c and pct is not None:out.append(R(name,c,pct,source))
+ return dedupe(out)
 
-def parse_lineups(html:str,source='lineups')->dict[str,Any]:
- """Estrae coppie Nome 90% dal testo visibile delle probabili formazioni."""
- text=soup_text(html); lines=text.splitlines(); records=[]; seen=set()
- pat=re.compile(r"^(.{2,55}?)\s+(100|[1-9]?\d(?:[.,]\d)?)\s*%$")
- inline=re.compile(r"([A-ZÀ-ÖØ-Ý][A-Za-zÀ-ÖØ-öø-ÿ.'’ -]{1,45}?)\s+(100|[1-9]?\d(?:[.,]\d)?)\s*%")
+def parse_sos(html,source):
+ s=soup(html);lines=[clean(x) for x in s.stripped_strings if clean(x)];out=[];c=None
  for i,line in enumerate(lines):
-  matches=[]
-  m=pat.match(line)
-  if m:matches=[m]
-  else:matches=list(inline.finditer(line))
-  for m in matches:
-   name=clean(m.group(1)).strip(' -:;,')
-   if name.casefold() in HEADINGS or len(name)<2:continue
-   pct=float(m.group(2).replace(',','.')); club=find_club_context(lines,i)
-   key=(name.casefold(),club)
-   if key in seen:continue
-   seen.add(key)
-   records.append({'name':name,'club':club,'starter':pct,'status':'available','source':source})
- return {'records':records,'updated_at':detect_updated_at(text),'kind':'lineups'}
+  tc=club(line)
+  if tc:c=tc;continue
+  if not c:continue
+  m=re.match(r'^(100|[1-9]?\d(?:[.,]\d)?)%\s*(.+)$',line)
+  if m and valid_name(m.group(2)):out.append(R(m.group(2),c,m.group(1),source));continue
+  if PCT.match(line) and i+1<len(lines) and valid_name(lines[i+1]):out.append(R(lines[i+1],c,PCT.match(line).group(1),source))
+ return dedupe(out)
 
-def section_records(html:str,source='injuries')->dict[str,Any]:
- """Estrae indisponibili/squalificati con prudenza dalle sezioni squadra."""
- text=soup_text(html); lines=text.splitlines(); records=[]; club=None; section=None
- for line in lines:
-  low=line.casefold().strip(' :')
-  if low in TEAM_MAP:club=TEAM_MAP[low];section=None;continue
-  if low.startswith('infortunati'):section='injury';line=clean(re.sub(r'^infortunati\s*:?', '',line,flags=re.I))
-  elif low.startswith('squalificati'):section='suspension';line=clean(re.sub(r'^squalificati\s*:?', '',line,flags=re.I))
-  elif low.startswith('in dubbio'):section='doubt';line=clean(re.sub(r'^in dubbio\s*:?', '',line,flags=re.I))
-  elif low.startswith(('diffidati','panchina','ballottaggi')):section=None;continue
-  if not club or not section or not line or line in {'-','Nessuno','Nessun calciatore'}:continue
-  # Formato editoriale più comune: Nome - descrizione oppure Nome descrizione lunga
-  chunks=[clean(x) for x in re.split(r'\s*[;•]\s*',line) if clean(x)]
-  for chunk in chunks:
-   m=re.match(r"^([A-ZÀ-ÖØ-Ý][A-Za-zÀ-ÖØ-öø-ÿ.'’ -]{1,35}?)(?:\s+-\s+|\s{2,})(.+)$",chunk)
-   if not m:continue
-   name,reason=clean(m.group(1)),clean(m.group(2))
-   if len(reason)<4:continue
-   status='doubt' if section=='doubt' or re.search(r'in dubbio|da valutare|recuperabile',reason,re.I) else 'unavailable'
-   rec={'name':name,'club':club,'status':status,'source':source,'availability_type':section,'reason':reason}
-   if status=='unavailable':rec.update(starter=0.0,appearance=0.0)
-   records.append(rec)
- return {'records':records,'updated_at':detect_updated_at(text),'kind':'availability'}
+def parse_gazzetta(html,source):
+ s=soup(html);out=[];current=None;mode='starter'
+ # In actual page club links precede their formation blocks.
+ for node in s.descendants:
+  if getattr(node,'name',None)=='a':
+   m=re.search(r'/calcio/squadre/([^/]+)/?',node.get('href',''),re.I)
+   if m and club(m.group(1)):current=club(m.group(1));mode='starter';continue
+  if not isinstance(node,str) or not current:continue
+  line=clean(node);low=norm(line)
+  if low.startswith('panchina'):mode='bench';continue
+  if low.startswith(('ballottaggio','squalificati','indisponibili','diffidati','altri')):continue
+  m=re.match(r'^(.+?)\s+\d{1,2}$',line) or re.match(r'^\d{1,2}\s+(.+)$',line)
+  if m and valid_name(m.group(1)):out.append(R(m.group(1),current,90 if mode=='starter' else 30,source,inferred=True))
+ return dedupe(out)
 
+def parse_injury_table(html,source):
+ s=soup(html);out=[]
+ for tr in s.find_all('tr'):
+  cells=[clean(x.get_text(' ',strip=True)) for x in tr.find_all(['th','td'])]
+  if len(cells)<3:continue
+  c=club(cells[0]);name=cells[1];reason=cells[2];ret=cells[3] if len(cells)>3 else None
+  if c and valid_name(name) and len(reason)>3:
+   out.append({'name':name,'club':c,'status':'unavailable','starter':0.0,'appearance':0.0,'availability_type':'injury','reason':reason,'expected_return':ret,'source':source})
+ return dedupe(out)
 
-def parse_gazzetta(html,source="lineups_gazzetta"):
- page=BeautifulSoup(html,"html.parser")
- for t in page(["script","style","noscript","svg","iframe"]): t.decompose()
- out=[]; club=None; mode="starter"
- for a in page.find_all("a",href=True):
-  m=re.search(r"/calcio/squadre/([^/]+)/?",a.get("href", ""),re.I)
-  if m and m.group(1).casefold() in TEAM_MAP:
-   a["data-fq-club"]=TEAM_MAP[m.group(1).casefold()]
- for node in page.descendants:
-  if getattr(node,"attrs",{}).get("data-fq-club"):
-   club=node["data-fq-club"];mode="starter";continue
-  if not isinstance(node,str) or not club:continue
-  line=clean(node);low=line.casefold()
-  if low.startswith("panchina"):mode="bench";continue
-  m=re.match(r"^(.+?)\s+\d{1,2}$",line) or re.match(r"^\d{1,2}\s+(.+)$",line)
-  if m:
-   name=clean(m.group(1))
-   if 2<=len(name)<=45 and re.fullmatch(r"[A-Za-zÀ-ÖØ-öø-ÿ.'’\- ]+",name):
-    out.append({"name":name,"club":club,"starter":90.0 if mode=="starter" else 30.0,"status":"available","source":source})
- seen={};
- for x in out:seen[(x["name"].casefold(),x["club"])]=x
- return {"records":list(seen.values()),"updated_at":None,"kind":"lineups"}
+def parse_injury_sections(html,source):
+ s=soup(html);lines=[clean(x) for x in s.stripped_strings if clean(x)];out=[];c=None;section=None
+ for i,line in enumerate(lines):
+  tc=club(line)
+  if tc:c=tc;section=None;continue
+  low=norm(line)
+  if low.startswith('infortunati'):section='injury';continue
+  if low.startswith('squalificati'):section='suspension';continue
+  if low.startswith('in dubbio'):section='doubt';continue
+  if low.startswith(('diffidati','panchina','ballottaggi')):section=None;continue
+  if not c or not section or low in ('nessuno','nessun calciatore'):continue
+  # linked player followed by description
+  if valid_name(line) and i+1<len(lines) and len(lines[i+1])>4 and not club(lines[i+1]):
+   reason=lines[i+1];doubt=section=='doubt' or bool(re.search(r'in dubbio|da valutare|recuperabile',reason,re.I));status='doubt' if doubt else 'unavailable'
+   x={'name':line,'club':c,'status':status,'availability_type':section,'reason':reason,'source':source}
+   if status=='unavailable':x.update(starter=0.0,appearance=0.0)
+   out.append(x)
+ return dedupe(out)
 
-def parse_source(name:str,html:str)->dict[str,Any]:
- low=name.casefold()
- if "gazzetta" in low:return parse_gazzetta(html,name)
- if any(k in low for k in ('lineup','formazion')):return parse_lineups(html,name)
- if any(k in low for k in ('injur','infortun','indispon','squal')):return section_records(html,name)
- return {'records':[],'updated_at':detect_updated_at(soup_text(html)),'kind':'unknown'}
+def parse_source(name,html):
+ low=name.casefold();text='\n'.join(clean(x) for x in soup(html).stripped_strings if clean(x))
+ if 'lineups_fantacalcio' in low:records=parse_fantacalcio(html,name);kind='lineups'
+ elif 'lineups_sosfanta' in low:records=parse_sos(html,name);kind='lineups'
+ elif 'lineups_gazzetta' in low:records=parse_gazzetta(html,name);kind='lineups'
+ elif 'injuries_official' in low:records=parse_injury_table(html,name);kind='availability'
+ elif any(k in low for k in ('injur','infortun','indispon','squal')):records=parse_injury_sections(html,name);kind='availability'
+ else:records=[];kind='unsupported'
+ return {'records':records,'updated_at':stamp(text),'kind':kind}
