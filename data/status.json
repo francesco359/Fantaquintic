@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-21T14:53:43Z",
+  "generated_at": "2026-10-21T16:54:20Z",
   "round": 8,
   "players": 502,
-  "player_updates": 264,
+  "player_updates": 263,
   "fresh_player_data": true,
   "sources": [
     {
@@ -12,7 +12,7 @@
       "records_extracted": 88,
       "players_updated": 64,
       "source_updated_at": null,
-      "sha256": "0c74c685bfc2fcb7851ed296f466f611a2f5339547a0f6b2eff30ac0eab481f2"
+      "sha256": "8f213aa186e7f8e416065b91268dca2230b0499fa10e1f9757b78a890ba71743"
     },
     {
       "name": "injuries_sky",
@@ -21,7 +21,7 @@
       "records_extracted": 22,
       "players_updated": 0,
       "source_updated_at": null,
-      "sha256": "df6dc937a989495afcbf66f055b6ea58b0e073c47d0a4692dc548be64c5f4af1"
+      "sha256": "fe2d470e9cd38fca01bc2ba5928c60462826d01a9b244a0e823152e4cc7a0826"
     },
     {
       "name": "votes",
@@ -39,25 +39,25 @@
       "records_extracted": 44,
       "players_updated": 34,
       "source_updated_at": "21/10/2026",
-      "sha256": "e7ae2b58deef666e3ddc3f9f9483c1fc20f1643c54c1818846a3b9e376092e5f"
+      "sha256": "f96c032a9e7dd2e08ad7e7126449b52fd02be008305452fc468c902252878878"
     },
     {
       "name": "lineups_fantacalcio",
       "url": "https://www.fantacalcio.it/probabili-formazioni-serie-a/",
       "status": "extracted",
-      "records_extracted": 467,
+      "records_extracted": 469,
       "players_updated": 0,
-      "source_updated_at": "21/10/2026 14:15",
-      "sha256": "51f800d5f5f35c6e97e8b8ad5496303705d595644236b0f80a3f7e6c7ca5f8b3"
+      "source_updated_at": "21/10/2026 17:06",
+      "sha256": "856fad1b4b8ec232cfcbb272416df4a9945af6481e3788c7a82aaf51eca434cd"
     },
     {
       "name": "lineups_sosfanta",
       "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
       "status": "extracted",
-      "records_extracted": 513,
+      "records_extracted": 514,
       "players_updated": 0,
       "source_updated_at": null,
-      "sha256": "6b30597c658b5966bfa5301927fa395e69346d8e055dd56de1de6b4861f24a8d"
+      "sha256": "39c03d2b4c6c503239f9df95d231e51ff4db2a2927c8d22211a231431c982372"
     },
     {
       "name": "lineups_gazzetta",
@@ -66,12 +66,12 @@
       "records_extracted": 0,
       "players_updated": 0,
       "source_updated_at": null,
-      "sha256": "9934742ba159b0becd57f2970f1ffd3673dbd99e4b293c7c01bad73de15cb2aa"
+      "sha256": "155e048c33ef974f2030a01fc20cb405f4ae524e4427bac557ddcc59b34612f2"
     },
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 166,
+      "players_updated": 165,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
@@ -229,20 +229,20 @@
         {
           "name": "Colpani",
           "club": "MON",
-          "starter": 45.0,
+          "starter": 47.5,
           "confidence": "medium",
           "sources": {
-            "lineups_fantacalcio": 50.0,
+            "lineups_fantacalcio": 55.0,
             "lineups_sosfanta": 40.0
           }
         },
         {
           "name": "Ciurria",
           "club": "MON",
-          "starter": 12.5,
+          "starter": 15.0,
           "confidence": "medium",
           "sources": {
-            "lineups_fantacalcio": 20.0,
+            "lineups_fantacalcio": 25.0,
             "lineups_sosfanta": 5.0
           }
         },
