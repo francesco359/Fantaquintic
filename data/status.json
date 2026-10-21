@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-21T13:45:29Z",
+  "generated_at": "2026-10-21T14:01:46Z",
   "round": 8,
   "players": 502,
-  "player_updates": 263,
+  "player_updates": 264,
   "fresh_player_data": true,
   "sources": [
     {
@@ -12,7 +12,7 @@
       "records_extracted": 88,
       "players_updated": 64,
       "source_updated_at": null,
-      "sha256": "bd2bbe0a76ad99ab8da2f6f84594be430f1bb8c8c77342700aba0a87fddad1ea"
+      "sha256": "b12e13b08dae84537ed7b5b82a3aee5be9374e9889ca20b5a15d919d6314511b"
     },
     {
       "name": "injuries_sky",
@@ -21,7 +21,7 @@
       "records_extracted": 22,
       "players_updated": 0,
       "source_updated_at": null,
-      "sha256": "e9cb5c946e9c28238f03f0aaf68bc774f036e8f41a45b58873c8ff02710dba37"
+      "sha256": "a8b41971c7bfd1c4d5cfbd8a5198976d4929cf86cb2a9880babc664189919e58"
     },
     {
       "name": "votes",
@@ -39,7 +39,7 @@
       "records_extracted": 44,
       "players_updated": 34,
       "source_updated_at": "21/10/2026",
-      "sha256": "74fb95f3a4233ea0ff29e6b14fcd8e1bf55e7eb890aaef8c167afbb687f74ec8"
+      "sha256": "624bc56b27f5c2651c53626abb68b4bc5124f1222184e8d6e4bb953b95f664bb"
     },
     {
       "name": "lineups_fantacalcio",
@@ -48,7 +48,7 @@
       "records_extracted": 467,
       "players_updated": 0,
       "source_updated_at": "21/10/2026 14:15",
-      "sha256": "c4d6d0dccdcc79117f6c5a36d0732c827c47b0cd46135a341bcc167ddfcc7372"
+      "sha256": "39130cd6a4327e19f1964e2d5817f0f87beecc87fe205f0bf642da37956c4538"
     },
     {
       "name": "lineups_sosfanta",
@@ -57,7 +57,7 @@
       "records_extracted": 513,
       "players_updated": 0,
       "source_updated_at": null,
-      "sha256": "cd14e4de77a5749e36f6829b0edb4848d8cd6b169fb83d74efe362b7b68532d0"
+      "sha256": "631a8d14f5ddd98b344a5e50d45c0903fa6885f6e48e91d9e8daf8831a89d675"
     },
     {
       "name": "lineups_gazzetta",
@@ -66,12 +66,12 @@
       "records_extracted": 0,
       "players_updated": 0,
       "source_updated_at": null,
-      "sha256": "126a3f62fd4fc29d4d73585ce9a783dc2eb2fe28d4d8fa6d1cadeee03b52c3b7"
+      "sha256": "0f5e82c7d71d04f0450b2e4deb48325d531d7b037bbc187da25415d3759249b5"
     },
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 165,
+      "players_updated": 166,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
