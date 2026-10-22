@@ -4,7 +4,8 @@ import hashlib,json,os,re,shutil,sys,tempfile,unicodedata,urllib.request
 from datetime import datetime,timezone
 from pathlib import Path
 from html_sources import parse_source
-ROOT=Path(__file__).resolve().parents[1];DATA=ROOT/'data';HISTORY=DATA/'history';LATEST=DATA/'latest.json';STATUS=DATA/'status.json';FANTASUITE=DATA/'fantasuite.json';CONFIG=ROOT/'config.json';ALIASES=DATA/'player_aliases.json'
+from expectation_model import recalculate_all
+ROOT=Path(__file__).resolve().parents[1];DATA=ROOT/'data';HISTORY=DATA/'history';LATEST=DATA/'latest.json';STATUS=DATA/'status.json';FANTASUITE=DATA/'fantasuite.json';CONFIG=ROOT/'config.json';ALIASES=DATA/'player_aliases.json';MINUTE_PROFILES=DATA/'player_minutes_profiles.json'
 MIN_PLAYERS=int(os.getenv('FANTASUITE_MIN_PLAYERS','490'));VALID={'available','doubt','unavailable'}
 def now():return datetime.now(timezone.utc).isoformat(timespec='seconds').replace('+00:00','Z')
 def load(p,d=None):
@@ -89,7 +90,7 @@ def validate(ps,oldn):
 def formations(ps):
  out=[]
  for r,c in {'P':1,'D':4,'C':3,'A':3}.items():
-  q=sorted((p for p in ps if p.get('role')==r and p.get('status')!='unavailable' and p.get('appearance',0)>0),key=lambda p:(p['efm'],p['appearance']),reverse=True)[:c]
+  q=sorted((p for p in ps if p.get('role')==r and p.get('status')!='unavailable' and p.get('appearance',0)>0),key=lambda p:(p.get('formation_index',p['efm']),p['appearance']),reverse=True)[:c]
   out += [{'id':p['id'],'name':p['name'],'role':r} for p in q]
  return {'best_global_433':{'module':'4-3-3','players':out}}
 def main():
@@ -140,11 +141,16 @@ def main():
   if n:details.append({'id':pid,'name':player['name'],'club':player.get('club'),'starter':r['starter'],'previous_starter':player.get('starter'),'confidence':confidence,'rule':rule,'sources':{x[0]:x[1] for x in rows}})
  total+=consensus
  logs.append({'name':'lineup_consensus','status':'data_applied' if consensus else 'insufficient_consensus','players_updated':consensus,'configured_sources':3,'minimum_sources':2,'maximum_spread':30,'single_source_bench_updates':len(single_evidence),'sample':details[:40],'blocked_sample':blocked[:40]})
+ profiles=(load(MINUTE_PROFILES,{})or{}).get('profiles',{})
+ for p in ps:
+  prof=profiles.get(str(p['id']))
+  if isinstance(prof,dict):p['minutes_profile']=prof
+ recalculate_all(ps)
  normalize(ps);errors=validate(ps,len(oldps));stamp=now();rnd=int(cfg.get('round',old.get('round',0)))
  stat={'generated_at':stamp,'round':rnd,'players':len(ps),'player_updates':total,'fresh_player_data':total>0,'sources':logs,'unmatched':miss[:150],'errors':errors}
  write(STATUS,stat);write(FANTASUITE,{'schema_version':7,'generated_at':stamp,'aggiornamento_riuscito':total>0 and not errors,'dati_precedenti_mantenuti':total==0,'fonti':logs,'errori':errors,'non_associati':miss[:150]})
  if errors:return 1
- result={'schema':'FantaSuite.latest.v6.7','generated_at':stamp,'round':rnd,'players':ps,'recommended_formations':formations(ps),'validation':{'records':len(ps),'critical_errors':[],'player_updates':total,'fresh_player_data':total>0,'canonical_lineup_matching':True}}
+ result={'schema':'FantaSuite.latest.v6.8','generated_at':stamp,'round':rnd,'players':ps,'recommended_formations':formations(ps),'validation':{'records':len(ps),'critical_errors':[],'player_updates':total,'fresh_player_data':total>0,'canonical_lineup_matching':True}}
  write(LATEST,result);HISTORY.mkdir(parents=True,exist_ok=True);shutil.copy2(LATEST,HISTORY/f"latest-{stamp.replace(':','-')}.json")
  print(f'OK {len(ps)} giocatori, {total} aggiornamenti, {len(single_evidence)} correzioni panchina da fonte singola');return 0
 if __name__=='__main__':raise SystemExit(main())
