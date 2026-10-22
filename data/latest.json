@@ -1,6 +1,6 @@
 {
   "schema": "FantaSuite.latest.v6.4",
-  "generated_at": "2026-10-22T02:53:41Z",
+  "generated_at": "2026-10-22T04:53:16Z",
   "round": 8,
   "players": [
     {
@@ -23,7 +23,7 @@
       "coachScore": 26.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 1,
@@ -127,7 +127,7 @@
       "reason": "Lesione muscolare (rientrato al Napoli dopo valutazione medica con la Nazionale U21)",
       "availability_type": "injury",
       "updated_by": "injuries_official",
-      "updated_at": "2026-10-22T02:53:36Z",
+      "updated_at": "2026-10-22T04:53:11Z",
       "expected_return": "30/11/2026"
     },
     {
@@ -150,7 +150,7 @@
       "coachScore": 26.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 7,
@@ -172,7 +172,7 @@
       "coachScore": 14.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 8,
@@ -194,7 +194,7 @@
       "coachScore": 62.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 9,
@@ -256,7 +256,7 @@
       "coachScore": 74.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 12,
@@ -320,7 +320,7 @@
       "reason": "Risentimento muscolare all'adduttore",
       "availability_type": "injury",
       "updated_by": "injuries_official",
-      "updated_at": "2026-10-22T02:53:36Z",
+      "updated_at": "2026-10-22T04:53:11Z",
       "expected_return": "29/10/2026"
     },
     {
@@ -343,7 +343,7 @@
       "coachScore": 26.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 16,
@@ -388,7 +388,7 @@
       "availability_type": "injury",
       "expected_return": "08/11/2026",
       "updated_by": "injuries_official",
-      "updated_at": "2026-10-22T02:53:36Z"
+      "updated_at": "2026-10-22T04:53:11Z"
     },
     {
       "id": 18,
@@ -430,7 +430,7 @@
       "coachScore": 26.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 20,
@@ -452,7 +452,7 @@
       "coachScore": 74.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 21,
@@ -474,7 +474,7 @@
       "coachScore": 98.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 22,
@@ -498,7 +498,7 @@
       "reason": "- Lesione distrattiva di medio grado del bicipite femorale sinistro, in dubbio per la 16a.",
       "availability_type": "injury",
       "updated_by": "injuries_sos",
-      "updated_at": "2026-10-22T02:53:31Z"
+      "updated_at": "2026-10-22T04:53:07Z"
     },
     {
       "id": 23,
@@ -520,7 +520,7 @@
       "coachScore": 14.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 24,
@@ -542,7 +542,7 @@
       "coachScore": 62.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 25,
@@ -624,7 +624,7 @@
       "coachScore": 74.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 29,
@@ -666,7 +666,7 @@
       "coachScore": 26.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 31,
@@ -688,7 +688,7 @@
       "coachScore": 74.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 32,
@@ -730,7 +730,7 @@
       "coachScore": 74.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 34,
@@ -792,7 +792,7 @@
       "coachScore": 26.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 37,
@@ -834,7 +834,7 @@
       "coachScore": 26.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 39,
@@ -856,7 +856,7 @@
       "coachScore": 62.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:41Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 40,
@@ -918,7 +918,7 @@
       "coachScore": 26.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 43,
@@ -940,7 +940,7 @@
       "coachScore": 62.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 44,
@@ -962,7 +962,7 @@
       "coachScore": 26.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 45,
@@ -1004,7 +1004,7 @@
       "coachScore": 74.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 47,
@@ -1026,7 +1026,7 @@
       "coachScore": 14.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 48,
@@ -1048,7 +1048,7 @@
       "coachScore": 26.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 49,
@@ -1172,7 +1172,7 @@
       "reason": "- Risentimento muscolare al polpaccio destro, in dubbio per la 12a.",
       "availability_type": "injury",
       "updated_by": "injuries_sos",
-      "updated_at": "2026-10-22T02:53:31Z"
+      "updated_at": "2026-10-22T04:53:07Z"
     },
     {
       "id": 55,
@@ -1214,7 +1214,7 @@
       "coachScore": 14.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 57,
@@ -1258,7 +1258,7 @@
       "reason": "- Risentimento ai flessori della coscia sinistra, in dubbio per la 9a.",
       "availability_type": "injury",
       "updated_by": "injuries_sos",
-      "updated_at": "2026-10-22T02:53:31Z"
+      "updated_at": "2026-10-22T04:53:07Z"
     },
     {
       "id": 59,
@@ -1280,7 +1280,7 @@
       "coachScore": 14.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 60,
@@ -1322,7 +1322,7 @@
       "coachScore": 14.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 62,
@@ -1364,7 +1364,7 @@
       "coachScore": 14.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 64,
@@ -1388,7 +1388,7 @@
       "reason": "Fastidio al ginocchio (sostituito al 53' in Fenerbahce-Roma)",
       "availability_type": "injury",
       "updated_by": "injuries_official",
-      "updated_at": "2026-10-22T02:53:36Z",
+      "updated_at": "2026-10-22T04:53:11Z",
       "expected_return": "08/11/2026"
     },
     {
@@ -1411,7 +1411,7 @@
       "coachScore": 26.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 66,
@@ -1475,7 +1475,7 @@
       "reason": "Distorsione alla caviglia destra senza lesioni ossee né danni capsulo-legamentosi",
       "availability_type": "injury",
       "updated_by": "injuries_official",
-      "updated_at": "2026-10-22T02:53:36Z",
+      "updated_at": "2026-10-22T04:53:11Z",
       "expected_return": "08/02/2027"
     },
     {
@@ -1498,7 +1498,7 @@
       "coachScore": 62.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 70,
@@ -1520,7 +1520,7 @@
       "coachScore": 26.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 71,
@@ -1544,7 +1544,7 @@
       "reason": "Problema muscolare alla coscia sinistra",
       "availability_type": "injury",
       "updated_by": "injuries_official",
-      "updated_at": "2026-10-22T02:53:36Z",
+      "updated_at": "2026-10-22T04:53:11Z",
       "expected_return": "08/11/2026"
     },
     {
@@ -1627,7 +1627,7 @@
       "coachScore": 14.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 76,
@@ -1649,7 +1649,7 @@
       "coachScore": 62.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 77,
@@ -1695,7 +1695,7 @@
       "coachScore": 98.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 79,
@@ -1719,7 +1719,7 @@
       "reason": "- Affaticamento muscolare, in dubbio per la 10a.",
       "availability_type": "injury",
       "updated_by": "injuries_sos",
-      "updated_at": "2026-10-22T02:53:31Z"
+      "updated_at": "2026-10-22T04:53:07Z"
     },
     {
       "id": 80,
@@ -1741,7 +1741,7 @@
       "coachScore": 62.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 81,
@@ -1763,7 +1763,7 @@
       "coachScore": 62.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 82,
@@ -1805,7 +1805,7 @@
       "coachScore": 26.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 84,
@@ -1827,7 +1827,7 @@
       "coachScore": 74.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 85,
@@ -1891,7 +1891,7 @@
       "reason": "- Problema all'anca, in dubbio per la 9a.",
       "availability_type": "injury",
       "updated_by": "injuries_sos",
-      "updated_at": "2026-10-22T02:53:31Z"
+      "updated_at": "2026-10-22T04:53:07Z"
     },
     {
       "id": 88,
@@ -1913,7 +1913,7 @@
       "coachScore": 26.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 89,
@@ -1955,7 +1955,7 @@
       "coachScore": 62.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:41Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 91,
@@ -1977,7 +1977,7 @@
       "coachScore": 74.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 92,
@@ -2059,7 +2059,7 @@
       "coachScore": 74.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 96,
@@ -2145,7 +2145,7 @@
       "coachScore": 14.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 100,
@@ -2167,7 +2167,7 @@
       "coachScore": 14.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 101,
@@ -2189,7 +2189,7 @@
       "coachScore": 74.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 102,
@@ -2211,7 +2211,7 @@
       "coachScore": 14.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 103,
@@ -2233,7 +2233,7 @@
       "coachScore": 14.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 104,
@@ -2255,7 +2255,7 @@
       "coachScore": 14.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 105,
@@ -2399,7 +2399,7 @@
       "reason": "- Distrazione di basso grado al polpaccio della gamba destra, in dubbio per la 9a.",
       "availability_type": "injury",
       "updated_by": "injuries_sos",
-      "updated_at": "2026-10-22T02:53:31Z"
+      "updated_at": "2026-10-22T04:53:07Z"
     },
     {
       "id": 112,
@@ -2421,7 +2421,7 @@
       "coachScore": 26.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 113,
@@ -2443,7 +2443,7 @@
       "coachScore": 14.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 114,
@@ -2465,7 +2465,7 @@
       "coachScore": 62.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 115,
@@ -2487,7 +2487,7 @@
       "coachScore": 62.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 116,
@@ -2509,7 +2509,7 @@
       "coachScore": 74.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 117,
@@ -2671,7 +2671,7 @@
       "coachScore": 74.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 125,
@@ -2693,7 +2693,7 @@
       "coachScore": 74.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 126,
@@ -2715,7 +2715,7 @@
       "coachScore": 62.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 127,
@@ -2739,7 +2739,7 @@
       "reason": "Frattura a un dito",
       "availability_type": "injury",
       "updated_by": "injuries_official",
-      "updated_at": "2026-10-22T02:53:36Z",
+      "updated_at": "2026-10-22T04:53:11Z",
       "expected_return": "10/11/2026"
     },
     {
@@ -2824,7 +2824,7 @@
       "reason": "Lesione al bicipite femorale della coscia destra",
       "availability_type": "injury",
       "updated_by": "injuries_official",
-      "updated_at": "2026-10-22T02:53:36Z",
+      "updated_at": "2026-10-22T04:53:11Z",
       "expected_return": "29/01/2027"
     },
     {
@@ -2909,7 +2909,7 @@
       "coachScore": 26.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 136,
@@ -2951,7 +2951,7 @@
       "coachScore": 26.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 138,
@@ -2973,7 +2973,7 @@
       "coachScore": 98.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 139,
@@ -3015,7 +3015,7 @@
       "coachScore": 26.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 141,
@@ -3039,7 +3039,7 @@
       "reason": "- Lussazione dell’articolazione gleno-omerale destra, spontaneamente ridotta, in dubbio per la 9a.",
       "availability_type": "injury",
       "updated_by": "injuries_sos",
-      "updated_at": "2026-10-22T02:53:31Z"
+      "updated_at": "2026-10-22T04:53:07Z"
     },
     {
       "id": 142,
@@ -3083,7 +3083,7 @@
       "reason": "- Lesione di primo grado al bicipite femorale della coscia destra. in dubbio per la 9a.",
       "availability_type": "injury",
       "updated_by": "injuries_sos",
-      "updated_at": "2026-10-22T02:53:31Z"
+      "updated_at": "2026-10-22T04:53:07Z"
     },
     {
       "id": 144,
@@ -3105,7 +3105,7 @@
       "coachScore": 26.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 145,
@@ -3129,7 +3129,7 @@
       "reason": "Risentimento muscolare al polpaccio destro",
       "availability_type": "injury",
       "updated_by": "injuries_official",
-      "updated_at": "2026-10-22T02:53:36Z",
+      "updated_at": "2026-10-22T04:53:11Z",
       "expected_return": "02/11/2026"
     },
     {
@@ -3152,7 +3152,7 @@
       "coachScore": 14.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 147,
@@ -3176,7 +3176,7 @@
       "reason": "- Lesione del bicipite femorale della coscia destra, in dubbio per la 12a.",
       "availability_type": "injury",
       "updated_by": "injuries_sos",
-      "updated_at": "2026-10-22T02:53:31Z"
+      "updated_at": "2026-10-22T04:53:07Z"
     },
     {
       "id": 148,
@@ -3200,7 +3200,7 @@
       "reason": "Distrazione di basso grado del muscolo bicipite femorale della coscia destra",
       "availability_type": "injury",
       "updated_by": "injuries_official",
-      "updated_at": "2026-10-22T02:53:36Z",
+      "updated_at": "2026-10-22T04:53:11Z",
       "expected_return": "31/10/2026"
     },
     {
@@ -3343,7 +3343,7 @@
       "coachScore": 14.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 156,
@@ -3365,7 +3365,7 @@
       "coachScore": 62.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 157,
@@ -3387,7 +3387,7 @@
       "coachScore": 14.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 158,
@@ -3429,7 +3429,7 @@
       "coachScore": 26.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 160,
@@ -3473,7 +3473,7 @@
       "reason": "- Sovraccarico funzionale all'addome, in dubbio per l'8a.",
       "availability_type": "injury",
       "updated_by": "injuries_sos",
-      "updated_at": "2026-10-22T02:53:31Z"
+      "updated_at": "2026-10-22T04:53:07Z"
     },
     {
       "id": 162,
@@ -3517,7 +3517,7 @@
       "reason": "- Lussazione gleno-omerale, in dubbio per la 12a.",
       "availability_type": "injury",
       "updated_by": "injuries_sos",
-      "updated_at": "2026-10-22T02:53:31Z"
+      "updated_at": "2026-10-22T04:53:07Z"
     },
     {
       "id": 164,
@@ -3561,7 +3561,7 @@
       "reason": "- Problema muscolare, in dubbio per la 9a.",
       "availability_type": "injury",
       "updated_by": "injuries_sos",
-      "updated_at": "2026-10-22T02:53:31Z"
+      "updated_at": "2026-10-22T04:53:07Z"
     },
     {
       "id": 166,
@@ -3605,7 +3605,7 @@
       "reason": "- Lesione al bicipite femorale della coscia destra, in dubbio per l'8a.",
       "availability_type": "injury",
       "updated_by": "injuries_sos",
-      "updated_at": "2026-10-22T02:53:31Z"
+      "updated_at": "2026-10-22T04:53:07Z"
     },
     {
       "id": 168,
@@ -3627,7 +3627,7 @@
       "coachScore": 14.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 169,
@@ -3691,7 +3691,7 @@
       "reason": "- Sovraccarico muscolare al polpaccio, in dubbio per l'8a.",
       "availability_type": "injury",
       "updated_by": "injuries_sos",
-      "updated_at": "2026-10-22T02:53:31Z"
+      "updated_at": "2026-10-22T04:53:07Z"
     },
     {
       "id": 172,
@@ -3713,7 +3713,7 @@
       "coachScore": 74.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 173,
@@ -3735,7 +3735,7 @@
       "coachScore": 98.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 174,
@@ -3759,7 +3759,7 @@
       "reason": "Infortunio al piede sinistro, possibile intervento chirurgico",
       "availability_type": "injury",
       "updated_by": "injuries_official",
-      "updated_at": "2026-10-22T02:53:36Z",
+      "updated_at": "2026-10-22T04:53:11Z",
       "expected_return": "26/11/2026"
     },
     {
@@ -3802,7 +3802,7 @@
       "coachScore": 26.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 177,
@@ -3844,7 +3844,7 @@
       "coachScore": 74.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 179,
@@ -3866,7 +3866,7 @@
       "coachScore": 26.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 180,
@@ -3908,7 +3908,7 @@
       "coachScore": 74.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 182,
@@ -3930,7 +3930,7 @@
       "coachScore": 98.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 183,
@@ -3974,7 +3974,7 @@
       "reason": "- Distrazione di basso grado dei muscoli flessori della gamba sinistra, in dubbio per la 9a.",
       "availability_type": "injury",
       "updated_by": "injuries_sos",
-      "updated_at": "2026-10-22T02:53:31Z"
+      "updated_at": "2026-10-22T04:53:07Z"
     },
     {
       "id": 185,
@@ -3996,7 +3996,7 @@
       "coachScore": 74.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 186,
@@ -4180,7 +4180,7 @@
       "reason": "Trauma distorsivo alla caviglia sinistra",
       "availability_type": "injury",
       "updated_by": "injuries_official",
-      "updated_at": "2026-10-22T02:53:36Z",
+      "updated_at": "2026-10-22T04:53:11Z",
       "expected_return": "01/11/2026"
     },
     {
@@ -4223,7 +4223,7 @@
       "coachScore": 26.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 197,
@@ -4247,7 +4247,7 @@
       "reason": "- Forte contusione, in dubbio per la 9a.",
       "availability_type": "injury",
       "updated_by": "injuries_sos",
-      "updated_at": "2026-10-22T02:53:31Z"
+      "updated_at": "2026-10-22T04:53:07Z"
     },
     {
       "id": 198,
@@ -4269,7 +4269,7 @@
       "coachScore": 26.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 199,
@@ -4351,7 +4351,7 @@
       "coachScore": 98.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 205,
@@ -4395,7 +4395,7 @@
       "reason": "Distorsione alla caviglia destra, con sospetto interessamento dei legamenti da accertare",
       "availability_type": "injury",
       "updated_by": "injuries_official",
-      "updated_at": "2026-10-22T02:53:36Z",
+      "updated_at": "2026-10-22T04:53:11Z",
       "expected_return": "05/01/2027"
     },
     {
@@ -4418,7 +4418,7 @@
       "coachScore": 26.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 211,
@@ -4502,7 +4502,7 @@
       "reason": "- Lesione di basso grado del muscolo semimembranoso della coscia destra, in dubbio per l'11a.",
       "availability_type": "injury",
       "updated_by": "injuries_sos",
-      "updated_at": "2026-10-22T02:53:31Z"
+      "updated_at": "2026-10-22T04:53:07Z"
     },
     {
       "id": 218,
@@ -4546,7 +4546,7 @@
       "reason": "- Lesione del collaterale mediale di secondo grado del ginocchio sinistro, in dubbio per l'8a.",
       "availability_type": "injury",
       "updated_by": "injuries_sos",
-      "updated_at": "2026-10-22T02:53:31Z"
+      "updated_at": "2026-10-22T04:53:07Z"
     },
     {
       "id": 221,
@@ -4571,7 +4571,7 @@
       "availability_type": "injury",
       "expected_return": "31/10/2026",
       "updated_by": "injuries_official",
-      "updated_at": "2026-10-22T02:53:36Z"
+      "updated_at": "2026-10-22T04:53:11Z"
     },
     {
       "id": 223,
@@ -4613,7 +4613,7 @@
       "coachScore": 26.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 226,
@@ -4677,7 +4677,7 @@
       "reason": "- Infortunio alla caviglia, in dubbio per l'8a.",
       "availability_type": "injury",
       "updated_by": "injuries_sos",
-      "updated_at": "2026-10-22T02:53:31Z"
+      "updated_at": "2026-10-22T04:53:07Z"
     },
     {
       "id": 233,
@@ -4719,7 +4719,7 @@
       "coachScore": 62.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 237,
@@ -4741,7 +4741,7 @@
       "coachScore": 14.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 238,
@@ -4863,7 +4863,7 @@
       "coachScore": 26.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 249,
@@ -4925,7 +4925,7 @@
       "coachScore": 26.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 252,
@@ -4947,7 +4947,7 @@
       "coachScore": 26.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 256,
@@ -4969,7 +4969,7 @@
       "coachScore": 14.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 257,
@@ -4991,7 +4991,7 @@
       "coachScore": 98.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 258,
@@ -5015,7 +5015,7 @@
       "reason": "Lesione di basso grado del polpaccio della gamba sinistra",
       "availability_type": "injury",
       "updated_by": "injuries_official",
-      "updated_at": "2026-10-22T02:53:36Z",
+      "updated_at": "2026-10-22T04:53:11Z",
       "expected_return": "30/10/2026"
     },
     {
@@ -5058,7 +5058,7 @@
       "coachScore": 74.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 267,
@@ -5082,7 +5082,7 @@
       "reason": "Problema muscolare durante Svizzera-Macedonia del Nord (da accertare)",
       "availability_type": "injury",
       "updated_by": "injuries_official",
-      "updated_at": "2026-10-22T02:53:36Z",
+      "updated_at": "2026-10-22T04:53:11Z",
       "expected_return": "02/11/2026"
     },
     {
@@ -5105,7 +5105,7 @@
       "coachScore": 14.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 271,
@@ -5227,7 +5227,7 @@
       "coachScore": 14.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 281,
@@ -5351,7 +5351,7 @@
       "reason": "Operato per la lussazione della rotula del ginocchio destro",
       "availability_type": "injury",
       "updated_by": "injuries_official",
-      "updated_at": "2026-10-22T02:53:36Z",
+      "updated_at": "2026-10-22T04:53:11Z",
       "expected_return": "28/10/2026"
     },
     {
@@ -5394,7 +5394,7 @@
       "coachScore": 62.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 303,
@@ -5416,7 +5416,7 @@
       "coachScore": 26.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 305,
@@ -5540,7 +5540,7 @@
       "reason": "Distrazione di basso grado all'adduttore destro",
       "availability_type": "injury",
       "updated_by": "injuries_official",
-      "updated_at": "2026-10-22T02:53:36Z",
+      "updated_at": "2026-10-22T04:53:11Z",
       "expected_return": "05/11/2026"
     },
     {
@@ -5563,7 +5563,7 @@
       "coachScore": 62.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 316,
@@ -5587,7 +5587,7 @@
       "reason": "- Sta recuperando da un infortunio al ginocchio, in dubbio per l'8a.",
       "availability_type": "injury",
       "updated_by": "injuries_sos",
-      "updated_at": "2026-10-22T02:53:31Z"
+      "updated_at": "2026-10-22T04:53:07Z"
     },
     {
       "id": 320,
@@ -5631,7 +5631,7 @@
       "reason": "- Distrazione della muscolatura di un’anca, in dubbio per l'8a.",
       "availability_type": "injury",
       "updated_by": "injuries_sos",
-      "updated_at": "2026-10-22T02:53:31Z"
+      "updated_at": "2026-10-22T04:53:07Z"
     },
     {
       "id": 325,
@@ -5655,7 +5655,7 @@
       "reason": "- Sovraccarico, in dubbio per l'8a.",
       "availability_type": "injury",
       "updated_by": "injuries_sos",
-      "updated_at": "2026-10-22T02:53:31Z"
+      "updated_at": "2026-10-22T04:53:07Z"
     },
     {
       "id": 326,
@@ -5697,7 +5697,7 @@
       "coachScore": 98.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 328,
@@ -5739,7 +5739,7 @@
       "coachScore": 14.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 330,
@@ -5803,7 +5803,7 @@
       "reason": "Sindrome retto-adduttoria",
       "availability_type": "injury",
       "updated_by": "injuries_official",
-      "updated_at": "2026-10-22T02:53:36Z",
+      "updated_at": "2026-10-22T04:53:11Z",
       "expected_return": "02/11/2026"
     },
     {
@@ -5866,7 +5866,7 @@
       "coachScore": 74.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 336,
@@ -5911,7 +5911,7 @@
       "availability_type": "injury",
       "expected_return": "22/10/2026",
       "updated_by": "injuries_official",
-      "updated_at": "2026-10-22T02:53:36Z"
+      "updated_at": "2026-10-22T04:53:11Z"
     },
     {
       "id": 338,
@@ -5993,7 +5993,7 @@
       "coachScore": 14.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 342,
@@ -6095,7 +6095,7 @@
       "coachScore": 98.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 347,
@@ -6237,7 +6237,7 @@
       "coachScore": 74.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 354,
@@ -6262,7 +6262,7 @@
       "availability_type": "injury",
       "expected_return": "22/11/2026",
       "updated_by": "injuries_official",
-      "updated_at": "2026-10-22T02:53:36Z"
+      "updated_at": "2026-10-22T04:53:11Z"
     },
     {
       "id": 355,
@@ -6306,7 +6306,7 @@
       "reason": "Operato al ginocchio",
       "availability_type": "injury",
       "updated_by": "injuries_official",
-      "updated_at": "2026-10-22T02:53:36Z",
+      "updated_at": "2026-10-22T04:53:11Z",
       "expected_return": "30/10/2026"
     },
     {
@@ -6369,7 +6369,7 @@
       "coachScore": 98.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 360,
@@ -6391,7 +6391,7 @@
       "coachScore": 98.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 361,
@@ -6415,7 +6415,7 @@
       "reason": "Intervento in artroscopia al ginocchio sinistro per la pulizia meniscale",
       "availability_type": "injury",
       "updated_by": "injuries_official",
-      "updated_at": "2026-10-22T02:53:36Z",
+      "updated_at": "2026-10-22T04:53:11Z",
       "expected_return": "30/10/2026"
     },
     {
@@ -6438,7 +6438,7 @@
       "coachScore": 62.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 363,
@@ -6483,7 +6483,7 @@
       "reason": "Problema al collo che non gli permette di colpire la palla",
       "expected_return": "21/11/2026",
       "updated_by": "injuries_official",
-      "updated_at": "2026-10-22T02:53:36Z"
+      "updated_at": "2026-10-22T04:53:11Z"
     },
     {
       "id": 365,
@@ -6505,7 +6505,7 @@
       "coachScore": 62.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:41Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 366,
@@ -6527,7 +6527,7 @@
       "coachScore": 98.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 367,
@@ -6569,7 +6569,7 @@
       "coachScore": 26.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 369,
@@ -6653,7 +6653,7 @@
       "reason": "- Lesione del legamento crociato anteriore della gamba sinistra, tempi da definire.",
       "availability_type": "injury",
       "updated_by": "injuries_sos",
-      "updated_at": "2026-10-22T02:53:31Z"
+      "updated_at": "2026-10-22T04:53:07Z"
     },
     {
       "id": 373,
@@ -6695,7 +6695,7 @@
       "coachScore": 74.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 375,
@@ -6797,7 +6797,7 @@
       "coachScore": 26.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 380,
@@ -6941,7 +6941,7 @@
       "reason": "Lesione del tendine del semimembranoso della gamba sinistra",
       "availability_type": "injury",
       "updated_by": "injuries_official",
-      "updated_at": "2026-10-22T02:53:36Z",
+      "updated_at": "2026-10-22T04:53:11Z",
       "expected_return": "09/11/2026"
     },
     {
@@ -6966,7 +6966,7 @@
       "reason": "Infortunio muscolare",
       "availability_type": "injury",
       "updated_by": "injuries_official",
-      "updated_at": "2026-10-22T02:53:36Z",
+      "updated_at": "2026-10-22T04:53:11Z",
       "expected_return": "03/11/2026"
     },
     {
@@ -6989,7 +6989,7 @@
       "coachScore": 26.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 389,
@@ -7031,7 +7031,7 @@
       "coachScore": 74.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 391,
@@ -7075,7 +7075,7 @@
       "reason": "- Lesione di grado moderato al quadricipite della gamba sinistra, in dubbio per l'8a.",
       "availability_type": "injury",
       "updated_by": "injuries_sos",
-      "updated_at": "2026-10-22T02:53:31Z"
+      "updated_at": "2026-10-22T04:53:07Z"
     },
     {
       "id": 393,
@@ -7119,7 +7119,7 @@
       "reason": "- Problema muscolare, in dubbio per l'8a.",
       "availability_type": "injury",
       "updated_by": "injuries_sos",
-      "updated_at": "2026-10-22T02:53:31Z"
+      "updated_at": "2026-10-22T04:53:07Z"
     },
     {
       "id": 395,
@@ -7161,7 +7161,7 @@
       "coachScore": 26.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 397,
@@ -7185,7 +7185,7 @@
       "reason": "- Problema muscolare alla coscia destra, in dubbio per l'8a.",
       "availability_type": "injury",
       "updated_by": "injuries_sos",
-      "updated_at": "2026-10-22T02:53:31Z"
+      "updated_at": "2026-10-22T04:53:07Z"
     },
     {
       "id": 398,
@@ -7227,7 +7227,7 @@
       "coachScore": 26.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 400,
@@ -7309,7 +7309,7 @@
       "coachScore": 26.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 404,
@@ -7331,7 +7331,7 @@
       "coachScore": 26.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 405,
@@ -7355,7 +7355,7 @@
       "reason": "Risentimento agli adduttori della coscia destra",
       "availability_type": "injury",
       "updated_by": "injuries_official",
-      "updated_at": "2026-10-22T02:53:36Z",
+      "updated_at": "2026-10-22T04:53:11Z",
       "expected_return": "05/11/2026"
     },
     {
@@ -7378,7 +7378,7 @@
       "coachScore": 14.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 407,
@@ -7403,7 +7403,7 @@
       "availability_type": "injury",
       "expected_return": "25/10/2026",
       "updated_by": "injuries_official",
-      "updated_at": "2026-10-22T02:53:36Z"
+      "updated_at": "2026-10-22T04:53:11Z"
     },
     {
       "id": 408,
@@ -7447,7 +7447,7 @@
       "reason": "Problema alla caviglia (natura del problema non specificata)",
       "availability_type": "injury",
       "updated_by": "injuries_official",
-      "updated_at": "2026-10-22T02:53:36Z",
+      "updated_at": "2026-10-22T04:53:11Z",
       "expected_return": "13/01/2027"
     },
     {
@@ -7470,7 +7470,7 @@
       "coachScore": 62.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:41Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 411,
@@ -7494,7 +7494,7 @@
       "reason": "Intervento di riparazione della radice del menisco mediale del ginocchio destro",
       "availability_type": "injury",
       "updated_by": "injuries_official",
-      "updated_at": "2026-10-22T02:53:36Z",
+      "updated_at": "2026-10-22T04:53:11Z",
       "expected_return": "31/10/2026"
     },
     {
@@ -7577,7 +7577,7 @@
       "coachScore": 26.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 416,
@@ -7621,7 +7621,7 @@
       "reason": "- Lesione tendinea di basso grado ai muscoli flessori della coscia sinistra, in dubbio per la 10a.",
       "availability_type": "injury",
       "updated_by": "injuries_sos",
-      "updated_at": "2026-10-22T02:53:31Z"
+      "updated_at": "2026-10-22T04:53:07Z"
     },
     {
       "id": 418,
@@ -7663,7 +7663,7 @@
       "coachScore": 26.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 420,
@@ -7685,7 +7685,7 @@
       "coachScore": 74.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 421,
@@ -7707,7 +7707,7 @@
       "coachScore": 14.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 422,
@@ -7749,7 +7749,7 @@
       "coachScore": 62.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 424,
@@ -7773,7 +7773,7 @@
       "reason": "- Problema fisico, in dubbio per l'8a.",
       "availability_type": "injury",
       "updated_by": "injuries_sos",
-      "updated_at": "2026-10-22T02:53:31Z"
+      "updated_at": "2026-10-22T04:53:07Z"
     },
     {
       "id": 425,
@@ -7795,7 +7795,7 @@
       "coachScore": 98.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 426,
@@ -7817,7 +7817,7 @@
       "coachScore": 98.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 427,
@@ -7899,7 +7899,7 @@
       "coachScore": 14.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 431,
@@ -7921,7 +7921,7 @@
       "coachScore": 14.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 432,
@@ -7943,7 +7943,7 @@
       "coachScore": 74.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 433,
@@ -7987,7 +7987,7 @@
       "reason": "- Problema fisico, in dubbio per l'8a.",
       "availability_type": "injury",
       "updated_by": "injuries_sos",
-      "updated_at": "2026-10-22T02:53:31Z"
+      "updated_at": "2026-10-22T04:53:07Z"
     },
     {
       "id": 435,
@@ -8009,7 +8009,7 @@
       "coachScore": 62.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 436,
@@ -8071,7 +8071,7 @@
       "coachScore": 62.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 439,
@@ -8095,7 +8095,7 @@
       "reason": "- Fastidio muscolare, in dubbio per l'8a.",
       "availability_type": "injury",
       "updated_by": "injuries_sos",
-      "updated_at": "2026-10-22T02:53:31Z"
+      "updated_at": "2026-10-22T04:53:07Z"
     },
     {
       "id": 440,
@@ -8117,7 +8117,7 @@
       "coachScore": 26.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 441,
@@ -8141,7 +8141,7 @@
       "reason": "Risentimento muscolare ai flessori della coscia sinistra",
       "availability_type": "injury",
       "updated_by": "injuries_official",
-      "updated_at": "2026-10-22T02:53:36Z",
+      "updated_at": "2026-10-22T04:53:11Z",
       "expected_return": "29/10/2026"
     },
     {
@@ -8164,7 +8164,7 @@
       "coachScore": 26.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 443,
@@ -8208,7 +8208,7 @@
       "reason": "Intervento di ricostruzione del legamento crociato anteriore del ginocchio destro",
       "availability_type": "injury",
       "updated_by": "injuries_official",
-      "updated_at": "2026-10-22T02:53:36Z",
+      "updated_at": "2026-10-22T04:53:11Z",
       "expected_return": "01/11/2026"
     },
     {
@@ -8331,7 +8331,7 @@
       "coachScore": 62.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 451,
@@ -8353,7 +8353,7 @@
       "coachScore": 26.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 452,
@@ -8375,7 +8375,7 @@
       "coachScore": 26.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 453,
@@ -8417,7 +8417,7 @@
       "coachScore": 26.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 455,
@@ -8459,7 +8459,7 @@
       "coachScore": 26.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 457,
@@ -8541,7 +8541,7 @@
       "coachScore": 26.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 461,
@@ -8603,7 +8603,7 @@
       "coachScore": 62.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 464,
@@ -8625,7 +8625,7 @@
       "coachScore": 62.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 465,
@@ -8649,7 +8649,7 @@
       "reason": "- Intervento chirurgico per una lussazione acromion-claveare, in dubbio per la 15a.",
       "availability_type": "injury",
       "updated_by": "injuries_sos",
-      "updated_at": "2026-10-22T02:53:31Z"
+      "updated_at": "2026-10-22T04:53:07Z"
     },
     {
       "id": 466,
@@ -8673,7 +8673,7 @@
       "reason": "- Problema fisico, in dubbio per l'8a.",
       "availability_type": "injury",
       "updated_by": "injuries_sos",
-      "updated_at": "2026-10-22T02:53:31Z"
+      "updated_at": "2026-10-22T04:53:07Z"
     },
     {
       "id": 467,
@@ -8695,7 +8695,7 @@
       "coachScore": 74.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 468,
@@ -8821,7 +8821,7 @@
       "coachScore": 74.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 474,
@@ -8863,7 +8863,7 @@
       "coachScore": 14.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 476,
@@ -8885,7 +8885,7 @@
       "coachScore": 14.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 477,
@@ -8987,7 +8987,7 @@
       "coachScore": 62.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:41Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 482,
@@ -9009,7 +9009,7 @@
       "coachScore": 98.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 483,
@@ -9051,7 +9051,7 @@
       "coachScore": 62.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 485,
@@ -9073,7 +9073,7 @@
       "coachScore": 14.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 486,
@@ -9117,7 +9117,7 @@
       "reason": "- Problema alla fascia plantare, in dubbio per la 12a.",
       "availability_type": "injury",
       "updated_by": "injuries_sos",
-      "updated_at": "2026-10-22T02:53:31Z"
+      "updated_at": "2026-10-22T04:53:07Z"
     },
     {
       "id": 488,
@@ -9139,7 +9139,7 @@
       "coachScore": 26.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 489,
@@ -9164,7 +9164,7 @@
       "availability_type": "injury",
       "expected_return": "30/10/2026",
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 490,
@@ -9208,7 +9208,7 @@
       "reason": "- Infortunio alle anche, in dubbio per l'8a.",
       "availability_type": "injury",
       "updated_by": "injuries_sos",
-      "updated_at": "2026-10-22T02:53:31Z"
+      "updated_at": "2026-10-22T04:53:07Z"
     },
     {
       "id": 492,
@@ -9230,7 +9230,7 @@
       "coachScore": 62.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 493,
@@ -9272,7 +9272,7 @@
       "coachScore": 74.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 495,
@@ -9394,7 +9394,7 @@
       "coachScore": 14.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 501,
@@ -9436,7 +9436,7 @@
       "coachScore": 98.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 503,
@@ -9458,7 +9458,7 @@
       "coachScore": 26.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 504,
@@ -9480,7 +9480,7 @@
       "coachScore": 98.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 505,
@@ -9502,7 +9502,7 @@
       "coachScore": 26.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 506,
@@ -9564,7 +9564,7 @@
       "coachScore": 26.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 509,
@@ -9586,7 +9586,7 @@
       "coachScore": 26.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 510,
@@ -9608,7 +9608,7 @@
       "coachScore": 74.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 511,
@@ -9710,7 +9710,7 @@
       "coachScore": 14.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 516,
@@ -9772,7 +9772,7 @@
       "coachScore": 62.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:41Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 519,
@@ -9794,7 +9794,7 @@
       "coachScore": 98.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 520,
@@ -9956,7 +9956,7 @@
       "coachScore": 62.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 528,
@@ -9998,7 +9998,7 @@
       "coachScore": 26.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 530,
@@ -10040,7 +10040,7 @@
       "coachScore": 74.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 532,
@@ -10082,7 +10082,7 @@
       "coachScore": 62.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 534,
@@ -10126,7 +10126,7 @@
       "reason": "Rottura del legamento crociato del ginocchio destro, da trauma distorsivo in allenamento",
       "availability_type": "injury",
       "updated_by": "injuries_official",
-      "updated_at": "2026-10-22T02:53:36Z",
+      "updated_at": "2026-10-22T04:53:11Z",
       "expected_return": "31/07/2027"
     },
     {
@@ -10169,7 +10169,7 @@
       "coachScore": 14.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 538,
@@ -10193,7 +10193,7 @@
       "reason": "- Frattura della falange intermedia della mano destra, in dubbio per la 12a.",
       "availability_type": "injury",
       "updated_by": "injuries_sos",
-      "updated_at": "2026-10-22T02:53:31Z"
+      "updated_at": "2026-10-22T04:53:07Z"
     },
     {
       "id": 539,
@@ -10215,7 +10215,7 @@
       "coachScore": 74.0,
       "surpriseEligible": false,
       "updated_by": "lineup_consensus_min_2_sources",
-      "updated_at": "2026-10-22T02:53:40Z"
+      "updated_at": "2026-10-22T04:53:16Z"
     },
     {
       "id": 540,
@@ -10619,7 +10619,7 @@
       "reason": "Nuovo infortunio al ginocchio (da accertare con esami strumentali)",
       "availability_type": "injury",
       "updated_by": "injuries_official",
-      "updated_at": "2026-10-22T02:53:36Z",
+      "updated_at": "2026-10-22T04:53:11Z",
       "expected_return": "09/02/2027"
     },
     {
@@ -10664,7 +10664,7 @@
       "reason": "Problema al menisco del ginocchio destro (in valutazione, possibile intervento chirurgico o terapia conservativa)",
       "availability_type": "injury",
       "updated_by": "injuries_official",
-      "updated_at": "2026-10-22T02:53:36Z",
+      "updated_at": "2026-10-22T04:53:11Z",
       "expected_return": "08/02/2027"
     },
     {

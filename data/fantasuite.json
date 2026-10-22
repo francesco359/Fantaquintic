@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-10-22T02:53:41Z",
+  "generated_at": "2026-10-22T04:53:16Z",
   "aggiornamento_riuscito": true,
   "dati_precedenti_mantenuti": false,
   "fonti": [
@@ -11,7 +11,7 @@
       "records_extracted": 88,
       "players_updated": 64,
       "source_updated_at": null,
-      "sha256": "1a596f4ffc3a5b6c8eae2788fa3eae48492779ea668c5062938fc87e2bb20023"
+      "sha256": "ddf0242cedd00c250810b530cffc407af5ef48999bc698d8b0fac4db1fc7ff5d"
     },
     {
       "name": "injuries_sky",
@@ -20,7 +20,7 @@
       "records_extracted": 22,
       "players_updated": 0,
       "source_updated_at": null,
-      "sha256": "1330301ec1849014709a574a408a93fcb32f215e25169b5f5a0b9a4839976225"
+      "sha256": "7b98909c79c0f3c7cda67b95896aadddb372148e4a7c6a1aef7ae8197e5c197a"
     },
     {
       "name": "votes",
@@ -29,7 +29,7 @@
       "records_extracted": 0,
       "players_updated": 0,
       "source_updated_at": null,
-      "sha256": "59df1995da90ae794747b1d93762d2cc53e1193ffbb128e9a298e324f0659702"
+      "sha256": "e9fa67ff4380e72d21344fdca80a888ecfa3cc8307b0e2f82296aebe80420d37"
     },
     {
       "name": "injuries_official",
@@ -38,7 +38,7 @@
       "records_extracted": 46,
       "players_updated": 36,
       "source_updated_at": "22/10/2026",
-      "sha256": "eda490c202bc5bd3725283c96f014e0525167ed793e04341ebaaa9ea967760c0"
+      "sha256": "66a4ea83a7147dcaeaf168cf534bedc5c33fc1bda913815a396afd4ef678f7dc"
     },
     {
       "name": "lineups_fantacalcio",
@@ -56,7 +56,7 @@
       "records_extracted": 515,
       "players_updated": 0,
       "source_updated_at": null,
-      "sha256": "0fd3d3d43ef3797e42ba2539fd88830d550d1db40cb2d0f525f10dccb6bf0201"
+      "sha256": "ea76376ec16b1a0832bdd4564b6e882972122100fc4f25c13b8b8b539346d459"
     },
     {
       "name": "lineups_gazzetta",
@@ -65,7 +65,7 @@
       "records_extracted": 0,
       "players_updated": 0,
       "source_updated_at": null,
-      "sha256": "f6c19fafb016d42a370e980128306538cc7c001371bfad0fb8c324c95c772479"
+      "sha256": "9eca90b77c0ec7c907c5e1ca4dcced0fcd81cc5dea3dfcb49a135cf675c590a3"
     },
     {
       "name": "lineup_consensus",
