@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-10-22T01:03:23Z",
+  "generated_at": "2026-10-22T02:53:41Z",
   "aggiornamento_riuscito": true,
   "dati_precedenti_mantenuti": false,
   "fonti": [
@@ -11,7 +11,7 @@
       "records_extracted": 88,
       "players_updated": 64,
       "source_updated_at": null,
-      "sha256": "d190add87c6ee32b57b2676d87b176e17a01d2102eea8eb4a7d1bb73dca99141"
+      "sha256": "1a596f4ffc3a5b6c8eae2788fa3eae48492779ea668c5062938fc87e2bb20023"
     },
     {
       "name": "injuries_sky",
@@ -20,7 +20,7 @@
       "records_extracted": 22,
       "players_updated": 0,
       "source_updated_at": null,
-      "sha256": "1672e767a433d296f546cb29151ef709cb5b6d1663c6e031ae35fdf98f66e5a2"
+      "sha256": "1330301ec1849014709a574a408a93fcb32f215e25169b5f5a0b9a4839976225"
     },
     {
       "name": "votes",
@@ -35,10 +35,10 @@
       "name": "injuries_official",
       "url": "https://www.fantacalcio-online.com/it/infortunati-serie-a",
       "status": "data_applied",
-      "records_extracted": 44,
-      "players_updated": 34,
+      "records_extracted": 46,
+      "players_updated": 36,
       "source_updated_at": "22/10/2026",
-      "sha256": "3193619393a09821d796483045a1099750c885b0a58d219a63774c8f50d45809"
+      "sha256": "eda490c202bc5bd3725283c96f014e0525167ed793e04341ebaaa9ea967760c0"
     },
     {
       "name": "lineups_fantacalcio",
@@ -56,7 +56,7 @@
       "records_extracted": 515,
       "players_updated": 0,
       "source_updated_at": null,
-      "sha256": "4151a2a1395b1c7e33bb495865fe892ddf4debb929f53e2779aa3cbda28043c8"
+      "sha256": "0fd3d3d43ef3797e42ba2539fd88830d550d1db40cb2d0f525f10dccb6bf0201"
     },
     {
       "name": "lineups_gazzetta",
@@ -65,7 +65,7 @@
       "records_extracted": 0,
       "players_updated": 0,
       "source_updated_at": null,
-      "sha256": "154b315c8cdbb1f531413fefc845bb63875e0d976050fef73706fc4ede08ba43"
+      "sha256": "f6c19fafb016d42a370e980128306538cc7c001371bfad0fb8c324c95c772479"
     },
     {
       "name": "lineup_consensus",
