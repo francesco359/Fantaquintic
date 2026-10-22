@@ -1,0 +1,6 @@
+{
+  "schema": "FantaQuintoc.minutes-profiles.v1",
+  "description": "Profili individuali per ID. Popolare esclusivamente con statistiche storiche verificate. Senza profilo viene usato un comportamento neutro per ruolo.",
+  "minimum_sub_appearances": 8,
+  "profiles": {}
+}
