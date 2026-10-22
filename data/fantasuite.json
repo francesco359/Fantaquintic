@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-10-22T04:53:16Z",
+  "generated_at": "2026-10-22T07:10:32Z",
   "aggiornamento_riuscito": true,
   "dati_precedenti_mantenuti": false,
   "fonti": [
@@ -11,7 +11,7 @@
       "records_extracted": 88,
       "players_updated": 64,
       "source_updated_at": null,
-      "sha256": "ddf0242cedd00c250810b530cffc407af5ef48999bc698d8b0fac4db1fc7ff5d"
+      "sha256": "d89588b75f7c9bb79ee6c1f7b6054e38e20b5118861ccae0dc9f708aaf2fe962"
     },
     {
       "name": "injuries_sky",
@@ -20,7 +20,7 @@
       "records_extracted": 22,
       "players_updated": 0,
       "source_updated_at": null,
-      "sha256": "7b98909c79c0f3c7cda67b95896aadddb372148e4a7c6a1aef7ae8197e5c197a"
+      "sha256": "15226c3b3db514957e4ee7a0c0e3d098e481063a0d8c1e10584193b801ad5ba8"
     },
     {
       "name": "votes",
@@ -38,7 +38,7 @@
       "records_extracted": 46,
       "players_updated": 36,
       "source_updated_at": "22/10/2026",
-      "sha256": "66a4ea83a7147dcaeaf168cf534bedc5c33fc1bda913815a396afd4ef678f7dc"
+      "sha256": "b8ec6b904db0aebb2d384efc3f140b0822bddc720fc2fe1f039ad2e038dcebda"
     },
     {
       "name": "lineups_fantacalcio",
@@ -46,8 +46,8 @@
       "status": "extracted",
       "records_extracted": 470,
       "players_updated": 0,
-      "source_updated_at": "21/10/2026 19:12",
-      "sha256": "d57253a9db4844c3e7a8e54c13f20f58a6a4772793102d2abd1507c5bc152a34"
+      "source_updated_at": "22/10/2026 08:51",
+      "sha256": "4fa0e6df095ca7747d2b65c09d045a1f2b01f1b2f0d441a2d760ab04f60c21b9"
     },
     {
       "name": "lineups_sosfanta",
@@ -56,7 +56,7 @@
       "records_extracted": 515,
       "players_updated": 0,
       "source_updated_at": null,
-      "sha256": "ea76376ec16b1a0832bdd4564b6e882972122100fc4f25c13b8b8b539346d459"
+      "sha256": "cddd4d9575711db66eed3a3ce8a7b034337fc7c62ab0e65f2908f8e5aa6907c2"
     },
     {
       "name": "lineups_gazzetta",
@@ -65,7 +65,7 @@
       "records_extracted": 0,
       "players_updated": 0,
       "source_updated_at": null,
-      "sha256": "9eca90b77c0ec7c907c5e1ca4dcced0fcd81cc5dea3dfcb49a135cf675c590a3"
+      "sha256": "c466441e1609bb03d14e778d7cf3d1498593adbc20f31fb93c86157d81eed262"
     },
     {
       "name": "lineup_consensus",
