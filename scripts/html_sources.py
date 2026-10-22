@@ -23,7 +23,9 @@ def dedupe(xs):
  for x in xs:
   if x.get('club') and valid_name(x.get('name')):d[(norm(x['name']),x['club'])]=x
  return list(d.values())
-def R(name,c,pct,source,**extra):return {'name':clean(name),'club':c,'starter':float(str(pct).replace(',','.')),'status':'available','source':source,**extra}
+def R(name,c,pct,source,**extra):
+ value=float(str(pct).replace(',','.'))
+ return {'name':clean(name),'club':c,'starter':value,'lineup_context':'bench' if value<=49 else ('ballot' if value<75 else 'starter'),'status':'available','source':source,**extra}
 
 def parse_fantacalcio(html,source):
  s=soup(html);out=[];h=re.compile(r'/serie-a/squadre/([^/]+)/[^/]+/\d+',re.I)
