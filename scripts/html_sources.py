@@ -27,8 +27,8 @@ def R(name,c,pct,source,**extra):
  value=float(str(pct).replace(',','.'))
  return {'name':clean(name),'club':c,'starter':value,'lineup_context':'bench' if value<=49 else ('ballot' if value<75 else 'starter'),'status':'available','source':source,**extra}
 
-def parse_fantacalcio(html,source):
- s=soup(html);out=[];h=re.compile(r'/serie-a/squadre/([^/]+)/[^/]+/\d+',re.I)
+def parse_fantacalcio(s,source):
+ out=[];h=re.compile(r'/serie-a/squadre/([^/]+)/[^/]+/\d+',re.I)
  for a in s.find_all('a',href=True):
   m=h.search(a.get('href',''));name=clean(a.get_text(' ',strip=True))
   if not m or not valid_name(name):continue
@@ -44,8 +44,8 @@ def parse_fantacalcio(html,source):
   if c and pct is not None:out.append(R(name,c,pct,source))
  return dedupe(out)
 
-def parse_sos(html,source):
- s=soup(html);lines=[clean(x) for x in s.stripped_strings if clean(x)];out=[];c=None
+def parse_sos(s,source):
+ lines=[clean(x) for x in s.stripped_strings if clean(x)];out=[];c=None
  for i,line in enumerate(lines):
   tc=club(line)
   if tc:c=tc;continue
@@ -55,8 +55,8 @@ def parse_sos(html,source):
   if PCT.match(line) and i+1<len(lines) and valid_name(lines[i+1]):out.append(R(lines[i+1],c,PCT.match(line).group(1),source))
  return dedupe(out)
 
-def parse_gazzetta(html,source):
- s=soup(html);out=[];current=None;mode='starter'
+def parse_gazzetta(s,source):
+ out=[];current=None;mode='starter'
  # In actual page club links precede their formation blocks.
  for node in s.descendants:
   if getattr(node,'name',None)=='a':
@@ -70,8 +70,8 @@ def parse_gazzetta(html,source):
   if m and valid_name(m.group(1)):out.append(R(m.group(1),current,90 if mode=='starter' else 30,source,inferred=True))
  return dedupe(out)
 
-def parse_injury_table(html,source):
- s=soup(html);out=[]
+def parse_injury_table(s,source):
+ out=[]
  for tr in s.find_all('tr'):
   cells=[clean(x.get_text(' ',strip=True)) for x in tr.find_all(['th','td'])]
   if len(cells)<3:continue
@@ -80,8 +80,8 @@ def parse_injury_table(html,source):
    out.append({'name':name,'club':c,'status':'unavailable','starter':0.0,'appearance':0.0,'availability_type':'injury','reason':reason,'expected_return':ret,'source':source})
  return dedupe(out)
 
-def parse_injury_sections(html,source):
- s=soup(html);lines=[clean(x) for x in s.stripped_strings if clean(x)];out=[];c=None;section=None
+def parse_injury_sections(s,source):
+ lines=[clean(x) for x in s.stripped_strings if clean(x)];out=[];c=None;section=None
  for i,line in enumerate(lines):
   tc=club(line)
   if tc:c=tc;section=None;continue
@@ -100,11 +100,11 @@ def parse_injury_sections(html,source):
  return dedupe(out)
 
 def parse_source(name,html):
- low=name.casefold();text='\n'.join(clean(x) for x in soup(html).stripped_strings if clean(x))
- if 'lineups_fantacalcio' in low:records=parse_fantacalcio(html,name);kind='lineups'
- elif 'lineups_sosfanta' in low:records=parse_sos(html,name);kind='lineups'
- elif 'lineups_gazzetta' in low:records=parse_gazzetta(html,name);kind='lineups'
- elif 'injuries_official' in low:records=parse_injury_table(html,name);kind='availability'
- elif any(k in low for k in ('injur','infortun','indispon','squal')):records=parse_injury_sections(html,name);kind='availability'
+ low=name.casefold();s=soup(html);text='\n'.join(clean(x) for x in s.stripped_strings if clean(x))
+ if 'lineups_fantacalcio' in low:records=parse_fantacalcio(s,name);kind='lineups'
+ elif 'lineups_sosfanta' in low:records=parse_sos(s,name);kind='lineups'
+ elif 'lineups_gazzetta' in low:records=parse_gazzetta(s,name);kind='lineups'
+ elif 'injuries_official' in low:records=parse_injury_table(s,name);kind='availability'
+ elif any(k in low for k in ('injur','infortun','indispon','squal')):records=parse_injury_sections(s,name);kind='availability'
  else:records=[];kind='unsupported'
  return {'records':records,'updated_at':stamp(text),'kind':kind}
