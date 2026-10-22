@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-22T13:54:29Z",
+  "generated_at": "2026-10-22T14:54:22Z",
   "round": 8,
   "players": 502,
-  "player_updates": 64,
+  "player_updates": 65,
   "fresh_player_data": true,
   "data_confirmed": true,
   "sources_ok": 5,
@@ -15,10 +15,10 @@
       "records_extracted": 87,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 964,
-      "sha256": "70f3e98902b52a6274dbffa74f057c88642cdd5914a76ee6e8702cf1343e2a35",
+      "fetch_ms": 789,
+      "sha256": "5bec72105853623278eb3d7e1776e8eeaf7da9d4c3a33bbb29fb244752e54910",
       "status": "data_applied",
-      "players_updated": 32
+      "players_updated": 31
     },
     {
       "name": "injuries_sky",
@@ -26,8 +26,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 941,
-      "sha256": "8202ea44591853bffc871fe32eff46ddd49cb5a73651a31b91d081cac5eec1a2",
+      "fetch_ms": 523,
+      "sha256": "de862ab8ee1176ffb14ea3e32fd65438c18e2caf9ba8a36934e73028b4f4fa4c",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -37,7 +37,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1349,
+      "fetch_ms": 692,
       "sha256": "e9fa67ff4380e72d21344fdca80a888ecfa3cc8307b0e2f82296aebe80420d37",
       "status": "unsupported",
       "players_updated": 0
@@ -48,10 +48,10 @@
       "records_extracted": 46,
       "source_updated_at": "22/10/2026",
       "attempts": 1,
-      "fetch_ms": 985,
-      "sha256": "67f9973a238bd3e9bf84770f5c2ad73cf31b48c532c5f745d8497f4cbd83fdc8",
+      "fetch_ms": 1003,
+      "sha256": "5996d20c1cbaa0be84a117ea815300e91349cc47e9a32f87b153627ed99f0e34",
       "status": "data_applied",
-      "players_updated": 32
+      "players_updated": 31
     },
     {
       "name": "lineups_fantacalcio",
@@ -59,8 +59,8 @@
       "records_extracted": 470,
       "source_updated_at": "22/10/2026 14:56",
       "attempts": 1,
-      "fetch_ms": 656,
-      "sha256": "76bf08a48011082c43efcbbfd18a8655e1efe11b622b7d473d132fef7eabb940",
+      "fetch_ms": 835,
+      "sha256": "8ce3d0607e3575cbec41398358f7f551d66fa1167eec244e6ee54e1e74acb35e",
       "status": "extracted",
       "records_resolved": 428,
       "players_updated": 0
@@ -71,8 +71,8 @@
       "records_extracted": 513,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1157,
-      "sha256": "4f844cd36b0fcac4272e1fcae7f6e89b507fe510fbdb58ad203962c36224e83a",
+      "fetch_ms": 1121,
+      "sha256": "2ccbc243d79a70cae221622d96250c406a4e4cdc5a74ab1ad140ebf979d0f6d5",
       "status": "extracted",
       "records_resolved": 437,
       "players_updated": 0
@@ -83,21 +83,61 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1529,
-      "sha256": "e467944544b866e6a038b9e2362591b403cdb3b9508fd358214034ebcbfae2b8",
+      "fetch_ms": 1505,
+      "sha256": "822928be95732783064d48180eb7afc2f43b4c8f3cd5aa012e4e99f3fd88692d",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
     },
     {
       "name": "lineup_consensus",
-      "status": "insufficient_consensus",
-      "players_updated": 0,
+      "status": "data_applied",
+      "players_updated": 3,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
       "single_source_bench_updates": 0,
-      "sample": [],
+      "sample": [
+        {
+          "id": 419,
+          "name": "Casale",
+          "club": "BOL",
+          "starter": 65.0,
+          "previous_starter": 57.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 75.0,
+            "lineups_sosfanta": 55.0
+          }
+        },
+        {
+          "id": 224,
+          "name": "Enem",
+          "club": "BOL",
+          "starter": 55.0,
+          "previous_starter": 57.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 55.0,
+            "lineups_sosfanta": 55.0
+          }
+        },
+        {
+          "id": 144,
+          "name": "Dovbyk",
+          "club": "BOL",
+          "starter": 45.0,
+          "previous_starter": 42.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 45.0,
+            "lineups_sosfanta": 45.0
+          }
+        }
+      ],
       "blocked_sample": [
         {
           "id": 382,
@@ -263,7 +303,7 @@
           "name": "Heggem",
           "reason": "spread_exceeded",
           "sources": {
-            "lineups_fantacalcio": 40.0,
+            "lineups_fantacalcio": 55.0,
             "lineups_sosfanta": 5.0
           }
         },
@@ -281,7 +321,7 @@
           "name": "Odgaard",
           "reason": "spread_exceeded",
           "sources": {
-            "lineups_fantacalcio": 50.0,
+            "lineups_fantacalcio": 55.0,
             "lineups_sosfanta": 5.0
           }
         },
@@ -614,5 +654,5 @@
     "fonte_senza_parser:votes"
   ],
   "errors": [],
-  "duration_ms": 3189
+  "duration_ms": 2840
 }
