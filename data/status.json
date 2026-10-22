@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T07:10:32Z",
+  "generated_at": "2026-10-22T08:58:17Z",
   "round": 8,
   "players": 502,
   "player_updates": 266,
@@ -12,7 +12,7 @@
       "records_extracted": 88,
       "players_updated": 64,
       "source_updated_at": null,
-      "sha256": "d89588b75f7c9bb79ee6c1f7b6054e38e20b5118861ccae0dc9f708aaf2fe962"
+      "sha256": "c527b02d6b39ca15b8fd90187782e51aca019236a774830233dc56ab64966d9e"
     },
     {
       "name": "injuries_sky",
@@ -21,7 +21,7 @@
       "records_extracted": 22,
       "players_updated": 0,
       "source_updated_at": null,
-      "sha256": "15226c3b3db514957e4ee7a0c0e3d098e481063a0d8c1e10584193b801ad5ba8"
+      "sha256": "eada357e8096b74e9bcf389d07dd75c343528430aecd8bf5fcc83c290263691b"
     },
     {
       "name": "votes",
@@ -39,7 +39,7 @@
       "records_extracted": 46,
       "players_updated": 36,
       "source_updated_at": "22/10/2026",
-      "sha256": "b8ec6b904db0aebb2d384efc3f140b0822bddc720fc2fe1f039ad2e038dcebda"
+      "sha256": "b6483081287ee88bab2eee61717446f44701c03f1c1b99405aa74dbca9687518"
     },
     {
       "name": "lineups_fantacalcio",
@@ -57,7 +57,7 @@
       "records_extracted": 515,
       "players_updated": 0,
       "source_updated_at": null,
-      "sha256": "cddd4d9575711db66eed3a3ce8a7b034337fc7c62ab0e65f2908f8e5aa6907c2"
+      "sha256": "d231e87a6740b6916550e655b4c6704f0657535dfd5bdbb6ce16beb624b66a62"
     },
     {
       "name": "lineups_gazzetta",
@@ -66,7 +66,7 @@
       "records_extracted": 0,
       "players_updated": 0,
       "source_updated_at": null,
-      "sha256": "c466441e1609bb03d14e778d7cf3d1498593adbc20f31fb93c86157d81eed262"
+      "sha256": "789721782345d2b7878ffa28ee48f93841dde4db3c475e4b01d9d601e6486334"
     },
     {
       "name": "lineup_consensus",
