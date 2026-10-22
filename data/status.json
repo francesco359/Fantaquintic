@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-22T19:01:45Z",
+  "generated_at": "2026-10-22T20:52:27Z",
   "round": 8,
   "players": 502,
-  "player_updates": 69,
+  "player_updates": 81,
   "fresh_player_data": true,
   "data_confirmed": true,
   "sources_ok": 5,
@@ -15,10 +15,10 @@
       "records_extracted": 85,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 593,
-      "sha256": "187c5fcd446d4b07767382069e6e1d71e4ce0aac9b0c38a2b46519b09d48c007",
+      "fetch_ms": 717,
+      "sha256": "0c73464c184f15cbcf867ff9819b0d81f59d3ab218e5145a22e1e82604b1e4a1",
       "status": "data_applied",
-      "players_updated": 33
+      "players_updated": 32
     },
     {
       "name": "injuries_sky",
@@ -26,8 +26,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 533,
-      "sha256": "facbc4bb9bfb9f1c63d3f9ea42569bb00f97fe01a657649d052fdf4ce5d6c319",
+      "fetch_ms": 370,
+      "sha256": "848f931b240145ded03d59f012b9af56c81e9395c59e9bbe200f8a5751613629",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -37,8 +37,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 823,
-      "sha256": "e9fa67ff4380e72d21344fdca80a888ecfa3cc8307b0e2f82296aebe80420d37",
+      "fetch_ms": 632,
+      "sha256": "e5fe8d66fcfc7dc32075fd949a8f050789ed336fe12952b1169939557fa13aa2",
       "status": "unsupported",
       "players_updated": 0
     },
@@ -48,8 +48,8 @@
       "records_extracted": 46,
       "source_updated_at": "22/10/2026",
       "attempts": 1,
-      "fetch_ms": 832,
-      "sha256": "95b4f3c5ca0e11c39fc585f1f2f12b2982adffacb7cba2f83f2a9a51c18d91a5",
+      "fetch_ms": 781,
+      "sha256": "523c032870f6ea470c67350450e2eba30b9afc21f894b162a5276661aa8c42e2",
       "status": "data_applied",
       "players_updated": 32
     },
@@ -59,8 +59,8 @@
       "records_extracted": 470,
       "source_updated_at": "22/10/2026 14:56",
       "attempts": 1,
-      "fetch_ms": 920,
-      "sha256": "cc269896478b5aa612ee6bb4dbe68d6908badf4ef3020d6d1b8448e3441766ed",
+      "fetch_ms": 566,
+      "sha256": "052e081880f76c2e958565f5385f98f81e2ca09c3a3ac864e82a29b16a8440f8",
       "status": "extracted",
       "records_resolved": 428,
       "players_updated": 0
@@ -68,13 +68,13 @@
     {
       "name": "lineups_sosfanta",
       "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
-      "records_extracted": 519,
+      "records_extracted": 517,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 836,
-      "sha256": "77fad5521d2865c7aa2399d890e7dfdb064e845682c795b46a6c38abdf9f8a33",
+      "fetch_ms": 643,
+      "sha256": "7ab2de82db36d351c1fff3976a60c6a15e00999a5e686f9cda2d49ac3456f698",
       "status": "extracted",
-      "records_resolved": 441,
+      "records_resolved": 440,
       "players_updated": 0
     },
     {
@@ -83,8 +83,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1464,
-      "sha256": "0e13e9b0ff36230c9005ab79cd85fb8d19ca2c794c1799ffb2a9167f9b35320f",
+      "fetch_ms": 1124,
+      "sha256": "a3c1a87a39fe34e4270e5a2adcd6b8cfa8069d60222c648826741be8bf1fd23d",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -92,18 +92,44 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 4,
+      "players_updated": 17,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
       "single_source_bench_updates": 0,
       "sample": [
         {
-          "id": 424,
-          "name": "Lucchesi",
-          "club": "MON",
+          "id": 497,
+          "name": "Obric",
+          "club": "ATA",
+          "starter": 90.0,
+          "previous_starter": 87.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 85.0,
+            "lineups_sosfanta": 95.0
+          }
+        },
+        {
+          "id": 154,
+          "name": "Bernasconi",
+          "club": "ATA",
+          "starter": 65.5,
+          "previous_starter": 55.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 80.0,
+            "lineups_sosfanta": 51.0
+          }
+        },
+        {
+          "id": 186,
+          "name": "Ederson D.S.",
+          "club": "ATA",
           "starter": 87.5,
-          "previous_starter": 0,
+          "previous_starter": 92.5,
           "confidence": "medium",
           "rule": "consensus",
           "sources": {
@@ -112,24 +138,50 @@
           }
         },
         {
-          "id": 437,
-          "name": "Goglichidze",
-          "club": "MON",
-          "starter": 54.5,
+          "id": 121,
+          "name": "De Ketelaere",
+          "club": "ATA",
+          "starter": 67.5,
           "previous_starter": 82.0,
           "confidence": "medium",
           "rule": "consensus",
           "sources": {
-            "lineups_fantacalcio": 60.0,
-            "lineups_sosfanta": 49.0
+            "lineups_fantacalcio": 80.0,
+            "lineups_sosfanta": 55.0
           }
         },
         {
-          "id": 316,
-          "name": "Tourè I.",
-          "club": "MON",
+          "id": 94,
+          "name": "Krstovic",
+          "club": "ATA",
+          "starter": 67.5,
+          "previous_starter": 60.0,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 75.0,
+            "lineups_sosfanta": 60.0
+          }
+        },
+        {
+          "id": 74,
+          "name": "Scamacca",
+          "club": "ATA",
+          "starter": 50.0,
+          "previous_starter": 40.0,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 60.0,
+            "lineups_sosfanta": 40.0
+          }
+        },
+        {
+          "id": 324,
+          "name": "Meichtry",
+          "club": "GEN",
           "starter": 12.5,
-          "previous_starter": 29.5,
+          "previous_starter": 20.8,
           "confidence": "medium",
           "rule": "consensus",
           "sources": {
@@ -138,16 +190,133 @@
           }
         },
         {
-          "id": 242,
-          "name": "Cancellieri",
-          "club": "LAZ",
-          "starter": 20.0,
-          "previous_starter": 35.0,
+          "id": 189,
+          "name": "Monteiro J.",
+          "club": "LEC",
+          "starter": 42.5,
+          "previous_starter": 50.0,
           "confidence": "medium",
           "rule": "consensus",
           "sources": {
-            "lineups_fantacalcio": 35.0,
-            "lineups_sosfanta": 5.0
+            "lineups_fantacalcio": 40.0,
+            "lineups_sosfanta": 45.0
+          }
+        },
+        {
+          "id": 103,
+          "name": "Bremer",
+          "club": "JUV",
+          "starter": 60.0,
+          "previous_starter": 70.0,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 60.0,
+            "lineups_sosfanta": 60.0
+          }
+        },
+        {
+          "id": 540,
+          "name": "Douglas Luiz",
+          "club": "N/D",
+          "starter": 70.0,
+          "previous_starter": 72.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 80.0,
+            "lineups_sosfanta": 60.0
+          }
+        },
+        {
+          "id": 104,
+          "name": "Cambiaso",
+          "club": "JUV",
+          "starter": 92.5,
+          "previous_starter": 40.0,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 90.0,
+            "lineups_sosfanta": 95.0
+          }
+        },
+        {
+          "id": 146,
+          "name": "Kolo Muani",
+          "club": "JUV",
+          "starter": 87.5,
+          "previous_starter": 92.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 80.0,
+            "lineups_sosfanta": 95.0
+          }
+        },
+        {
+          "id": 421,
+          "name": "Kelly L.",
+          "club": "JUV",
+          "starter": 42.5,
+          "previous_starter": 50.0,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 40.0,
+            "lineups_sosfanta": 45.0
+          }
+        },
+        {
+          "id": 406,
+          "name": "Gatti",
+          "club": "JUV",
+          "starter": 45.0,
+          "previous_starter": 37.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 50.0,
+            "lineups_sosfanta": 40.0
+          }
+        },
+        {
+          "id": 80,
+          "name": "De Winter",
+          "club": "MIL",
+          "starter": 87.5,
+          "previous_starter": 92.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 80.0,
+            "lineups_sosfanta": 95.0
+          }
+        },
+        {
+          "id": 8,
+          "name": "Pavlovic",
+          "club": "MIL",
+          "starter": 87.5,
+          "previous_starter": 92.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 80.0,
+            "lineups_sosfanta": 95.0
+          }
+        },
+        {
+          "id": 115,
+          "name": "Moreira",
+          "club": "MIL",
+          "starter": 90.0,
+          "previous_starter": 92.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 85.0,
+            "lineups_sosfanta": 95.0
           }
         }
       ],
@@ -670,5 +839,5 @@
     "fonte_senza_parser:votes"
   ],
   "errors": [],
-  "duration_ms": 2424
+  "duration_ms": 2496
 }
