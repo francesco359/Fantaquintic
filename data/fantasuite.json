@@ -1,9 +1,9 @@
 {
   "schema_version": 8,
-  "generated_at": "2026-10-22T22:49:49Z",
+  "generated_at": "2026-10-23T01:08:08Z",
   "aggiornamento_riuscito": true,
   "dati_precedenti_mantenuti": false,
-  "giocatori_cambiati": 66,
+  "giocatori_cambiati": 64,
   "fonti": [
     {
       "name": "injuries_sos",
@@ -11,8 +11,8 @@
       "records_extracted": 85,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 600,
-      "sha256": "30d16e1bfc40ff2e31a00707870ce74611d748c9129e862fee1beeade1ae8a4f",
+      "fetch_ms": 558,
+      "sha256": "b3ddfa0e1b36539bd31f82ab11fa226dde9441447c54c37357a553ac7c6caeb6",
       "status": "data_applied",
       "players_updated": 32
     },
@@ -22,8 +22,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 643,
-      "sha256": "5d18fa3adc9aeff7ae57d4e24058fdb57ab55ebeed9a4e943b5f0e589f93b66d",
+      "fetch_ms": 860,
+      "sha256": "9b56e570018afdf62d452df44fcbdff6ea311f751278343715d4050d8ba02eb8",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -33,7 +33,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 573,
+      "fetch_ms": 524,
       "sha256": "e5fe8d66fcfc7dc32075fd949a8f050789ed336fe12952b1169939557fa13aa2",
       "status": "unsupported",
       "players_updated": 0
@@ -44,8 +44,8 @@
       "records_extracted": 45,
       "source_updated_at": "23/10/2026",
       "attempts": 1,
-      "fetch_ms": 694,
-      "sha256": "7e194d41f540daf0ec72b88ddeadb0edd14e3111a6e7cd4f8ac808fc95eebbde",
+      "fetch_ms": 869,
+      "sha256": "ae21525e2c65e4c933fb343bf5548c7f43f52a504e8d74a4d29ab80ef0f3f9f1",
       "status": "data_applied",
       "players_updated": 32
     },
@@ -55,7 +55,7 @@
       "records_extracted": 470,
       "source_updated_at": "22/10/2026 23:11",
       "attempts": 1,
-      "fetch_ms": 782,
+      "fetch_ms": 528,
       "sha256": "530ddcc02af8f78f1c1bbcbf071cce7fa0486bbfa2817513fdf4753208878dc4",
       "status": "extracted",
       "records_resolved": 428,
@@ -67,8 +67,8 @@
       "records_extracted": 517,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 683,
-      "sha256": "60df303ad5c0dc68f3224216b1463b80ca814231eff18e664e63b79d143ee8ca",
+      "fetch_ms": 648,
+      "sha256": "a4e7836729c7592239cfeb7c31ff514463b9d95afe62b352c3b8380d598e7b5d",
       "status": "extracted",
       "records_resolved": 440,
       "players_updated": 0
@@ -79,48 +79,21 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1291,
-      "sha256": "1a89f411ec99722eb800658b535475c1574e993525a671dd6b5794c0b529df45",
+      "fetch_ms": 1543,
+      "sha256": "fbd76590bd71e9b0b13bf2bc0712e904d04ffdd82816fcd4c8beadfa18f8d04e",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
     },
     {
       "name": "lineup_consensus",
-      "status": "data_applied",
-      "players_updated": 2,
+      "status": "insufficient_consensus",
+      "players_updated": 0,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
       "single_source_bench_updates": 0,
-      "sample": [
-        {
-          "id": 316,
-          "name": "Tourè I.",
-          "club": "MON",
-          "starter": 17.5,
-          "previous_starter": 12.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 30.0,
-            "lineups_sosfanta": 5.0
-          }
-        },
-        {
-          "id": 406,
-          "name": "Gatti",
-          "club": "JUV",
-          "starter": 40.0,
-          "previous_starter": 45.0,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 40.0,
-            "lineups_sosfanta": 40.0
-          }
-        }
-      ],
+      "sample": [],
       "blocked_sample": [
         {
           "id": 382,
