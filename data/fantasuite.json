@@ -1,9 +1,9 @@
 {
   "schema_version": 8,
-  "generated_at": "2026-10-23T01:08:08Z",
+  "generated_at": "2026-10-23T02:53:36Z",
   "aggiornamento_riuscito": true,
   "dati_precedenti_mantenuti": false,
-  "giocatori_cambiati": 64,
+  "giocatori_cambiati": 70,
   "fonti": [
     {
       "name": "injuries_sos",
@@ -11,8 +11,8 @@
       "records_extracted": 85,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 558,
-      "sha256": "b3ddfa0e1b36539bd31f82ab11fa226dde9441447c54c37357a553ac7c6caeb6",
+      "fetch_ms": 866,
+      "sha256": "588dd3f624f8336c6061109ca4c9cdaec9f8a6ababef0c625c59f72b12b38c3c",
       "status": "data_applied",
       "players_updated": 32
     },
@@ -22,8 +22,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 860,
-      "sha256": "9b56e570018afdf62d452df44fcbdff6ea311f751278343715d4050d8ba02eb8",
+      "fetch_ms": 1011,
+      "sha256": "17fa08232c70a33817b700b7bc9aa22511995d2fae5f13f6bf24fb2a26e89bb5",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -33,7 +33,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 524,
+      "fetch_ms": 1425,
       "sha256": "e5fe8d66fcfc7dc32075fd949a8f050789ed336fe12952b1169939557fa13aa2",
       "status": "unsupported",
       "players_updated": 0
@@ -41,13 +41,13 @@
     {
       "name": "injuries_official",
       "url": "https://www.fantacalcio-online.com/it/infortunati-serie-a",
-      "records_extracted": 45,
+      "records_extracted": 50,
       "source_updated_at": "23/10/2026",
       "attempts": 1,
-      "fetch_ms": 869,
-      "sha256": "ae21525e2c65e4c933fb343bf5548c7f43f52a504e8d74a4d29ab80ef0f3f9f1",
+      "fetch_ms": 1064,
+      "sha256": "208cbf35360670f11fa25a7fda91a68446b44db096e491c585e297996e8da5bb",
       "status": "data_applied",
-      "players_updated": 32
+      "players_updated": 37
     },
     {
       "name": "lineups_fantacalcio",
@@ -55,7 +55,7 @@
       "records_extracted": 470,
       "source_updated_at": "22/10/2026 23:11",
       "attempts": 1,
-      "fetch_ms": 528,
+      "fetch_ms": 1316,
       "sha256": "530ddcc02af8f78f1c1bbcbf071cce7fa0486bbfa2817513fdf4753208878dc4",
       "status": "extracted",
       "records_resolved": 428,
@@ -67,8 +67,8 @@
       "records_extracted": 517,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 648,
-      "sha256": "a4e7836729c7592239cfeb7c31ff514463b9d95afe62b352c3b8380d598e7b5d",
+      "fetch_ms": 1087,
+      "sha256": "183d9f0219bc3d7c0c393e35fce402b9dc305aad0ff58949405dc272308009f9",
       "status": "extracted",
       "records_resolved": 440,
       "players_updated": 0
@@ -79,21 +79,35 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1543,
-      "sha256": "fbd76590bd71e9b0b13bf2bc0712e904d04ffdd82816fcd4c8beadfa18f8d04e",
+      "fetch_ms": 1711,
+      "sha256": "b0e72af967a6f0537346a720b7449fd7537314e5ea07def598c36c9899468ad1",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
     },
     {
       "name": "lineup_consensus",
-      "status": "insufficient_consensus",
-      "players_updated": 0,
+      "status": "data_applied",
+      "players_updated": 1,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
       "single_source_bench_updates": 0,
-      "sample": [],
+      "sample": [
+        {
+          "id": 438,
+          "name": "Juan Jesus",
+          "club": "VEN",
+          "starter": 92.5,
+          "previous_starter": 0.0,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 90.0,
+            "lineups_sosfanta": 95.0
+          }
+        }
+      ],
       "blocked_sample": [
         {
           "id": 382,
@@ -506,6 +520,7 @@
     "injuries_official:NUREDINI Joi",
     "injuries_official:MARTINEZ Lautaro",
     "injuries_official:EKHATOR Jeff",
+    "injuries_official:COULIBALY Lassana",
     "injuries_official:NICOLUSSI CAVIGLIA Hans",
     "injuries_official:BAH Muhammed",
     "injuries_official:KONE Ismaël",
@@ -610,7 +625,6 @@
     "lineups_sosfanta:Zalewski",
     "lineups_sosfanta:Cichella",
     "lineups_sosfanta:Vasquez",
-    "lineups_sosfanta:Traorè Hj.",
-    "lineups_sosfanta:Basic"
+    "lineups_sosfanta:Traorè Hj."
   ]
 }
