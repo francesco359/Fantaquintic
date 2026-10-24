@@ -1,6 +1,6 @@
 {
   "schema_version": 8,
-  "generated_at": "2026-10-24T20:45:42Z",
+  "generated_at": "2026-10-24T22:46:00Z",
   "aggiornamento_riuscito": true,
   "dati_precedenti_mantenuti": false,
   "giocatori_cambiati": 92,
@@ -8,13 +8,13 @@
     {
       "name": "injuries_sos",
       "url": "https://www.sosfanta.com/indisponibili-e-squalificati/tabella-indisponibili-seriea-fantacalcio-asta-infortunati-tempi-recupero-squalificati-diffidati/",
-      "records_extracted": 92,
+      "records_extracted": 93,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 662,
-      "sha256": "34d9807054722ced45d623ef4560b8a3d7ea338d60962d45d5162e2d335fdbbf",
+      "fetch_ms": 571,
+      "sha256": "0ca70864acaab79083174023e9f1f4ccf8be7fb8bc995ed9735644437e1776fc",
       "status": "data_applied",
-      "players_updated": 43
+      "players_updated": 45
     },
     {
       "name": "injuries_sky",
@@ -22,8 +22,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 160,
-      "sha256": "da56d2f7c473e7047abfe7ba0f8821904a3e03e2029f02792d36e2118dfa6164",
+      "fetch_ms": 445,
+      "sha256": "1f2958e32bbafbe4c4f89b9a4198cfc792edb27e0261fbfed022f310bbd02181",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -33,8 +33,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 407,
-      "sha256": "8816cd03c80d957fc6a47b0c2f3033e26f1891a08dc4e82d77b8a8b0947168cf",
+      "fetch_ms": 884,
+      "sha256": "f339c54e90c64f1bddfb38f34bf421e6c9bf8aa971705772b08176a6dc8b9d8c",
       "status": "unsupported",
       "players_updated": 0
     },
@@ -42,10 +42,10 @@
       "name": "injuries_official",
       "url": "https://www.fantacalcio-online.com/it/infortunati-serie-a",
       "records_extracted": 64,
-      "source_updated_at": "24/10/2026",
+      "source_updated_at": "25/10/2026",
       "attempts": 1,
-      "fetch_ms": 769,
-      "sha256": "4958c3e6652c02124fdedf90ad76633509170d1b3ab8d9e39828121a032005ee",
+      "fetch_ms": 750,
+      "sha256": "a6780f3d85eb772e4ac97fbf78f224408b122b3bd6aa10c8d6286dbbfa8f8e8b",
       "status": "data_applied",
       "players_updated": 45
     },
@@ -55,7 +55,7 @@
       "records_extracted": 454,
       "source_updated_at": "23/10/2026 19:56",
       "attempts": 1,
-      "fetch_ms": 412,
+      "fetch_ms": 610,
       "sha256": "f06fcdc951453ecea16a75efb5186234fcd05c0fe5c3635e2bc472fbba4040a1",
       "status": "extracted",
       "records_resolved": 416,
@@ -67,8 +67,8 @@
       "records_extracted": 482,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 708,
-      "sha256": "6b4f35664c25c7ccae48edba8b441f3f58de7d00f91efe9935e87b06e4974a3e",
+      "fetch_ms": 818,
+      "sha256": "6d648d1763e8d19aef70f884323cfbaa0fe8761ab064db843cd4d86e353bac9c",
       "status": "extracted",
       "records_resolved": 422,
       "players_updated": 0
@@ -79,8 +79,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1421,
-      "sha256": "0872aa883e03135416bb1003e34f8405277604aab3e8cea70ab89e13b9921faf",
+      "fetch_ms": 1086,
+      "sha256": "bfea9b8327f64086d56f74ca996d664949ec4e2c9daa55ff2c44478ea5b93948",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -88,38 +88,12 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 4,
+      "players_updated": 2,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
       "single_source_bench_updates": 0,
       "sample": [
-        {
-          "id": 6,
-          "name": "Jimenez A.",
-          "club": "FIO",
-          "starter": 60.0,
-          "previous_starter": 92.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 60.0,
-            "lineups_sosfanta": 60.0
-          }
-        },
-        {
-          "id": 380,
-          "name": "Dodò",
-          "club": "FIO",
-          "starter": 40.0,
-          "previous_starter": 22.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 40.0,
-            "lineups_sosfanta": 40.0
-          }
-        },
         {
           "id": 438,
           "name": "Juan Jesus",
