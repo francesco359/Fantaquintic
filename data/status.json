@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-25T04:52:45Z",
+  "generated_at": "2026-10-25T07:05:10Z",
   "round": 8,
   "players": 502,
-  "player_updates": 90,
+  "player_updates": 92,
   "fresh_player_data": true,
   "data_confirmed": true,
   "sources_ok": 5,
@@ -15,8 +15,8 @@
       "records_extracted": 93,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 587,
-      "sha256": "29c3e857cee005150c74a48a41a222957aa487e4c4871978ebdd517ae0988a9c",
+      "fetch_ms": 1004,
+      "sha256": "bc447a0c30774bcbb654850c26824ad9084451e4c0fb0fe42262f99f68bfdba9",
       "status": "data_applied",
       "players_updated": 43
     },
@@ -26,8 +26,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 548,
-      "sha256": "d8e4572d3648acb7c01842a23f1586e30b77948eab4d082fc93d7e67f6553f37",
+      "fetch_ms": 607,
+      "sha256": "e4df707b2adeb3f72121403118ee4f1a45e8c370cd1eb7cbfcf0d002d1902fd6",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -37,7 +37,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 828,
+      "fetch_ms": 619,
       "sha256": "c54a5bf200589d46aaf94e410de3236ef808426dfc6ff66c46d8ea989085d0e3",
       "status": "unsupported",
       "players_updated": 0
@@ -48,8 +48,8 @@
       "records_extracted": 64,
       "source_updated_at": "25/10/2026",
       "attempts": 1,
-      "fetch_ms": 799,
-      "sha256": "ca64763ef77a02afe39bc2294f3c5dd1d237b540f5d7854587d57cd3d9505ec4",
+      "fetch_ms": 1096,
+      "sha256": "671e948581ad218f1ee09dde567925aa9849ac14ffe5ce375018545f9cad3b13",
       "status": "data_applied",
       "players_updated": 45
     },
@@ -59,7 +59,7 @@
       "records_extracted": 454,
       "source_updated_at": "23/10/2026 19:56",
       "attempts": 1,
-      "fetch_ms": 829,
+      "fetch_ms": 733,
       "sha256": "f06fcdc951453ecea16a75efb5186234fcd05c0fe5c3635e2bc472fbba4040a1",
       "status": "extracted",
       "records_resolved": 416,
@@ -68,13 +68,13 @@
     {
       "name": "lineups_sosfanta",
       "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
-      "records_extracted": 482,
+      "records_extracted": 481,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 712,
-      "sha256": "4330ed042c3d77d29b0a588c3775053a54c92796e84c37a7f6355b8ea6afdfdf",
+      "fetch_ms": 861,
+      "sha256": "0be8e22b29814951b956f75cfa25044b480da0aa4c69ff40b62744f06c4387bb",
       "status": "extracted",
-      "records_resolved": 422,
+      "records_resolved": 423,
       "players_updated": 0
     },
     {
@@ -83,8 +83,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1389,
-      "sha256": "bb68f37aabbb9c53aa739ba31afd59fa87b03d18d587c8ac76fa8065a4e253c5",
+      "fetch_ms": 1605,
+      "sha256": "5f915abafe93ae233940db0d132010eacdf6e4dcdf15712892a21bb29612de24",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -92,12 +92,38 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 2,
+      "players_updated": 4,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
       "single_source_bench_updates": 0,
       "sample": [
+        {
+          "id": 53,
+          "name": "Akanji",
+          "club": "INT",
+          "starter": 57.5,
+          "previous_starter": 82.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 70.0,
+            "lineups_sosfanta": 45.0
+          }
+        },
+        {
+          "id": 29,
+          "name": "Bastoni",
+          "club": "INT",
+          "starter": 87.5,
+          "previous_starter": 65.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 80.0,
+            "lineups_sosfanta": 95.0
+          }
+        },
         {
           "id": 438,
           "name": "Juan Jesus",
@@ -597,20 +623,18 @@
     "lineups_sosfanta:Fabbian",
     "lineups_sosfanta:Konaté A.",
     "lineups_sosfanta:Frigan",
-    "lineups_sosfanta:Mkhitaryan",
     "lineups_sosfanta:Ndour",
-    "lineups_sosfanta:Oulai",
+    "lineups_sosfanta:Brescianini",
     "lineups_sosfanta:Thuram - Bonny",
-    "lineups_sosfanta:Dimarco - Carlos Augusto",
-    "lineups_sosfanta:Calhanoglu - Zielinski",
-    "lineups_sosfanta:Bastoni - Carlos Augusto",
+    "lineups_sosfanta:Bisseck - Akanji",
     "lineups_sosfanta:Provedel - Martinez Jo.",
     "lineups_sosfanta:Njie - Gnonto",
     "lineups_sosfanta:Pellegrino M. - Beto",
-    "lineups_sosfanta:Oulai - Brescianini",
+    "lineups_sosfanta:Brescianini - Oulai",
     "lineups_sosfanta:Viery - Valdepenas",
     "lineups_sosfanta:Jimenez A. - Dodò",
-    "lineups_sosfanta:Brescianini",
+    "lineups_sosfanta:Mkhitaryan",
+    "lineups_sosfanta:Oulai",
     "lineups_sosfanta:Krstovic - Scamacca",
     "lineups_sosfanta:De Ketelaere - Elmas",
     "lineups_sosfanta:Bernasconi - Zappacosta",
@@ -640,11 +664,12 @@
     "lineups_sosfanta:Piotrowski - Zarraga",
     "lineups_sosfanta:Abankwah - Solet",
     "lineups_sosfanta:Palma - Bertola",
-    "lineups_sosfanta:Bartesaghi - Estupinan"
+    "lineups_sosfanta:Bartesaghi - Estupinan",
+    "lineups_sosfanta:Miller L."
   ],
   "warnings": [
     "fonte_senza_parser:votes"
   ],
   "errors": [],
-  "duration_ms": 2718
+  "duration_ms": 2916
 }
