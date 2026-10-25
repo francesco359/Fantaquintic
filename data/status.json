@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T02:52:00Z",
+  "generated_at": "2026-10-25T04:52:45Z",
   "round": 8,
   "players": 502,
   "player_updates": 90,
@@ -15,8 +15,8 @@
       "records_extracted": 93,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 800,
-      "sha256": "8c443d6ba905eb88dab2fae62a79339702e1af5fc2d8d407a6deb97436e4f039",
+      "fetch_ms": 587,
+      "sha256": "29c3e857cee005150c74a48a41a222957aa487e4c4871978ebdd517ae0988a9c",
       "status": "data_applied",
       "players_updated": 43
     },
@@ -26,8 +26,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 383,
-      "sha256": "32a61c476f76194149d6063cd958f0c350884033487c0800c4c4b9dc1515ab68",
+      "fetch_ms": 548,
+      "sha256": "d8e4572d3648acb7c01842a23f1586e30b77948eab4d082fc93d7e67f6553f37",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -37,7 +37,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1043,
+      "fetch_ms": 828,
       "sha256": "c54a5bf200589d46aaf94e410de3236ef808426dfc6ff66c46d8ea989085d0e3",
       "status": "unsupported",
       "players_updated": 0
@@ -48,8 +48,8 @@
       "records_extracted": 64,
       "source_updated_at": "25/10/2026",
       "attempts": 1,
-      "fetch_ms": 900,
-      "sha256": "2572b297dddfaa195dc1d824129c1f8bdbd95e505a4fa550fb448e5d82c1a8d2",
+      "fetch_ms": 799,
+      "sha256": "ca64763ef77a02afe39bc2294f3c5dd1d237b540f5d7854587d57cd3d9505ec4",
       "status": "data_applied",
       "players_updated": 45
     },
@@ -59,7 +59,7 @@
       "records_extracted": 454,
       "source_updated_at": "23/10/2026 19:56",
       "attempts": 1,
-      "fetch_ms": 583,
+      "fetch_ms": 829,
       "sha256": "f06fcdc951453ecea16a75efb5186234fcd05c0fe5c3635e2bc472fbba4040a1",
       "status": "extracted",
       "records_resolved": 416,
@@ -71,8 +71,8 @@
       "records_extracted": 482,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 962,
-      "sha256": "6a252fec91ec3f4a1ed6b913216547eba8d402832e0a93b8ef9df122fb49a9b4",
+      "fetch_ms": 712,
+      "sha256": "4330ed042c3d77d29b0a588c3775053a54c92796e84c37a7f6355b8ea6afdfdf",
       "status": "extracted",
       "records_resolved": 422,
       "players_updated": 0
@@ -83,8 +83,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1572,
-      "sha256": "46b57e9e8648cd505f07fc8cc869bf538f9139713926fb5397e7598010e8c430",
+      "fetch_ms": 1389,
+      "sha256": "bb68f37aabbb9c53aa739ba31afd59fa87b03d18d587c8ac76fa8065a4e253c5",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -646,5 +646,5 @@
     "fonte_senza_parser:votes"
   ],
   "errors": [],
-  "duration_ms": 2892
+  "duration_ms": 2718
 }
