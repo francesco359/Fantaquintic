@@ -1,0 +1,11 @@
+{
+  "schema": "FantaSuite.status.v1",
+  "generated_at": "2026-10-26T10:55:00+01:00",
+  "round": 9,
+  "players": 39,
+  "sources_ok": [
+    "Probabili G9",
+    "Risultati G8"
+  ],
+  "errors": []
+}
