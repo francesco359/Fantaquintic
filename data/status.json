@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-26T22:53:43Z",
+  "generated_at": "2026-10-27T01:09:57Z",
   "round": 8,
   "players": 502,
-  "player_updates": 97,
+  "player_updates": 82,
   "fresh_player_data": true,
   "data_confirmed": true,
   "sources_ok": 5,
@@ -15,8 +15,8 @@
       "records_extracted": 92,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 953,
-      "sha256": "81540581c1535174e071ce38d905b1e100689d3816d5a8e7bb4cebab582555e4",
+      "fetch_ms": 409,
+      "sha256": "b8aed29ea1def5a63385040b75edf61d6dc65947abf59e635e4647994828bf35",
       "status": "data_applied",
       "players_updated": 41
     },
@@ -26,8 +26,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1197,
-      "sha256": "fc66af14cc62f71dd86e9d7c52e62bcfdcaeddf8bc74692500501d4791638742",
+      "fetch_ms": 987,
+      "sha256": "95b6861554d9378582b02444d137eecd65c0cb6286f9b4dcd77a322fbaa8eacf",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -37,7 +37,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1522,
+      "fetch_ms": 761,
       "sha256": "5b1e7254c1e40ee3487db6d34f87779d2e7e83450ea82b2b976f3d10de8352fc",
       "status": "unsupported",
       "players_updated": 0
@@ -46,10 +46,10 @@
       "name": "injuries_official",
       "url": "https://www.fantacalcio-online.com/it/infortunati-serie-a",
       "records_extracted": 65,
-      "source_updated_at": "26/10/2026",
+      "source_updated_at": "27/10/2026",
       "attempts": 1,
-      "fetch_ms": 1025,
-      "sha256": "7cbedaf1981bdd9e5ca6f695d533915812a39ad22ccb19ce734fae0f096dadc1",
+      "fetch_ms": 798,
+      "sha256": "074d30de0510d99af4e9de1f9772e8f3d5fc16cbe54ae3c5fe09f26bed21ef2c",
       "status": "data_applied",
       "players_updated": 41
     },
@@ -59,7 +59,7 @@
       "records_extracted": 452,
       "source_updated_at": "26/10/2026 15:17",
       "attempts": 1,
-      "fetch_ms": 1371,
+      "fetch_ms": 694,
       "sha256": "42253324607cb84ba6a32cc24addf78bdac2c68eb50756e962512df8b45e331d",
       "status": "extracted",
       "records_resolved": 413,
@@ -71,8 +71,8 @@
       "records_extracted": 527,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1108,
-      "sha256": "9b42b18aec2a9eb8c408b5816cd69a34aba96b1e4fc67352e0635072b3d7038f",
+      "fetch_ms": 633,
+      "sha256": "8015810eeb2df5ccc1ac49ca687fa76d0014259dc6cb39a20d457be78b4e52ae",
       "status": "extracted",
       "records_resolved": 438,
       "players_updated": 0
@@ -83,217 +83,21 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1401,
-      "sha256": "cbf7a8f694c210873c57e478450db24d57f72e9783883ee52991ddae9442b57b",
+      "fetch_ms": 1252,
+      "sha256": "853b8f606985bd76616db103c8755b33046de7b83f8b5aee08a90a7e0c06da07",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
     },
     {
       "name": "lineup_consensus",
-      "status": "data_applied",
-      "players_updated": 15,
+      "status": "insufficient_consensus",
+      "players_updated": 0,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
       "single_source_bench_updates": 0,
-      "sample": [
-        {
-          "id": 384,
-          "name": "Sutalo J.",
-          "club": "LAZ",
-          "starter": 55.5,
-          "previous_starter": 60.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 60.0,
-            "lineups_sosfanta": 51.0
-          }
-        },
-        {
-          "id": 418,
-          "name": "Leite",
-          "club": "LAZ",
-          "starter": 63.0,
-          "previous_starter": 43.0,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 75.0,
-            "lineups_sosfanta": 51.0
-          }
-        },
-        {
-          "id": 85,
-          "name": "Provstgaard",
-          "club": "LAZ",
-          "starter": 49.5,
-          "previous_starter": 54.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 50.0,
-            "lineups_sosfanta": 49.0
-          }
-        },
-        {
-          "id": 185,
-          "name": "Wesley",
-          "club": "ROM",
-          "starter": 52.0,
-          "previous_starter": 59.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 55.0,
-            "lineups_sosfanta": 49.0
-          }
-        },
-        {
-          "id": 142,
-          "name": "Mora",
-          "club": "ROM",
-          "starter": 82.5,
-          "previous_starter": 52.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 70.0,
-            "lineups_sosfanta": 95.0
-          }
-        },
-        {
-          "id": 181,
-          "name": "Lulli",
-          "club": "ROM",
-          "starter": 48.0,
-          "previous_starter": 50.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 45.0,
-            "lineups_sosfanta": 51.0
-          }
-        },
-        {
-          "id": 378,
-          "name": "Diego Carlos",
-          "club": "PAR",
-          "starter": 65.5,
-          "previous_starter": 87.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 80.0,
-            "lineups_sosfanta": 51.0
-          }
-        },
-        {
-          "id": 558,
-          "name": "Tourè E.",
-          "club": "N/D",
-          "starter": 60.5,
-          "previous_starter": 82.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 70.0,
-            "lineups_sosfanta": 51.0
-          }
-        },
-        {
-          "id": 485,
-          "name": "Ndiaye",
-          "club": "PAR",
-          "starter": 42.0,
-          "previous_starter": 20.0,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 35.0,
-            "lineups_sosfanta": 49.0
-          }
-        },
-        {
-          "id": 484,
-          "name": "Mazzocchi",
-          "club": "VEN",
-          "starter": 65.5,
-          "previous_starter": 54.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 80.0,
-            "lineups_sosfanta": 51.0
-          }
-        },
-        {
-          "id": 315,
-          "name": "Sohm",
-          "club": "VEN",
-          "starter": 72.5,
-          "previous_starter": 90.0,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 85.0,
-            "lineups_sosfanta": 60.0
-          }
-        },
-        {
-          "id": 435,
-          "name": "Haps",
-          "club": "VEN",
-          "starter": 44.5,
-          "previous_starter": 45.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 40.0,
-            "lineups_sosfanta": 49.0
-          }
-        },
-        {
-          "id": 424,
-          "name": "Lucchesi",
-          "club": "MON",
-          "starter": 54.5,
-          "previous_starter": 55.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 60.0,
-            "lineups_sosfanta": 49.0
-          }
-        },
-        {
-          "id": 346,
-          "name": "Foe Ondoa",
-          "club": "MON",
-          "starter": 54.5,
-          "previous_starter": 55.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 60.0,
-            "lineups_sosfanta": 49.0
-          }
-        },
-        {
-          "id": 327,
-          "name": "Folorunsho",
-          "club": "MON",
-          "starter": 45.5,
-          "previous_starter": 44.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 40.0,
-            "lineups_sosfanta": 51.0
-          }
-        }
-      ],
+      "sample": [],
       "blocked_sample": [
         {
           "id": 501,
@@ -814,5 +618,5 @@
     "config_calendario_scaduto:aggiornare_round_e_fixtures"
   ],
   "errors": [],
-  "duration_ms": 2629
+  "duration_ms": 2990
 }
