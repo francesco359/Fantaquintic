@@ -1,9 +1,9 @@
 {
   "schema_version": 8,
-  "generated_at": "2026-10-28T13:19:48Z",
+  "generated_at": "2026-10-28T15:09:56Z",
   "aggiornamento_riuscito": true,
   "dati_precedenti_mantenuti": false,
-  "giocatori_cambiati": 91,
+  "giocatori_cambiati": 86,
   "fonti": [
     {
       "name": "injuries_sos",
@@ -11,10 +11,10 @@
       "records_extracted": 97,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 818,
-      "sha256": "8f23b82ab4800593da9e3f5035f517e48413777ce93be0676e0440175feb00a0",
+      "fetch_ms": 921,
+      "sha256": "d94f2c33d476769aa479c3b81adcee7507dce395ff4d337bb680799dc0fccf15",
       "status": "data_applied",
-      "players_updated": 48
+      "players_updated": 41
     },
     {
       "name": "injuries_sky",
@@ -22,8 +22,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1033,
-      "sha256": "38a19473ad4b5796187f97330448f02e7e65075d0ecec57eeccd3ebc38049f44",
+      "fetch_ms": 797,
+      "sha256": "6baba484eabbfa0b09d654b7350c2fc00db2a9e5b81b260954f94ba10ee7a4c9",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -33,7 +33,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 526,
+      "fetch_ms": 685,
       "sha256": "81500b97cdb4c17199314c5d2ac510edce1dd349b19363327dfdfc9931417540",
       "status": "unsupported",
       "players_updated": 0
@@ -44,21 +44,21 @@
       "records_extracted": 62,
       "source_updated_at": "28/10/2026",
       "attempts": 1,
-      "fetch_ms": 900,
-      "sha256": "f11d447908a921a35c6e445bc430e0049eccd4a59e7d3a1395e1fe35a9cf8636",
+      "fetch_ms": 1163,
+      "sha256": "eddc7f39ccc50172d79a309f673cabc3cc2074d7eeea88e5b1995827acf79001",
       "status": "data_applied",
       "players_updated": 41
     },
     {
       "name": "lineups_fantacalcio",
       "url": "https://www.fantacalcio.it/probabili-formazioni-serie-a/",
-      "records_extracted": 451,
+      "records_extracted": 450,
       "source_updated_at": "27/10/2026 17:49",
       "attempts": 1,
-      "fetch_ms": 762,
-      "sha256": "fe90860393607adcd995dfe093dda089c108715b4c52301b9676b49cda6fa6f3",
+      "fetch_ms": 746,
+      "sha256": "4b2593a6e15828c7d928a361138b207641e2331284754164b6e53b93d51fdabf",
       "status": "extracted",
-      "records_resolved": 412,
+      "records_resolved": 411,
       "players_updated": 0
     },
     {
@@ -67,8 +67,8 @@
       "records_extracted": 499,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 845,
-      "sha256": "a629773bf862ec71121c411c9a4ca5ebc55238f5475a6b862a9c83f61b2d2714",
+      "fetch_ms": 748,
+      "sha256": "49a6d8c46ffa259184b4f04a05bc1cacb53819a4435164175488842509afee0f",
       "status": "extracted",
       "records_resolved": 435,
       "players_updated": 0
@@ -79,8 +79,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1372,
-      "sha256": "e42ca5f399294ac24886b8f8c3d025a851fd569e83885cbfe20e392e751677c7",
+      "fetch_ms": 1290,
+      "sha256": "8663b081dbc85e3a1a9baa2e2c144d2151199f973ea551849033dd9bc47353a1",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -88,31 +88,57 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 2,
+      "players_updated": 4,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
       "single_source_bench_updates": 0,
       "sample": [
         {
-          "id": 336,
-          "name": "Stankovic A.",
-          "club": "INT",
-          "starter": 53.0,
-          "previous_starter": 52.0,
+          "id": 391,
+          "name": "Bartesaghi",
+          "club": "MIL",
+          "starter": 85.0,
+          "previous_starter": 54.5,
           "confidence": "medium",
           "rule": "consensus",
           "sources": {
-            "lineups_fantacalcio": 55.0,
-            "lineups_sosfanta": 51.0
+            "lineups_fantacalcio": 75.0,
+            "lineups_sosfanta": 95.0
           }
         },
         {
-          "id": 122,
-          "name": "Esposito F.P.",
-          "club": "INT",
+          "id": 481,
+          "name": "Diawara S.",
+          "club": "MIL",
+          "starter": 47.0,
+          "previous_starter": 44.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 45.0,
+            "lineups_sosfanta": 49.0
+          }
+        },
+        {
+          "id": 439,
+          "name": "Ehizibue",
+          "club": "GEN",
+          "starter": 52.5,
+          "previous_starter": 5.0,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 50.0,
+            "lineups_sosfanta": 55.0
+          }
+        },
+        {
+          "id": 374,
+          "name": "Calvani",
+          "club": "FRO",
           "starter": 54.5,
-          "previous_starter": 57.5,
+          "previous_starter": 55.5,
           "confidence": "medium",
           "rule": "consensus",
           "sources": {
