@@ -1,9 +1,9 @@
 {
   "schema_version": 8,
-  "generated_at": "2026-10-28T09:07:51Z",
+  "generated_at": "2026-10-28T11:01:54Z",
   "aggiornamento_riuscito": true,
   "dati_precedenti_mantenuti": false,
-  "giocatori_cambiati": 89,
+  "giocatori_cambiati": 88,
   "fonti": [
     {
       "name": "injuries_sos",
@@ -11,8 +11,8 @@
       "records_extracted": 96,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1186,
-      "sha256": "d0c5582d865aeca1712ff26cb94992996aed7c21f318ea326e59dba87f83dfce",
+      "fetch_ms": 1271,
+      "sha256": "5455ed6847d3b308982a55e28ad579e059a453bf2dacc1619d89f9a3744e561c",
       "status": "data_applied",
       "players_updated": 42
     },
@@ -22,8 +22,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 867,
-      "sha256": "ea1a774d64978bc0ee60636322e7f6f96152892eb63b8cce61901cfef18b66ed",
+      "fetch_ms": 518,
+      "sha256": "99f5c29663bb7a35351c2013f9829b0a443750f3a9f956814c7b2829fa5dc5cb",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -33,7 +33,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 803,
+      "fetch_ms": 2192,
       "sha256": "81500b97cdb4c17199314c5d2ac510edce1dd349b19363327dfdfc9931417540",
       "status": "unsupported",
       "players_updated": 0
@@ -44,8 +44,8 @@
       "records_extracted": 62,
       "source_updated_at": "28/10/2026",
       "attempts": 1,
-      "fetch_ms": 913,
-      "sha256": "3f3efd7c113176e3620832cd78f22b321fafb7aceae226af91f201e2f233a92b",
+      "fetch_ms": 1021,
+      "sha256": "a466cf2f172d5ec1a2b352f42744a4f3299add7f0ed9f40c34302021fc638b42",
       "status": "data_applied",
       "players_updated": 42
     },
@@ -55,8 +55,8 @@
       "records_extracted": 451,
       "source_updated_at": "27/10/2026 17:49",
       "attempts": 1,
-      "fetch_ms": 997,
-      "sha256": "82d06a1acddb99d14d74d38721ad3cd2e99fd5bce431caf2f0ec436605fe542c",
+      "fetch_ms": 2209,
+      "sha256": "6f94b1fee16383944f07bf0b116ee97dc62c05395803d0eaa1562317286357dd",
       "status": "extracted",
       "records_resolved": 412,
       "players_updated": 0
@@ -64,13 +64,13 @@
     {
       "name": "lineups_sosfanta",
       "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
-      "records_extracted": 503,
+      "records_extracted": 502,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 943,
-      "sha256": "feb7e3a3ceb31d363f6461731b4fef108dec899f14436e97aa1ae015b231357d",
+      "fetch_ms": 1443,
+      "sha256": "a15429880e17a1542ee96b179388535d75463a52a0550e8ca942fdb2e94c8981",
       "status": "extracted",
-      "records_resolved": 435,
+      "records_resolved": 434,
       "players_updated": 0
     },
     {
@@ -79,8 +79,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1761,
-      "sha256": "20b3953919ec1eb9b0d04580a5a7d3f0d23fae88f6653923546917b47a2c290b",
+      "fetch_ms": 1726,
+      "sha256": "474dbdbdb29ecef9d90c62d9dbed7e9cb9ba3292062fb1c5af66ff4e8ce23573",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -88,74 +88,62 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 5,
+      "players_updated": 4,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
-      "single_source_bench_updates": 1,
+      "single_source_bench_updates": 0,
       "sample": [
         {
-          "id": 498,
-          "name": "Milinkovic-Savic V.",
-          "club": "NAP",
-          "starter": 62.0,
-          "previous_starter": 52.0,
+          "id": 350,
+          "name": "Wiafe",
+          "club": "GEN",
+          "starter": 44.5,
+          "previous_starter": 40.0,
           "confidence": "medium",
           "rule": "consensus",
           "sources": {
-            "lineups_fantacalcio": 75.0,
+            "lineups_fantacalcio": 40.0,
             "lineups_sosfanta": 49.0
           }
         },
         {
-          "id": 123,
-          "name": "Hojlund",
-          "club": "NAP",
-          "starter": 52.0,
-          "previous_starter": 87.5,
+          "id": 136,
+          "name": "Baldanzi",
+          "club": "GEN",
+          "starter": 42.5,
+          "previous_starter": 39.5,
           "confidence": "medium",
           "rule": "consensus",
           "sources": {
-            "lineups_fantacalcio": 55.0,
-            "lineups_sosfanta": 49.0
+            "lineups_fantacalcio": 30.0,
+            "lineups_sosfanta": 55.0
           }
         },
         {
-          "id": 557,
-          "name": "Lang",
+          "id": 544,
+          "name": "El Shaarawy",
           "club": "N/D",
-          "starter": 54.5,
-          "previous_starter": 44.5,
+          "starter": 52.5,
+          "previous_starter": 55.5,
           "confidence": "medium",
           "rule": "consensus",
           "sources": {
             "lineups_fantacalcio": 60.0,
-            "lineups_sosfanta": 49.0
+            "lineups_sosfanta": 45.0
           }
         },
         {
-          "id": 226,
-          "name": "Lucca",
-          "club": "NAP",
-          "starter": 48.0,
-          "previous_starter": 78.0,
+          "id": 211,
+          "name": "Vitinha O.",
+          "club": "GEN",
+          "starter": 47.0,
+          "previous_starter": 55.5,
           "confidence": "medium",
           "rule": "consensus",
           "sources": {
             "lineups_fantacalcio": 45.0,
-            "lineups_sosfanta": 51.0
-          }
-        },
-        {
-          "id": 439,
-          "name": "Ehizibue",
-          "club": "GEN",
-          "starter": 5.0,
-          "previous_starter": 82.0,
-          "confidence": "low",
-          "rule": "single_source_bench_downgrade",
-          "sources": {
-            "lineups_sosfanta": 5.0
+            "lineups_sosfanta": 49.0
           }
         }
       ],
@@ -657,15 +645,15 @@
     "lineups_sosfanta:Bonny - Thuram",
     "lineups_sosfanta:Lauberbach",
     "lineups_sosfanta:Vasquez",
-    "lineups_sosfanta:Traorè Hj.",
+    "lineups_sosfanta:Ehizibue - El Shaarawy",
     "lineups_sosfanta:Marcandalli - Otoa",
-    "lineups_sosfanta:Messias - Baldanzi",
+    "lineups_sosfanta:Baldanzi - El Shaarawy",
     "lineups_sosfanta:Kolo Muani - Alajbegovic",
     "lineups_sosfanta:Colombo",
+    "lineups_sosfanta:Traorè Hj.",
     "lineups_sosfanta:Mota",
     "lineups_sosfanta:Giovane",
     "lineups_sosfanta:Kouadio - Lucchesi",
-    "lineups_sosfanta:Folorunsho - Foe Ondoa",
     "lineups_sosfanta:Robinson J. - Cutrone",
     "lineups_sosfanta:Zambo Anguissa - De Bruyne",
     "lineups_sosfanta:Lobotka - De Bruyne",
