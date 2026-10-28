@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-28T11:01:54Z",
+  "generated_at": "2026-10-28T13:19:48Z",
   "round": 8,
   "players": 502,
-  "player_updates": 88,
+  "player_updates": 91,
   "fresh_player_data": true,
   "data_confirmed": true,
   "sources_ok": 5,
@@ -12,13 +12,13 @@
     {
       "name": "injuries_sos",
       "url": "https://www.sosfanta.com/indisponibili-e-squalificati/tabella-indisponibili-seriea-fantacalcio-asta-infortunati-tempi-recupero-squalificati-diffidati/",
-      "records_extracted": 96,
+      "records_extracted": 97,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1271,
-      "sha256": "5455ed6847d3b308982a55e28ad579e059a453bf2dacc1619d89f9a3744e561c",
+      "fetch_ms": 818,
+      "sha256": "8f23b82ab4800593da9e3f5035f517e48413777ce93be0676e0440175feb00a0",
       "status": "data_applied",
-      "players_updated": 42
+      "players_updated": 48
     },
     {
       "name": "injuries_sky",
@@ -26,8 +26,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 518,
-      "sha256": "99f5c29663bb7a35351c2013f9829b0a443750f3a9f956814c7b2829fa5dc5cb",
+      "fetch_ms": 1033,
+      "sha256": "38a19473ad4b5796187f97330448f02e7e65075d0ecec57eeccd3ebc38049f44",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -37,7 +37,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 2192,
+      "fetch_ms": 526,
       "sha256": "81500b97cdb4c17199314c5d2ac510edce1dd349b19363327dfdfc9931417540",
       "status": "unsupported",
       "players_updated": 0
@@ -48,10 +48,10 @@
       "records_extracted": 62,
       "source_updated_at": "28/10/2026",
       "attempts": 1,
-      "fetch_ms": 1021,
-      "sha256": "a466cf2f172d5ec1a2b352f42744a4f3299add7f0ed9f40c34302021fc638b42",
+      "fetch_ms": 900,
+      "sha256": "f11d447908a921a35c6e445bc430e0049eccd4a59e7d3a1395e1fe35a9cf8636",
       "status": "data_applied",
-      "players_updated": 42
+      "players_updated": 41
     },
     {
       "name": "lineups_fantacalcio",
@@ -59,8 +59,8 @@
       "records_extracted": 451,
       "source_updated_at": "27/10/2026 17:49",
       "attempts": 1,
-      "fetch_ms": 2209,
-      "sha256": "6f94b1fee16383944f07bf0b116ee97dc62c05395803d0eaa1562317286357dd",
+      "fetch_ms": 762,
+      "sha256": "fe90860393607adcd995dfe093dda089c108715b4c52301b9676b49cda6fa6f3",
       "status": "extracted",
       "records_resolved": 412,
       "players_updated": 0
@@ -68,13 +68,13 @@
     {
       "name": "lineups_sosfanta",
       "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
-      "records_extracted": 502,
+      "records_extracted": 499,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1443,
-      "sha256": "a15429880e17a1542ee96b179388535d75463a52a0550e8ca942fdb2e94c8981",
+      "fetch_ms": 845,
+      "sha256": "a629773bf862ec71121c411c9a4ca5ebc55238f5475a6b862a9c83f61b2d2714",
       "status": "extracted",
-      "records_resolved": 434,
+      "records_resolved": 435,
       "players_updated": 0
     },
     {
@@ -83,8 +83,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1726,
-      "sha256": "474dbdbdb29ecef9d90c62d9dbed7e9cb9ba3292062fb1c5af66ff4e8ce23573",
+      "fetch_ms": 1372,
+      "sha256": "e42ca5f399294ac24886b8f8c3d025a851fd569e83885cbfe20e392e751677c7",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -92,61 +92,35 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 4,
+      "players_updated": 2,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
       "single_source_bench_updates": 0,
       "sample": [
         {
-          "id": 350,
-          "name": "Wiafe",
-          "club": "GEN",
-          "starter": 44.5,
-          "previous_starter": 40.0,
+          "id": 336,
+          "name": "Stankovic A.",
+          "club": "INT",
+          "starter": 53.0,
+          "previous_starter": 52.0,
           "confidence": "medium",
           "rule": "consensus",
           "sources": {
-            "lineups_fantacalcio": 40.0,
-            "lineups_sosfanta": 49.0
+            "lineups_fantacalcio": 55.0,
+            "lineups_sosfanta": 51.0
           }
         },
         {
-          "id": 136,
-          "name": "Baldanzi",
-          "club": "GEN",
-          "starter": 42.5,
-          "previous_starter": 39.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 30.0,
-            "lineups_sosfanta": 55.0
-          }
-        },
-        {
-          "id": 544,
-          "name": "El Shaarawy",
-          "club": "N/D",
-          "starter": 52.5,
-          "previous_starter": 55.5,
+          "id": 122,
+          "name": "Esposito F.P.",
+          "club": "INT",
+          "starter": 54.5,
+          "previous_starter": 57.5,
           "confidence": "medium",
           "rule": "consensus",
           "sources": {
             "lineups_fantacalcio": 60.0,
-            "lineups_sosfanta": 45.0
-          }
-        },
-        {
-          "id": 211,
-          "name": "Vitinha O.",
-          "club": "GEN",
-          "starter": 47.0,
-          "previous_starter": 55.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 45.0,
             "lineups_sosfanta": 49.0
           }
         }
@@ -633,16 +607,13 @@
     "lineups_sosfanta:Nicolussi Caviglia",
     "lineups_sosfanta:Frigan",
     "lineups_sosfanta:Basic",
-    "lineups_sosfanta:Mkhitaryan",
     "lineups_sosfanta:Sohm - Busio",
     "lineups_sosfanta:Mazzocchi - Haps",
     "lineups_sosfanta:Provedel - Martinez Jo.",
     "lineups_sosfanta:Diouf - Spence",
     "lineups_sosfanta:Sucic P. - Barella",
-    "lineups_sosfanta:Zielinski - Calhanoglu",
-    "lineups_sosfanta:Mkhitaryan - Stankovic A.",
-    "lineups_sosfanta:Bonny - Thuram",
     "lineups_sosfanta:Lauberbach",
+    "lineups_sosfanta:Mkhitaryan",
     "lineups_sosfanta:Vasquez",
     "lineups_sosfanta:Ehizibue - El Shaarawy",
     "lineups_sosfanta:Marcandalli - Otoa",
@@ -659,19 +630,22 @@
     "lineups_sosfanta:Lucca - Hojlund",
     "lineups_sosfanta:Gilmour",
     "lineups_sosfanta:Fatah",
-    "lineups_sosfanta:Calvani - Monterisi",
-    "lineups_sosfanta:Cittadini - Monterisi",
+    "lineups_sosfanta:Omar Fayed - Calvani",
     "lineups_sosfanta:Bracaglia - Terzic",
     "lineups_sosfanta:Tiago Gabriel - Jean",
     "lineups_sosfanta:Kaba - Ndaba",
     "lineups_sosfanta:Fatah - Monteiro J.",
     "lineups_sosfanta:Cichella",
-    "lineups_sosfanta:Ndour"
+    "lineups_sosfanta:Ndour",
+    "lineups_sosfanta:Brescianini",
+    "lineups_sosfanta:Elmas",
+    "lineups_sosfanta:Brescianini - Oulai",
+    "lineups_sosfanta:Pellegrino M. - Beto"
   ],
   "warnings": [
     "fonte_senza_parser:votes",
     "config_calendario_scaduto:aggiornare_round_e_fixtures"
   ],
   "errors": [],
-  "duration_ms": 3074
+  "duration_ms": 2378
 }
