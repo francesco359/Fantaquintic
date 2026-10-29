@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-29T21:01:31Z",
+  "generated_at": "2026-10-29T22:57:24Z",
   "round": 8,
   "players": 502,
-  "player_updates": 102,
+  "player_updates": 85,
   "fresh_player_data": true,
   "data_confirmed": true,
   "sources_ok": 5,
@@ -15,8 +15,8 @@
       "records_extracted": 97,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 931,
-      "sha256": "f25f45eee51c464eb8f7b02fb8719d8b5094715ce719cacc77bf5fe177d38555",
+      "fetch_ms": 908,
+      "sha256": "c3d223a8556ab22fde4e0fa61facc3ab62eed7183e26aaf78718c94156c70e49",
       "status": "data_applied",
       "players_updated": 41
     },
@@ -26,8 +26,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 550,
-      "sha256": "4c9d78d87bee5545c534c11dfdf425f85edce641c2c5e464f07625fc4741f23a",
+      "fetch_ms": 695,
+      "sha256": "07c4471e52d08cc725bb4c1368db6a989d93409af0abb5122af98c78a3e90921",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -37,8 +37,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 623,
-      "sha256": "69958dd190d320238d7d3e2daed80d9885921aa3a845686fc5b1d7cd2c2a6aca",
+      "fetch_ms": 1395,
+      "sha256": "e22dfbeb3ef55396d31b1206cca9ba420389e564278133e2536198f1e073dba5",
       "status": "unsupported",
       "players_updated": 0
     },
@@ -48,8 +48,8 @@
       "records_extracted": 62,
       "source_updated_at": "29/10/2026",
       "attempts": 1,
-      "fetch_ms": 938,
-      "sha256": "9e83db815c9f579008121f9652df9cd5775e80170239e6616d53a7038f003bd4",
+      "fetch_ms": 1103,
+      "sha256": "8b20301db2469af1556e42cc77670e9707b8a34b4dda16b51ecb1d2cc785b010",
       "status": "data_applied",
       "players_updated": 42
     },
@@ -59,8 +59,8 @@
       "records_extracted": 451,
       "source_updated_at": "27/10/2026 17:49",
       "attempts": 1,
-      "fetch_ms": 907,
-      "sha256": "1bba601f5aa9cd203d2840cac6fff7e45dec740025f4f5089e2a3432323c65d3",
+      "fetch_ms": 1267,
+      "sha256": "f32a5a90a68b650176f600e3018e16218f662367ceb987e6db9f06508dd56d5f",
       "status": "extracted",
       "records_resolved": 412,
       "players_updated": 0
@@ -71,8 +71,8 @@
       "records_extracted": 441,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 868,
-      "sha256": "c45183d2ebde023d761d8d53f55f6166cf35a86b2c2bdf063384114bd04a31e1",
+      "fetch_ms": 1241,
+      "sha256": "be6340fc4bf6a91daaf186eec3cbd1db77cfc48ff55e0af2d43f7475c01058c8",
       "status": "extracted",
       "records_resolved": 408,
       "players_updated": 0
@@ -83,8 +83,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1165,
-      "sha256": "00efc5485860931d7a9a252f15a33afab18aeed6c5d89ce31831862347489e61",
+      "fetch_ms": 1606,
+      "sha256": "4cea80cd8ed94b56cc589cb16452ec8051dbb187497255e0eb20724d73c8d8fe",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -92,7 +92,7 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 19,
+      "players_updated": 2,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
@@ -117,227 +117,6 @@
           "club": "INT",
           "starter": 100.0,
           "previous_starter": 0.0,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 100.0,
-            "lineups_sosfanta": 100.0
-          }
-        },
-        {
-          "id": 6,
-          "name": "Jimenez A.",
-          "club": "FIO",
-          "starter": 100.0,
-          "previous_starter": 97.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 100.0,
-            "lineups_sosfanta": 100.0
-          }
-        },
-        {
-          "id": 379,
-          "name": "Dragusin",
-          "club": "FIO",
-          "starter": 100.0,
-          "previous_starter": 97.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 100.0,
-            "lineups_sosfanta": 100.0
-          }
-        },
-        {
-          "id": 404,
-          "name": "Viery",
-          "club": "FIO",
-          "starter": 100.0,
-          "previous_starter": 97.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 100.0,
-            "lineups_sosfanta": 100.0
-          }
-        },
-        {
-          "id": 456,
-          "name": "Joao Mario",
-          "club": "FIO",
-          "starter": 100.0,
-          "previous_starter": 20.0,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 100.0,
-            "lineups_sosfanta": 100.0
-          }
-        },
-        {
-          "id": 140,
-          "name": "Fagioli",
-          "club": "FIO",
-          "starter": 100.0,
-          "previous_starter": 97.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 100.0,
-            "lineups_sosfanta": 100.0
-          }
-        },
-        {
-          "id": 112,
-          "name": "Mastantuono",
-          "club": "FIO",
-          "starter": 100.0,
-          "previous_starter": 97.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 100.0,
-            "lineups_sosfanta": 100.0
-          }
-        },
-        {
-          "id": 15,
-          "name": "Njie",
-          "club": "FIO",
-          "starter": 100.0,
-          "previous_starter": 59.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 100.0,
-            "lineups_sosfanta": 100.0
-          }
-        },
-        {
-          "id": 48,
-          "name": "Pellegrino M.",
-          "club": "FIO",
-          "starter": 100.0,
-          "previous_starter": 52.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 100.0,
-            "lineups_sosfanta": 100.0
-          }
-        },
-        {
-          "id": 51,
-          "name": "Carnesecchi",
-          "club": "ATA",
-          "starter": 100.0,
-          "previous_starter": 97.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 100.0,
-            "lineups_sosfanta": 100.0
-          }
-        },
-        {
-          "id": 160,
-          "name": "Zappacosta",
-          "club": "ATA",
-          "starter": 100.0,
-          "previous_starter": 97.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 100.0,
-            "lineups_sosfanta": 100.0
-          }
-        },
-        {
-          "id": 413,
-          "name": "Kristensen T.",
-          "club": "ATA",
-          "starter": 100.0,
-          "previous_starter": 97.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 100.0,
-            "lineups_sosfanta": 100.0
-          }
-        },
-        {
-          "id": 497,
-          "name": "Obric",
-          "club": "ATA",
-          "starter": 100.0,
-          "previous_starter": 85.0,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 100.0,
-            "lineups_sosfanta": 100.0
-          }
-        },
-        {
-          "id": 154,
-          "name": "Bernasconi",
-          "club": "ATA",
-          "starter": 100.0,
-          "previous_starter": 97.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 100.0,
-            "lineups_sosfanta": 100.0
-          }
-        },
-        {
-          "id": 271,
-          "name": "Gaetano",
-          "club": "ATA",
-          "starter": 100.0,
-          "previous_starter": 97.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 100.0,
-            "lineups_sosfanta": 100.0
-          }
-        },
-        {
-          "id": 186,
-          "name": "Ederson D.S.",
-          "club": "ATA",
-          "starter": 100.0,
-          "previous_starter": 87.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 100.0,
-            "lineups_sosfanta": 100.0
-          }
-        },
-        {
-          "id": 121,
-          "name": "De Ketelaere",
-          "club": "ATA",
-          "starter": 100.0,
-          "previous_starter": 70.0,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 100.0,
-            "lineups_sosfanta": 100.0
-          }
-        },
-        {
-          "id": 94,
-          "name": "Krstovic",
-          "club": "ATA",
-          "starter": 100.0,
-          "previous_starter": 97.5,
           "confidence": "medium",
           "rule": "consensus",
           "sources": {
@@ -842,5 +621,5 @@
     "config_calendario_scaduto:aggiornare_round_e_fixtures"
   ],
   "errors": [],
-  "duration_ms": 2599
+  "duration_ms": 2576
 }
