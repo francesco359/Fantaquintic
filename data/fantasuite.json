@@ -1,9 +1,9 @@
 {
   "schema_version": 8,
-  "generated_at": "2026-10-29T09:10:03Z",
+  "generated_at": "2026-10-29T11:03:41Z",
   "aggiornamento_riuscito": true,
   "dati_precedenti_mantenuti": false,
-  "giocatori_cambiati": 98,
+  "giocatori_cambiati": 85,
   "fonti": [
     {
       "name": "injuries_sos",
@@ -11,8 +11,8 @@
       "records_extracted": 97,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 938,
-      "sha256": "a2414c92585f7d9a6af00a23d5a88c9b59c47108a0860cf841199db59449049e",
+      "fetch_ms": 806,
+      "sha256": "2f83d50da828a0455b105851c95b919322f7ad8d6544fabc315564d42d2d79d9",
       "status": "data_applied",
       "players_updated": 41
     },
@@ -22,8 +22,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 593,
-      "sha256": "d459ec274e029262db4ff5fe2cebf3ee6506a351c5e6cc9c28de102cc17f826b",
+      "fetch_ms": 632,
+      "sha256": "29a8aa19781a88d61db586b4e64d2244d60e816af179c06d799a056aa642d38f",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -33,7 +33,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1470,
+      "fetch_ms": 603,
       "sha256": "9dd34cf6d12dd9989e529726eedb5411c0a43e04efdbe01abea3cd831eff9e26",
       "status": "unsupported",
       "players_updated": 0
@@ -44,8 +44,8 @@
       "records_extracted": 62,
       "source_updated_at": "29/10/2026",
       "attempts": 1,
-      "fetch_ms": 1129,
-      "sha256": "0e4f246b64ad457e985ad1e6c1106c93bc13f3f8c4a2b1c3617a73dc911b0cf8",
+      "fetch_ms": 906,
+      "sha256": "199ceaeb4ad92aadc21392fac2019ad532753ea1eef426e9d86fe2438b378751",
       "status": "data_applied",
       "players_updated": 42
     },
@@ -55,7 +55,7 @@
       "records_extracted": 451,
       "source_updated_at": "27/10/2026 17:49",
       "attempts": 1,
-      "fetch_ms": 1335,
+      "fetch_ms": 823,
       "sha256": "c03af12ce3018b6d617697b37d0177ce4be49f062f73985ef18d9c825ecfa9b8",
       "status": "extracted",
       "records_resolved": 412,
@@ -67,8 +67,8 @@
       "records_extracted": 457,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 560,
-      "sha256": "82eb3d3ec11c158e11a001bf26fbac46eb850fd2d003bb188a890fe5f2e9e3ca",
+      "fetch_ms": 1010,
+      "sha256": "12e5f077f2f5ce7df8268a621083d136d04478ad4b0544ff2caa7e349c189ddc",
       "status": "extracted",
       "records_resolved": 416,
       "players_updated": 0
@@ -79,8 +79,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1430,
-      "sha256": "90c75259e3593cc223e9dcaf04f38a1079601a7a04f038758b45d5292fc2f0a2",
+      "fetch_ms": 1253,
+      "sha256": "382ee3a86da0b65a7eab8f37a15d8911ac4b4b4b56ac337f052124968d8d78b0",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -88,7 +88,7 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 15,
+      "players_updated": 2,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
@@ -118,175 +118,6 @@
           "sources": {
             "lineups_fantacalcio": 100.0,
             "lineups_sosfanta": 100.0
-          }
-        },
-        {
-          "id": 390,
-          "name": "Monterisi",
-          "club": "FRO",
-          "starter": 90.0,
-          "previous_starter": 54.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 85.0,
-            "lineups_sosfanta": 95.0
-          }
-        },
-        {
-          "id": 178,
-          "name": "Bracaglia",
-          "club": "FRO",
-          "starter": 57.5,
-          "previous_starter": 53.0,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 55.0,
-            "lineups_sosfanta": 60.0
-          }
-        },
-        {
-          "id": 436,
-          "name": "Terzic",
-          "club": "FRO",
-          "starter": 42.5,
-          "previous_starter": 47.0,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 45.0,
-            "lineups_sosfanta": 40.0
-          }
-        },
-        {
-          "id": 339,
-          "name": "Kaba",
-          "club": "LEC",
-          "starter": 54.5,
-          "previous_starter": 55.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 60.0,
-            "lineups_sosfanta": 49.0
-          }
-        },
-        {
-          "id": 338,
-          "name": "Gorter",
-          "club": "LEC",
-          "starter": 45.5,
-          "previous_starter": 29.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 40.0,
-            "lineups_sosfanta": 51.0
-          }
-        },
-        {
-          "id": 15,
-          "name": "Njie",
-          "club": "FIO",
-          "starter": 59.5,
-          "previous_starter": 60.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 70.0,
-            "lineups_sosfanta": 49.0
-          }
-        },
-        {
-          "id": 44,
-          "name": "Beto",
-          "club": "FIO",
-          "starter": 47.5,
-          "previous_starter": 50.0,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 55.0,
-            "lineups_sosfanta": 40.0
-          }
-        },
-        {
-          "id": 210,
-          "name": "Gnonto",
-          "club": "FIO",
-          "starter": 55.5,
-          "previous_starter": 54.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 60.0,
-            "lineups_sosfanta": 51.0
-          }
-        },
-        {
-          "id": 48,
-          "name": "Pellegrino M.",
-          "club": "FIO",
-          "starter": 52.5,
-          "previous_starter": 50.0,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 45.0,
-            "lineups_sosfanta": 60.0
-          }
-        },
-        {
-          "id": 121,
-          "name": "De Ketelaere",
-          "club": "ATA",
-          "starter": 70.0,
-          "previous_starter": 65.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 80.0,
-            "lineups_sosfanta": 60.0
-          }
-        },
-        {
-          "id": 16,
-          "name": "Rowe",
-          "club": "ATA",
-          "starter": 50.0,
-          "previous_starter": 54.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 60.0,
-            "lineups_sosfanta": 40.0
-          }
-        },
-        {
-          "id": 497,
-          "name": "Obric",
-          "club": "ATA",
-          "starter": 57.5,
-          "previous_starter": 47.0,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 45.0,
-            "lineups_sosfanta": 70.0
-          }
-        },
-        {
-          "id": 191,
-          "name": "Samardzic",
-          "club": "ATA",
-          "starter": 50.0,
-          "previous_starter": 54.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 60.0,
-            "lineups_sosfanta": 40.0
           }
         }
       ],
