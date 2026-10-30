@@ -1,20 +1,20 @@
 {
   "schema_version": 8,
-  "generated_at": "2026-10-30T15:11:03Z",
+  "generated_at": "2026-10-30T17:01:40Z",
   "aggiornamento_riuscito": true,
   "dati_precedenti_mantenuti": false,
-  "giocatori_cambiati": 83,
+  "giocatori_cambiati": 85,
   "fonti": [
     {
       "name": "injuries_sos",
       "url": "https://www.sosfanta.com/indisponibili-e-squalificati/tabella-indisponibili-seriea-fantacalcio-asta-infortunati-tempi-recupero-squalificati-diffidati/",
-      "records_extracted": 101,
+      "records_extracted": 96,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 528,
-      "sha256": "f4df73b5c62789a023c732b101d3b74899339988fd75d35dcc943bdca268f2c4",
+      "fetch_ms": 952,
+      "sha256": "f8f86a3e668891c4d20a65dace2a5466088a5b1d1cee8eed0543db925c742e06",
       "status": "data_applied",
-      "players_updated": 36
+      "players_updated": 40
     },
     {
       "name": "injuries_sky",
@@ -22,8 +22,8 @@
       "records_extracted": 24,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1439,
-      "sha256": "2ca30e5686ede97c5eef70a04995964ce0e3afc790114b70a63c883240517970",
+      "fetch_ms": 814,
+      "sha256": "cd452112ad1c53c468cc870f5ee5d31afe9e710991a86491cd9a2bc549b7c924",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -33,7 +33,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 858,
+      "fetch_ms": 1384,
       "sha256": "7c55f508e59da645cb9d06dbb353009ac8e9e097120741b7ca79340e732fd479",
       "status": "unsupported",
       "players_updated": 0
@@ -44,19 +44,19 @@
       "records_extracted": 60,
       "source_updated_at": "30/10/2026",
       "attempts": 1,
-      "fetch_ms": 885,
-      "sha256": "72e128c1e3fcdb03856e0970f0d29473bf795c01026df74bfa2f251cbd4256d2",
+      "fetch_ms": 1056,
+      "sha256": "36294dbbd7e21a361892ff2452e1cc3a658441a6731bc59a65c90ad54cdbe2e7",
       "status": "data_applied",
       "players_updated": 38
     },
     {
       "name": "lineups_fantacalcio",
       "url": "https://www.fantacalcio.it/probabili-formazioni-serie-a/",
-      "records_extracted": 454,
+      "records_extracted": 456,
       "source_updated_at": "30/10/2026 16:10",
       "attempts": 1,
-      "fetch_ms": 955,
-      "sha256": "c80cea1ef1d529fe314d4382204cc2c4d861858ccb9610ae1a64b8e418d1d1ce",
+      "fetch_ms": 1322,
+      "sha256": "c16424c73a2125cb6bdc1a8e1e0028a0e51b1cf8a5b867f8d8aa955b35f48417",
       "status": "extracted",
       "records_resolved": 411,
       "players_updated": 0
@@ -64,13 +64,13 @@
     {
       "name": "lineups_sosfanta",
       "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
-      "records_extracted": 508,
+      "records_extracted": 509,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 573,
-      "sha256": "09b6e4b00c52e8b7f88f785c8dad246655260e15bc88f3088dc2831ccb4eae45",
+      "fetch_ms": 1080,
+      "sha256": "ef8cb8adefec5815ea4a97abddbd140dc8fd01d8d9f1f7b737373247748a0c1f",
       "status": "extracted",
-      "records_resolved": 436,
+      "records_resolved": 438,
       "players_updated": 0
     },
     {
@@ -79,8 +79,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1153,
-      "sha256": "6759333dd7e8c7d732367bbf33e584ec3cd47157dd291a738aad8e98a5ef5aa9",
+      "fetch_ms": 1713,
+      "sha256": "c98389ff0b3a17ef2e3bb4a22d26613d18d2c9e228861bb4196beadd86f36d64",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -88,38 +88,12 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 9,
+      "players_updated": 7,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
       "single_source_bench_updates": 0,
       "sample": [
-        {
-          "id": 546,
-          "name": "Odgaard",
-          "club": "N/D",
-          "starter": 60.0,
-          "previous_starter": 97.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 60.0,
-            "lineups_sosfanta": 60.0
-          }
-        },
-        {
-          "id": 144,
-          "name": "Dovbyk",
-          "club": "BOL",
-          "starter": 40.0,
-          "previous_starter": 52.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 40.0,
-            "lineups_sosfanta": 40.0
-          }
-        },
         {
           "id": 156,
           "name": "Gila",
@@ -131,6 +105,19 @@
           "sources": {
             "lineups_fantacalcio": 70.0,
             "lineups_sosfanta": 95.0
+          }
+        },
+        {
+          "id": 18,
+          "name": "Zielinski",
+          "club": "INT",
+          "starter": 52.0,
+          "previous_starter": 62.0,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 55.0,
+            "lineups_sosfanta": 49.0
           }
         },
         {
@@ -147,41 +134,28 @@
           }
         },
         {
-          "id": 453,
-          "name": "Smolcic I.",
-          "club": "COM",
-          "starter": 48.0,
-          "previous_starter": 47.0,
+          "id": 122,
+          "name": "Esposito F.P.",
+          "club": "INT",
+          "starter": 63.0,
+          "previous_starter": 58.0,
           "confidence": "medium",
           "rule": "consensus",
           "sources": {
-            "lineups_fantacalcio": 45.0,
+            "lineups_fantacalcio": 75.0,
             "lineups_sosfanta": 51.0
           }
         },
         {
-          "id": 188,
-          "name": "Milla",
-          "club": "COM",
-          "starter": 47.0,
-          "previous_starter": 97.5,
+          "id": 120,
+          "name": "Bonny",
+          "club": "INT",
+          "starter": 54.5,
+          "previous_starter": 42.0,
           "confidence": "medium",
           "rule": "consensus",
           "sources": {
-            "lineups_fantacalcio": 45.0,
-            "lineups_sosfanta": 49.0
-          }
-        },
-        {
-          "id": 340,
-          "name": "Ricci S.",
-          "club": "COM",
-          "starter": 52.0,
-          "previous_starter": 100,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 55.0,
+            "lineups_fantacalcio": 60.0,
             "lineups_sosfanta": 49.0
           }
         },
@@ -199,16 +173,16 @@
           }
         },
         {
-          "id": 218,
-          "name": "Zapata D.",
-          "club": "TOR",
-          "starter": 17.5,
-          "previous_starter": 19.5,
+          "id": 199,
+          "name": "Noslin",
+          "club": "LAZ",
+          "starter": 87.5,
+          "previous_starter": 70.0,
           "confidence": "medium",
           "rule": "consensus",
           "sources": {
-            "lineups_fantacalcio": 30.0,
-            "lineups_sosfanta": 5.0
+            "lineups_fantacalcio": 80.0,
+            "lineups_sosfanta": 95.0
           }
         }
       ],
@@ -585,7 +559,6 @@
   "non_associati": [
     "injuries_sos:Liberali",
     "injuries_sos:Luis Henrique",
-    "injuries_sos:Ekhator",
     "injuries_sos:Coulibaly L.",
     "injuries_sos:Ilic",
     "injuries_sos:Terracciano",
@@ -643,6 +616,7 @@
     "lineups_fantacalcio:Miller L.",
     "lineups_fantacalcio:Vinciati",
     "lineups_fantacalcio:N'Dicka",
+    "lineups_fantacalcio:Di Nunzio",
     "lineups_fantacalcio:Musah",
     "lineups_fantacalcio:Mkhitaryan",
     "lineups_fantacalcio:Lavelli",
@@ -654,14 +628,15 @@
     "lineups_fantacalcio:Braganca",
     "lineups_fantacalcio:Oristanio",
     "lineups_fantacalcio:Pellegri",
-    "lineups_fantacalcio:Deiola",
     "lineups_fantacalcio:Massolin",
     "lineups_fantacalcio:Sulev",
+    "lineups_fantacalcio:Deiola",
     "lineups_fantacalcio:Fadera",
     "lineups_fantacalcio:Trepy",
     "lineups_fantacalcio:Fatah",
     "lineups_fantacalcio:Borbei",
     "lineups_fantacalcio:Traorè Hj.",
+    "lineups_fantacalcio:Ekhator",
     "lineups_fantacalcio:Gilmour",
     "lineups_fantacalcio:Giovane",
     "lineups_fantacalcio:Ghion",
@@ -713,7 +688,6 @@
     "lineups_sosfanta:Deiola",
     "lineups_sosfanta:Massolin",
     "lineups_sosfanta:Isaksen - Cancellieri",
-    "lineups_sosfanta:Noslin - Pinamonti",
     "lineups_sosfanta:Zè Pedro - Sugawara",
     "lineups_sosfanta:Massolin - Fadera",
     "lineups_sosfanta:Mendy P. - Nzola",
