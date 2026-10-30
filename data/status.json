@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-30T05:04:34Z",
+  "generated_at": "2026-10-30T07:22:08Z",
   "round": 8,
   "players": 502,
-  "player_updates": 75,
+  "player_updates": 87,
   "fresh_player_data": true,
   "data_confirmed": true,
   "sources_ok": 5,
@@ -15,8 +15,8 @@
       "records_extracted": 101,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 435,
-      "sha256": "09f2177894e23153f63215182d8c1e58d29e6724ae839ac57270b41c377ea9df",
+      "fetch_ms": 933,
+      "sha256": "35f226b0a66966ceab921169357be9a09e2e69ad16618b056f3b101bab898307",
       "status": "data_applied",
       "players_updated": 36
     },
@@ -26,8 +26,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 571,
-      "sha256": "831067702ec59b7ab235e977c5033ec1ab379f3ccc0620ccae19fa71749a6b02",
+      "fetch_ms": 1149,
+      "sha256": "4a5124240b80c3f92edf332e365f2321b602356f16fa4fcff8f21552afe9c429",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -37,7 +37,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 756,
+      "fetch_ms": 1424,
       "sha256": "ec556954dc90331a574e2e96d2c0af140f1acc4803a99ac47a377e502d0f8bb3",
       "status": "unsupported",
       "players_updated": 0
@@ -48,21 +48,21 @@
       "records_extracted": 60,
       "source_updated_at": "30/10/2026",
       "attempts": 1,
-      "fetch_ms": 777,
-      "sha256": "8c24a04703ec53b04a8b9b624f68f8885e2bd7e6c948c8f34be287d2c5d3c55b",
+      "fetch_ms": 1062,
+      "sha256": "16ae787b20b14c7234bcff4ffc932a324a93352c4d118b7fc6918adcb1383282",
       "status": "data_applied",
       "players_updated": 37
     },
     {
       "name": "lineups_fantacalcio",
       "url": "https://www.fantacalcio.it/probabili-formazioni-serie-a/",
-      "records_extracted": 451,
+      "records_extracted": 450,
       "source_updated_at": "28/10/2026 17:36",
       "attempts": 1,
-      "fetch_ms": 549,
-      "sha256": "79e9e7a2b59ec9b0f678d20907fd5f066e0017338d4655aac37fab308e1f99fb",
+      "fetch_ms": 1319,
+      "sha256": "ae430f47191df3ddd202111a5e6d9bdf4831d80aa065c29c76552e51fde9e363",
       "status": "extracted",
-      "records_resolved": 412,
+      "records_resolved": 411,
       "players_updated": 0
     },
     {
@@ -71,8 +71,8 @@
       "records_extracted": 503,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 710,
-      "sha256": "16af41e8a26ce740a2906e493ab53773fae29c3821ce20511ed778da4ae418fe",
+      "fetch_ms": 1013,
+      "sha256": "e6bf5df665e1ba51027b7e14cbcf2aa234d00cfd8178d84570a8d3b30c2c7df8",
       "status": "extracted",
       "records_resolved": 435,
       "players_updated": 0
@@ -83,8 +83,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 953,
-      "sha256": "c945305ea357a8ab7ded2e4c30795393fcc58affdf7c67f4bde97d115428aedd",
+      "fetch_ms": 2006,
+      "sha256": "bc1a9597dc48d84f9fea2ccc277f4bb9a876cef7184d0e425b62b62764582bb7",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -92,7 +92,7 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 2,
+      "players_updated": 14,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
@@ -122,6 +122,162 @@
           "sources": {
             "lineups_fantacalcio": 100.0,
             "lineups_sosfanta": 95.0
+          }
+        },
+        {
+          "id": 150,
+          "name": "Falcone",
+          "club": "LEC",
+          "starter": 92.5,
+          "previous_starter": 97.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 90.0,
+            "lineups_sosfanta": 95.0
+          }
+        },
+        {
+          "id": 375,
+          "name": "Veiga D.",
+          "club": "LEC",
+          "starter": 87.5,
+          "previous_starter": 97.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 80.0,
+            "lineups_sosfanta": 95.0
+          }
+        },
+        {
+          "id": 422,
+          "name": "Siebert",
+          "club": "LEC",
+          "starter": 92.5,
+          "previous_starter": 97.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 90.0,
+            "lineups_sosfanta": 95.0
+          }
+        },
+        {
+          "id": 10,
+          "name": "Tiago Gabriel",
+          "club": "LEC",
+          "starter": 85.0,
+          "previous_starter": 97.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 75.0,
+            "lineups_sosfanta": 95.0
+          }
+        },
+        {
+          "id": 408,
+          "name": "Gallo",
+          "club": "LEC",
+          "starter": 92.5,
+          "previous_starter": 97.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 90.0,
+            "lineups_sosfanta": 95.0
+          }
+        },
+        {
+          "id": 309,
+          "name": "Ngom",
+          "club": "LEC",
+          "starter": 92.5,
+          "previous_starter": 97.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 90.0,
+            "lineups_sosfanta": 95.0
+          }
+        },
+        {
+          "id": 308,
+          "name": "Maleh",
+          "club": "LEC",
+          "starter": 60.0,
+          "previous_starter": 100,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 60.0,
+            "lineups_sosfanta": 60.0
+          }
+        },
+        {
+          "id": 233,
+          "name": "Esteban",
+          "club": "LEC",
+          "starter": 55.5,
+          "previous_starter": 100,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 60.0,
+            "lineups_sosfanta": 51.0
+          }
+        },
+        {
+          "id": 496,
+          "name": "Dembelè A.",
+          "club": "LEC",
+          "starter": 20.0,
+          "previous_starter": 17.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 35.0,
+            "lineups_sosfanta": 5.0
+          }
+        },
+        {
+          "id": 326,
+          "name": "Gandelman",
+          "club": "LEC",
+          "starter": 40.0,
+          "previous_starter": 100,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 40.0,
+            "lineups_sosfanta": 40.0
+          }
+        },
+        {
+          "id": 189,
+          "name": "Monteiro J.",
+          "club": "LEC",
+          "starter": 45.0,
+          "previous_starter": 100,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 45.0,
+            "lineups_sosfanta": 45.0
+          }
+        },
+        {
+          "id": 214,
+          "name": "Stulic",
+          "club": "LEC",
+          "starter": 44.5,
+          "previous_starter": 49.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 40.0,
+            "lineups_sosfanta": 49.0
           }
         }
       ],
@@ -561,8 +717,8 @@
     "lineups_fantacalcio:Massolin",
     "lineups_fantacalcio:Sulev",
     "lineups_fantacalcio:Trepy",
-    "lineups_fantacalcio:Borbei",
     "lineups_fantacalcio:Fatah",
+    "lineups_fantacalcio:Borbei",
     "lineups_fantacalcio:Traorè Hj.",
     "lineups_fantacalcio:Gilmour",
     "lineups_fantacalcio:Giovane",
@@ -644,5 +800,5 @@
     "config_calendario_scaduto:aggiornare_round_e_fixtures"
   ],
   "errors": [],
-  "duration_ms": 2482
+  "duration_ms": 3039
 }
