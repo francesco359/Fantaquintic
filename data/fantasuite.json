@@ -1,9 +1,9 @@
 {
   "schema_version": 8,
-  "generated_at": "2026-10-31T03:03:38Z",
+  "generated_at": "2026-10-31T04:59:34Z",
   "aggiornamento_riuscito": true,
   "dati_precedenti_mantenuti": false,
-  "giocatori_cambiati": 71,
+  "giocatori_cambiati": 73,
   "fonti": [
     {
       "name": "injuries_sos",
@@ -11,8 +11,8 @@
       "records_extracted": 97,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 434,
-      "sha256": "4a3ffcfe3fe68dfe1f98fe9d4443b41eae70c94da9292d5ea86047344154d91f",
+      "fetch_ms": 837,
+      "sha256": "347fd1bed6d60365b86d26c645c3b53f1e7bff2601a30dcb86ce7c9d2a2da6af",
       "status": "data_applied",
       "players_updated": 33
     },
@@ -22,8 +22,8 @@
       "records_extracted": 23,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 540,
-      "sha256": "3f4dd85c3dc1a355cf72fdaaf609faf70b73930816492aa97fa1590141dcf852",
+      "fetch_ms": 1093,
+      "sha256": "5c6ab3e092e9e4b0679ba4b05810290b30778bbc49a25e7a94edae6b8b8b563e",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -33,7 +33,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 691,
+      "fetch_ms": 1024,
       "sha256": "71e7775541696d4e6d0b4b3230c7fcbc335e7fe91c754ed34a3ce2774526e402",
       "status": "unsupported",
       "players_updated": 0
@@ -44,10 +44,10 @@
       "records_extracted": 52,
       "source_updated_at": "31/10/2026",
       "attempts": 1,
-      "fetch_ms": 790,
-      "sha256": "9e37cda8790e9d615c3d11ddb89969d0c222f6384d0b7615d3a72cc699d6e7f1",
+      "fetch_ms": 1016,
+      "sha256": "dd89676c48a5ae04fb9b4ea8c9774f6f706cb025beb3b06eecf7e9f3d890f19a",
       "status": "data_applied",
-      "players_updated": 35
+      "players_updated": 38
     },
     {
       "name": "lineups_fantacalcio",
@@ -55,7 +55,7 @@
       "records_extracted": 457,
       "source_updated_at": "30/10/2026 19:45",
       "attempts": 1,
-      "fetch_ms": 522,
+      "fetch_ms": 926,
       "sha256": "efdb70b83f51c9d3f8e7dad54d178ce99303bce238b4487ba06573a82f122c40",
       "status": "extracted",
       "records_resolved": 412,
@@ -67,8 +67,8 @@
       "records_extracted": 514,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 761,
-      "sha256": "e5ee882d698e930144c21bf0ab1f38ba3359eefcf3623dd308ae45d89d1085e6",
+      "fetch_ms": 976,
+      "sha256": "bb24b8ab07f581a2ae8574068c5ecaad74a6299303d29130d26b346fc490daf6",
       "status": "extracted",
       "records_resolved": 440,
       "players_updated": 0
@@ -79,8 +79,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1290,
-      "sha256": "78b050ddaca12f27d51104fbc202b3cdd377aa29cfd6339a154442fb4a7df012",
+      "fetch_ms": 1555,
+      "sha256": "0311278020e08df33de66057dc8cdb5016f1a581414ec71e020e40f0f9695b13",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -88,25 +88,12 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 3,
+      "players_updated": 2,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
       "single_source_bench_updates": 0,
       "sample": [
-        {
-          "id": 156,
-          "name": "Gila",
-          "club": "MIL",
-          "starter": 87.5,
-          "previous_starter": 0.0,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 80.0,
-            "lineups_sosfanta": 95.0
-          }
-        },
         {
           "id": 49,
           "name": "Thuram",
@@ -553,7 +540,6 @@
     "injuries_official:EKHATOR Jeff",
     "injuries_official:COULIBALY Lassana",
     "injuries_official:ILIC Ivan",
-    "injuries_official:NICOLUSSI CAVIGLIA Hans",
     "injuries_official:BAH Muhammed",
     "injuries_official:KONE Ismaël",
     "injuries_official:ISRAEL Franco",
@@ -656,6 +642,7 @@
     "lineups_sosfanta:Woltemade - Alajbegovic",
     "lineups_sosfanta:Giovane",
     "lineups_sosfanta:Gilmour",
-    "lineups_sosfanta:Ndour"
+    "lineups_sosfanta:Ndour",
+    "lineups_sosfanta:Brescianini"
   ]
 }
