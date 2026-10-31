@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-30T22:54:33Z",
+  "generated_at": "2026-10-31T01:22:10Z",
   "round": 8,
   "players": 502,
-  "player_updates": 80,
+  "player_updates": 74,
   "fresh_player_data": true,
   "data_confirmed": true,
   "sources_ok": 5,
@@ -15,8 +15,8 @@
       "records_extracted": 97,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 937,
-      "sha256": "5ed4182ed9dbfe3d0e0e4dc1f07585061d5f008b051b823f267e98ab0af61284",
+      "fetch_ms": 986,
+      "sha256": "27ced090fab4491cee8fe8caae5fefd017bc00467e1c8cab9249d363d00614b9",
       "status": "data_applied",
       "players_updated": 36
     },
@@ -26,8 +26,8 @@
       "records_extracted": 23,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1042,
-      "sha256": "613fdb74c980826d365072f3b5a4a78a20ead0ec504653c19b4e2960b73c38d0",
+      "fetch_ms": 931,
+      "sha256": "c1a639413b3a4053e76e74ad40a69871335eefa34feaf395342b84bd85039a97",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -37,7 +37,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 652,
+      "fetch_ms": 592,
       "sha256": "71e7775541696d4e6d0b4b3230c7fcbc335e7fe91c754ed34a3ce2774526e402",
       "status": "unsupported",
       "players_updated": 0
@@ -45,13 +45,13 @@
     {
       "name": "injuries_official",
       "url": "https://www.fantacalcio-online.com/it/infortunati-serie-a",
-      "records_extracted": 60,
-      "source_updated_at": "30/10/2026",
+      "records_extracted": 52,
+      "source_updated_at": "31/10/2026",
       "attempts": 1,
-      "fetch_ms": 1043,
-      "sha256": "078e6018b914a66d0dd256ae9c505763359233dfde7d9f5aaf85d091e6541939",
+      "fetch_ms": 884,
+      "sha256": "e66cc0afec21ec27686351bb3eccc69ecaf35e96211ceb76b75a532135948b5d",
       "status": "data_applied",
-      "players_updated": 38
+      "players_updated": 35
     },
     {
       "name": "lineups_fantacalcio",
@@ -59,7 +59,7 @@
       "records_extracted": 457,
       "source_updated_at": "30/10/2026 19:45",
       "attempts": 1,
-      "fetch_ms": 1250,
+      "fetch_ms": 750,
       "sha256": "efdb70b83f51c9d3f8e7dad54d178ce99303bce238b4487ba06573a82f122c40",
       "status": "extracted",
       "records_resolved": 412,
@@ -71,8 +71,8 @@
       "records_extracted": 514,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1066,
-      "sha256": "d3a080e3027b7b8c4f68153bd629b3b1196a178aeaaafadd59cffd2f94719ebb",
+      "fetch_ms": 841,
+      "sha256": "68f7e9371421a7830202e43c8642e2cf586bf72c99664b8884eff1f0a5446b05",
       "status": "extracted",
       "records_resolved": 440,
       "players_updated": 0
@@ -83,8 +83,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1177,
-      "sha256": "038561331bc85fb81451ca29117448820f185908dc969b089c04fcf49aad7ecb",
+      "fetch_ms": 1693,
+      "sha256": "a24cf09546f49834d2c4881b764b45191a08d10f3cdacd4da03a2538f3fb605a",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -92,7 +92,7 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 6,
+      "players_updated": 3,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
@@ -109,45 +109,6 @@
           "sources": {
             "lineups_fantacalcio": 80.0,
             "lineups_sosfanta": 95.0
-          }
-        },
-        {
-          "id": 481,
-          "name": "Diawara S.",
-          "club": "MIL",
-          "starter": 53.0,
-          "previous_starter": 20.0,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 55.0,
-            "lineups_sosfanta": 51.0
-          }
-        },
-        {
-          "id": 391,
-          "name": "Bartesaghi",
-          "club": "MIL",
-          "starter": 47.0,
-          "previous_starter": 44.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 45.0,
-            "lineups_sosfanta": 49.0
-          }
-        },
-        {
-          "id": 551,
-          "name": "Hutchinson",
-          "club": "N/D",
-          "starter": 40.0,
-          "previous_starter": 85.0,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 40.0,
-            "lineups_sosfanta": 40.0
           }
         },
         {
@@ -586,7 +547,6 @@
     "injuries_sky:informazioni sulle modifiche contrattuali",
     "injuries_sky:o per",
     "injuries_sky:contatti",
-    "injuries_official:IDRISSI Riyad",
     "injuries_official:LUIS HENRIQUE de Lima",
     "injuries_official:MARTINEZ Lautaro",
     "injuries_official:EKHATOR Jeff",
@@ -694,12 +654,13 @@
     "lineups_sosfanta:Cambiaso - Koopmeiners",
     "lineups_sosfanta:Woltemade - Alajbegovic",
     "lineups_sosfanta:Giovane",
-    "lineups_sosfanta:Gilmour"
+    "lineups_sosfanta:Gilmour",
+    "lineups_sosfanta:Ndour"
   ],
   "warnings": [
     "fonte_senza_parser:votes",
     "config_calendario_scaduto:aggiornare_round_e_fixtures"
   ],
   "errors": [],
-  "duration_ms": 2908
+  "duration_ms": 2589
 }
