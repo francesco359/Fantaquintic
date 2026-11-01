@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-31T22:52:31Z",
+  "generated_at": "2026-11-01T01:29:24Z",
   "round": 8,
   "players": 502,
-  "player_updates": 77,
+  "player_updates": 74,
   "fresh_player_data": true,
   "data_confirmed": true,
   "sources_ok": 5,
@@ -15,19 +15,19 @@
       "records_extracted": 96,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 486,
-      "sha256": "27aafc158744c8bd0380193ad001c8ca354f2081259e7772c89d803905a37aa5",
+      "fetch_ms": 357,
+      "sha256": "5774f5d55e256685857c13763f15ad2a40d4c9aaa521edc04c127e39d85814e1",
       "status": "data_applied",
       "players_updated": 37
     },
     {
       "name": "injuries_sky",
       "url": "https://sport.sky.it/calcio/serie-a/2026/10/20/serie-a-indisponibili-infortunati-squalificati-giornata-8",
-      "records_extracted": 23,
+      "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 754,
-      "sha256": "4ed5a43fb53e1a0ea93d693b27aff2f42ceca7efd3b06f2027e9e187a24208e6",
+      "fetch_ms": 838,
+      "sha256": "6d697b1d85bb0d9b3ac674a327a7affb01456f1b69c004feac1c71edfd2765ea",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -37,7 +37,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 775,
+      "fetch_ms": 410,
       "sha256": "134b8c6720fe697f5e2d2dc068366ce039bf3e69675f62eebaab4fa0e5fe29e3",
       "status": "unsupported",
       "players_updated": 0
@@ -45,13 +45,13 @@
     {
       "name": "injuries_official",
       "url": "https://www.fantacalcio-online.com/it/infortunati-serie-a",
-      "records_extracted": 52,
-      "source_updated_at": "31/10/2026",
+      "records_extracted": 48,
+      "source_updated_at": "01/11/2026",
       "attempts": 1,
-      "fetch_ms": 520,
-      "sha256": "0b498abf5c2822766767031a4e697d1e88b4444cd33070cae9af9eaeef786a09",
+      "fetch_ms": 789,
+      "sha256": "0bb7e12bb48a2b8117462acc6cc8c0c8e99cd6f23efd26b4541f72ccaeb6ae2f",
       "status": "data_applied",
-      "players_updated": 38
+      "players_updated": 35
     },
     {
       "name": "lineups_fantacalcio",
@@ -59,7 +59,7 @@
       "records_extracted": 456,
       "source_updated_at": "31/10/2026 14:07",
       "attempts": 1,
-      "fetch_ms": 672,
+      "fetch_ms": 469,
       "sha256": "393f076a2fae7b6e702902ba473b111d4c4adbc8c2747b67deb02973bfa6492a",
       "status": "extracted",
       "records_resolved": 410,
@@ -71,8 +71,8 @@
       "records_extracted": 486,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 477,
-      "sha256": "506adceac40392e6ff7bd45fb6e78c09b7a03cf422adec5e3ef2eb45b1412eff",
+      "fetch_ms": 371,
+      "sha256": "5142afdee4d152dfbfbdd6b8d5d7854490c89a0622925965320e6ad0e173620c",
       "status": "extracted",
       "records_resolved": 427,
       "players_updated": 0
@@ -83,8 +83,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1297,
-      "sha256": "ea5ff92b201de5e69178e0ffab0d2aec7dd273a8424da78cfd52138b47b6ae4b",
+      "fetch_ms": 1095,
+      "sha256": "0eeaa8db9d1fc83561f0b7c253f64929ec746a2d2683c88d5e9d8ba777863e2d",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -508,7 +508,6 @@
     "injuries_sos:Dichiarazione di accessibilità",
     "injuries_sky:Possibile rientro a inizio novembre",
     "injuries_sky:Rientro a inizio novembre",
-    "injuries_sky:infortuni",
     "injuries_sky:serie a",
     "injuries_sky:pubblicità",
     "injuries_sky:sky sport",
@@ -638,12 +637,13 @@
     "lineups_sosfanta:Zalewski",
     "lineups_sosfanta:Keita M.",
     "lineups_sosfanta:Britschgi - Drobnic",
-    "lineups_sosfanta:Daffara - Corvi"
+    "lineups_sosfanta:Daffara - Corvi",
+    "lineups_sosfanta:Fabbian"
   ],
   "warnings": [
     "fonte_senza_parser:votes",
     "config_calendario_scaduto:aggiornare_round_e_fixtures"
   ],
   "errors": [],
-  "duration_ms": 2525
+  "duration_ms": 2293
 }
