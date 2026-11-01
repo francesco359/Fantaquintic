@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-01T03:05:00Z",
+  "generated_at": "2026-11-01T05:06:58Z",
   "round": 8,
   "players": 502,
-  "player_updates": 71,
+  "player_updates": 72,
   "fresh_player_data": true,
   "data_confirmed": true,
   "sources_ok": 5,
@@ -15,8 +15,8 @@
       "records_extracted": 96,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 956,
-      "sha256": "f17fc6c6d6b68f582b285d2e47fa0e18f4918e895f65b6cbe0f4a3e93137d24d",
+      "fetch_ms": 923,
+      "sha256": "a572646472f06a9f4c76a270ecb24ccba448f7f33f580870d652b3f7311c1461",
       "status": "data_applied",
       "players_updated": 34
     },
@@ -26,8 +26,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 822,
-      "sha256": "fc9208abdac3414c502f0ef76a10041c23c65f338cf38fafd1c87cc3f4916ed0",
+      "fetch_ms": 517,
+      "sha256": "b1ef9241525c17940c222284612afdbfbd0b3465bc31d570659b07764f472986",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -37,7 +37,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1139,
+      "fetch_ms": 1199,
       "sha256": "f8fa01c0afda4c30f424cb010a12429200f4abd219f92628d09988bb69f48425",
       "status": "unsupported",
       "players_updated": 0
@@ -45,13 +45,13 @@
     {
       "name": "injuries_official",
       "url": "https://www.fantacalcio-online.com/it/infortunati-serie-a",
-      "records_extracted": 48,
+      "records_extracted": 49,
       "source_updated_at": "01/11/2026",
       "attempts": 1,
-      "fetch_ms": 1164,
-      "sha256": "ec1b0778d3184b5f0047c47c1f1efa39abf58051d5b0f13fbb268f7a7696b24f",
+      "fetch_ms": 1029,
+      "sha256": "5a35f3d8f9664465a31d30931fd975a928a844d19289056bcc245d01de7f8fb0",
       "status": "data_applied",
-      "players_updated": 35
+      "players_updated": 36
     },
     {
       "name": "lineups_fantacalcio",
@@ -59,7 +59,7 @@
       "records_extracted": 456,
       "source_updated_at": "31/10/2026 14:07",
       "attempts": 1,
-      "fetch_ms": 1259,
+      "fetch_ms": 1026,
       "sha256": "393f076a2fae7b6e702902ba473b111d4c4adbc8c2747b67deb02973bfa6492a",
       "status": "extracted",
       "records_resolved": 410,
@@ -71,8 +71,8 @@
       "records_extracted": 486,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1143,
-      "sha256": "80c74b76d4c3eafe41cafdeece4b20e08e5cb7ec7cd77a61ae1f9c62beb2b44e",
+      "fetch_ms": 1244,
+      "sha256": "c433d23adb9b4fcf15954bf4e8250881be489a27a9384107edc78ac44ca992b3",
       "status": "extracted",
       "records_resolved": 427,
       "players_updated": 0
@@ -83,8 +83,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 2074,
-      "sha256": "52fb38e2c42350238aa47222ae9596e575fd766bb305c147fbae7b6ae3c9cd52",
+      "fetch_ms": 1368,
+      "sha256": "2310d0710e1f7a73c28bf1fe694dec538b6bde4c2b3afcf0a7b841575e052a6d",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -645,5 +645,5 @@
     "config_calendario_scaduto:aggiornare_round_e_fixtures"
   ],
   "errors": [],
-  "duration_ms": 3339
+  "duration_ms": 2822
 }
