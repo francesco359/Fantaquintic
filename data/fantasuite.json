@@ -1,9 +1,9 @@
 {
   "schema_version": 8,
-  "generated_at": "2026-11-01T09:03:14Z",
+  "generated_at": "2026-11-01T10:55:45Z",
   "aggiornamento_riuscito": true,
   "dati_precedenti_mantenuti": false,
-  "giocatori_cambiati": 75,
+  "giocatori_cambiati": 94,
   "fonti": [
     {
       "name": "injuries_sos",
@@ -11,8 +11,8 @@
       "records_extracted": 96,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 821,
-      "sha256": "52b72d2709a195e4b26e2d6f7da6e4bfd58deec67f7225e026b9cbb22427f937",
+      "fetch_ms": 936,
+      "sha256": "e2dc6f0ff7763e0842c4cb25bb55fff14bd08a980fb957b0aebb67e2a9596a5f",
       "status": "data_applied",
       "players_updated": 35
     },
@@ -22,8 +22,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 584,
-      "sha256": "e381c8631b90b921eff925330b618edb859ae4b92f3d9d9e7d313de797b4de17",
+      "fetch_ms": 452,
+      "sha256": "e9c7bc95aaebba818f7ac4ed55fc56d186a51901216b81174c70126f01547d73",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -33,7 +33,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 637,
+      "fetch_ms": 879,
       "sha256": "b1e51cb68b8e2d9a9434bf35498683837c1735aa99976dafcb01366bffe2f133",
       "status": "unsupported",
       "players_updated": 0
@@ -44,33 +44,33 @@
       "records_extracted": 49,
       "source_updated_at": "01/11/2026",
       "attempts": 1,
-      "fetch_ms": 813,
-      "sha256": "0f6f756a9ce16a9de71ab4ea045316dfc7dac1a826ef8c1ab311cb8c89e9e73e",
+      "fetch_ms": 1062,
+      "sha256": "26683ea51b1d0737332d35ce4af2ddebef554883e32a8c54af857c84bf146f8a",
       "status": "data_applied",
       "players_updated": 36
     },
     {
       "name": "lineups_fantacalcio",
       "url": "https://www.fantacalcio.it/probabili-formazioni-serie-a/",
-      "records_extracted": 456,
+      "records_extracted": 453,
       "source_updated_at": "31/10/2026 14:07",
       "attempts": 1,
-      "fetch_ms": 844,
-      "sha256": "393f076a2fae7b6e702902ba473b111d4c4adbc8c2747b67deb02973bfa6492a",
+      "fetch_ms": 1217,
+      "sha256": "4e31925420ce6e953146a85805705fd7b22af5b79e9c80fe587ba23ac61baa7e",
       "status": "extracted",
-      "records_resolved": 410,
+      "records_resolved": 406,
       "players_updated": 0
     },
     {
       "name": "lineups_sosfanta",
       "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
-      "records_extracted": 487,
+      "records_extracted": 481,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 892,
-      "sha256": "f34fd49b3ed041571ef0a829e96b07d60f6cb250c8d60b99548f3cffecf24f08",
+      "fetch_ms": 1074,
+      "sha256": "47f4867c48564c0ae40f1ee7e5a15718d779311ccc6d345181ac60640701320a",
       "status": "extracted",
-      "records_resolved": 428,
+      "records_resolved": 427,
       "players_updated": 0
     },
     {
@@ -79,8 +79,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1472,
-      "sha256": "5581a53bef5dac725408060ccb9926401536ea871dcbb96562efc1afc71035e2",
+      "fetch_ms": 1433,
+      "sha256": "fb3fe0bd523e64ebf5a6a3dd40f1c70c7f20e4cefcaf526ddb419bfb3644f261",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -88,7 +88,7 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 4,
+      "players_updated": 23,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
@@ -108,42 +108,289 @@
           }
         },
         {
-          "id": 438,
-          "name": "Juan Jesus",
-          "club": "VEN",
-          "starter": 92.5,
-          "previous_starter": 0.0,
+          "id": 175,
+          "name": "Butez",
+          "club": "COM",
+          "starter": 100.0,
+          "previous_starter": 65.5,
           "confidence": "medium",
           "rule": "consensus",
           "sources": {
-            "lineups_fantacalcio": 90.0,
+            "lineups_fantacalcio": 100.0,
+            "lineups_sosfanta": 100.0
+          }
+        },
+        {
+          "id": 4,
+          "name": "Couto",
+          "club": "COM",
+          "starter": 100.0,
+          "previous_starter": 53.0,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 100.0,
+            "lineups_sosfanta": 100.0
+          }
+        },
+        {
+          "id": 108,
+          "name": "Ramon",
+          "club": "COM",
+          "starter": 97.5,
+          "previous_starter": 87.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 100.0,
             "lineups_sosfanta": 95.0
           }
         },
         {
-          "id": 470,
-          "name": "Drameh",
-          "club": "GEN",
-          "starter": 10.0,
-          "previous_starter": 17.5,
+          "id": 402,
+          "name": "Kempf",
+          "club": "COM",
+          "starter": 97.5,
+          "previous_starter": 82.5,
           "confidence": "medium",
           "rule": "consensus",
           "sources": {
-            "lineups_fantacalcio": 15.0,
+            "lineups_fantacalcio": 100.0,
+            "lineups_sosfanta": 95.0
+          }
+        },
+        {
+          "id": 32,
+          "name": "Kaiki",
+          "club": "COM",
+          "starter": 100.0,
+          "previous_starter": 53.0,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 100.0,
+            "lineups_sosfanta": 100.0
+          }
+        },
+        {
+          "id": 340,
+          "name": "Ricci S.",
+          "club": "COM",
+          "starter": 100.0,
+          "previous_starter": 53.0,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 100.0,
+            "lineups_sosfanta": 100.0
+          }
+        },
+        {
+          "id": 188,
+          "name": "Milla",
+          "club": "COM",
+          "starter": 100.0,
+          "previous_starter": 47.0,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 100.0,
+            "lineups_sosfanta": 100.0
+          }
+        },
+        {
+          "id": 12,
+          "name": "Da Cunha",
+          "club": "COM",
+          "starter": 100.0,
+          "previous_starter": 52.0,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 100.0,
+            "lineups_sosfanta": 100.0
+          }
+        },
+        {
+          "id": 190,
+          "name": "Paz N.",
+          "club": "COM",
+          "starter": 100.0,
+          "previous_starter": 92.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 100.0,
+            "lineups_sosfanta": 100.0
+          }
+        },
+        {
+          "id": 37,
+          "name": "Baturina",
+          "club": "COM",
+          "starter": 100.0,
+          "previous_starter": 55.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 100.0,
+            "lineups_sosfanta": 100.0
+          }
+        },
+        {
+          "id": 72,
+          "name": "Douvikas",
+          "club": "COM",
+          "starter": 100.0,
+          "previous_starter": 82.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 100.0,
+            "lineups_sosfanta": 100.0
+          }
+        },
+        {
+          "id": 52,
+          "name": "Sanchez Ro.",
+          "club": "COM",
+          "starter": 5.0,
+          "previous_starter": 100,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 5.0,
             "lineups_sosfanta": 5.0
           }
         },
         {
-          "id": 291,
-          "name": "Ellertsson",
-          "club": "GEN",
-          "starter": 20.0,
-          "previous_starter": 15.0,
+          "id": 126,
+          "name": "Stankovic F.",
+          "club": "VEN",
+          "starter": 100.0,
+          "previous_starter": 92.5,
           "confidence": "medium",
           "rule": "consensus",
           "sources": {
-            "lineups_fantacalcio": 35.0,
-            "lineups_sosfanta": 5.0
+            "lineups_fantacalcio": 100.0,
+            "lineups_sosfanta": 100.0
+          }
+        },
+        {
+          "id": 463,
+          "name": "Halhal",
+          "club": "VEN",
+          "starter": 100.0,
+          "previous_starter": 92.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 100.0,
+            "lineups_sosfanta": 100.0
+          }
+        },
+        {
+          "id": 450,
+          "name": "Moreno M.",
+          "club": "VEN",
+          "starter": 100.0,
+          "previous_starter": 97.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 100.0,
+            "lineups_sosfanta": 100.0
+          }
+        },
+        {
+          "id": 438,
+          "name": "Juan Jesus",
+          "club": "VEN",
+          "starter": 100.0,
+          "previous_starter": 0.0,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 100.0,
+            "lineups_sosfanta": 100.0
+          }
+        },
+        {
+          "id": 81,
+          "name": "Hainaut",
+          "club": "VEN",
+          "starter": 100.0,
+          "previous_starter": 97.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 100.0,
+            "lineups_sosfanta": 100.0
+          }
+        },
+        {
+          "id": 315,
+          "name": "Sohm",
+          "club": "VEN",
+          "starter": 100.0,
+          "previous_starter": 85.0,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 100.0,
+            "lineups_sosfanta": 100.0
+          }
+        },
+        {
+          "id": 548,
+          "name": "Busio",
+          "club": "N/D",
+          "starter": 100.0,
+          "previous_starter": 0.0,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 100.0,
+            "lineups_sosfanta": 100.0
+          }
+        },
+        {
+          "id": 484,
+          "name": "Mazzocchi",
+          "club": "VEN",
+          "starter": 100.0,
+          "previous_starter": 44.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 100.0,
+            "lineups_sosfanta": 100.0
+          }
+        },
+        {
+          "id": 69,
+          "name": "Adams A.",
+          "club": "VEN",
+          "starter": 100.0,
+          "previous_starter": 87.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 100.0,
+            "lineups_sosfanta": 100.0
+          }
+        },
+        {
+          "id": 389,
+          "name": "Rodriguez Ju.",
+          "club": "CAG",
+          "starter": 87.5,
+          "previous_starter": 97.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 80.0,
+            "lineups_sosfanta": 95.0
           }
         }
       ],
@@ -576,16 +823,16 @@
     "lineups_fantacalcio:Lavelli",
     "lineups_fantacalcio:Dossena",
     "lineups_fantacalcio:Liberali",
+    "lineups_fantacalcio:Lauberbach",
     "lineups_fantacalcio:Basic",
     "lineups_fantacalcio:Fanne",
-    "lineups_fantacalcio:Lauberbach",
     "lineups_fantacalcio:Cichella",
     "lineups_fantacalcio:Braganca",
     "lineups_fantacalcio:Oristanio",
     "lineups_fantacalcio:Pellegri",
+    "lineups_fantacalcio:Deiola",
     "lineups_fantacalcio:Massolin",
     "lineups_fantacalcio:Sulev",
-    "lineups_fantacalcio:Deiola",
     "lineups_fantacalcio:Fadera",
     "lineups_fantacalcio:Trepy",
     "lineups_fantacalcio:Fatah",
@@ -609,6 +856,7 @@
     "lineups_fantacalcio:Fabbian",
     "lineups_fantacalcio:Konate A.",
     "lineups_fantacalcio:Nicolussi Caviglia",
+    "lineups_fantacalcio:Elphege",
     "lineups_fantacalcio:Frigan",
     "lineups_sosfanta:Ferguson",
     "lineups_sosfanta:Mota",
@@ -617,14 +865,9 @@
     "lineups_sosfanta:N'Dicka",
     "lineups_sosfanta:Musah",
     "lineups_sosfanta:Mkhitaryan",
-    "lineups_sosfanta:Baturina - Caqueret",
-    "lineups_sosfanta:Couto - Da Cunha",
-    "lineups_sosfanta:Ricci S. - Milla",
-    "lineups_sosfanta:Butez - Sanchez Ro.",
-    "lineups_sosfanta:Haps - Mazzocchi",
+    "lineups_sosfanta:Lauberbach",
     "lineups_sosfanta:Liberali",
     "lineups_sosfanta:Basic",
-    "lineups_sosfanta:Lauberbach",
     "lineups_sosfanta:Braganca",
     "lineups_sosfanta:Terzic - Bracaglia",
     "lineups_sosfanta:Cittadini - Monterisi",
@@ -665,6 +908,9 @@
     "lineups_sosfanta:Keita M.",
     "lineups_sosfanta:Britschgi - Drobnic",
     "lineups_sosfanta:Daffara - Corvi",
-    "lineups_sosfanta:Fabbian"
+    "lineups_sosfanta:Fabbian",
+    "lineups_sosfanta:Konaté A.",
+    "lineups_sosfanta:Nicolussi Caviglia",
+    "lineups_sosfanta:Frigan"
   ]
 }
