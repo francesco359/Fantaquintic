@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-02T09:25:26Z",
+  "generated_at": "2026-11-02T11:15:35Z",
   "round": 8,
   "players": 502,
-  "player_updates": 74,
+  "player_updates": 71,
   "fresh_player_data": true,
   "data_confirmed": true,
   "sources_ok": 5,
@@ -15,8 +15,8 @@
       "records_extracted": 98,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 2292,
-      "sha256": "9afb57090b8d274b493e1adb038f70699a71dacb6fc9fc13bf53c1280a6158ec",
+      "fetch_ms": 987,
+      "sha256": "e3f62dd707b37cda488d9127bf52f18943d667df7ea7ef196136429f4ea0deef",
       "status": "data_applied",
       "players_updated": 34
     },
@@ -26,8 +26,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 514,
-      "sha256": "a860e0441853badab9a4161a314de1ad9b9af306df7c493ea2b832f9d037bbd6",
+      "fetch_ms": 374,
+      "sha256": "2f8ed1ec8779a18fa73da391d9ba89d95778b20e8cdfd57d9867b4561670dd30",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -37,7 +37,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 807,
+      "fetch_ms": 631,
       "sha256": "59536735f442f136063081a0c547ebdee28b0de1239e034e79aabbc3dfbd91f4",
       "status": "unsupported",
       "players_updated": 0
@@ -48,33 +48,33 @@
       "records_extracted": 48,
       "source_updated_at": "02/11/2026",
       "attempts": 1,
-      "fetch_ms": 455,
-      "sha256": "47e4146764066d69590cb4f55f0991e4837d370192ce2673b888cb4251fff67c",
+      "fetch_ms": 786,
+      "sha256": "2496796dbb6fad48a92f2e3f96558b5ab5e1ef9f6eda581e817387f707d3ea95",
       "status": "data_applied",
       "players_updated": 35
     },
     {
       "name": "lineups_fantacalcio",
       "url": "https://www.fantacalcio.it/probabili-formazioni-serie-a/",
-      "records_extracted": 450,
+      "records_extracted": 448,
       "source_updated_at": "31/10/2026 14:07",
       "attempts": 1,
-      "fetch_ms": 601,
-      "sha256": "c6d930b82e1715a2983f74e6804de552c3ff6721f9b08b2462a6fa7e2d83b33c",
+      "fetch_ms": 229,
+      "sha256": "a5d40368f7a56a5e68fa7afc1b5467281c986cc0158a3cd8089dda7b08b49dbb",
       "status": "extracted",
-      "records_resolved": 403,
+      "records_resolved": 401,
       "players_updated": 0
     },
     {
       "name": "lineups_sosfanta",
       "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
-      "records_extracted": 454,
+      "records_extracted": 453,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 689,
-      "sha256": "5f06792d5a33865169c127a4c688fd9ca3d77a880840c0c5a274d95f950c1be0",
+      "fetch_ms": 785,
+      "sha256": "1be1f3f8356d27179b34ef20ba4e5ee00a86ea2b654b0119f28013d4dc356d21",
       "status": "extracted",
-      "records_resolved": 412,
+      "records_resolved": 411,
       "players_updated": 0
     },
     {
@@ -83,8 +83,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 983,
-      "sha256": "4244e1d515d3ddbdcbc9627738c2f8188c958fd581810e74cbdb418ec0fcc622",
+      "fetch_ms": 783,
+      "sha256": "cad2a956e776924fff8e4092d7d7c8a3dfbb783ca9ea94088bee17a2b262ff09",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -92,7 +92,7 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 5,
+      "players_updated": 2,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
@@ -122,45 +122,6 @@
           "sources": {
             "lineups_fantacalcio": 100.0,
             "lineups_sosfanta": 100.0
-          }
-        },
-        {
-          "id": 460,
-          "name": "Walukiewicz",
-          "club": "SAS",
-          "starter": 17.5,
-          "previous_starter": 39.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 30.0,
-            "lineups_sosfanta": 5.0
-          }
-        },
-        {
-          "id": 378,
-          "name": "Diego Carlos",
-          "club": "PAR",
-          "starter": 52.0,
-          "previous_starter": 65.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 55.0,
-            "lineups_sosfanta": 49.0
-          }
-        },
-        {
-          "id": 558,
-          "name": "Tourè E.",
-          "club": "N/D",
-          "starter": 85.0,
-          "previous_starter": 63.0,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 75.0,
-            "lineups_sosfanta": 95.0
           }
         }
       ],
@@ -616,8 +577,8 @@
     "lineups_fantacalcio:Idele",
     "lineups_fantacalcio:Plaia",
     "lineups_fantacalcio:Zalewski",
-    "lineups_fantacalcio:Keita M.",
     "lineups_fantacalcio:Fabbian",
+    "lineups_fantacalcio:Keita M.",
     "lineups_fantacalcio:Konate A.",
     "lineups_fantacalcio:Nicolussi Caviglia",
     "lineups_fantacalcio:Elphege",
@@ -670,5 +631,5 @@
     "config_calendario_scaduto:aggiornare_round_e_fixtures"
   ],
   "errors": [],
-  "duration_ms": 3694
+  "duration_ms": 1827
 }
