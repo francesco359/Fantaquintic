@@ -1,6 +1,6 @@
 {
   "schema_version": 8,
-  "generated_at": "2026-11-03T13:28:07Z",
+  "generated_at": "2026-11-03T15:07:47Z",
   "aggiornamento_riuscito": true,
   "dati_precedenti_mantenuti": false,
   "giocatori_cambiati": 73,
@@ -11,8 +11,8 @@
       "records_extracted": 100,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1218,
-      "sha256": "3424c8dc0de9f086104e58c22921b0c6947b7f4028cf5f22ff3a2e2181d730ac",
+      "fetch_ms": 936,
+      "sha256": "67d05816f4fd96e3a07a480e36865552ba105ee6d5f9fa4a826763fa8ce957c1",
       "status": "data_applied",
       "players_updated": 35
     },
@@ -22,8 +22,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 566,
-      "sha256": "e8361b132dffe2c61f3838982bc2106bfc24fdd756e8cdb4ec888ab5602d4a6c",
+      "fetch_ms": 796,
+      "sha256": "edbc4121c5fa76ce80797b553e1f01d4c12fcd4e4389aac31af52240faaf73f1",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -33,7 +33,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1116,
+      "fetch_ms": 1075,
       "sha256": "45e8617e88912cb5e94762296ef1b7d2212c37fc95f4cbc63984f4faf6ea344c",
       "status": "unsupported",
       "players_updated": 0
@@ -44,8 +44,8 @@
       "records_extracted": 48,
       "source_updated_at": "03/11/2026",
       "attempts": 1,
-      "fetch_ms": 1076,
-      "sha256": "059fccb41ca18ee70f6605b84193cd2dad844ab04226d147a4cf48b69796d2c0",
+      "fetch_ms": 873,
+      "sha256": "31ce0041cf6e51e80463d1f9b54182ba9ba810613bcedc5875e696c7e5a75704",
       "status": "data_applied",
       "players_updated": 36
     },
@@ -55,8 +55,8 @@
       "records_extracted": 456,
       "source_updated_at": "03/11/2026 10:04",
       "attempts": 1,
-      "fetch_ms": 663,
-      "sha256": "7d5778ace42a0250339a10ee84bbe1da17baea6cf2a9f66e9e5118b5c37ae5e1",
+      "fetch_ms": 943,
+      "sha256": "389bf9fbba6370cc1dd6ef54a75df1d9ec97392469c381f5c5f0c509fda8fc49",
       "status": "extracted",
       "records_resolved": 409,
       "players_updated": 0
@@ -64,11 +64,11 @@
     {
       "name": "lineups_sosfanta",
       "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
-      "records_extracted": 504,
+      "records_extracted": 505,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1059,
-      "sha256": "a75f931dec91ee554032aece34af8e1f7b2a70029c9750ec064e73d0f2fbef06",
+      "fetch_ms": 802,
+      "sha256": "cf456300f59b3747335eb6015cc0fac3a930741d4ce76274b370013cf867ed83",
       "status": "extracted",
       "records_resolved": 425,
       "players_updated": 0
@@ -79,8 +79,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1262,
-      "sha256": "3f6bde00d8cdb739541b13fa778f90e2ab540951fbc7e83283ee17caa777da2f",
+      "fetch_ms": 1643,
+      "sha256": "91e5dd238d0ce8e6a2c15d444785a9ea2e5f89958ba8f82f2c27965936e3b8a9",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -625,6 +625,7 @@
     "lineups_sosfanta:Frigan",
     "lineups_sosfanta:Amondarain",
     "lineups_sosfanta:N'Dicka",
+    "lineups_sosfanta:Gollini - De Marzi",
     "lineups_sosfanta:Mancini - Ghilardi",
     "lineups_sosfanta:Hermoso - Koulierakis",
     "lineups_sosfanta:Molina N. - Lulli",
@@ -640,9 +641,8 @@
     "lineups_sosfanta:Noslin - Pinamonti",
     "lineups_sosfanta:Giovane",
     "lineups_sosfanta:Gilmour",
-    "lineups_sosfanta:Mota",
-    "lineups_sosfanta:Pasalic",
-    "lineups_sosfanta:Zalewski",
-    "lineups_sosfanta:Robinson J. - Zeballos"
+    "lineups_sosfanta:Vasquez",
+    "lineups_sosfanta:Traorè Hj.",
+    "lineups_sosfanta:Musah"
   ]
 }
