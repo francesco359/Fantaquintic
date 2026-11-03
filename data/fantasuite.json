@@ -1,9 +1,9 @@
 {
   "schema_version": 8,
-  "generated_at": "2026-11-03T11:13:14Z",
+  "generated_at": "2026-11-03T13:28:07Z",
   "aggiornamento_riuscito": true,
   "dati_precedenti_mantenuti": false,
-  "giocatori_cambiati": 77,
+  "giocatori_cambiati": 73,
   "fonti": [
     {
       "name": "injuries_sos",
@@ -11,8 +11,8 @@
       "records_extracted": 100,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 939,
-      "sha256": "1f823b3439dbed8ea232c4fc7bb4ccb05141c2ab1b9d42cbd24f222005ee558c",
+      "fetch_ms": 1218,
+      "sha256": "3424c8dc0de9f086104e58c22921b0c6947b7f4028cf5f22ff3a2e2181d730ac",
       "status": "data_applied",
       "players_updated": 35
     },
@@ -22,8 +22,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1057,
-      "sha256": "cb1fffd2f8f20818a7b69a19a3e80cfb9645ced5ded3e0fc971345aa1ec57d13",
+      "fetch_ms": 566,
+      "sha256": "e8361b132dffe2c61f3838982bc2106bfc24fdd756e8cdb4ec888ab5602d4a6c",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -33,7 +33,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1454,
+      "fetch_ms": 1116,
       "sha256": "45e8617e88912cb5e94762296ef1b7d2212c37fc95f4cbc63984f4faf6ea344c",
       "status": "unsupported",
       "players_updated": 0
@@ -44,8 +44,8 @@
       "records_extracted": 48,
       "source_updated_at": "03/11/2026",
       "attempts": 1,
-      "fetch_ms": 1042,
-      "sha256": "10589b28f054762d1b075863bb87f8fe1e1af5f192f525afda79434d9d4d36c9",
+      "fetch_ms": 1076,
+      "sha256": "059fccb41ca18ee70f6605b84193cd2dad844ab04226d147a4cf48b69796d2c0",
       "status": "data_applied",
       "players_updated": 36
     },
@@ -55,7 +55,7 @@
       "records_extracted": 456,
       "source_updated_at": "03/11/2026 10:04",
       "attempts": 1,
-      "fetch_ms": 1328,
+      "fetch_ms": 663,
       "sha256": "7d5778ace42a0250339a10ee84bbe1da17baea6cf2a9f66e9e5118b5c37ae5e1",
       "status": "extracted",
       "records_resolved": 409,
@@ -67,8 +67,8 @@
       "records_extracted": 504,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1108,
-      "sha256": "58f5121d27e19bb025cf2e677ef6295795f9df8315f8e773831e1ddbbd4f0264",
+      "fetch_ms": 1059,
+      "sha256": "a75f931dec91ee554032aece34af8e1f7b2a70029c9750ec064e73d0f2fbef06",
       "status": "extracted",
       "records_resolved": 425,
       "players_updated": 0
@@ -79,8 +79,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1707,
-      "sha256": "db217be42794c5dd0b793b6458d4e9289a1fac7e63f466114bc4d72d325e98b2",
+      "fetch_ms": 1262,
+      "sha256": "3f6bde00d8cdb739541b13fa778f90e2ab540951fbc7e83283ee17caa777da2f",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -88,7 +88,7 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 6,
+      "players_updated": 2,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
@@ -105,58 +105,6 @@
           "sources": {
             "lineups_fantacalcio": 90.0,
             "lineups_sosfanta": 95.0
-          }
-        },
-        {
-          "id": 3,
-          "name": "Belghali",
-          "club": "TOR",
-          "starter": 53.0,
-          "previous_starter": 97.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 55.0,
-            "lineups_sosfanta": 51.0
-          }
-        },
-        {
-          "id": 342,
-          "name": "Aboukhlal",
-          "club": "TOR",
-          "starter": 48.0,
-          "previous_starter": 45.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 45.0,
-            "lineups_sosfanta": 51.0
-          }
-        },
-        {
-          "id": 546,
-          "name": "Odgaard",
-          "club": "N/D",
-          "starter": 55.0,
-          "previous_starter": 65.0,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 55.0,
-            "lineups_sosfanta": 55.0
-          }
-        },
-        {
-          "id": 144,
-          "name": "Dovbyk",
-          "club": "BOL",
-          "starter": 50.0,
-          "previous_starter": 57.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 45.0,
-            "lineups_sosfanta": 55.0
           }
         },
         {
