@@ -1,6 +1,6 @@
 {
   "schema_version": 8,
-  "generated_at": "2026-11-03T15:07:47Z",
+  "generated_at": "2026-11-03T17:16:44Z",
   "aggiornamento_riuscito": true,
   "dati_precedenti_mantenuti": false,
   "giocatori_cambiati": 73,
@@ -8,22 +8,22 @@
     {
       "name": "injuries_sos",
       "url": "https://www.sosfanta.com/indisponibili-e-squalificati/tabella-indisponibili-seriea-fantacalcio-asta-infortunati-tempi-recupero-squalificati-diffidati/",
-      "records_extracted": 100,
+      "records_extracted": 99,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 936,
-      "sha256": "67d05816f4fd96e3a07a480e36865552ba105ee6d5f9fa4a826763fa8ce957c1",
+      "fetch_ms": 494,
+      "sha256": "5fe88759c05d57ee9c81f71b049ff021c690a84a9354bc0dc7a963168f883f02",
       "status": "data_applied",
       "players_updated": 35
     },
     {
       "name": "injuries_sky",
       "url": "https://sport.sky.it/calcio/serie-a/2026/10/20/serie-a-indisponibili-infortunati-squalificati-giornata-8",
-      "records_extracted": 22,
+      "records_extracted": 25,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 796,
-      "sha256": "edbc4121c5fa76ce80797b553e1f01d4c12fcd4e4389aac31af52240faaf73f1",
+      "fetch_ms": 603,
+      "sha256": "b24128d28fbf353b70e57c7b4261147bdfafd70c25540c96ea05fc43b7863712",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -33,7 +33,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1075,
+      "fetch_ms": 673,
       "sha256": "45e8617e88912cb5e94762296ef1b7d2212c37fc95f4cbc63984f4faf6ea344c",
       "status": "unsupported",
       "players_updated": 0
@@ -44,33 +44,33 @@
       "records_extracted": 48,
       "source_updated_at": "03/11/2026",
       "attempts": 1,
-      "fetch_ms": 873,
-      "sha256": "31ce0041cf6e51e80463d1f9b54182ba9ba810613bcedc5875e696c7e5a75704",
+      "fetch_ms": 1106,
+      "sha256": "f9bd3d620a69eb91ff59e797ea65ae6e36bca457b4ef9f973dee0cd3e65f6517",
       "status": "data_applied",
-      "players_updated": 36
+      "players_updated": 35
     },
     {
       "name": "lineups_fantacalcio",
       "url": "https://www.fantacalcio.it/probabili-formazioni-serie-a/",
-      "records_extracted": 456,
+      "records_extracted": 457,
       "source_updated_at": "03/11/2026 10:04",
       "attempts": 1,
-      "fetch_ms": 943,
-      "sha256": "389bf9fbba6370cc1dd6ef54a75df1d9ec97392469c381f5c5f0c509fda8fc49",
+      "fetch_ms": 400,
+      "sha256": "4ff279ba337e2aae40a095ef242ffb0b7cdcb86bab4809b519539d5a2dbf0061",
       "status": "extracted",
-      "records_resolved": 409,
+      "records_resolved": 410,
       "players_updated": 0
     },
     {
       "name": "lineups_sosfanta",
       "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
-      "records_extracted": 505,
+      "records_extracted": 507,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 802,
-      "sha256": "cf456300f59b3747335eb6015cc0fac3a930741d4ce76274b370013cf867ed83",
+      "fetch_ms": 654,
+      "sha256": "a1c6c9690710508d85e685a533d8a216bb51a6b9aeee65e7ead6ded0958edaef",
       "status": "extracted",
-      "records_resolved": 425,
+      "records_resolved": 426,
       "players_updated": 0
     },
     {
@@ -79,8 +79,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1643,
-      "sha256": "91e5dd238d0ce8e6a2c15d444785a9ea2e5f89958ba8f82f2c27965936e3b8a9",
+      "fetch_ms": 1058,
+      "sha256": "c4875076769c8ed8a185d0fd9f0c6138e39bc435986d217355fa550b273d454f",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -88,7 +88,7 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 2,
+      "players_updated": 3,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
@@ -105,6 +105,19 @@
           "sources": {
             "lineups_fantacalcio": 90.0,
             "lineups_sosfanta": 95.0
+          }
+        },
+        {
+          "id": 94,
+          "name": "Krstovic",
+          "club": "ATA",
+          "starter": 67.5,
+          "previous_starter": 92.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 65.0,
+            "lineups_sosfanta": 70.0
           }
         },
         {
@@ -513,7 +526,10 @@
     "injuries_sos:Dichiarazione di accessibilità",
     "injuries_sky:Possibile rientro a inizio novembre",
     "injuries_sky:Rientro a inizio novembre",
+    "injuries_sky:le storie",
     "injuries_sky:serie a",
+    "injuries_sky:L'ANALISI",
+    "injuries_sky:infortuni",
     "injuries_sky:pubblicità",
     "injuries_sky:sky sport",
     "injuries_sky:sky video",
@@ -640,9 +656,6 @@
     "lineups_sosfanta:Lucca - Vergara",
     "lineups_sosfanta:Noslin - Pinamonti",
     "lineups_sosfanta:Giovane",
-    "lineups_sosfanta:Gilmour",
-    "lineups_sosfanta:Vasquez",
-    "lineups_sosfanta:Traorè Hj.",
-    "lineups_sosfanta:Musah"
+    "lineups_sosfanta:Gilmour"
   ]
 }
