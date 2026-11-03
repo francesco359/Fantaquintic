@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-03T17:16:44Z",
+  "generated_at": "2026-11-03T19:14:54Z",
   "round": 8,
   "players": 502,
-  "player_updates": 73,
+  "player_updates": 72,
   "fresh_player_data": true,
   "data_confirmed": true,
   "sources_ok": 5,
@@ -12,13 +12,13 @@
     {
       "name": "injuries_sos",
       "url": "https://www.sosfanta.com/indisponibili-e-squalificati/tabella-indisponibili-seriea-fantacalcio-asta-infortunati-tempi-recupero-squalificati-diffidati/",
-      "records_extracted": 99,
+      "records_extracted": 98,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 494,
-      "sha256": "5fe88759c05d57ee9c81f71b049ff021c690a84a9354bc0dc7a963168f883f02",
+      "fetch_ms": 1713,
+      "sha256": "53192a59d45d7cf4ece8c0b7985c9e789f6c3fd73bfddf22d9375f33eeb47bfe",
       "status": "data_applied",
-      "players_updated": 35
+      "players_updated": 34
     },
     {
       "name": "injuries_sky",
@@ -26,8 +26,8 @@
       "records_extracted": 25,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 603,
-      "sha256": "b24128d28fbf353b70e57c7b4261147bdfafd70c25540c96ea05fc43b7863712",
+      "fetch_ms": 835,
+      "sha256": "f6886a407d9a4c3b15c75c67cfa93ba17d0dba9e66b46dcee9a69e4ef0d33482",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -37,7 +37,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 673,
+      "fetch_ms": 1014,
       "sha256": "45e8617e88912cb5e94762296ef1b7d2212c37fc95f4cbc63984f4faf6ea344c",
       "status": "unsupported",
       "players_updated": 0
@@ -48,8 +48,8 @@
       "records_extracted": 48,
       "source_updated_at": "03/11/2026",
       "attempts": 1,
-      "fetch_ms": 1106,
-      "sha256": "f9bd3d620a69eb91ff59e797ea65ae6e36bca457b4ef9f973dee0cd3e65f6517",
+      "fetch_ms": 910,
+      "sha256": "202bf1ad2d9cead7ae44bd4e44319b7cdfb877c574b0706651faa5cf5f03f227",
       "status": "data_applied",
       "players_updated": 35
     },
@@ -59,8 +59,8 @@
       "records_extracted": 457,
       "source_updated_at": "03/11/2026 10:04",
       "attempts": 1,
-      "fetch_ms": 400,
-      "sha256": "4ff279ba337e2aae40a095ef242ffb0b7cdcb86bab4809b519539d5a2dbf0061",
+      "fetch_ms": 919,
+      "sha256": "28577dfa51c1785fb0a39995417b23bfaeecfa361d5583d9c81958d51f782704",
       "status": "extracted",
       "records_resolved": 410,
       "players_updated": 0
@@ -71,10 +71,10 @@
       "records_extracted": 507,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 654,
-      "sha256": "a1c6c9690710508d85e685a533d8a216bb51a6b9aeee65e7ead6ded0958edaef",
+      "fetch_ms": 1515,
+      "sha256": "a52c1187e942e62b2c6308b6ec1508f349e63c8962ceee68d433f6570b097de9",
       "status": "extracted",
-      "records_resolved": 426,
+      "records_resolved": 427,
       "players_updated": 0
     },
     {
@@ -83,8 +83,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1058,
-      "sha256": "c4875076769c8ed8a185d0fd9f0c6138e39bc435986d217355fa550b273d454f",
+      "fetch_ms": 1712,
+      "sha256": "9c2cc03f777919b28219597efba5474c39af6681f304eeb46fe5435da336c320",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -112,16 +112,16 @@
           }
         },
         {
-          "id": 94,
-          "name": "Krstovic",
-          "club": "ATA",
-          "starter": 67.5,
+          "id": 125,
+          "name": "Gollini",
+          "club": "ROM",
+          "starter": 62.0,
           "previous_starter": 92.5,
           "confidence": "medium",
           "rule": "consensus",
           "sources": {
-            "lineups_fantacalcio": 65.0,
-            "lineups_sosfanta": 70.0
+            "lineups_fantacalcio": 75.0,
+            "lineups_sosfanta": 49.0
           }
         },
         {
@@ -609,14 +609,6 @@
     "lineups_sosfanta:Mazzocchi - Haps",
     "lineups_sosfanta:Lauberbach - Yeboah J.",
     "lineups_sosfanta:Basic",
-    "lineups_sosfanta:Braganca",
-    "lineups_sosfanta:Fatah",
-    "lineups_sosfanta:Belghali - Patterson",
-    "lineups_sosfanta:Gineitis - Ilkhan",
-    "lineups_sosfanta:Aboukhlal - Patterson",
-    "lineups_sosfanta:Gorter - Kaba",
-    "lineups_sosfanta:Stulic - Esteban",
-    "lineups_sosfanta:Oristanio",
     "lineups_sosfanta:Deiola",
     "lineups_sosfanta:Massolin",
     "lineups_sosfanta:Zè Pedro - Sugawara",
@@ -628,6 +620,14 @@
     "lineups_sosfanta:Birligea - Bobcek",
     "lineups_sosfanta:Trepy",
     "lineups_sosfanta:Cichella",
+    "lineups_sosfanta:Braganca",
+    "lineups_sosfanta:Fatah",
+    "lineups_sosfanta:Belghali - Patterson",
+    "lineups_sosfanta:Gineitis - Ilkhan",
+    "lineups_sosfanta:Aboukhlal - Patterson",
+    "lineups_sosfanta:Gorter - Kaba",
+    "lineups_sosfanta:Stulic - Esteban",
+    "lineups_sosfanta:Oristanio",
     "lineups_sosfanta:Keita M.",
     "lineups_sosfanta:Fabbian",
     "lineups_sosfanta:Ferguson",
@@ -640,7 +640,6 @@
     "lineups_sosfanta:Frigan",
     "lineups_sosfanta:Amondarain",
     "lineups_sosfanta:N'Dicka",
-    "lineups_sosfanta:Gollini - De Marzi",
     "lineups_sosfanta:Mancini - Ghilardi",
     "lineups_sosfanta:Hermoso - Koulierakis",
     "lineups_sosfanta:Molina N. - Lulli",
@@ -655,12 +654,13 @@
     "lineups_sosfanta:Lucca - Vergara",
     "lineups_sosfanta:Noslin - Pinamonti",
     "lineups_sosfanta:Giovane",
-    "lineups_sosfanta:Gilmour"
+    "lineups_sosfanta:Gilmour",
+    "lineups_sosfanta:Vasquez"
   ],
   "warnings": [
     "fonte_senza_parser:votes",
     "config_calendario_scaduto:aggiornare_round_e_fixtures"
   ],
   "errors": [],
-  "duration_ms": 2777
+  "duration_ms": 2500
 }
