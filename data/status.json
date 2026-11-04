@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-04T19:20:44Z",
+  "generated_at": "2026-11-04T21:09:21Z",
   "round": 8,
   "players": 502,
-  "player_updates": 71,
+  "player_updates": 65,
   "fresh_player_data": true,
   "data_confirmed": true,
   "sources_ok": 5,
@@ -15,19 +15,19 @@
       "records_extracted": 97,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 872,
-      "sha256": "12580b08ccaa0187723f9741ca11680dc687585d05d5aee66c2257eea3eae53d",
+      "fetch_ms": 421,
+      "sha256": "8079e83413e265b69aca111c8c96d29e8d321d040339d0231f38c38ff522ab3b",
       "status": "data_applied",
-      "players_updated": 34
+      "players_updated": 31
     },
     {
       "name": "injuries_sky",
       "url": "https://sport.sky.it/calcio/serie-a/2026/10/20/serie-a-indisponibili-infortunati-squalificati-giornata-8",
-      "records_extracted": 25,
+      "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 980,
-      "sha256": "3962f92c4478eb9dfd31a228969751f1916bbc7174223f54b3b048b914da2175",
+      "fetch_ms": 1027,
+      "sha256": "e7d2f8a72ea782f168aa9b775577a7823cf1244a17cf9285a64b212268832a06",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -37,7 +37,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1015,
+      "fetch_ms": 874,
       "sha256": "169952cc04dc023d5d4312eca073457316080fdf81e4b87f6b672297e827da5f",
       "status": "unsupported",
       "players_updated": 0
@@ -48,8 +48,8 @@
       "records_extracted": 43,
       "source_updated_at": "04/11/2026",
       "attempts": 1,
-      "fetch_ms": 916,
-      "sha256": "c6071f1262b7593cf2673e2d0549dceadb7e9c3559961a307c418b636e4b85a4",
+      "fetch_ms": 727,
+      "sha256": "c3987298651d5afdfbac88a32990dabad958303fd71f2575574ed6fd7a031afc",
       "status": "data_applied",
       "players_updated": 32
     },
@@ -59,8 +59,8 @@
       "records_extracted": 457,
       "source_updated_at": "04/11/2026 16:22",
       "attempts": 1,
-      "fetch_ms": 914,
-      "sha256": "1a34381c0e39db26d04c8e32a296682009fb3ac914475ed941ce41bfaddab03b",
+      "fetch_ms": 815,
+      "sha256": "543a25791e6d6f2df7d12f3ec1f45a3f9c00b11895b4bb6a2d70490fd1080c60",
       "status": "extracted",
       "records_resolved": 408,
       "players_updated": 0
@@ -71,8 +71,8 @@
       "records_extracted": 506,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 719,
-      "sha256": "d87645562ab170c67a4e4f3fdacacd047ccbd687a7bc91895d9ddec2aaccecc6",
+      "fetch_ms": 704,
+      "sha256": "f46c39d1c77844e97c12c129cfae1a92839f5f39dd90593cf189afbff4118165",
       "status": "extracted",
       "records_resolved": 425,
       "players_updated": 0
@@ -83,8 +83,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1463,
-      "sha256": "88900946a836c77f0eea834dbeb02b700b82c3d2cd46b605cadcd169e53f47fd",
+      "fetch_ms": 1324,
+      "sha256": "eee0c847eb8c9baf3b82f7b0a0d30180090b4ac6b3c81f4fa0f5dcc66ad756a3",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -92,7 +92,7 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 5,
+      "players_updated": 2,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
@@ -109,45 +109,6 @@
           "sources": {
             "lineups_fantacalcio": 90.0,
             "lineups_sosfanta": 95.0
-          }
-        },
-        {
-          "id": 98,
-          "name": "Pinamonti",
-          "club": "LAZ",
-          "starter": 55.5,
-          "previous_starter": 40.0,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 60.0,
-            "lineups_sosfanta": 51.0
-          }
-        },
-        {
-          "id": 199,
-          "name": "Noslin",
-          "club": "LAZ",
-          "starter": 87.5,
-          "previous_starter": 60.0,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 80.0,
-            "lineups_sosfanta": 95.0
-          }
-        },
-        {
-          "id": 242,
-          "name": "Cancellieri",
-          "club": "LAZ",
-          "starter": 44.5,
-          "previous_starter": 50.0,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 40.0,
-            "lineups_sosfanta": 49.0
           }
         },
         {
@@ -548,10 +509,7 @@
     "injuries_sos:Dichiarazione di accessibilità",
     "injuries_sky:Possibile rientro a inizio novembre",
     "injuries_sky:Rientro a inizio novembre",
-    "injuries_sky:le storie",
     "injuries_sky:serie a",
-    "injuries_sky:L'ANALISI",
-    "injuries_sky:infortuni",
     "injuries_sky:pubblicità",
     "injuries_sky:sky sport",
     "injuries_sky:sky video",
@@ -680,12 +638,15 @@
     "lineups_sosfanta:Pinamonti - Cancellieri",
     "lineups_sosfanta:Giovane",
     "lineups_sosfanta:Gilmour",
-    "lineups_sosfanta:Vasquez"
+    "lineups_sosfanta:Vasquez",
+    "lineups_sosfanta:Traorè Hj.",
+    "lineups_sosfanta:Musah",
+    "lineups_sosfanta:Wiafe - Meichtry"
   ],
   "warnings": [
     "fonte_senza_parser:votes",
     "config_calendario_scaduto:aggiornare_round_e_fixtures"
   ],
   "errors": [],
-  "duration_ms": 2442
+  "duration_ms": 3012
 }
