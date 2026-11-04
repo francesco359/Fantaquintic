@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-04T07:38:53Z",
+  "generated_at": "2026-11-04T09:15:24Z",
   "round": 8,
   "players": 502,
-  "player_updates": 67,
+  "player_updates": 70,
   "fresh_player_data": true,
   "data_confirmed": true,
   "sources_ok": 5,
@@ -15,8 +15,8 @@
       "records_extracted": 98,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 535,
-      "sha256": "2c9be4dc47d08d81ae6e4d29915e60467732166dda5613abecff0cbd06390804",
+      "fetch_ms": 879,
+      "sha256": "d5b66b74b999da2b723b605c2478671141ec5dee10c40c2f898ec58ea0ff3309",
       "status": "data_applied",
       "players_updated": 32
     },
@@ -26,8 +26,8 @@
       "records_extracted": 25,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 983,
-      "sha256": "32591c3a86e4b9dec4734e722de50ba15b45d1c8bbbd9853d80fae98fac67bbe",
+      "fetch_ms": 1282,
+      "sha256": "baf979bd2971bf475627b2cf569dc2e76e6195f6c22cb883453cd676d61208da",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -37,8 +37,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 708,
-      "sha256": "5eeb55e4e745c11d39dbbee62110d9120a192b1601e37edf91205f091d7e730e",
+      "fetch_ms": 999,
+      "sha256": "169952cc04dc023d5d4312eca073457316080fdf81e4b87f6b672297e827da5f",
       "status": "unsupported",
       "players_updated": 0
     },
@@ -48,8 +48,8 @@
       "records_extracted": 43,
       "source_updated_at": "04/11/2026",
       "attempts": 1,
-      "fetch_ms": 883,
-      "sha256": "d14c74e30b69ba42ae52635e7d6aeff7892deec1ec075d7467fff472f1410fc6",
+      "fetch_ms": 856,
+      "sha256": "a46381e21943797c584186484208916492dc26333bddc7ac5a82e19a35cd0ff9",
       "status": "data_applied",
       "players_updated": 33
     },
@@ -57,10 +57,10 @@
       "name": "lineups_fantacalcio",
       "url": "https://www.fantacalcio.it/probabili-formazioni-serie-a/",
       "records_extracted": 457,
-      "source_updated_at": "03/11/2026 20:17",
+      "source_updated_at": "04/11/2026 09:22",
       "attempts": 1,
-      "fetch_ms": 556,
-      "sha256": "bf1de5c841c51b9ebd2323dcf1846469a994a41bed75ed67c7442f1c35c1635d",
+      "fetch_ms": 562,
+      "sha256": "ab075bfe1707cb863c450dee358068c2090312e8e0c2ff7b4df421012b03b61d",
       "status": "extracted",
       "records_resolved": 409,
       "players_updated": 0
@@ -71,8 +71,8 @@
       "records_extracted": 507,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 463,
-      "sha256": "48280def8d09f5f45ba4c2e200f1c224cffb806db05ef83b6fe4e4eb7d2f8c1d",
+      "fetch_ms": 893,
+      "sha256": "7120e1b9eb599954e35f78746f128553490e9bc2864d902f852255f307653153",
       "status": "extracted",
       "records_resolved": 427,
       "players_updated": 0
@@ -83,8 +83,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1441,
-      "sha256": "ec53e500d28fd0f858fd2e791f233d7e52fe1e062c89b60e113d2e5dd36cb607",
+      "fetch_ms": 1329,
+      "sha256": "49dcdfb75b4eddf4272cf788a375ee26ee6fc343acf2a0c6ab2e7073ec1cbf23",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -92,7 +92,7 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 2,
+      "players_updated": 5,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
@@ -112,6 +112,32 @@
           }
         },
         {
+          "id": 125,
+          "name": "Gollini",
+          "club": "ROM",
+          "starter": 52.0,
+          "previous_starter": 59.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 55.0,
+            "lineups_sosfanta": 49.0
+          }
+        },
+        {
+          "id": 539,
+          "name": "Vasquez D.",
+          "club": "ROM",
+          "starter": 48.0,
+          "previous_starter": 3.0,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 45.0,
+            "lineups_sosfanta": 51.0
+          }
+        },
+        {
           "id": 49,
           "name": "Thuram",
           "club": "INT",
@@ -121,6 +147,19 @@
           "rule": "consensus",
           "sources": {
             "lineups_fantacalcio": 90.0,
+            "lineups_sosfanta": 95.0
+          }
+        },
+        {
+          "id": 12,
+          "name": "Da Cunha",
+          "club": "COM",
+          "starter": 82.5,
+          "previous_starter": 97.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 70.0,
             "lineups_sosfanta": 95.0
           }
         }
@@ -649,5 +688,5 @@
     "config_calendario_scaduto:aggiornare_round_e_fixtures"
   ],
   "errors": [],
-  "duration_ms": 2343
+  "duration_ms": 2386
 }
