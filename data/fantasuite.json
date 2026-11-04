@@ -1,20 +1,20 @@
 {
   "schema_version": 8,
-  "generated_at": "2026-11-04T13:29:25Z",
+  "generated_at": "2026-11-04T15:10:29Z",
   "aggiornamento_riuscito": true,
   "dati_precedenti_mantenuti": false,
-  "giocatori_cambiati": 70,
+  "giocatori_cambiati": 66,
   "fonti": [
     {
       "name": "injuries_sos",
       "url": "https://www.sosfanta.com/indisponibili-e-squalificati/tabella-indisponibili-seriea-fantacalcio-asta-infortunati-tempi-recupero-squalificati-diffidati/",
-      "records_extracted": 97,
+      "records_extracted": 96,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 446,
-      "sha256": "bfdfacdd65da90055b16ab080e04e6be38d40f732bae0f43b12ade034d3bd809",
+      "fetch_ms": 518,
+      "sha256": "dee1fbee6667c8e0f2865365b51bf37976c7201dd569a29db8d88f08049f4daa",
       "status": "data_applied",
-      "players_updated": 32
+      "players_updated": 31
     },
     {
       "name": "injuries_sky",
@@ -22,8 +22,8 @@
       "records_extracted": 25,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 2288,
-      "sha256": "bdcad7f2f1795692bf7fd58439bee28a16b5f75fd341d88c6c5b65b1299a1f48",
+      "fetch_ms": 642,
+      "sha256": "0a0d8a0106e2d6ef7514872cad84e87519619ae517fb6b4c76b2fd3a906ceb34",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -33,7 +33,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 824,
+      "fetch_ms": 1158,
       "sha256": "169952cc04dc023d5d4312eca073457316080fdf81e4b87f6b672297e827da5f",
       "status": "unsupported",
       "players_updated": 0
@@ -44,8 +44,8 @@
       "records_extracted": 43,
       "source_updated_at": "04/11/2026",
       "attempts": 1,
-      "fetch_ms": 496,
-      "sha256": "6d090d2c08136de4a84769ad94666f0c7c298e0c381dfb1084adefc6d77ae8da",
+      "fetch_ms": 1065,
+      "sha256": "a057770c2b2c71df956309d04e9ce9433edc4f30143ac02d25caa3c756a67cdf",
       "status": "data_applied",
       "players_updated": 32
     },
@@ -55,7 +55,7 @@
       "records_extracted": 459,
       "source_updated_at": "04/11/2026 10:23",
       "attempts": 1,
-      "fetch_ms": 617,
+      "fetch_ms": 1041,
       "sha256": "91c47db30e4d74d1413be783bf877486946a3075ea32d1897b07671a862bd735",
       "status": "extracted",
       "records_resolved": 410,
@@ -64,13 +64,13 @@
     {
       "name": "lineups_sosfanta",
       "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
-      "records_extracted": 505,
+      "records_extracted": 507,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 836,
-      "sha256": "730474120c1cbc43aa09521017ddfab73287f8ab41c8cc82781553dee6a9ec5f",
+      "fetch_ms": 892,
+      "sha256": "b9b1662607097d5846ae261cae42a5ce5f63983b5d38857328763c6cc17a0473",
       "status": "extracted",
-      "records_resolved": 424,
+      "records_resolved": 426,
       "players_updated": 0
     },
     {
@@ -79,8 +79,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1084,
-      "sha256": "9454f59e58f451b07b3a8a1fc02751056dae6fa1ca8b991fbe87b261e07e8c07",
+      "fetch_ms": 1640,
+      "sha256": "17b82b7392faf254399cf43f07291ecbf16cb08dc66316def1ef54b0c92d4924",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -88,7 +88,7 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 6,
+      "players_updated": 3,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
@@ -108,45 +108,6 @@
           }
         },
         {
-          "id": 42,
-          "name": "Mbangula",
-          "club": "BOL",
-          "starter": 52.0,
-          "previous_starter": 54.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 55.0,
-            "lineups_sosfanta": 49.0
-          }
-        },
-        {
-          "id": 546,
-          "name": "Odgaard",
-          "club": "N/D",
-          "starter": 50.0,
-          "previous_starter": 55.0,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 45.0,
-            "lineups_sosfanta": 55.0
-          }
-        },
-        {
-          "id": 144,
-          "name": "Dovbyk",
-          "club": "BOL",
-          "starter": 55.0,
-          "previous_starter": 50.0,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 55.0,
-            "lineups_sosfanta": 55.0
-          }
-        },
-        {
           "id": 49,
           "name": "Thuram",
           "club": "INT",
@@ -160,15 +121,15 @@
           }
         },
         {
-          "id": 336,
-          "name": "Stankovic A.",
+          "id": 58,
+          "name": "Stones",
           "club": "INT",
-          "starter": 17.5,
-          "previous_starter": 20.0,
+          "starter": 15.0,
+          "previous_starter": 15.0,
           "confidence": "medium",
           "rule": "consensus",
           "sources": {
-            "lineups_fantacalcio": 30.0,
+            "lineups_fantacalcio": 25.0,
             "lineups_sosfanta": 5.0
           }
         }
