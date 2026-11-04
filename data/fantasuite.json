@@ -1,20 +1,20 @@
 {
   "schema_version": 8,
-  "generated_at": "2026-11-04T17:14:01Z",
+  "generated_at": "2026-11-04T19:20:44Z",
   "aggiornamento_riuscito": true,
   "dati_precedenti_mantenuti": false,
-  "giocatori_cambiati": 66,
+  "giocatori_cambiati": 71,
   "fonti": [
     {
       "name": "injuries_sos",
       "url": "https://www.sosfanta.com/indisponibili-e-squalificati/tabella-indisponibili-seriea-fantacalcio-asta-infortunati-tempi-recupero-squalificati-diffidati/",
-      "records_extracted": 96,
+      "records_extracted": 97,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 998,
-      "sha256": "9884a44dadb60788fc93f9e0a9976841a697def3190ea786df05f0d412096caf",
+      "fetch_ms": 872,
+      "sha256": "12580b08ccaa0187723f9741ca11680dc687585d05d5aee66c2257eea3eae53d",
       "status": "data_applied",
-      "players_updated": 31
+      "players_updated": 34
     },
     {
       "name": "injuries_sky",
@@ -22,8 +22,8 @@
       "records_extracted": 25,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1101,
-      "sha256": "12750f2c41199cc2a848806c3826000896a25c30832d5b6b9b62947e9fffa97f",
+      "fetch_ms": 980,
+      "sha256": "3962f92c4478eb9dfd31a228969751f1916bbc7174223f54b3b048b914da2175",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -33,7 +33,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1060,
+      "fetch_ms": 1015,
       "sha256": "169952cc04dc023d5d4312eca073457316080fdf81e4b87f6b672297e827da5f",
       "status": "unsupported",
       "players_updated": 0
@@ -44,33 +44,33 @@
       "records_extracted": 43,
       "source_updated_at": "04/11/2026",
       "attempts": 1,
-      "fetch_ms": 958,
-      "sha256": "dd880550b50517f484df4928e8292be8f64a958e915210a289533b7abdd034d7",
+      "fetch_ms": 916,
+      "sha256": "c6071f1262b7593cf2673e2d0549dceadb7e9c3559961a307c418b636e4b85a4",
       "status": "data_applied",
       "players_updated": 32
     },
     {
       "name": "lineups_fantacalcio",
       "url": "https://www.fantacalcio.it/probabili-formazioni-serie-a/",
-      "records_extracted": 458,
+      "records_extracted": 457,
       "source_updated_at": "04/11/2026 16:22",
       "attempts": 1,
-      "fetch_ms": 942,
-      "sha256": "36a26d77804112f388774f011532b16d314189ae46a450c6550cb16bb9a0904d",
+      "fetch_ms": 914,
+      "sha256": "1a34381c0e39db26d04c8e32a296682009fb3ac914475ed941ce41bfaddab03b",
       "status": "extracted",
-      "records_resolved": 409,
+      "records_resolved": 408,
       "players_updated": 0
     },
     {
       "name": "lineups_sosfanta",
       "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
-      "records_extracted": 507,
+      "records_extracted": 506,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1121,
-      "sha256": "0b82d353b20909fe5f83b4dc5d0bd296a02566abe3c2d1da797105468b822a63",
+      "fetch_ms": 719,
+      "sha256": "d87645562ab170c67a4e4f3fdacacd047ccbd687a7bc91895d9ddec2aaccecc6",
       "status": "extracted",
-      "records_resolved": 426,
+      "records_resolved": 425,
       "players_updated": 0
     },
     {
@@ -79,8 +79,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1450,
-      "sha256": "d2f9cfbe47e10254a042eb4ca637691c1ea8e435fa68561da7d9da2ae88b1952",
+      "fetch_ms": 1463,
+      "sha256": "88900946a836c77f0eea834dbeb02b700b82c3d2cd46b605cadcd169e53f47fd",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -88,7 +88,7 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 3,
+      "players_updated": 5,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
@@ -108,11 +108,37 @@
           }
         },
         {
-          "id": 448,
-          "name": "Kabasele",
-          "club": "UDI",
+          "id": 98,
+          "name": "Pinamonti",
+          "club": "LAZ",
+          "starter": 55.5,
+          "previous_starter": 40.0,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 60.0,
+            "lineups_sosfanta": 51.0
+          }
+        },
+        {
+          "id": 199,
+          "name": "Noslin",
+          "club": "LAZ",
+          "starter": 87.5,
+          "previous_starter": 60.0,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 80.0,
+            "lineups_sosfanta": 95.0
+          }
+        },
+        {
+          "id": 242,
+          "name": "Cancellieri",
+          "club": "LAZ",
           "starter": 44.5,
-          "previous_starter": 45.5,
+          "previous_starter": 50.0,
           "confidence": "medium",
           "rule": "consensus",
           "sources": {
@@ -508,7 +534,6 @@
   "non_associati": [
     "injuries_sos:Fadera",
     "injuries_sos:Luis Henrique",
-    "injuries_sos:Coulibaly L.",
     "injuries_sos:Ilic",
     "injuries_sos:Terracciano",
     "injuries_sos:Konè I.",
@@ -653,8 +678,9 @@
     "lineups_sosfanta:Rrahmani",
     "lineups_sosfanta:De Bruyne - Gilmour",
     "lineups_sosfanta:Lucca - Vergara",
-    "lineups_sosfanta:Noslin - Pinamonti",
+    "lineups_sosfanta:Pinamonti - Cancellieri",
     "lineups_sosfanta:Giovane",
-    "lineups_sosfanta:Gilmour"
+    "lineups_sosfanta:Gilmour",
+    "lineups_sosfanta:Vasquez"
   ]
 }
