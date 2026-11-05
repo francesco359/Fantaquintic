@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T13:34:38Z",
+  "generated_at": "2026-11-05T15:17:35Z",
   "round": 8,
   "players": 502,
   "player_updates": 67,
@@ -12,13 +12,13 @@
     {
       "name": "injuries_sos",
       "url": "https://www.sosfanta.com/indisponibili-e-squalificati/tabella-indisponibili-seriea-fantacalcio-asta-infortunati-tempi-recupero-squalificati-diffidati/",
-      "records_extracted": 97,
+      "records_extracted": 96,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1213,
-      "sha256": "e166021ae8cf18b0081ee45dea7b292a66320e3d72ebd72f5eb70326adf3a65a",
+      "fetch_ms": 2107,
+      "sha256": "5180ca10c5d9624ba266a484342fb1251185e5753321f6fe1f711e237fca6148",
       "status": "data_applied",
-      "players_updated": 31
+      "players_updated": 32
     },
     {
       "name": "injuries_sky",
@@ -26,8 +26,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 771,
-      "sha256": "443f5a66f967f17fc3619b2e26f4a13cb222a6176096f505e523c26cc0e22d58",
+      "fetch_ms": 331,
+      "sha256": "1c88872197f2543369fff2bb5d422004ba15bd283538cded2085c0008a7c099c",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -37,7 +37,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1379,
+      "fetch_ms": 1333,
       "sha256": "ec90fc95f2a6a34927eff617d7901c93e25de0b553721941d0a1113366943334",
       "status": "unsupported",
       "players_updated": 0
@@ -48,8 +48,8 @@
       "records_extracted": 43,
       "source_updated_at": "05/11/2026",
       "attempts": 1,
-      "fetch_ms": 1033,
-      "sha256": "54ad3ce1b3c3aba7c60c104cbcd1d6af792c8dad73616c43275f6d08cd5097b6",
+      "fetch_ms": 1163,
+      "sha256": "f131735619be5e6e30f16e18227000317004a51cf721c5004e76298f2eea5aeb",
       "status": "data_applied",
       "players_updated": 32
     },
@@ -57,10 +57,10 @@
       "name": "lineups_fantacalcio",
       "url": "https://www.fantacalcio.it/probabili-formazioni-serie-a/",
       "records_extracted": 457,
-      "source_updated_at": "05/11/2026 14:09",
+      "source_updated_at": "05/11/2026 16:01",
       "attempts": 1,
-      "fetch_ms": 684,
-      "sha256": "09e2c030e9766450b8e6c4543f3a0dae36d8c815fbe11f6cdc91ebb5927f6ee8",
+      "fetch_ms": 990,
+      "sha256": "0b1f94e2c8d35d8fb2885ff4f28f02b2edbce87bdf288d7495db220cea69881d",
       "status": "extracted",
       "records_resolved": 408,
       "players_updated": 0
@@ -68,13 +68,13 @@
     {
       "name": "lineups_sosfanta",
       "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
-      "records_extracted": 511,
+      "records_extracted": 512,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1070,
-      "sha256": "375d3b2e5826f14eb72396b1cf72fd3508a8fc7c8e440063e2bf349e59840d88",
+      "fetch_ms": 595,
+      "sha256": "1dfe9438689e416002eb71062075caf076311374493f01b3447acf6068219ce0",
       "status": "extracted",
-      "records_resolved": 428,
+      "records_resolved": 429,
       "players_updated": 0
     },
     {
@@ -83,8 +83,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1605,
-      "sha256": "ab3414478c467ede1f0e289b3221a336bef6677a081955f00b65b5462f526b28",
+      "fetch_ms": 1665,
+      "sha256": "f978ef2a14e6b10ea60e8e0dd664102b2d574a53af5347cd22e8e84cbabcfafa",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -92,11 +92,11 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 4,
+      "players_updated": 3,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
-      "single_source_bench_updates": 1,
+      "single_source_bench_updates": 0,
       "sample": [
         {
           "id": 438,
@@ -112,16 +112,16 @@
           }
         },
         {
-          "id": 381,
-          "name": "Pedraza",
-          "club": "LAZ",
-          "starter": 47.0,
-          "previous_starter": 40.0,
+          "id": 385,
+          "name": "Sugawara",
+          "club": "CAG",
+          "starter": 45.0,
+          "previous_starter": 50.0,
           "confidence": "medium",
           "rule": "consensus",
           "sources": {
             "lineups_fantacalcio": 45.0,
-            "lineups_sosfanta": 49.0
+            "lineups_sosfanta": 45.0
           }
         },
         {
@@ -135,18 +135,6 @@
           "sources": {
             "lineups_fantacalcio": 90.0,
             "lineups_sosfanta": 95.0
-          }
-        },
-        {
-          "id": 394,
-          "name": "Correia T.",
-          "club": "VEN",
-          "starter": 5.0,
-          "previous_starter": 28.7,
-          "confidence": "low",
-          "rule": "single_source_bench_downgrade",
-          "sources": {
-            "lineups_sosfanta": 5.0
           }
         }
       ],
@@ -270,6 +258,15 @@
           }
         },
         {
+          "id": 401,
+          "name": "Kofler",
+          "reason": "spread_exceeded",
+          "sources": {
+            "lineups_fantacalcio": 70.0,
+            "lineups_sosfanta": 5.0
+          }
+        },
+        {
           "id": 249,
           "name": "Winks",
           "reason": "spread_exceeded",
@@ -279,12 +276,12 @@
           }
         },
         {
-          "id": 401,
-          "name": "Kofler",
+          "id": 493,
+          "name": "Aurelio",
           "reason": "spread_exceeded",
           "sources": {
-            "lineups_fantacalcio": 45.0,
-            "lineups_sosfanta": 5.0
+            "lineups_fantacalcio": 15.0,
+            "lineups_sosfanta": 55.0
           }
         },
         {
@@ -504,15 +501,6 @@
             "lineups_fantacalcio": 80.0,
             "lineups_sosfanta": 49.0
           }
-        },
-        {
-          "id": 38,
-          "name": "Cambiaghi",
-          "reason": "spread_exceeded",
-          "sources": {
-            "lineups_fantacalcio": 90.0,
-            "lineups_sosfanta": 51.0
-          }
         }
       ]
     }
@@ -674,5 +662,5 @@
     "config_calendario_scaduto:aggiornare_round_e_fixtures"
   ],
   "errors": [],
-  "duration_ms": 3235
+  "duration_ms": 3405
 }
