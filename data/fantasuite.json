@@ -1,9 +1,9 @@
 {
   "schema_version": 8,
-  "generated_at": "2026-11-05T21:07:35Z",
+  "generated_at": "2026-11-05T23:02:20Z",
   "aggiornamento_riuscito": true,
   "dati_precedenti_mantenuti": false,
-  "giocatori_cambiati": 65,
+  "giocatori_cambiati": 70,
   "fonti": [
     {
       "name": "injuries_sos",
@@ -11,8 +11,8 @@
       "records_extracted": 96,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1033,
-      "sha256": "5bb6b870b924a929e3dac130c879ee9b937bae7688147a3eb50f693763625e0f",
+      "fetch_ms": 692,
+      "sha256": "7e165d7a6dcc6e9667d92783b40911c0d7d37972f77011b565a2fde7b34f59d2",
       "status": "data_applied",
       "players_updated": 31
     },
@@ -22,8 +22,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1175,
-      "sha256": "e9ab69f79caeb5c32c61e93bd479302586ad26b8556ab65b5f76bd95fccfe013",
+      "fetch_ms": 792,
+      "sha256": "e99e7b4b29a10580f8cce775daeb9e1521b50d5f75ebd11a7c2715457a833a81",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -33,7 +33,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1352,
+      "fetch_ms": 704,
       "sha256": "ec90fc95f2a6a34927eff617d7901c93e25de0b553721941d0a1113366943334",
       "status": "unsupported",
       "players_updated": 0
@@ -42,33 +42,33 @@
       "name": "injuries_official",
       "url": "https://www.fantacalcio-online.com/it/infortunati-serie-a",
       "records_extracted": 43,
-      "source_updated_at": "05/11/2026",
+      "source_updated_at": "06/11/2026",
       "attempts": 1,
-      "fetch_ms": 1105,
-      "sha256": "c6451136cf123efaa5f413cd25d4e0c7a97eb3d65d84f531ae9878f15573bee4",
+      "fetch_ms": 832,
+      "sha256": "243c1f08e17db90fbe2780236d28329a9be9fbe60ac77bd20866f280930e77f2",
       "status": "data_applied",
       "players_updated": 32
     },
     {
       "name": "lineups_fantacalcio",
       "url": "https://www.fantacalcio.it/probabili-formazioni-serie-a/",
-      "records_extracted": 457,
+      "records_extracted": 459,
       "source_updated_at": "05/11/2026 17:40",
       "attempts": 1,
-      "fetch_ms": 1000,
-      "sha256": "a8ad869269739571ebd0ffd0f8257fb64daf31473addea4949cf2a5ee48247c4",
+      "fetch_ms": 567,
+      "sha256": "2212c0fc0e2b7a7ad9a261fdebf95aad6e7ffbad3d30b872524b1d4b39254999",
       "status": "extracted",
-      "records_resolved": 408,
+      "records_resolved": 410,
       "players_updated": 0
     },
     {
       "name": "lineups_sosfanta",
       "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
-      "records_extracted": 510,
+      "records_extracted": 509,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1097,
-      "sha256": "ac8f04d715a9f6edd05ec5fc680f2b12f2905d3e6f61447ae90dc86141eee6c6",
+      "fetch_ms": 756,
+      "sha256": "6f6e305e4cfcf2f1c3f52db09f88a1dae3af86d79d88aabc6a29120d00c11366",
       "status": "extracted",
       "records_resolved": 427,
       "players_updated": 0
@@ -79,8 +79,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1462,
-      "sha256": "da907c502bd7fdf7d31fda566c5c3a4f05b6dea451efdc8d79d682bc1d3cb205",
+      "fetch_ms": 1184,
+      "sha256": "d55029ae8cebdcd3ee6e69a8d22f245faa6987a3be47f08ace6d08690c783f43",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -88,7 +88,7 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 2,
+      "players_updated": 7,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
@@ -108,6 +108,58 @@
           }
         },
         {
+          "id": 401,
+          "name": "Kofler",
+          "club": "CAG",
+          "starter": 60.5,
+          "previous_starter": 57.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 70.0,
+            "lineups_sosfanta": 51.0
+          }
+        },
+        {
+          "id": 370,
+          "name": "Mina",
+          "club": "CAG",
+          "starter": 52.0,
+          "previous_starter": 55.0,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 55.0,
+            "lineups_sosfanta": 49.0
+          }
+        },
+        {
+          "id": 249,
+          "name": "Winks",
+          "club": "CAG",
+          "starter": 87.5,
+          "previous_starter": 54.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 80.0,
+            "lineups_sosfanta": 95.0
+          }
+        },
+        {
+          "id": 552,
+          "name": "Fazzini",
+          "club": "N/D",
+          "starter": 52.5,
+          "previous_starter": 55.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 60.0,
+            "lineups_sosfanta": 45.0
+          }
+        },
+        {
           "id": 49,
           "name": "Thuram",
           "club": "INT",
@@ -117,6 +169,19 @@
           "rule": "consensus",
           "sources": {
             "lineups_fantacalcio": 90.0,
+            "lineups_sosfanta": 95.0
+          }
+        },
+        {
+          "id": 23,
+          "name": "Woltemade",
+          "club": "JUV",
+          "starter": 87.5,
+          "previous_starter": 92.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 80.0,
             "lineups_sosfanta": 95.0
           }
         }
@@ -247,15 +312,6 @@
           "sources": {
             "lineups_fantacalcio": 90.0,
             "lineups_sosfanta": 55.0
-          }
-        },
-        {
-          "id": 249,
-          "name": "Winks",
-          "reason": "spread_exceeded",
-          "sources": {
-            "lineups_fantacalcio": 80.0,
-            "lineups_sosfanta": 49.0
           }
         },
         {
@@ -483,6 +539,15 @@
             "lineups_fantacalcio": 90.0,
             "lineups_sosfanta": 51.0
           }
+        },
+        {
+          "id": 147,
+          "name": "Piccoli",
+          "reason": "spread_exceeded",
+          "sources": {
+            "lineups_fantacalcio": 55.0,
+            "lineups_sosfanta": 5.0
+          }
         }
       ]
     }
@@ -595,15 +660,14 @@
     "lineups_sosfanta:Basic",
     "lineups_sosfanta:Bayo V.",
     "lineups_sosfanta:Deiola",
-    "lineups_sosfanta:Massolin",
     "lineups_sosfanta:Zè Pedro - Sugawara",
-    "lineups_sosfanta:Mina - Kofler",
-    "lineups_sosfanta:Fazzini - Winks",
+    "lineups_sosfanta:Kofler - Mina",
     "lineups_sosfanta:Oyono A. - Tchato",
     "lineups_sosfanta:Monterisi - Cittadini",
     "lineups_sosfanta:Bracaglia - Terzic",
     "lineups_sosfanta:Birligea - Bobcek",
     "lineups_sosfanta:Trepy",
+    "lineups_sosfanta:Massolin",
     "lineups_sosfanta:Cichella",
     "lineups_sosfanta:Braganca",
     "lineups_sosfanta:Fatah",
@@ -642,6 +706,7 @@
     "lineups_sosfanta:Giovane",
     "lineups_sosfanta:Gilmour",
     "lineups_sosfanta:Vasquez",
-    "lineups_sosfanta:Traorè Hj."
+    "lineups_sosfanta:Traorè Hj.",
+    "lineups_sosfanta:Musah"
   ]
 }
