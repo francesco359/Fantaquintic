@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-05T19:17:56Z",
+  "generated_at": "2026-11-05T21:07:35Z",
   "round": 8,
   "players": 502,
-  "player_updates": 68,
+  "player_updates": 65,
   "fresh_player_data": true,
   "data_confirmed": true,
   "sources_ok": 5,
@@ -15,8 +15,8 @@
       "records_extracted": 96,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 561,
-      "sha256": "97e8f895a221e1bbaf3770104984f2cdca3bd789d8d6227c3cdf8e55336c89a8",
+      "fetch_ms": 1033,
+      "sha256": "5bb6b870b924a929e3dac130c879ee9b937bae7688147a3eb50f693763625e0f",
       "status": "data_applied",
       "players_updated": 31
     },
@@ -26,8 +26,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 642,
-      "sha256": "6db88edf6282d49525636b2d5602b4309ed8cc81d2315bb8cc5ab9fe0a472d5d",
+      "fetch_ms": 1175,
+      "sha256": "e9ab69f79caeb5c32c61e93bd479302586ad26b8556ab65b5f76bd95fccfe013",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -37,7 +37,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 688,
+      "fetch_ms": 1352,
       "sha256": "ec90fc95f2a6a34927eff617d7901c93e25de0b553721941d0a1113366943334",
       "status": "unsupported",
       "players_updated": 0
@@ -48,8 +48,8 @@
       "records_extracted": 43,
       "source_updated_at": "05/11/2026",
       "attempts": 1,
-      "fetch_ms": 750,
-      "sha256": "2ebeeb7523bc83426bc18841e206e23038b9e230de3899d2546eeb73ad9f1860",
+      "fetch_ms": 1105,
+      "sha256": "c6451136cf123efaa5f413cd25d4e0c7a97eb3d65d84f531ae9878f15573bee4",
       "status": "data_applied",
       "players_updated": 32
     },
@@ -59,8 +59,8 @@
       "records_extracted": 457,
       "source_updated_at": "05/11/2026 17:40",
       "attempts": 1,
-      "fetch_ms": 397,
-      "sha256": "064714681c262e0ee47780e4b32a99fcdebd2d4d5bdf7ca91f6594ccd72907e8",
+      "fetch_ms": 1000,
+      "sha256": "a8ad869269739571ebd0ffd0f8257fb64daf31473addea4949cf2a5ee48247c4",
       "status": "extracted",
       "records_resolved": 408,
       "players_updated": 0
@@ -71,8 +71,8 @@
       "records_extracted": 510,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 714,
-      "sha256": "1950244b15b4ac4cb1ac3b46ed7ca3153ead788db4f9d3c690e84a5177d3a212",
+      "fetch_ms": 1097,
+      "sha256": "ac8f04d715a9f6edd05ec5fc680f2b12f2905d3e6f61447ae90dc86141eee6c6",
       "status": "extracted",
       "records_resolved": 427,
       "players_updated": 0
@@ -83,8 +83,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1271,
-      "sha256": "4a3aafdf7673c45ff07fb6dccef2759bc1864038726515c6082db11822558317",
+      "fetch_ms": 1462,
+      "sha256": "da907c502bd7fdf7d31fda566c5c3a4f05b6dea451efdc8d79d682bc1d3cb205",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -92,7 +92,7 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 5,
+      "players_updated": 2,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
@@ -109,45 +109,6 @@
           "sources": {
             "lineups_fantacalcio": 90.0,
             "lineups_sosfanta": 95.0
-          }
-        },
-        {
-          "id": 484,
-          "name": "Mazzocchi",
-          "club": "VEN",
-          "starter": 53.0,
-          "previous_starter": 55.0,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 55.0,
-            "lineups_sosfanta": 51.0
-          }
-        },
-        {
-          "id": 435,
-          "name": "Haps",
-          "club": "VEN",
-          "starter": 47.0,
-          "previous_starter": 45.0,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 45.0,
-            "lineups_sosfanta": 49.0
-          }
-        },
-        {
-          "id": 401,
-          "name": "Kofler",
-          "club": "CAG",
-          "starter": 57.5,
-          "previous_starter": 17.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 70.0,
-            "lineups_sosfanta": 45.0
           }
         },
         {
@@ -687,5 +648,5 @@
     "config_calendario_scaduto:aggiornare_round_e_fixtures"
   ],
   "errors": [],
-  "duration_ms": 2654
+  "duration_ms": 2558
 }
