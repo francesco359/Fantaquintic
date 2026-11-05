@@ -1,9 +1,9 @@
 {
   "schema_version": 8,
-  "generated_at": "2026-11-05T07:40:05Z",
+  "generated_at": "2026-11-05T09:20:37Z",
   "aggiornamento_riuscito": true,
   "dati_precedenti_mantenuti": false,
-  "giocatori_cambiati": 70,
+  "giocatori_cambiati": 65,
   "fonti": [
     {
       "name": "injuries_sos",
@@ -11,8 +11,8 @@
       "records_extracted": 97,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1178,
-      "sha256": "84fed20da23aa990d82f510ecc11914988c70723ef740aa843f7fa2eb418ac9e",
+      "fetch_ms": 698,
+      "sha256": "950cd69f20afac19b53a104136edb370b50d60126365a7c93481ed47ad857276",
       "status": "data_applied",
       "players_updated": 31
     },
@@ -22,8 +22,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 579,
-      "sha256": "e92d091d398fd62d36c85633edb90661f2e065a8cabbc998aaf935a76f051dc5",
+      "fetch_ms": 525,
+      "sha256": "924c49677e74807193bbb49a3e70ba0828dbf4f8f00cb4ade0b729921cf6f015",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -33,8 +33,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1097,
-      "sha256": "ec54917961c85b7b35d757a9d5d1d0fefd82b10ed9db2af9f67013883d6244dc",
+      "fetch_ms": 1107,
+      "sha256": "ec90fc95f2a6a34927eff617d7901c93e25de0b553721941d0a1113366943334",
       "status": "unsupported",
       "players_updated": 0
     },
@@ -44,8 +44,8 @@
       "records_extracted": 43,
       "source_updated_at": "05/11/2026",
       "attempts": 1,
-      "fetch_ms": 912,
-      "sha256": "cf27f25ac8494a8d15b5bcddf80de6e63e05ec579f3babab6906b4f1937c1c82",
+      "fetch_ms": 1100,
+      "sha256": "fb14590692e8ada3faa79adac95ce04150ec89ec03acb5ee8d81f5ce2ac54ea6",
       "status": "data_applied",
       "players_updated": 32
     },
@@ -55,7 +55,7 @@
       "records_extracted": 457,
       "source_updated_at": "05/11/2026 08:36",
       "attempts": 1,
-      "fetch_ms": 1045,
+      "fetch_ms": 988,
       "sha256": "3e517d2b41d23dfbeff2e5cba51680ad9a6067a9cc9fabe526f76eb4d5df909b",
       "status": "extracted",
       "records_resolved": 408,
@@ -64,11 +64,11 @@
     {
       "name": "lineups_sosfanta",
       "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
-      "records_extracted": 506,
+      "records_extracted": 507,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 807,
-      "sha256": "4b4c93d8b4bbd0e378da5f7201df6409f67c81308d8998d3339ddc8830530606",
+      "fetch_ms": 617,
+      "sha256": "6e87d3a4ae71cddb8d2e6c17bbd3089132c7583879e08746667dfb31d3e828f7",
       "status": "extracted",
       "records_resolved": 425,
       "players_updated": 0
@@ -79,8 +79,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1438,
-      "sha256": "b75684f29e153f511e61898f922620fd514230879af387d4624be622d5f7d037",
+      "fetch_ms": 1863,
+      "sha256": "9073c1ced3c3803bc2bb9c71ffd219d3736b3b1c004fddd2ef7d458da2239803",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -88,7 +88,7 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 7,
+      "players_updated": 2,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
@@ -108,32 +108,6 @@
           }
         },
         {
-          "id": 428,
-          "name": "Beukema",
-          "club": "NAP",
-          "starter": 90.0,
-          "previous_starter": 87.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 85.0,
-            "lineups_sosfanta": 95.0
-          }
-        },
-        {
-          "id": 557,
-          "name": "Lang",
-          "club": "N/D",
-          "starter": 54.5,
-          "previous_starter": 59.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 60.0,
-            "lineups_sosfanta": 49.0
-          }
-        },
-        {
           "id": 49,
           "name": "Thuram",
           "club": "INT",
@@ -144,45 +118,6 @@
           "sources": {
             "lineups_fantacalcio": 90.0,
             "lineups_sosfanta": 95.0
-          }
-        },
-        {
-          "id": 32,
-          "name": "Kaiki",
-          "club": "COM",
-          "starter": 53.0,
-          "previous_starter": 48.0,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 55.0,
-            "lineups_sosfanta": 51.0
-          }
-        },
-        {
-          "id": 72,
-          "name": "Douvikas",
-          "club": "COM",
-          "starter": 85.0,
-          "previous_starter": 92.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 75.0,
-            "lineups_sosfanta": 95.0
-          }
-        },
-        {
-          "id": 35,
-          "name": "Valle",
-          "club": "COM",
-          "starter": 47.0,
-          "previous_starter": 52.0,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 45.0,
-            "lineups_sosfanta": 49.0
           }
         }
       ],
@@ -701,12 +636,12 @@
     "lineups_sosfanta:Rrahmani",
     "lineups_sosfanta:De Bruyne - Gilmour",
     "lineups_sosfanta:Lucca - Vergara",
+    "lineups_sosfanta:Tavares N. - Pedraza",
     "lineups_sosfanta:Pinamonti - Cancellieri",
     "lineups_sosfanta:Giovane",
     "lineups_sosfanta:Gilmour",
-    "lineups_sosfanta:Vasquez",
-    "lineups_sosfanta:Traorè Hj.",
-    "lineups_sosfanta:Musah",
-    "lineups_sosfanta:Wiafe - Meichtry"
+    "lineups_sosfanta:Mota",
+    "lineups_sosfanta:Pasalic",
+    "lineups_sosfanta:Zalewski"
   ]
 }
