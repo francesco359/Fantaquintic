@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-05T05:18:27Z",
+  "generated_at": "2026-11-05T07:40:05Z",
   "round": 8,
   "players": 502,
-  "player_updates": 65,
+  "player_updates": 70,
   "fresh_player_data": true,
   "data_confirmed": true,
   "sources_ok": 5,
@@ -15,10 +15,10 @@
       "records_extracted": 97,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 525,
-      "sha256": "2605392348edd22be646a2422076113243e1f98ff93d83b97af261791e2721fd",
+      "fetch_ms": 1178,
+      "sha256": "84fed20da23aa990d82f510ecc11914988c70723ef740aa843f7fa2eb418ac9e",
       "status": "data_applied",
-      "players_updated": 30
+      "players_updated": 31
     },
     {
       "name": "injuries_sky",
@@ -26,8 +26,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 983,
-      "sha256": "c0ae8839dfd05b2afb79309c639ad55c845d8ca867b5d09d4db7aa1f2a3d3164",
+      "fetch_ms": 579,
+      "sha256": "e92d091d398fd62d36c85633edb90661f2e065a8cabbc998aaf935a76f051dc5",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -37,8 +37,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1039,
-      "sha256": "c4ee4736a68ab4bf892211f1349b198fc858b6ad01c49feaf61258ecba26137b",
+      "fetch_ms": 1097,
+      "sha256": "ec54917961c85b7b35d757a9d5d1d0fefd82b10ed9db2af9f67013883d6244dc",
       "status": "unsupported",
       "players_updated": 0
     },
@@ -48,19 +48,19 @@
       "records_extracted": 43,
       "source_updated_at": "05/11/2026",
       "attempts": 1,
-      "fetch_ms": 1009,
-      "sha256": "aa02cff3da7c5e7b0e78190c434d6085c5e21b7d03a64020de2561362eb8d0a9",
+      "fetch_ms": 912,
+      "sha256": "cf27f25ac8494a8d15b5bcddf80de6e63e05ec579f3babab6906b4f1937c1c82",
       "status": "data_applied",
-      "players_updated": 33
+      "players_updated": 32
     },
     {
       "name": "lineups_fantacalcio",
       "url": "https://www.fantacalcio.it/probabili-formazioni-serie-a/",
       "records_extracted": 457,
-      "source_updated_at": "04/11/2026 16:22",
+      "source_updated_at": "05/11/2026 08:36",
       "attempts": 1,
-      "fetch_ms": 974,
-      "sha256": "57e528e889b8088a80e3fcc63be4a36347fc56c7b8d7fe8753eef5ce149eeb76",
+      "fetch_ms": 1045,
+      "sha256": "3e517d2b41d23dfbeff2e5cba51680ad9a6067a9cc9fabe526f76eb4d5df909b",
       "status": "extracted",
       "records_resolved": 408,
       "players_updated": 0
@@ -71,8 +71,8 @@
       "records_extracted": 506,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 626,
-      "sha256": "b46b68eb327fa96086f618722c93efab23403d374340061116623ea065a0331b",
+      "fetch_ms": 807,
+      "sha256": "4b4c93d8b4bbd0e378da5f7201df6409f67c81308d8998d3339ddc8830530606",
       "status": "extracted",
       "records_resolved": 425,
       "players_updated": 0
@@ -83,8 +83,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1572,
-      "sha256": "e17085257743dbbcfa87fc1521017b9cb2c33dfd4258e0270d20f5ffcebab4da",
+      "fetch_ms": 1438,
+      "sha256": "b75684f29e153f511e61898f922620fd514230879af387d4624be622d5f7d037",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -92,7 +92,7 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 2,
+      "players_updated": 7,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
@@ -112,6 +112,32 @@
           }
         },
         {
+          "id": 428,
+          "name": "Beukema",
+          "club": "NAP",
+          "starter": 90.0,
+          "previous_starter": 87.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 85.0,
+            "lineups_sosfanta": 95.0
+          }
+        },
+        {
+          "id": 557,
+          "name": "Lang",
+          "club": "N/D",
+          "starter": 54.5,
+          "previous_starter": 59.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 60.0,
+            "lineups_sosfanta": 49.0
+          }
+        },
+        {
           "id": 49,
           "name": "Thuram",
           "club": "INT",
@@ -122,6 +148,45 @@
           "sources": {
             "lineups_fantacalcio": 90.0,
             "lineups_sosfanta": 95.0
+          }
+        },
+        {
+          "id": 32,
+          "name": "Kaiki",
+          "club": "COM",
+          "starter": 53.0,
+          "previous_starter": 48.0,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 55.0,
+            "lineups_sosfanta": 51.0
+          }
+        },
+        {
+          "id": 72,
+          "name": "Douvikas",
+          "club": "COM",
+          "starter": 85.0,
+          "previous_starter": 92.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 75.0,
+            "lineups_sosfanta": 95.0
+          }
+        },
+        {
+          "id": 35,
+          "name": "Valle",
+          "club": "COM",
+          "starter": 47.0,
+          "previous_starter": 52.0,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 45.0,
+            "lineups_sosfanta": 49.0
           }
         }
       ],
@@ -648,5 +713,5 @@
     "config_calendario_scaduto:aggiornare_round_e_fixtures"
   ],
   "errors": [],
-  "duration_ms": 2418
+  "duration_ms": 2520
 }
