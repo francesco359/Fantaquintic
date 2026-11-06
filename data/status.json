@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-06T01:31:33Z",
+  "generated_at": "2026-11-06T03:09:04Z",
   "round": 8,
   "players": 502,
-  "player_updates": 69,
+  "player_updates": 65,
   "fresh_player_data": true,
   "data_confirmed": true,
   "sources_ok": 5,
@@ -15,10 +15,10 @@
       "records_extracted": 95,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 586,
-      "sha256": "7d0b87b90e868d18c20b9db3a3f08f97ef343a9b7a2ad4462b99eaad86533086",
+      "fetch_ms": 579,
+      "sha256": "eddde716293ccdfef883b78bf20332f66fbaaf6068718eeb7279232f358c935a",
       "status": "data_applied",
-      "players_updated": 34
+      "players_updated": 31
     },
     {
       "name": "injuries_sky",
@@ -26,8 +26,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 690,
-      "sha256": "2ee98ac2283e11cfd300f1cbff2c5d8fd65305bd71bc92e8148441d3579fc928",
+      "fetch_ms": 864,
+      "sha256": "6f123ad24acdfa2607838af3fb93d78277d558d410d49f8fc69917c25dd803a3",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -37,7 +37,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1512,
+      "fetch_ms": 1001,
       "sha256": "38e2fd3cb1b07c1712fb37dafea82902c4f5b3c83a9b5a13b8965ef4ea636dc8",
       "status": "unsupported",
       "players_updated": 0
@@ -48,8 +48,8 @@
       "records_extracted": 43,
       "source_updated_at": "06/11/2026",
       "attempts": 1,
-      "fetch_ms": 1153,
-      "sha256": "07af2eaf13ec914d3073f86e9a06f2099854c976279759def1557641c3e3bbd0",
+      "fetch_ms": 850,
+      "sha256": "d41a9f26eaa36728e17fe46b0bd7c150c2d90d4ccd4f3b6508fc5774afddcc93",
       "status": "data_applied",
       "players_updated": 32
     },
@@ -59,7 +59,7 @@
       "records_extracted": 459,
       "source_updated_at": "05/11/2026 17:40",
       "attempts": 1,
-      "fetch_ms": 1356,
+      "fetch_ms": 523,
       "sha256": "cf7748e2ac20a3079188067eef8b4f30c32f31921136f3819fa27cfe9f232659",
       "status": "extracted",
       "records_resolved": 410,
@@ -71,8 +71,8 @@
       "records_extracted": 510,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1014,
-      "sha256": "3bd5cb559ebf97d6b2ed8f64644af4cdeaf7a6ce8a262852362da8c79a09c4e7",
+      "fetch_ms": 876,
+      "sha256": "4abf44ed02c426d7e026aee5dbd52b6abb53446e48f50a6d5ab6bb05447d38e4",
       "status": "extracted",
       "records_resolved": 428,
       "players_updated": 0
@@ -83,8 +83,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1882,
-      "sha256": "0710550212afcbf78dd10cdd5de469f417e64a82e6ef7e05b045f9a5c580bcb8",
+      "fetch_ms": 1435,
+      "sha256": "a7df38bd18d1300456c4cfe570534caf899ad31c49eba6df1e904e3c34682d0c",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -92,7 +92,7 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 3,
+      "players_updated": 2,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
@@ -109,19 +109,6 @@
           "sources": {
             "lineups_fantacalcio": 90.0,
             "lineups_sosfanta": 95.0
-          }
-        },
-        {
-          "id": 498,
-          "name": "Milinkovic-Savic V.",
-          "club": "NAP",
-          "starter": 3.0,
-          "previous_starter": 1.0,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 1.0,
-            "lineups_sosfanta": 5.0
           }
         },
         {
@@ -661,5 +648,5 @@
     "config_calendario_scaduto:aggiornare_round_e_fixtures"
   ],
   "errors": [],
-  "duration_ms": 3365
+  "duration_ms": 2498
 }
