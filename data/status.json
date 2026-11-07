@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-07T09:06:57Z",
+  "generated_at": "2026-11-07T10:58:45Z",
   "round": 8,
   "players": 502,
-  "player_updates": 75,
+  "player_updates": 74,
   "fresh_player_data": true,
   "data_confirmed": true,
   "sources_ok": 5,
@@ -12,13 +12,13 @@
     {
       "name": "injuries_sos",
       "url": "https://www.sosfanta.com/indisponibili-e-squalificati/tabella-indisponibili-seriea-fantacalcio-asta-infortunati-tempi-recupero-squalificati-diffidati/",
-      "records_extracted": 91,
+      "records_extracted": 92,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 997,
-      "sha256": "540b0e73b8fe3886de48d22d09106906edec5b0d2a4f99e126340bc9fed260b7",
+      "fetch_ms": 1041,
+      "sha256": "c8b09d006b8089730a96a28e16acf450cbb0e3bb1f80446dcdf72d0de061d1cb",
       "status": "data_applied",
-      "players_updated": 35
+      "players_updated": 36
     },
     {
       "name": "injuries_sky",
@@ -26,8 +26,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 708,
-      "sha256": "307b1b48de2c8ffb673a7cecb5bd58524b82c9a4a4df364737cad394512a9198",
+      "fetch_ms": 598,
+      "sha256": "1e929bf9787d89f8b7ce6b3a8099400d26418c9dc3aed2dc99057e477a7289c8",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -37,7 +37,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 758,
+      "fetch_ms": 530,
       "sha256": "79618f2f80e352069c34a9de448c5a073fd2f1504cb265c71c812d231bbcec3f",
       "status": "unsupported",
       "players_updated": 0
@@ -48,21 +48,21 @@
       "records_extracted": 47,
       "source_updated_at": "07/11/2026",
       "attempts": 1,
-      "fetch_ms": 990,
-      "sha256": "812b6467ad81ed507970656b3c83152071043715d3888cab747e31ef33d96cf5",
+      "fetch_ms": 1007,
+      "sha256": "f57cd0fc354bc8e62208439de93b4c361d317b4b6ae87d0d12fcca99c4c92b49",
       "status": "data_applied",
-      "players_updated": 36
+      "players_updated": 35
     },
     {
       "name": "lineups_fantacalcio",
       "url": "https://www.fantacalcio.it/probabili-formazioni-serie-a/",
-      "records_extracted": 464,
+      "records_extracted": 463,
       "source_updated_at": "06/11/2026 19:50",
       "attempts": 1,
-      "fetch_ms": 752,
-      "sha256": "6ad00d8f1038293fd60a20a96d92fc48f5bf965c275110c928e23cc2bd140749",
+      "fetch_ms": 1002,
+      "sha256": "f512495c655672d549166f95c45cdf3fd8af2195b5ca17a7c26f892f7c013bd6",
       "status": "extracted",
-      "records_resolved": 411,
+      "records_resolved": 410,
       "players_updated": 0
     },
     {
@@ -71,8 +71,8 @@
       "records_extracted": 499,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1247,
-      "sha256": "753a952309aed1c06ec966bc2b193c99a7cb6a7d1b12c18706e612dd72ccb6e2",
+      "fetch_ms": 823,
+      "sha256": "ca65bfc5bd8b9b98b46c34f5cd391a6d748dc6ab6f50ea9f78aaa12927ba0a3a",
       "status": "extracted",
       "records_resolved": 429,
       "players_updated": 0
@@ -83,8 +83,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1190,
-      "sha256": "fe86943249b4cd947d9ee7c96302328aeb81b82e3b70aea68db20224de171425",
+      "fetch_ms": 1652,
+      "sha256": "dae71d1b5593b2251f1aef9c2322aa91c313384c120cc874050efcc333172b7e",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -92,7 +92,7 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 4,
+      "players_updated": 3,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
@@ -112,32 +112,6 @@
           }
         },
         {
-          "id": 41,
-          "name": "De Roon",
-          "club": "ROM",
-          "starter": 48.0,
-          "previous_starter": 47.0,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 45.0,
-            "lineups_sosfanta": 51.0
-          }
-        },
-        {
-          "id": 8,
-          "name": "Pavlovic",
-          "club": "MIL",
-          "starter": 55.5,
-          "previous_starter": 58.0,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 60.0,
-            "lineups_sosfanta": 51.0
-          }
-        },
-        {
           "id": 49,
           "name": "Thuram",
           "club": "INT",
@@ -147,6 +121,19 @@
           "rule": "consensus",
           "sources": {
             "lineups_fantacalcio": 90.0,
+            "lineups_sosfanta": 95.0
+          }
+        },
+        {
+          "id": 476,
+          "name": "Cabal",
+          "club": "JUV",
+          "starter": 87.5,
+          "previous_starter": 55.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 80.0,
             "lineups_sosfanta": 95.0
           }
         }
@@ -674,5 +661,5 @@
     "config_calendario_scaduto:aggiornare_round_e_fixtures"
   ],
   "errors": [],
-  "duration_ms": 2010
+  "duration_ms": 2426
 }
