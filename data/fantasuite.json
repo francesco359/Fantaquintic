@@ -1,9 +1,9 @@
 {
   "schema_version": 8,
-  "generated_at": "2026-11-08T07:26:35Z",
+  "generated_at": "2026-11-08T09:07:18Z",
   "aggiornamento_riuscito": true,
   "dati_precedenti_mantenuti": false,
-  "giocatori_cambiati": 73,
+  "giocatori_cambiati": 80,
   "fonti": [
     {
       "name": "injuries_sos",
@@ -11,8 +11,8 @@
       "records_extracted": 92,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 866,
-      "sha256": "54ed7d1542ebc5fc5e60f38dc0f75abf8a549b022759a3ccf73f15267e0529e7",
+      "fetch_ms": 614,
+      "sha256": "2025285dac6a15db079f6533e9b8d2b7f5233c68eff43ae221185410ef4b9ca1",
       "status": "data_applied",
       "players_updated": 34
     },
@@ -22,8 +22,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 535,
-      "sha256": "9b4b2ac7e0c3bc7c74e730f25792d532e65e19abb0ee649d7147f761772210ab",
+      "fetch_ms": 505,
+      "sha256": "1d09e5dce65279671490e8e000e8778fae7d16f43013e8f9c0cde0387ddf8cdf",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -33,7 +33,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 495,
+      "fetch_ms": 804,
       "sha256": "809e13accc687d9332607ea84fb7cfca59a378c94f62ab6209a6e1cac3f39271",
       "status": "unsupported",
       "players_updated": 0
@@ -44,8 +44,8 @@
       "records_extracted": 47,
       "source_updated_at": "08/11/2026",
       "attempts": 1,
-      "fetch_ms": 842,
-      "sha256": "b770384254a975d1029bd42d54c7c22a2422c14585ccce1e39432a2ae6bb4f1a",
+      "fetch_ms": 740,
+      "sha256": "9dcb94800b523c467d82680485084815898f36ffc442478df84f9fa241c01922",
       "status": "data_applied",
       "players_updated": 36
     },
@@ -55,8 +55,8 @@
       "records_extracted": 460,
       "source_updated_at": "06/11/2026 19:50",
       "attempts": 1,
-      "fetch_ms": 889,
-      "sha256": "d3b2d6245ceaecd777f2162bb0a9109e4cd286bb5ad765dc51575d82c3066cf3",
+      "fetch_ms": 544,
+      "sha256": "aea79a1beba05d9eb8f8a67ebed3f7fc68ee5db7375d3cd10be2c0e0d9735d48",
       "status": "extracted",
       "records_resolved": 406,
       "players_updated": 0
@@ -67,8 +67,8 @@
       "records_extracted": 472,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 847,
-      "sha256": "0a049f3f171ac051cff265eb015ff3145c924317cbc79ca46a2dc058ab671c07",
+      "fetch_ms": 789,
+      "sha256": "6675b49a4b68852dae83b4890ef83590fefc1d69f78b520d12d14101774625e7",
       "status": "extracted",
       "records_resolved": 418,
       "players_updated": 0
@@ -79,8 +79,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1531,
-      "sha256": "9b142d21c0436707f7e9777607eb4f0cc3f031029e670baa89a9a56da591f8aa",
+      "fetch_ms": 1261,
+      "sha256": "c619c8924473194d35c44e718ed7b56d310f8b726025fad1b37e7cddc75ff1cb",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -88,7 +88,7 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 3,
+      "players_updated": 10,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
@@ -121,6 +121,19 @@
           }
         },
         {
+          "id": 557,
+          "name": "Lang",
+          "club": "N/D",
+          "starter": 65.5,
+          "previous_starter": 55.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 80.0,
+            "lineups_sosfanta": 51.0
+          }
+        },
+        {
           "id": 49,
           "name": "Thuram",
           "club": "INT",
@@ -131,6 +144,84 @@
           "sources": {
             "lineups_fantacalcio": 90.0,
             "lineups_sosfanta": 95.0
+          }
+        },
+        {
+          "id": 7,
+          "name": "Lucumi",
+          "club": "JUV",
+          "starter": 90.0,
+          "previous_starter": 87.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 85.0,
+            "lineups_sosfanta": 95.0
+          }
+        },
+        {
+          "id": 476,
+          "name": "Cabal",
+          "club": "JUV",
+          "starter": 90.0,
+          "previous_starter": 87.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 85.0,
+            "lineups_sosfanta": 95.0
+          }
+        },
+        {
+          "id": 113,
+          "name": "McKennie",
+          "club": "JUV",
+          "starter": 65.5,
+          "previous_starter": 60.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 80.0,
+            "lineups_sosfanta": 51.0
+          }
+        },
+        {
+          "id": 256,
+          "name": "Koopmeiners",
+          "club": "JUV",
+          "starter": 52.5,
+          "previous_starter": 50.0,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 60.0,
+            "lineups_sosfanta": 45.0
+          }
+        },
+        {
+          "id": 61,
+          "name": "Alajbegovic",
+          "club": "JUV",
+          "starter": 87.5,
+          "previous_starter": 97.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 80.0,
+            "lineups_sosfanta": 95.0
+          }
+        },
+        {
+          "id": 406,
+          "name": "Gatti",
+          "club": "JUV",
+          "starter": 44.5,
+          "previous_starter": 47.0,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 40.0,
+            "lineups_sosfanta": 49.0
           }
         }
       ],
@@ -581,10 +672,10 @@
     "lineups_fantacalcio:Ghion",
     "lineups_fantacalcio:Pierini",
     "lineups_fantacalcio:Kulla",
-    "lineups_fantacalcio:Giovane",
+    "lineups_fantacalcio:Gilmour",
     "lineups_fantacalcio:Lieto",
     "lineups_fantacalcio:Melnyk",
-    "lineups_fantacalcio:Gilmour",
+    "lineups_fantacalcio:Giovane",
     "lineups_fantacalcio:Pereyra M.",
     "lineups_fantacalcio:Traorè Hj.",
     "lineups_fantacalcio:Musah",
