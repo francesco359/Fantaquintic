@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-07T22:54:08Z",
+  "generated_at": "2026-11-08T01:29:14Z",
   "round": 8,
   "players": 502,
-  "player_updates": 74,
+  "player_updates": 77,
   "fresh_player_data": true,
   "data_confirmed": true,
   "sources_ok": 5,
@@ -15,8 +15,8 @@
       "records_extracted": 92,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 610,
-      "sha256": "d00e0d04845861b52f250a12ed7e7c620a85662d5eeda91133833f6bd706011d",
+      "fetch_ms": 685,
+      "sha256": "0b212dbe05d58d2b83eca1261549cd59bd1338f9d578a4aa46a508b6a4f52640",
       "status": "data_applied",
       "players_updated": 34
     },
@@ -26,8 +26,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 906,
-      "sha256": "5cf6eeead8de4892f144a1fbade85a7e83937c4fb7f32806666601d2e5a9e4e8",
+      "fetch_ms": 633,
+      "sha256": "f368008afacb66d1a703669c68b1dc3374e5347b781e6d09d98bebab9abee6f5",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -37,21 +37,21 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 763,
-      "sha256": "f4021249569d3741fe7c4291649c61b7567d0db034c525771fe58905ebc0e61a",
+      "fetch_ms": 734,
+      "sha256": "809e13accc687d9332607ea84fb7cfca59a378c94f62ab6209a6e1cac3f39271",
       "status": "unsupported",
       "players_updated": 0
     },
     {
       "name": "injuries_official",
       "url": "https://www.fantacalcio-online.com/it/infortunati-serie-a",
-      "records_extracted": 47,
-      "source_updated_at": "07/11/2026",
+      "records_extracted": 46,
+      "source_updated_at": "08/11/2026",
       "attempts": 1,
-      "fetch_ms": 390,
-      "sha256": "88d78f9215407d2ad2dbe7855616aa5e49a3fe3afdeddea4b21d395486c1002a",
+      "fetch_ms": 887,
+      "sha256": "f81ce05f7ed7a6cfd583f2ee719fca321b2a8dff614301b11a92b3c290d45bd5",
       "status": "data_applied",
-      "players_updated": 36
+      "players_updated": 35
     },
     {
       "name": "lineups_fantacalcio",
@@ -59,8 +59,8 @@
       "records_extracted": 460,
       "source_updated_at": "06/11/2026 19:50",
       "attempts": 1,
-      "fetch_ms": 631,
-      "sha256": "5ea1a4d61c8e6a1cbecdd59aeed57dc53e71c9b873341665b493c01a25742285",
+      "fetch_ms": 562,
+      "sha256": "d3b2d6245ceaecd777f2162bb0a9109e4cd286bb5ad765dc51575d82c3066cf3",
       "status": "extracted",
       "records_resolved": 406,
       "players_updated": 0
@@ -71,8 +71,8 @@
       "records_extracted": 472,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 680,
-      "sha256": "b9b2aed359fab7e670bcf1f61434cacbb6a1b386b33eaff0c164d553f47e2a3c",
+      "fetch_ms": 744,
+      "sha256": "95e17eb04bba9c1c0f04ab47a0310c3211bdd6e094e1a6e8e33ec32fda0d784e",
       "status": "extracted",
       "records_resolved": 418,
       "players_updated": 0
@@ -83,8 +83,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1142,
-      "sha256": "541cb16d6585c22e5de3455afb73759d2e02dfc88b5d96baf5a3e87811d898a7",
+      "fetch_ms": 1781,
+      "sha256": "4c9006c5fc80c5948b9b857d5f0c27e7cdc223cb8096c05eae72ac60a36e7248",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -92,7 +92,7 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 4,
+      "players_updated": 8,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
@@ -125,16 +125,16 @@
           }
         },
         {
-          "id": 356,
-          "name": "Venturino",
-          "club": "GEN",
-          "starter": 10.0,
-          "previous_starter": 0,
+          "id": 109,
+          "name": "Spence",
+          "club": "INT",
+          "starter": 53.0,
+          "previous_starter": 48.0,
           "confidence": "medium",
           "rule": "consensus",
           "sources": {
-            "lineups_fantacalcio": 15.0,
-            "lineups_sosfanta": 5.0
+            "lineups_fantacalcio": 55.0,
+            "lineups_sosfanta": 51.0
           }
         },
         {
@@ -148,6 +148,58 @@
           "sources": {
             "lineups_fantacalcio": 90.0,
             "lineups_sosfanta": 95.0
+          }
+        },
+        {
+          "id": 164,
+          "name": "Diouf",
+          "club": "INT",
+          "starter": 47.0,
+          "previous_starter": 52.0,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 45.0,
+            "lineups_sosfanta": 49.0
+          }
+        },
+        {
+          "id": 113,
+          "name": "McKennie",
+          "club": "JUV",
+          "starter": 60.5,
+          "previous_starter": 53.0,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 70.0,
+            "lineups_sosfanta": 51.0
+          }
+        },
+        {
+          "id": 256,
+          "name": "Koopmeiners",
+          "club": "JUV",
+          "starter": 50.0,
+          "previous_starter": 87.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 55.0,
+            "lineups_sosfanta": 45.0
+          }
+        },
+        {
+          "id": 406,
+          "name": "Gatti",
+          "club": "JUV",
+          "starter": 47.0,
+          "previous_starter": 49.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 45.0,
+            "lineups_sosfanta": 49.0
           }
         }
       ],
@@ -673,5 +725,5 @@
     "config_calendario_scaduto:aggiornare_round_e_fixtures"
   ],
   "errors": [],
-  "duration_ms": 1993
+  "duration_ms": 2846
 }
