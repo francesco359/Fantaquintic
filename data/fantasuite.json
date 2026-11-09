@@ -1,9 +1,9 @@
 {
   "schema_version": 8,
-  "generated_at": "2026-11-09T21:09:59Z",
+  "generated_at": "2026-11-09T23:01:25Z",
   "aggiornamento_riuscito": true,
   "dati_precedenti_mantenuti": false,
-  "giocatori_cambiati": 71,
+  "giocatori_cambiati": 69,
   "fonti": [
     {
       "name": "injuries_sos",
@@ -11,8 +11,8 @@
       "records_extracted": 97,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 782,
-      "sha256": "e2dd65f985c3327c733e3cbf41bbd2f07ef004c19881bbc43ad7da66374bc25e",
+      "fetch_ms": 1195,
+      "sha256": "884764757907674fec76858b797d8ee3b247622ee58f10a81506e1f91274764d",
       "status": "data_applied",
       "players_updated": 33
     },
@@ -22,8 +22,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 582,
-      "sha256": "7b455f92718721e158d2c21a69f330ca9bb189911e7a84dba92d696be48c13a6",
+      "fetch_ms": 624,
+      "sha256": "57afdf97503237817a0b585a4761f1e2495c4cf1ab88772e435efa737860bdcd",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -33,7 +33,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 958,
+      "fetch_ms": 984,
       "sha256": "7608086fca01e1d0942e3f72ec5c47bbb84e9d5581c2f1fdfc427ee7c3ed90db",
       "status": "unsupported",
       "players_updated": 0
@@ -41,13 +41,13 @@
     {
       "name": "injuries_official",
       "url": "https://www.fantacalcio-online.com/it/infortunati-serie-a",
-      "records_extracted": 45,
-      "source_updated_at": "09/11/2026",
+      "records_extracted": 42,
+      "source_updated_at": "10/11/2026",
       "attempts": 1,
-      "fetch_ms": 848,
-      "sha256": "2cafae42487cec1ddd8fcd2cccca25cd17c690955595ffb27da3e282204a01c7",
+      "fetch_ms": 936,
+      "sha256": "8b68ba6171334c80eb6f3a1aa39d097ab045c733dacab9936730009fa39eeae1",
       "status": "data_applied",
-      "players_updated": 35
+      "players_updated": 33
     },
     {
       "name": "lineups_fantacalcio",
@@ -55,7 +55,7 @@
       "records_extracted": 475,
       "source_updated_at": "09/11/2026 10:27",
       "attempts": 1,
-      "fetch_ms": 860,
+      "fetch_ms": 897,
       "sha256": "e148b95e604b279d35e8df2f8238f1757dd1d2f4456475123521fdca5a0b3aac",
       "status": "extracted",
       "records_resolved": 421,
@@ -67,8 +67,8 @@
       "records_extracted": 500,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 914,
-      "sha256": "978aade629f47e7037dec9e9c47ed15ce614eebabdcbe30cafb9d4458527c36a",
+      "fetch_ms": 802,
+      "sha256": "3d9590c39745b9e3df8a31c8cb1f55729190da117c0b76999f28355415499b81",
       "status": "extracted",
       "records_resolved": 430,
       "players_updated": 0
@@ -79,8 +79,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1154,
-      "sha256": "8c141d990d0eb5a58682639a1b7fd0f00ad07375ead872dd1a3853a674149ee1",
+      "fetch_ms": 1163,
+      "sha256": "9da327468ea86e524120b2115ad16d791240a4f27f356ec9319fb6903a1484d7",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -534,7 +534,6 @@
     "injuries_sky:contatti",
     "injuries_official:LUIS HENRIQUE de Lima",
     "injuries_official:MARTINEZ Lautaro",
-    "injuries_official:ILIC Ivan",
     "injuries_official:BAH Muhammed",
     "injuries_official:KONE Ismaël",
     "injuries_official:ISRAEL Franco",
@@ -643,6 +642,7 @@
     "lineups_sosfanta:Traorè Hj.",
     "lineups_sosfanta:Thorstvedt - Adzic",
     "lineups_sosfanta:Bakola - Adzic",
-    "lineups_sosfanta:Cinquegrano - Van Der Brempt"
+    "lineups_sosfanta:Cinquegrano - Van Der Brempt",
+    "lineups_sosfanta:Messias - Baldanzi"
   ]
 }
