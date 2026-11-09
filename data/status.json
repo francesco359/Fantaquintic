@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-09T13:36:03Z",
+  "generated_at": "2026-11-09T15:14:42Z",
   "round": 8,
   "players": 502,
-  "player_updates": 73,
+  "player_updates": 71,
   "fresh_player_data": true,
   "data_confirmed": true,
   "sources_ok": 5,
@@ -15,10 +15,10 @@
       "records_extracted": 97,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 885,
-      "sha256": "f33eb683438d6923b87d8280226b1377ec945a0ecca194047bc3904abf5021f8",
+      "fetch_ms": 670,
+      "sha256": "058604a13d64e1b5630bf09e0ae490e8bd0134165cbaf87bd211bcda16944e6f",
       "status": "data_applied",
-      "players_updated": 35
+      "players_updated": 33
     },
     {
       "name": "injuries_sky",
@@ -26,8 +26,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1159,
-      "sha256": "cf4ff137ce5da6b4c7ac87dde881129bc5295bbb73e884febb57dfc4183a4e82",
+      "fetch_ms": 798,
+      "sha256": "70bbb124adfc752a1eebd96c1278e41da3a8e6d2429b9baf817316fd1916130b",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -37,7 +37,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 886,
+      "fetch_ms": 843,
       "sha256": "188ba885b811a73df37ed417df0f9dee17dc2382b9d5e6a4baba1be4ff2241fc",
       "status": "unsupported",
       "players_updated": 0
@@ -48,10 +48,10 @@
       "records_extracted": 45,
       "source_updated_at": "09/11/2026",
       "attempts": 1,
-      "fetch_ms": 880,
-      "sha256": "1b03ea2ed22cc316ed65190e6bb4d191d44ea0cbf2770989a0e48cc9ffb01039",
+      "fetch_ms": 853,
+      "sha256": "5d6b9a6d9c07d60ced83c4a7ca4b6e00305755a3aea82e02d4a76bb310784d3c",
       "status": "data_applied",
-      "players_updated": 34
+      "players_updated": 35
     },
     {
       "name": "lineups_fantacalcio",
@@ -59,7 +59,7 @@
       "records_extracted": 475,
       "source_updated_at": "09/11/2026 10:27",
       "attempts": 1,
-      "fetch_ms": 798,
+      "fetch_ms": 934,
       "sha256": "e148b95e604b279d35e8df2f8238f1757dd1d2f4456475123521fdca5a0b3aac",
       "status": "extracted",
       "records_resolved": 421,
@@ -71,8 +71,8 @@
       "records_extracted": 502,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 778,
-      "sha256": "c31f71a62e57dc7b863ed86601490a980d8d1f59ec9c82021d83c931d67b368c",
+      "fetch_ms": 1086,
+      "sha256": "65e638186c732bec9d559987d7574d6fdcea40e1c0bc91536fa4c3c4d5ce1f5d",
       "status": "extracted",
       "records_resolved": 432,
       "players_updated": 0
@@ -83,8 +83,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1184,
-      "sha256": "b33bfbac88715f90116d32025a1ac6dfe89175458d83707ed764087f3d53356f",
+      "fetch_ms": 1077,
+      "sha256": "f36a2920321b89ee9b3733c59553f3e0e4a3d8fe22ad9e536f28a4f567e9b083",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -92,7 +92,7 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 4,
+      "players_updated": 3,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
@@ -121,19 +121,6 @@
           "rule": "consensus",
           "sources": {
             "lineups_fantacalcio": 80.0,
-            "lineups_sosfanta": 95.0
-          }
-        },
-        {
-          "id": 476,
-          "name": "Cabal",
-          "club": "JUV",
-          "starter": 85.0,
-          "previous_starter": 42.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 75.0,
             "lineups_sosfanta": 95.0
           }
         },
@@ -662,5 +649,5 @@
     "config_calendario_scaduto:aggiornare_round_e_fixtures"
   ],
   "errors": [],
-  "duration_ms": 2192
+  "duration_ms": 2089
 }
