@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-09T17:24:03Z",
+  "generated_at": "2026-11-09T19:16:54Z",
   "round": 8,
   "players": 502,
-  "player_updates": 71,
+  "player_updates": 72,
   "fresh_player_data": true,
   "data_confirmed": true,
   "sources_ok": 5,
@@ -15,8 +15,8 @@
       "records_extracted": 97,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1341,
-      "sha256": "3601ace7856cdb758e9a2216bbf3aa14a226038b81d225e743506e57ff5cfa89",
+      "fetch_ms": 743,
+      "sha256": "55f20164e4c8489d7414e6bd3485d3175bb5f9b6bb8987239a80471628990c76",
       "status": "data_applied",
       "players_updated": 33
     },
@@ -26,8 +26,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1530,
-      "sha256": "623aa5225f66e41661531e30c91886a1fd00e62cb0c959f6ad246e27e2f3df83",
+      "fetch_ms": 497,
+      "sha256": "3e72d2f0663279635c4a903f4f7ff2d9ebd0786386aba59ffd79f9778b1dbbc0",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -37,7 +37,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1346,
+      "fetch_ms": 982,
       "sha256": "7608086fca01e1d0942e3f72ec5c47bbb84e9d5581c2f1fdfc427ee7c3ed90db",
       "status": "unsupported",
       "players_updated": 0
@@ -48,8 +48,8 @@
       "records_extracted": 45,
       "source_updated_at": "09/11/2026",
       "attempts": 1,
-      "fetch_ms": 1064,
-      "sha256": "8fd13315ab53159bf9b6c3553fc74762e30d980f6588defecbb7522c18b9afeb",
+      "fetch_ms": 877,
+      "sha256": "e2606dc5d6e3cb92b985d9a6726d7b453f3423735964312592b4702e9aa41344",
       "status": "data_applied",
       "players_updated": 35
     },
@@ -59,7 +59,7 @@
       "records_extracted": 475,
       "source_updated_at": "09/11/2026 10:27",
       "attempts": 1,
-      "fetch_ms": 538,
+      "fetch_ms": 898,
       "sha256": "e148b95e604b279d35e8df2f8238f1757dd1d2f4456475123521fdca5a0b3aac",
       "status": "extracted",
       "records_resolved": 421,
@@ -68,13 +68,13 @@
     {
       "name": "lineups_sosfanta",
       "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
-      "records_extracted": 502,
+      "records_extracted": 500,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1064,
-      "sha256": "827718401ca7b3fdb27f72137870dc63d974cb32a48a0d9fb2d8a7c6ddf3d8c8",
+      "fetch_ms": 969,
+      "sha256": "ce28dda33dc648ad14d6a2de9a1c284caf1558c3671d735d97246a387d156967",
       "status": "extracted",
-      "records_resolved": 432,
+      "records_resolved": 430,
       "players_updated": 0
     },
     {
@@ -83,8 +83,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1305,
-      "sha256": "bb89e196ac46921405b4c765dd7d9925575da88e4c36e2f5f863327c23e93df7",
+      "fetch_ms": 1461,
+      "sha256": "5e31b65b829b568a71684dceb325b3a517a2ff9f05bc732ca2d98c57a6d47181",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -92,12 +92,25 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 3,
+      "players_updated": 4,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
       "single_source_bench_updates": 0,
       "sample": [
+        {
+          "id": 122,
+          "name": "Esposito F.P.",
+          "club": "INT",
+          "starter": 87.5,
+          "previous_starter": 67.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 80.0,
+            "lineups_sosfanta": 95.0
+          }
+        },
         {
           "id": 49,
           "name": "Thuram",
@@ -649,5 +662,5 @@
     "config_calendario_scaduto:aggiornare_round_e_fixtures"
   ],
   "errors": [],
-  "duration_ms": 3067
+  "duration_ms": 2261
 }
