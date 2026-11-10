@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-10T19:18:36Z",
+  "generated_at": "2026-11-10T21:02:46Z",
   "round": 8,
   "players": 502,
-  "player_updates": 76,
+  "player_updates": 71,
   "fresh_player_data": true,
   "data_confirmed": true,
   "sources_ok": 5,
@@ -15,10 +15,10 @@
       "records_extracted": 99,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 873,
-      "sha256": "e7d665b64b9705b0d46c8fb47b1cb1379239a4e02848c93c725f6b8cb0e07b10",
+      "fetch_ms": 827,
+      "sha256": "2e40db740010852a9126185149e3f904baf4a6538e8f37d6ec9a5e6d8ff58215",
       "status": "data_applied",
-      "players_updated": 36
+      "players_updated": 35
     },
     {
       "name": "injuries_sky",
@@ -26,8 +26,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 499,
-      "sha256": "8f817227a4ef013494c481c2634774bdec758e0ad2c13b640d414ea0f218cae4",
+      "fetch_ms": 710,
+      "sha256": "4a8a986ad7196a83cddc1b54c6fe168e49718bd1897843d2e4d0796803bafbaf",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -37,7 +37,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1010,
+      "fetch_ms": 727,
       "sha256": "dbd7ffa79fcece7ef004732216f32dc85c95d886fd8250a3e1b2cd52f687d103",
       "status": "unsupported",
       "players_updated": 0
@@ -48,8 +48,8 @@
       "records_extracted": 43,
       "source_updated_at": "10/11/2026",
       "attempts": 1,
-      "fetch_ms": 914,
-      "sha256": "feae33faf155f2f19282f1e79d9ff89036938d28516c905726480c6d41802064",
+      "fetch_ms": 464,
+      "sha256": "2593fc172b7c486fd5d4865ea37fd9a45d15f5ff16e3e108898b8eb829d8bac8",
       "status": "data_applied",
       "players_updated": 35
     },
@@ -59,7 +59,7 @@
       "records_extracted": 473,
       "source_updated_at": "10/11/2026 08:50",
       "attempts": 1,
-      "fetch_ms": 935,
+      "fetch_ms": 455,
       "sha256": "4bbc3c5876eb8a309db7d77cfea3084a1cff9d3d504067262212f7be3c11d1cb",
       "status": "extracted",
       "records_resolved": 419,
@@ -71,8 +71,8 @@
       "records_extracted": 493,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 669,
-      "sha256": "6cc1d8158ebb75fa0eca39628ef740c398abab068568c9536c514d19cf99a767",
+      "fetch_ms": 964,
+      "sha256": "20ac1f900dcd43e9b28c9ccceafd55ca881e245455fec5aa873f239c1b88abda",
       "status": "extracted",
       "records_resolved": 426,
       "players_updated": 0
@@ -83,8 +83,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1366,
-      "sha256": "60d2380745af871c741e26632e7d8abdd2d047c7f2bc49433c83c9d645fc15c4",
+      "fetch_ms": 1285,
+      "sha256": "deb1cabce57a7ff814645c6b3ae0fc00edf65ec043c48d5a87ffb9dd41cc7a64",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -92,64 +92,12 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 5,
+      "players_updated": 1,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
       "single_source_bench_updates": 0,
       "sample": [
-        {
-          "id": 432,
-          "name": "Ghilardi",
-          "club": "ROM",
-          "starter": 42.5,
-          "previous_starter": 50.0,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 40.0,
-            "lineups_sosfanta": 45.0
-          }
-        },
-        {
-          "id": 390,
-          "name": "Monterisi",
-          "club": "FRO",
-          "starter": 82.5,
-          "previous_starter": 60.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 70.0,
-            "lineups_sosfanta": 95.0
-          }
-        },
-        {
-          "id": 263,
-          "name": "Masini",
-          "club": "FRO",
-          "starter": 85.0,
-          "previous_starter": 62.0,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 75.0,
-            "lineups_sosfanta": 95.0
-          }
-        },
-        {
-          "id": 140,
-          "name": "Fagioli",
-          "club": "FIO",
-          "starter": 82.5,
-          "previous_starter": 59.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 70.0,
-            "lineups_sosfanta": 95.0
-          }
-        },
         {
           "id": 438,
           "name": "Juan Jesus",
@@ -675,5 +623,5 @@
     "config_calendario_scaduto:aggiornare_round_e_fixtures"
   ],
   "errors": [],
-  "duration_ms": 2881
+  "duration_ms": 2609
 }
