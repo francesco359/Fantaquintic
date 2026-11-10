@@ -1,9 +1,9 @@
 {
   "schema_version": 8,
-  "generated_at": "2026-11-09T23:01:25Z",
+  "generated_at": "2026-11-10T01:26:00Z",
   "aggiornamento_riuscito": true,
   "dati_precedenti_mantenuti": false,
-  "giocatori_cambiati": 69,
+  "giocatori_cambiati": 67,
   "fonti": [
     {
       "name": "injuries_sos",
@@ -11,10 +11,10 @@
       "records_extracted": 97,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1195,
-      "sha256": "884764757907674fec76858b797d8ee3b247622ee58f10a81506e1f91274764d",
+      "fetch_ms": 932,
+      "sha256": "c6ddd684f101b7392929042187f4ae84e552d3e17c469912389a79482b066b5e",
       "status": "data_applied",
-      "players_updated": 33
+      "players_updated": 31
     },
     {
       "name": "injuries_sky",
@@ -22,8 +22,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 624,
-      "sha256": "57afdf97503237817a0b585a4761f1e2495c4cf1ab88772e435efa737860bdcd",
+      "fetch_ms": 842,
+      "sha256": "ea5df42d4f8092fc84cdce66b1fe528f83aa67ffde9ca9179eaaaaf367dbb50d",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -33,8 +33,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 984,
-      "sha256": "7608086fca01e1d0942e3f72ec5c47bbb84e9d5581c2f1fdfc427ee7c3ed90db",
+      "fetch_ms": 1081,
+      "sha256": "ae0ca2fccb0c3f316095a777a4177a9cd31513313418f00d51dbb812ac86b4b2",
       "status": "unsupported",
       "players_updated": 0
     },
@@ -44,8 +44,8 @@
       "records_extracted": 42,
       "source_updated_at": "10/11/2026",
       "attempts": 1,
-      "fetch_ms": 936,
-      "sha256": "8b68ba6171334c80eb6f3a1aa39d097ab045c733dacab9936730009fa39eeae1",
+      "fetch_ms": 893,
+      "sha256": "b25f61c6f27deb0614050729c9e52ae009a86df63d4b944388e6c600a78d9854",
       "status": "data_applied",
       "players_updated": 33
     },
@@ -55,7 +55,7 @@
       "records_extracted": 475,
       "source_updated_at": "09/11/2026 10:27",
       "attempts": 1,
-      "fetch_ms": 897,
+      "fetch_ms": 970,
       "sha256": "e148b95e604b279d35e8df2f8238f1757dd1d2f4456475123521fdca5a0b3aac",
       "status": "extracted",
       "records_resolved": 421,
@@ -67,8 +67,8 @@
       "records_extracted": 500,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 802,
-      "sha256": "3d9590c39745b9e3df8a31c8cb1f55729190da117c0b76999f28355415499b81",
+      "fetch_ms": 981,
+      "sha256": "b4ee9ef96f56a87354c6ecce6994ab2d88d2617147c879eb55b923e5d779feb4",
       "status": "extracted",
       "records_resolved": 430,
       "players_updated": 0
@@ -79,8 +79,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1163,
-      "sha256": "9da327468ea86e524120b2115ad16d791240a4f27f356ec9319fb6903a1484d7",
+      "fetch_ms": 1465,
+      "sha256": "4fe5d31e9371e91dd257a9de7799ec2dfad54efad5ce94cdf6947714a0ff1ccc",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
