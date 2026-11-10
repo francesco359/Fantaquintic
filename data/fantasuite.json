@@ -1,6 +1,6 @@
 {
   "schema_version": 8,
-  "generated_at": "2026-11-10T15:09:00Z",
+  "generated_at": "2026-11-10T17:11:26Z",
   "aggiornamento_riuscito": true,
   "dati_precedenti_mantenuti": false,
   "giocatori_cambiati": 74,
@@ -8,11 +8,11 @@
     {
       "name": "injuries_sos",
       "url": "https://www.sosfanta.com/indisponibili-e-squalificati/tabella-indisponibili-seriea-fantacalcio-asta-infortunati-tempi-recupero-squalificati-diffidati/",
-      "records_extracted": 97,
+      "records_extracted": 98,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 985,
-      "sha256": "4bd97e02a86f39f6aef132c57b0578a0f0bb2f05ccd63076d6c05d818d42f63b",
+      "fetch_ms": 904,
+      "sha256": "7059dfd2df070e66b80b6c265345ad849b7c11cd0e7a6bec0554c5b7a43af809",
       "status": "data_applied",
       "players_updated": 37
     },
@@ -22,8 +22,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 688,
-      "sha256": "237de55076f34d62d7268f8d8aaca099ab80da423e626c865cace61510a61351",
+      "fetch_ms": 1097,
+      "sha256": "c9d05ce5c9141dcfbc4521edf0771810e7ba74b0d586d183ba94cd8415774957",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -33,7 +33,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1070,
+      "fetch_ms": 807,
       "sha256": "dbd7ffa79fcece7ef004732216f32dc85c95d886fd8250a3e1b2cd52f687d103",
       "status": "unsupported",
       "players_updated": 0
@@ -44,21 +44,21 @@
       "records_extracted": 43,
       "source_updated_at": "10/11/2026",
       "attempts": 1,
-      "fetch_ms": 859,
-      "sha256": "2711f160e9a20b250355585e6d5196b4f51f6c27b86316495fde6bab88faca21",
+      "fetch_ms": 810,
+      "sha256": "6ed1a2bb9cb36e551a3ef174d989d3f7ecec13216b82b5d0c5ffe866eede876a",
       "status": "data_applied",
       "players_updated": 35
     },
     {
       "name": "lineups_fantacalcio",
       "url": "https://www.fantacalcio.it/probabili-formazioni-serie-a/",
-      "records_extracted": 474,
+      "records_extracted": 473,
       "source_updated_at": "10/11/2026 08:50",
       "attempts": 1,
-      "fetch_ms": 983,
-      "sha256": "6cbf04f8e8f655a28ac604371f8eb415674a0d4483cf4de9a99c5a2bbb9fcfcb",
+      "fetch_ms": 881,
+      "sha256": "f7bf4dea1ff6b350674e9a7a9a9286333ca023a51543224b38ea65c16c942cd1",
       "status": "extracted",
-      "records_resolved": 420,
+      "records_resolved": 419,
       "players_updated": 0
     },
     {
@@ -67,8 +67,8 @@
       "records_extracted": 500,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 892,
-      "sha256": "47c44692649dea0b787a7cb488dcedfa990719da72e653520c210633ab147f73",
+      "fetch_ms": 1001,
+      "sha256": "395c7c18f659470f061ca63aa5edeb166a08e2624aef827d698ca2247059d977",
       "status": "extracted",
       "records_resolved": 430,
       "players_updated": 0
@@ -79,8 +79,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1243,
-      "sha256": "05c158dc49aedeee0cc2bc07015aff98685080e3d3fda727adfbcc2c1deb1753",
+      "fetch_ms": 1177,
+      "sha256": "a7a1521f5264cfc935659758e61c0c7f14a3060fcfe3fc2d69612eea0f7a231b",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -95,11 +95,11 @@
       "single_source_bench_updates": 0,
       "sample": [
         {
-          "id": 49,
-          "name": "Thuram",
+          "id": 122,
+          "name": "Esposito F.P.",
           "club": "INT",
           "starter": 92.5,
-          "previous_starter": 0.0,
+          "previous_starter": 87.5,
           "confidence": "medium",
           "rule": "consensus",
           "sources": {
