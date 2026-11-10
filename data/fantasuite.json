@@ -1,20 +1,20 @@
 {
   "schema_version": 8,
-  "generated_at": "2026-11-10T17:11:26Z",
+  "generated_at": "2026-11-10T19:18:36Z",
   "aggiornamento_riuscito": true,
   "dati_precedenti_mantenuti": false,
-  "giocatori_cambiati": 74,
+  "giocatori_cambiati": 76,
   "fonti": [
     {
       "name": "injuries_sos",
       "url": "https://www.sosfanta.com/indisponibili-e-squalificati/tabella-indisponibili-seriea-fantacalcio-asta-infortunati-tempi-recupero-squalificati-diffidati/",
-      "records_extracted": 98,
+      "records_extracted": 99,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 904,
-      "sha256": "7059dfd2df070e66b80b6c265345ad849b7c11cd0e7a6bec0554c5b7a43af809",
+      "fetch_ms": 873,
+      "sha256": "e7d665b64b9705b0d46c8fb47b1cb1379239a4e02848c93c725f6b8cb0e07b10",
       "status": "data_applied",
-      "players_updated": 37
+      "players_updated": 36
     },
     {
       "name": "injuries_sky",
@@ -22,8 +22,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1097,
-      "sha256": "c9d05ce5c9141dcfbc4521edf0771810e7ba74b0d586d183ba94cd8415774957",
+      "fetch_ms": 499,
+      "sha256": "8f817227a4ef013494c481c2634774bdec758e0ad2c13b640d414ea0f218cae4",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -33,7 +33,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 807,
+      "fetch_ms": 1010,
       "sha256": "dbd7ffa79fcece7ef004732216f32dc85c95d886fd8250a3e1b2cd52f687d103",
       "status": "unsupported",
       "players_updated": 0
@@ -44,8 +44,8 @@
       "records_extracted": 43,
       "source_updated_at": "10/11/2026",
       "attempts": 1,
-      "fetch_ms": 810,
-      "sha256": "6ed1a2bb9cb36e551a3ef174d989d3f7ecec13216b82b5d0c5ffe866eede876a",
+      "fetch_ms": 914,
+      "sha256": "feae33faf155f2f19282f1e79d9ff89036938d28516c905726480c6d41802064",
       "status": "data_applied",
       "players_updated": 35
     },
@@ -55,8 +55,8 @@
       "records_extracted": 473,
       "source_updated_at": "10/11/2026 08:50",
       "attempts": 1,
-      "fetch_ms": 881,
-      "sha256": "f7bf4dea1ff6b350674e9a7a9a9286333ca023a51543224b38ea65c16c942cd1",
+      "fetch_ms": 935,
+      "sha256": "4bbc3c5876eb8a309db7d77cfea3084a1cff9d3d504067262212f7be3c11d1cb",
       "status": "extracted",
       "records_resolved": 419,
       "players_updated": 0
@@ -64,13 +64,13 @@
     {
       "name": "lineups_sosfanta",
       "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
-      "records_extracted": 500,
+      "records_extracted": 493,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1001,
-      "sha256": "395c7c18f659470f061ca63aa5edeb166a08e2624aef827d698ca2247059d977",
+      "fetch_ms": 669,
+      "sha256": "6cc1d8158ebb75fa0eca39628ef740c398abab068568c9536c514d19cf99a767",
       "status": "extracted",
-      "records_resolved": 430,
+      "records_resolved": 426,
       "players_updated": 0
     },
     {
@@ -79,8 +79,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1177,
-      "sha256": "a7a1521f5264cfc935659758e61c0c7f14a3060fcfe3fc2d69612eea0f7a231b",
+      "fetch_ms": 1366,
+      "sha256": "60d2380745af871c741e26632e7d8abdd2d047c7f2bc49433c83c9d645fc15c4",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -88,22 +88,61 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 2,
+      "players_updated": 5,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
       "single_source_bench_updates": 0,
       "sample": [
         {
-          "id": 122,
-          "name": "Esposito F.P.",
-          "club": "INT",
-          "starter": 92.5,
-          "previous_starter": 87.5,
+          "id": 432,
+          "name": "Ghilardi",
+          "club": "ROM",
+          "starter": 42.5,
+          "previous_starter": 50.0,
           "confidence": "medium",
           "rule": "consensus",
           "sources": {
-            "lineups_fantacalcio": 90.0,
+            "lineups_fantacalcio": 40.0,
+            "lineups_sosfanta": 45.0
+          }
+        },
+        {
+          "id": 390,
+          "name": "Monterisi",
+          "club": "FRO",
+          "starter": 82.5,
+          "previous_starter": 60.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 70.0,
+            "lineups_sosfanta": 95.0
+          }
+        },
+        {
+          "id": 263,
+          "name": "Masini",
+          "club": "FRO",
+          "starter": 85.0,
+          "previous_starter": 62.0,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 75.0,
+            "lineups_sosfanta": 95.0
+          }
+        },
+        {
+          "id": 140,
+          "name": "Fagioli",
+          "club": "FIO",
+          "starter": 82.5,
+          "previous_starter": 59.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 70.0,
             "lineups_sosfanta": 95.0
           }
         },
@@ -400,7 +439,7 @@
           "name": "Dybala",
           "reason": "only_one_source",
           "sources": {
-            "lineups_fantacalcio": 30.0
+            "lineups_fantacalcio": 50.0
           }
         },
         {
