@@ -1,9 +1,9 @@
 {
   "schema_version": 8,
-  "generated_at": "2026-11-10T03:06:20Z",
+  "generated_at": "2026-11-10T05:13:34Z",
   "aggiornamento_riuscito": true,
   "dati_precedenti_mantenuti": false,
-  "giocatori_cambiati": 67,
+  "giocatori_cambiati": 68,
   "fonti": [
     {
       "name": "injuries_sos",
@@ -11,8 +11,8 @@
       "records_extracted": 97,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 841,
-      "sha256": "f3216d36adf88590f1dc9c9e43fd6627d7a40e154f6d73d90d08a7aadd70c295",
+      "fetch_ms": 641,
+      "sha256": "c500ae96966c1b6e5b8cbd58de2f51446e500b0c3ab54b55639733b8cb3bd4c7",
       "status": "data_applied",
       "players_updated": 31
     },
@@ -22,8 +22,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 967,
-      "sha256": "e042f6e3920c8e21a7e47d0ad5b7817fc96a4136cdc4227f87b51c4f18616a19",
+      "fetch_ms": 1008,
+      "sha256": "2f3ea5f06e437f2763d8fd3f71860ed761787fe2dd08cb643ce6c687adbf71e9",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -33,7 +33,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1095,
+      "fetch_ms": 921,
       "sha256": "ae0ca2fccb0c3f316095a777a4177a9cd31513313418f00d51dbb812ac86b4b2",
       "status": "unsupported",
       "players_updated": 0
@@ -41,13 +41,13 @@
     {
       "name": "injuries_official",
       "url": "https://www.fantacalcio-online.com/it/infortunati-serie-a",
-      "records_extracted": 42,
+      "records_extracted": 43,
       "source_updated_at": "10/11/2026",
       "attempts": 1,
-      "fetch_ms": 914,
-      "sha256": "a470c9d3a3d1a862c6cd9ecae9f8053a096e84014c73f5d859de5950b7829324",
+      "fetch_ms": 933,
+      "sha256": "8dc360d410645b01ea77c81728ed145ffe31483447439321a0113b230a9252ab",
       "status": "data_applied",
-      "players_updated": 33
+      "players_updated": 35
     },
     {
       "name": "lineups_fantacalcio",
@@ -55,7 +55,7 @@
       "records_extracted": 475,
       "source_updated_at": "09/11/2026 10:27",
       "attempts": 1,
-      "fetch_ms": 963,
+      "fetch_ms": 875,
       "sha256": "e148b95e604b279d35e8df2f8238f1757dd1d2f4456475123521fdca5a0b3aac",
       "status": "extracted",
       "records_resolved": 421,
@@ -67,8 +67,8 @@
       "records_extracted": 500,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 979,
-      "sha256": "5fbea90e9e5899dd751df1e4e09f1800c093a60f0c0de524beacef2e453ed0dd",
+      "fetch_ms": 763,
+      "sha256": "8d93725c342c8ad0cc73f0a40291395201dfef91c7710be3e4569af55c349016",
       "status": "extracted",
       "records_resolved": 430,
       "players_updated": 0
@@ -79,8 +79,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1418,
-      "sha256": "c27a503cbb8e85b589a3f0b0323c22be55447bb7838982271293f1d935a6f07b",
+      "fetch_ms": 1251,
+      "sha256": "80dc4e1db4ddc9a17d9c9a901d0847e05358e6fe3d5df94713e56e1d50d8d900",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -88,7 +88,7 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 3,
+      "players_updated": 2,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
@@ -104,19 +104,6 @@
           "rule": "consensus",
           "sources": {
             "lineups_fantacalcio": 90.0,
-            "lineups_sosfanta": 95.0
-          }
-        },
-        {
-          "id": 56,
-          "name": "Celik",
-          "club": "JUV",
-          "starter": 87.5,
-          "previous_starter": 0.0,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 80.0,
             "lineups_sosfanta": 95.0
           }
         },
@@ -537,7 +524,6 @@
     "injuries_official:BAH Muhammed",
     "injuries_official:KONE Ismaël",
     "injuries_official:ISRAEL Franco",
-    "injuries_official:BAYO Vakoun",
     "lineups_fantacalcio:Liberali",
     "lineups_fantacalcio:Dossena",
     "lineups_fantacalcio:Deiola",
@@ -643,6 +629,7 @@
     "lineups_sosfanta:Thorstvedt - Adzic",
     "lineups_sosfanta:Bakola - Adzic",
     "lineups_sosfanta:Cinquegrano - Van Der Brempt",
-    "lineups_sosfanta:Messias - Baldanzi"
+    "lineups_sosfanta:Messias - Baldanzi",
+    "lineups_sosfanta:Frendrup - Wiafe"
   ]
 }
