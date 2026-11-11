@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-11T19:21:56Z",
+  "generated_at": "2026-11-11T23:10:01Z",
   "round": 8,
   "players": 502,
-  "player_updates": 70,
+  "player_updates": 66,
   "fresh_player_data": true,
   "data_confirmed": true,
   "sources_ok": 5,
@@ -15,10 +15,10 @@
       "records_extracted": 95,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 398,
-      "sha256": "36ce211e0fa4f84fce1e54c15e9c56d98073535111da4d1f2840b5a11ab58f3a",
+      "fetch_ms": 798,
+      "sha256": "921ce3f4466d1cf85e2d92bd79f80eb107f50d05f549123aceb8ca03447abade",
       "status": "data_applied",
-      "players_updated": 34
+      "players_updated": 32
     },
     {
       "name": "injuries_sky",
@@ -26,8 +26,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 519,
-      "sha256": "b88ec3fe78345110594694d4c6218e919b6fcff065fd984bc4ddc7ae7b009e6e",
+      "fetch_ms": 885,
+      "sha256": "2acd288dc1f0e3541a3d86ee79ed49eb9e13efa1c9d7b898d88d45717c165692",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -37,7 +37,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 728,
+      "fetch_ms": 1068,
       "sha256": "39c4645615f1aaa8289dcc1e331000106774d92268c0bfff6e9e9611d5aa07a6",
       "status": "unsupported",
       "players_updated": 0
@@ -46,23 +46,23 @@
       "name": "injuries_official",
       "url": "https://www.fantacalcio-online.com/it/infortunati-serie-a",
       "records_extracted": 41,
-      "source_updated_at": "11/11/2026",
+      "source_updated_at": "12/11/2026",
       "attempts": 1,
-      "fetch_ms": 721,
-      "sha256": "9f2d006153abd38aca51eef71808467f8222adce4e709b72cf41831aed0fcf04",
+      "fetch_ms": 783,
+      "sha256": "f762b8d676a628dbb1db33ba03b887a345f902079ed4fd315ca9a2af12e1423c",
       "status": "data_applied",
       "players_updated": 32
     },
     {
       "name": "lineups_fantacalcio",
       "url": "https://www.fantacalcio.it/probabili-formazioni-serie-a/",
-      "records_extracted": 477,
+      "records_extracted": 478,
       "source_updated_at": "11/11/2026 17:06",
       "attempts": 1,
-      "fetch_ms": 791,
-      "sha256": "76b45d111d766fc4bb5742ceabc492a7aa591fbf8a22c80c06f96307f3b409c5",
+      "fetch_ms": 874,
+      "sha256": "3346120ee0a62efaa4c1db0c09e81103e05f96e7cb051c6a37a849198badc6d1",
       "status": "extracted",
-      "records_resolved": 423,
+      "records_resolved": 424,
       "players_updated": 0
     },
     {
@@ -71,8 +71,8 @@
       "records_extracted": 496,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 295,
-      "sha256": "3d82be54bc627b1169637e5b949fecc14b625989cce43c4f6c0413f38488aae9",
+      "fetch_ms": 814,
+      "sha256": "3424e7c63d4956d05373118d683c722f9db4642a31c83c53158b2277df6b84bb",
       "status": "extracted",
       "records_resolved": 429,
       "players_updated": 0
@@ -83,8 +83,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1142,
-      "sha256": "e591930deda5167851883b1bce2ea56f39d251a3f704e48842a11264b177818b",
+      "fetch_ms": 1044,
+      "sha256": "b1acc4694f5222852128ff8fdbc24ecc4203892b8f8d7a17eaa1a05ce06614a3",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -92,22 +92,22 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 4,
+      "players_updated": 2,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
       "single_source_bench_updates": 0,
       "sample": [
         {
-          "id": 325,
-          "name": "Berisha M.",
-          "club": "LEC",
-          "starter": 20.0,
+          "id": 471,
+          "name": "Idrissi R.",
+          "club": "CAG",
+          "starter": 12.5,
           "previous_starter": 0,
           "confidence": "medium",
           "rule": "consensus",
           "sources": {
-            "lineups_fantacalcio": 35.0,
+            "lineups_fantacalcio": 20.0,
             "lineups_sosfanta": 5.0
           }
         },
@@ -122,32 +122,6 @@
           "sources": {
             "lineups_fantacalcio": 90.0,
             "lineups_sosfanta": 95.0
-          }
-        },
-        {
-          "id": 350,
-          "name": "Wiafe",
-          "club": "GEN",
-          "starter": 57.5,
-          "previous_starter": 54.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 60.0,
-            "lineups_sosfanta": 55.0
-          }
-        },
-        {
-          "id": 497,
-          "name": "Obric",
-          "club": "ATA",
-          "starter": 20.0,
-          "previous_starter": 92.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 35.0,
-            "lineups_sosfanta": 5.0
           }
         }
       ],
@@ -663,5 +637,5 @@
     "config_calendario_scaduto:aggiornare_round_e_fixtures"
   ],
   "errors": [],
-  "duration_ms": 2687
+  "duration_ms": 2593
 }
