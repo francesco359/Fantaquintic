@@ -1,18 +1,18 @@
 {
   "schema_version": 8,
-  "generated_at": "2026-11-11T17:17:23Z",
+  "generated_at": "2026-11-11T19:21:56Z",
   "aggiornamento_riuscito": true,
   "dati_precedenti_mantenuti": false,
-  "giocatori_cambiati": 69,
+  "giocatori_cambiati": 70,
   "fonti": [
     {
       "name": "injuries_sos",
       "url": "https://www.sosfanta.com/indisponibili-e-squalificati/tabella-indisponibili-seriea-fantacalcio-asta-infortunati-tempi-recupero-squalificati-diffidati/",
-      "records_extracted": 99,
+      "records_extracted": 95,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 887,
-      "sha256": "2475e7d44d78abd321af513ef7a6e7e1cc20f48983df1a8fabe9b8ebf77fa259",
+      "fetch_ms": 398,
+      "sha256": "36ce211e0fa4f84fce1e54c15e9c56d98073535111da4d1f2840b5a11ab58f3a",
       "status": "data_applied",
       "players_updated": 34
     },
@@ -22,8 +22,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 976,
-      "sha256": "91a34b01e1be303bdf5a43e02f3c4eb9b6ec9dda28f08001f9904596f7b1af68",
+      "fetch_ms": 519,
+      "sha256": "b88ec3fe78345110594694d4c6218e919b6fcff065fd984bc4ddc7ae7b009e6e",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -33,7 +33,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1066,
+      "fetch_ms": 728,
       "sha256": "39c4645615f1aaa8289dcc1e331000106774d92268c0bfff6e9e9611d5aa07a6",
       "status": "unsupported",
       "players_updated": 0
@@ -44,33 +44,33 @@
       "records_extracted": 41,
       "source_updated_at": "11/11/2026",
       "attempts": 1,
-      "fetch_ms": 909,
-      "sha256": "c0c7b42ac58b80cfcc0cd65c1f7c978dedab41dbc14def9346ee88154beebfc8",
+      "fetch_ms": 721,
+      "sha256": "9f2d006153abd38aca51eef71808467f8222adce4e709b72cf41831aed0fcf04",
       "status": "data_applied",
-      "players_updated": 34
+      "players_updated": 32
     },
     {
       "name": "lineups_fantacalcio",
       "url": "https://www.fantacalcio.it/probabili-formazioni-serie-a/",
-      "records_extracted": 476,
+      "records_extracted": 477,
       "source_updated_at": "11/11/2026 17:06",
       "attempts": 1,
-      "fetch_ms": 984,
-      "sha256": "480426c3c9d3dd89acada213cd7c859d89bd6305941c21d909924058ebaa7838",
+      "fetch_ms": 791,
+      "sha256": "76b45d111d766fc4bb5742ceabc492a7aa591fbf8a22c80c06f96307f3b409c5",
       "status": "extracted",
-      "records_resolved": 422,
+      "records_resolved": 423,
       "players_updated": 0
     },
     {
       "name": "lineups_sosfanta",
       "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
-      "records_extracted": 492,
+      "records_extracted": 496,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 960,
-      "sha256": "943f004b4a55d75f90984b1f635bc205d329ecabc89309e07bd2de76839565e2",
+      "fetch_ms": 295,
+      "sha256": "3d82be54bc627b1169637e5b949fecc14b625989cce43c4f6c0413f38488aae9",
       "status": "extracted",
-      "records_resolved": 425,
+      "records_resolved": 429,
       "players_updated": 0
     },
     {
@@ -79,8 +79,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1412,
-      "sha256": "8a09063f5a23057a54be9f58ec034df32d7d72ae2fb55fdd65975c0beb6decc8",
+      "fetch_ms": 1142,
+      "sha256": "e591930deda5167851883b1bce2ea56f39d251a3f704e48842a11264b177818b",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -88,12 +88,25 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 1,
+      "players_updated": 4,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
       "single_source_bench_updates": 0,
       "sample": [
+        {
+          "id": 325,
+          "name": "Berisha M.",
+          "club": "LEC",
+          "starter": 20.0,
+          "previous_starter": 0,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 35.0,
+            "lineups_sosfanta": 5.0
+          }
+        },
         {
           "id": 438,
           "name": "Juan Jesus",
@@ -105,6 +118,32 @@
           "sources": {
             "lineups_fantacalcio": 90.0,
             "lineups_sosfanta": 95.0
+          }
+        },
+        {
+          "id": 350,
+          "name": "Wiafe",
+          "club": "GEN",
+          "starter": 57.5,
+          "previous_starter": 54.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 60.0,
+            "lineups_sosfanta": 55.0
+          }
+        },
+        {
+          "id": 497,
+          "name": "Obric",
+          "club": "ATA",
+          "starter": 20.0,
+          "previous_starter": 92.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 35.0,
+            "lineups_sosfanta": 5.0
           }
         }
       ],
@@ -393,9 +432,10 @@
         {
           "id": 33,
           "name": "Mancini",
-          "reason": "only_one_source",
+          "reason": "spread_exceeded",
           "sources": {
-            "lineups_fantacalcio": 50.0
+            "lineups_fantacalcio": 50.0,
+            "lineups_sosfanta": 5.0
           }
         },
         {
@@ -419,9 +459,10 @@
         {
           "id": 145,
           "name": "Dybala",
-          "reason": "only_one_source",
+          "reason": "spread_exceeded",
           "sources": {
-            "lineups_fantacalcio": 50.0
+            "lineups_fantacalcio": 50.0,
+            "lineups_sosfanta": 5.0
           }
         },
         {
@@ -615,7 +656,7 @@
     "lineups_sosfanta:Bakola - Adzic",
     "lineups_sosfanta:Cinquegrano - Van Der Brempt",
     "lineups_sosfanta:Messias - Baldanzi",
-    "lineups_sosfanta:Frendrup - Wiafe",
+    "lineups_sosfanta:Wiafe - Meichtry",
     "lineups_sosfanta:Musah"
   ]
 }
