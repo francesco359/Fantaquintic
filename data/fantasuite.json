@@ -1,9 +1,9 @@
 {
   "schema_version": 8,
-  "generated_at": "2026-11-11T09:14:36Z",
+  "generated_at": "2026-11-11T11:15:27Z",
   "aggiornamento_riuscito": true,
   "dati_precedenti_mantenuti": false,
-  "giocatori_cambiati": 70,
+  "giocatori_cambiati": 69,
   "fonti": [
     {
       "name": "injuries_sos",
@@ -11,8 +11,8 @@
       "records_extracted": 99,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1052,
-      "sha256": "8190b3dbca7a3a00522ef2af76c9a1e6ce40b739f39e773e17cad0029e2a3be1",
+      "fetch_ms": 884,
+      "sha256": "b198820916fe4cc9e552c0711fb088958b0a2f07aabfffc35cf1777a890e9e12",
       "status": "data_applied",
       "players_updated": 34
     },
@@ -22,8 +22,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 507,
-      "sha256": "89525e833d3086ed9dfc18eb10c835c5c1915a363679a70fa1899b9432ce7226",
+      "fetch_ms": 955,
+      "sha256": "f014db58d98c5e0e4505329fb7487c5df81be060a74c88543f579431d0528f1b",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -33,7 +33,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1053,
+      "fetch_ms": 904,
       "sha256": "39c4645615f1aaa8289dcc1e331000106774d92268c0bfff6e9e9611d5aa07a6",
       "status": "unsupported",
       "players_updated": 0
@@ -44,8 +44,8 @@
       "records_extracted": 41,
       "source_updated_at": "11/11/2026",
       "attempts": 1,
-      "fetch_ms": 886,
-      "sha256": "d0f219ed6dd771bb208be673e6101d39d6bd725ebf61306858f280881f7cc673",
+      "fetch_ms": 889,
+      "sha256": "93f9e98694af0540c8024d118cd362c76811a49bc5782252ec1d4bd2189fadf3",
       "status": "data_applied",
       "players_updated": 34
     },
@@ -55,8 +55,8 @@
       "records_extracted": 474,
       "source_updated_at": "11/11/2026 09:04",
       "attempts": 1,
-      "fetch_ms": 1006,
-      "sha256": "8698e732651033a2a7ecb5588dcc9adf61e6ad6b9403c8ec4801e1944a8fa5ae",
+      "fetch_ms": 991,
+      "sha256": "2a48acd4e45cd66ec60b061d428cdfaca969810895a445a964e231082a4b89e1",
       "status": "extracted",
       "records_resolved": 420,
       "players_updated": 0
@@ -67,8 +67,8 @@
       "records_extracted": 493,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 919,
-      "sha256": "1cc347991a1f6c7d4a1a7f053204267bbc239c62795c86a9bfa3d4112abf14a3",
+      "fetch_ms": 1186,
+      "sha256": "265ad5f2be1c05280f38d21d41830e43d78d83f335689d8e5cb6f28901d00aef",
       "status": "extracted",
       "records_resolved": 426,
       "players_updated": 0
@@ -79,8 +79,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1664,
-      "sha256": "b6a36940eda0a88ddb1c3e272f307d8cff2bee9ccbb4557c95e1eb68a93ac0ff",
+      "fetch_ms": 1408,
+      "sha256": "edf1a6b99daa3241d94fdd64110a296651a12cc4cb9e34b8dd18c8528211961b",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -88,25 +88,12 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 2,
+      "players_updated": 1,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
       "single_source_bench_updates": 0,
       "sample": [
-        {
-          "id": 130,
-          "name": "Doekhi",
-          "club": "LAZ",
-          "starter": 40.0,
-          "previous_starter": 45.0,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 40.0,
-            "lineups_sosfanta": 40.0
-          }
-        },
         {
           "id": 438,
           "name": "Juan Jesus",
