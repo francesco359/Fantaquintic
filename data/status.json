@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-12T17:18:29Z",
+  "generated_at": "2026-11-12T19:17:37Z",
   "round": 8,
   "players": 502,
-  "player_updates": 69,
+  "player_updates": 71,
   "fresh_player_data": true,
   "data_confirmed": true,
   "sources_ok": 5,
@@ -12,13 +12,13 @@
     {
       "name": "injuries_sos",
       "url": "https://www.sosfanta.com/indisponibili-e-squalificati/tabella-indisponibili-seriea-fantacalcio-asta-infortunati-tempi-recupero-squalificati-diffidati/",
-      "records_extracted": 95,
+      "records_extracted": 94,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 575,
-      "sha256": "add0d498815930ce82c9f8bf1c65b8407e30d291f007dd3613910456e4842674",
+      "fetch_ms": 551,
+      "sha256": "0faf7c6328a8724306684beb7ffaeaaa483965bbf9e5944b21810679b76178fc",
       "status": "data_applied",
-      "players_updated": 33
+      "players_updated": 35
     },
     {
       "name": "injuries_sky",
@@ -26,8 +26,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 666,
-      "sha256": "a936f7cadb00b472a9fc46638f8b93f5ecc1a8bb4d4414c2ef2fa8ca545221b8",
+      "fetch_ms": 818,
+      "sha256": "d4de4fbb270570dad6829695d19b1627262908b7e883297d0cc28e3f957f3490",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -37,7 +37,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1119,
+      "fetch_ms": 887,
       "sha256": "94ae8cf2512996633b21686ee35afe2fd45753dc4fdb5d362b33e1b66ffc6e02",
       "status": "unsupported",
       "players_updated": 0
@@ -48,8 +48,8 @@
       "records_extracted": 41,
       "source_updated_at": "12/11/2026",
       "attempts": 1,
-      "fetch_ms": 1099,
-      "sha256": "3a14187e7365739fd3012e76858e5f04d280dbf14a29d6e3331d17ef43fc01b7",
+      "fetch_ms": 815,
+      "sha256": "a511bf10f4c6573fd01f102baa12edccfaac0c3cb88057bdb4d2cb4b28d8f136",
       "status": "data_applied",
       "players_updated": 34
     },
@@ -59,7 +59,7 @@
       "records_extracted": 480,
       "source_updated_at": "12/11/2026 12:29",
       "attempts": 1,
-      "fetch_ms": 988,
+      "fetch_ms": 681,
       "sha256": "db90b86f4e390a0b31ce7c4479d05d29943eecd48e610a0c5bc2fe1b0d6bf5f8",
       "status": "extracted",
       "records_resolved": 425,
@@ -68,13 +68,13 @@
     {
       "name": "lineups_sosfanta",
       "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
-      "records_extracted": 497,
+      "records_extracted": 501,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1056,
-      "sha256": "eb8e39df8ef6377196c83147bdf3bdf4107fc5a11ad29752b7f3667aa9c96b80",
+      "fetch_ms": 734,
+      "sha256": "017a1ce297c8220a59a49d500fd52df35dee60632ccb06221434031fc1dd9a5f",
       "status": "extracted",
-      "records_resolved": 430,
+      "records_resolved": 432,
       "players_updated": 0
     },
     {
@@ -83,8 +83,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1104,
-      "sha256": "7b377dc995ebf3a920c21b2107e4a0112b023cf0a7b2b6666c7c224c6ea481fb",
+      "fetch_ms": 1176,
+      "sha256": "0269241d491618b4c3a0d7b3bba4be9d9f2933d6951619c56428c3dd1f521553",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -99,19 +99,6 @@
       "single_source_bench_updates": 0,
       "sample": [
         {
-          "id": 141,
-          "name": "Gudmundsson A.",
-          "club": "LAZ",
-          "starter": 20.0,
-          "previous_starter": 0,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 35.0,
-            "lineups_sosfanta": 5.0
-          }
-        },
-        {
           "id": 438,
           "name": "Juan Jesus",
           "club": "VEN",
@@ -122,6 +109,19 @@
           "sources": {
             "lineups_fantacalcio": 90.0,
             "lineups_sosfanta": 95.0
+          }
+        },
+        {
+          "id": 420,
+          "name": "Cittadini",
+          "club": "FRO",
+          "starter": 55.5,
+          "previous_starter": 54.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 60.0,
+            "lineups_sosfanta": 51.0
           }
         }
       ],
@@ -637,5 +637,5 @@
     "config_calendario_scaduto:aggiornare_round_e_fixtures"
   ],
   "errors": [],
-  "duration_ms": 2751
+  "duration_ms": 2744
 }
