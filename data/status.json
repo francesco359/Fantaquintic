@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-13T09:42:29Z",
+  "generated_at": "2026-11-13T17:51:54Z",
   "round": 8,
   "players": 502,
-  "player_updates": 69,
+  "player_updates": 77,
   "fresh_player_data": true,
   "data_confirmed": true,
   "sources_ok": 5,
@@ -15,10 +15,10 @@
       "records_extracted": 94,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 893,
-      "sha256": "42a0a9a485366470e8455b57aa7bab089ec43d85f56e4efd67926baa0eb17674",
+      "fetch_ms": 750,
+      "sha256": "19907302eb9fa4df37907aaff778ba97ca38988262b581fd35525bfd76e83b2b",
       "status": "data_applied",
-      "players_updated": 33
+      "players_updated": 39
     },
     {
       "name": "injuries_sky",
@@ -26,8 +26,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1417,
-      "sha256": "c699f767f8bf991e504f75a03c1fbb7944c7c7d39657be95353b0e7e55f955b0",
+      "fetch_ms": 984,
+      "sha256": "f992352a0f4c58669805ec25f569b7dd431e4be515ce297fe74a5f7cee677028",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -37,7 +37,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1805,
+      "fetch_ms": 694,
       "sha256": "e1e63dca061aa2c130e1ed8bc493f46b35b07d9f372931fd57081cc3074f1cc6",
       "status": "unsupported",
       "players_updated": 0
@@ -48,8 +48,8 @@
       "records_extracted": 42,
       "source_updated_at": "13/11/2026",
       "attempts": 1,
-      "fetch_ms": 1020,
-      "sha256": "0c741d86d36543222f3708b7d261dd128db9c3a78fc12353c299949b5e6a02a2",
+      "fetch_ms": 882,
+      "sha256": "01b3cb7ee0c2298331f2b5e02189a5f10a59d90f1e621ec1f283a54a76447bfa",
       "status": "data_applied",
       "players_updated": 35
     },
@@ -59,8 +59,8 @@
       "records_extracted": 480,
       "source_updated_at": "13/11/2026 10:42",
       "attempts": 1,
-      "fetch_ms": 1743,
-      "sha256": "f5406ea34b1376d6c779f919f6916e9ff75b7c786a969ad6ce60534a5dda352e",
+      "fetch_ms": 572,
+      "sha256": "74701875417c65462d17fc50b8afe4b2dcdb4f33f1068f32ac5af2f4d44ebad4",
       "status": "extracted",
       "records_resolved": 425,
       "players_updated": 0
@@ -71,10 +71,10 @@
       "records_extracted": 501,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 969,
-      "sha256": "feb6e4c269c207fc32686c94a2c35153e273bd6282ca35d04f66e0d4a02a03b3",
+      "fetch_ms": 438,
+      "sha256": "1db68d2831a18c4949a0a2c41fff7b6889bced9aca7e8746c69a65a4cb9f1234",
       "status": "extracted",
-      "records_resolved": 432,
+      "records_resolved": 430,
       "players_updated": 0
     },
     {
@@ -83,8 +83,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 5535,
-      "sha256": "f927497b63a23a99e90bf41fa58382b8b6afbd9af30898997386cff739002271",
+      "fetch_ms": 1415,
+      "sha256": "f6bde834e5aacb3afb29575132a1abaf648f1359852d9c9c8f2936ad00b01f95",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -92,12 +92,38 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 1,
+      "players_updated": 3,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
       "single_source_bench_updates": 0,
       "sample": [
+        {
+          "id": 127,
+          "name": "Svilar",
+          "club": "ROM",
+          "starter": 40.5,
+          "previous_starter": 0,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 30.0,
+            "lineups_sosfanta": 51.0
+          }
+        },
+        {
+          "id": 417,
+          "name": "Rodriguez R.",
+          "club": "TOR",
+          "starter": 12.5,
+          "previous_starter": 33.4,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 20.0,
+            "lineups_sosfanta": 5.0
+          }
+        },
         {
           "id": 438,
           "name": "Juan Jesus",
@@ -210,6 +236,14 @@
           }
         },
         {
+          "id": 187,
+          "name": "Frattesi",
+          "reason": "only_one_source",
+          "sources": {
+            "lineups_fantacalcio": 70.0
+          }
+        },
+        {
           "id": 477,
           "name": "Lazzari",
           "reason": "spread_exceeded",
@@ -242,7 +276,7 @@
           "reason": "spread_exceeded",
           "sources": {
             "lineups_fantacalcio": 60.0,
-            "lineups_sosfanta": 5.0
+            "lineups_sosfanta": 95.0
           }
         },
         {
@@ -360,20 +394,12 @@
           }
         },
         {
-          "id": 127,
-          "name": "Svilar",
-          "reason": "only_one_source",
-          "sources": {
-            "lineups_fantacalcio": 30.0
-          }
-        },
-        {
           "id": 125,
           "name": "Gollini",
           "reason": "spread_exceeded",
           "sources": {
             "lineups_fantacalcio": 5.0,
-            "lineups_sosfanta": 95.0
+            "lineups_sosfanta": 49.0
           }
         },
         {
@@ -469,7 +495,6 @@
   "unmatched": [
     "injuries_sos:Fadera",
     "injuries_sos:Trepy",
-    "injuries_sos:Luis Henrique",
     "injuries_sos:Ilic",
     "injuries_sos:Terracciano",
     "injuries_sos:Konè I.",
@@ -586,6 +611,7 @@
     "lineups_sosfanta:Mora - Pisilli",
     "lineups_sosfanta:Molina N. - Lulli",
     "lineups_sosfanta:Balerdi - Ghilardi",
+    "lineups_sosfanta:Svilar - Gollini",
     "lineups_sosfanta:Elphege",
     "lineups_sosfanta:Konaté A.",
     "lineups_sosfanta:Nicolussi Caviglia",
@@ -623,5 +649,5 @@
     "config_calendario_scaduto:aggiornare_round_e_fixtures"
   ],
   "errors": [],
-  "duration_ms": 6524
+  "duration_ms": 2649
 }
