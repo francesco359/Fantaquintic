@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-13T01:11:44Z",
+  "generated_at": "2026-11-13T09:42:29Z",
   "round": 8,
   "players": 502,
-  "player_updates": 68,
+  "player_updates": 69,
   "fresh_player_data": true,
   "data_confirmed": true,
   "sources_ok": 5,
@@ -15,8 +15,8 @@
       "records_extracted": 94,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 583,
-      "sha256": "7fb5800a166c6aa7f4caf527210d62a4b52c3565b7a114f969fd3ff8dc51d1b4",
+      "fetch_ms": 893,
+      "sha256": "42a0a9a485366470e8455b57aa7bab089ec43d85f56e4efd67926baa0eb17674",
       "status": "data_applied",
       "players_updated": 33
     },
@@ -26,8 +26,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1039,
-      "sha256": "5e757e00e748183f0d4e3eedb9f8bc330ba93c559b553129746a84e6137ba23b",
+      "fetch_ms": 1417,
+      "sha256": "c699f767f8bf991e504f75a03c1fbb7944c7c7d39657be95353b0e7e55f955b0",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -37,32 +37,32 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 907,
-      "sha256": "94ae8cf2512996633b21686ee35afe2fd45753dc4fdb5d362b33e1b66ffc6e02",
+      "fetch_ms": 1805,
+      "sha256": "e1e63dca061aa2c130e1ed8bc493f46b35b07d9f372931fd57081cc3074f1cc6",
       "status": "unsupported",
       "players_updated": 0
     },
     {
       "name": "injuries_official",
       "url": "https://www.fantacalcio-online.com/it/infortunati-serie-a",
-      "records_extracted": 41,
+      "records_extracted": 42,
       "source_updated_at": "13/11/2026",
       "attempts": 1,
-      "fetch_ms": 850,
-      "sha256": "af043a4ae7ff8f2fc029e6a7cd6cfdf26690401128f8fb709d3c535c42ea37aa",
+      "fetch_ms": 1020,
+      "sha256": "0c741d86d36543222f3708b7d261dd128db9c3a78fc12353c299949b5e6a02a2",
       "status": "data_applied",
-      "players_updated": 34
+      "players_updated": 35
     },
     {
       "name": "lineups_fantacalcio",
       "url": "https://www.fantacalcio.it/probabili-formazioni-serie-a/",
-      "records_extracted": 479,
-      "source_updated_at": "12/11/2026 12:29",
+      "records_extracted": 480,
+      "source_updated_at": "13/11/2026 10:42",
       "attempts": 1,
-      "fetch_ms": 702,
-      "sha256": "8716347091d8188b85a304252509ae604fc010a742da61ecaf6d583a959e1eef",
+      "fetch_ms": 1743,
+      "sha256": "f5406ea34b1376d6c779f919f6916e9ff75b7c786a969ad6ce60534a5dda352e",
       "status": "extracted",
-      "records_resolved": 424,
+      "records_resolved": 425,
       "players_updated": 0
     },
     {
@@ -71,8 +71,8 @@
       "records_extracted": 501,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 515,
-      "sha256": "42f125860a3c0595f63fbc5a9c7ccf4ad0405b8535584bef58731eff8c54b41f",
+      "fetch_ms": 969,
+      "sha256": "feb6e4c269c207fc32686c94a2c35153e273bd6282ca35d04f66e0d4a02a03b3",
       "status": "extracted",
       "records_resolved": 432,
       "players_updated": 0
@@ -83,8 +83,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1301,
-      "sha256": "ce47aa017589447da168a8037e7616ade4be9bf0d5505730cabee847d34be927",
+      "fetch_ms": 5535,
+      "sha256": "f927497b63a23a99e90bf41fa58382b8b6afbd9af30898997386cff739002271",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -623,5 +623,5 @@
     "config_calendario_scaduto:aggiornare_round_e_fixtures"
   ],
   "errors": [],
-  "duration_ms": 2810
+  "duration_ms": 6524
 }
