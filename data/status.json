@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-13T23:40:28Z",
+  "generated_at": "2026-11-14T06:41:50Z",
   "round": 8,
   "players": 502,
-  "player_updates": 75,
+  "player_updates": 70,
   "fresh_player_data": true,
   "data_confirmed": true,
   "sources_ok": 5,
@@ -15,8 +15,8 @@
       "records_extracted": 94,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 939,
-      "sha256": "a0582d127c7b923e8cf9d4539973b818a4a91c71e138445926469e540cab33d4",
+      "fetch_ms": 597,
+      "sha256": "4b8f6439f0d730a8c277748a192f5b5388d4bc857a9080221acf797d0c815371",
       "status": "data_applied",
       "players_updated": 34
     },
@@ -26,8 +26,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 654,
-      "sha256": "c4b599e12892017ee25d42999ccfe11246c4d2569afbb591e969bd1cac3fd13d",
+      "fetch_ms": 735,
+      "sha256": "4e8d3abe989fe0b3ad2178f29469ca035bf836b90b9795232f04c7ed8c360a59",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -37,19 +37,19 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1323,
-      "sha256": "e1e63dca061aa2c130e1ed8bc493f46b35b07d9f372931fd57081cc3074f1cc6",
+      "fetch_ms": 965,
+      "sha256": "b60dbdfb187bce2c74b1d6be189c17514cbe334aa8ee283678bcc98f6e6976ee",
       "status": "unsupported",
       "players_updated": 0
     },
     {
       "name": "injuries_official",
       "url": "https://www.fantacalcio-online.com/it/infortunati-serie-a",
-      "records_extracted": 42,
+      "records_extracted": 41,
       "source_updated_at": "14/11/2026",
       "attempts": 1,
-      "fetch_ms": 521,
-      "sha256": "d18ba5b2807ed84954ad629c1f2371e847316d40e6b877f5115b4a9f0fad215b",
+      "fetch_ms": 780,
+      "sha256": "49399cc7679112d8f476039ca5d452db65758907b71c68aaaef9ac19f61ab424",
       "status": "data_applied",
       "players_updated": 35
     },
@@ -59,7 +59,7 @@
       "records_extracted": 479,
       "source_updated_at": "13/11/2026 10:42",
       "attempts": 1,
-      "fetch_ms": 741,
+      "fetch_ms": 876,
       "sha256": "d3b17050e97b2e080df14d8490b745e169e955ab8e274046714e540bc894b770",
       "status": "extracted",
       "records_resolved": 424,
@@ -71,8 +71,8 @@
       "records_extracted": 501,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 987,
-      "sha256": "28374c387a51b42139b29c231fcd7ab81529370da0d9df53fd2c7dda6f940eec",
+      "fetch_ms": 971,
+      "sha256": "229dbc052e87a34845171bc667e326c079a9462ee4e1bd8e69325803d79b1bd7",
       "status": "extracted",
       "records_resolved": 430,
       "players_updated": 0
@@ -83,8 +83,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1227,
-      "sha256": "8f8239cba00db88a1a8709788c377f030678333a050fd5c62ec5976c3cce5164",
+      "fetch_ms": 1383,
+      "sha256": "e9eb68f20edc1aa58e022a58aa47928a38affe41e8ec268cde24218ce743b3df",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -92,77 +92,12 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 6,
+      "players_updated": 1,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
       "single_source_bench_updates": 0,
       "sample": [
-        {
-          "id": 127,
-          "name": "Svilar",
-          "club": "ROM",
-          "starter": 65.5,
-          "previous_starter": 40.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 80.0,
-            "lineups_sosfanta": 51.0
-          }
-        },
-        {
-          "id": 31,
-          "name": "Hermoso",
-          "club": "ROM",
-          "starter": 87.5,
-          "previous_starter": 90.0,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 80.0,
-            "lineups_sosfanta": 95.0
-          }
-        },
-        {
-          "id": 142,
-          "name": "Mora",
-          "club": "ROM",
-          "starter": 65.0,
-          "previous_starter": 70.0,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 70.0,
-            "lineups_sosfanta": 60.0
-          }
-        },
-        {
-          "id": 539,
-          "name": "Vasquez D.",
-          "club": "ROM",
-          "starter": 5.0,
-          "previous_starter": 82.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 5.0,
-            "lineups_sosfanta": 5.0
-          }
-        },
-        {
-          "id": 28,
-          "name": "Balerdi",
-          "club": "ROM",
-          "starter": 57.5,
-          "previous_starter": 62.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 60.0,
-            "lineups_sosfanta": 55.0
-          }
-        },
         {
           "id": 438,
           "name": "Juan Jesus",
@@ -569,7 +504,6 @@
     "injuries_sky:informazioni sulle modifiche contrattuali",
     "injuries_sky:o per",
     "injuries_sky:contatti",
-    "injuries_official:LUIS HENRIQUE de Lima",
     "injuries_official:BAH Muhammed",
     "injuries_official:KONE Ismaël",
     "injuries_official:ISRAEL Franco",
@@ -681,12 +615,13 @@
     "lineups_sosfanta:Bakola - Adzic",
     "lineups_sosfanta:Cinquegrano - Van Der Brempt",
     "lineups_sosfanta:Messias - Baldanzi",
-    "lineups_sosfanta:Wiafe - Meichtry"
+    "lineups_sosfanta:Wiafe - Meichtry",
+    "lineups_sosfanta:Musah"
   ],
   "warnings": [
     "fonte_senza_parser:votes",
     "config_calendario_scaduto:aggiornare_round_e_fixtures"
   ],
   "errors": [],
-  "duration_ms": 2344
+  "duration_ms": 2063
 }
