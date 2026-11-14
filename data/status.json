@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-14T06:41:50Z",
+  "generated_at": "2026-11-14T15:10:52Z",
   "round": 8,
   "players": 502,
-  "player_updates": 70,
+  "player_updates": 74,
   "fresh_player_data": true,
   "data_confirmed": true,
   "sources_ok": 5,
@@ -15,8 +15,8 @@
       "records_extracted": 94,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 597,
-      "sha256": "4b8f6439f0d730a8c277748a192f5b5388d4bc857a9080221acf797d0c815371",
+      "fetch_ms": 645,
+      "sha256": "650c19c3e0c98726b1a74db359a5dfc65caa8c13a435c95f0de2c3ce702356b8",
       "status": "data_applied",
       "players_updated": 34
     },
@@ -26,8 +26,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 735,
-      "sha256": "4e8d3abe989fe0b3ad2178f29469ca035bf836b90b9795232f04c7ed8c360a59",
+      "fetch_ms": 542,
+      "sha256": "ff0b43c95fb0e0312b1bbbc36cda6afa4ec159879ea27235748c8245ef8740d6",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -37,8 +37,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 965,
-      "sha256": "b60dbdfb187bce2c74b1d6be189c17514cbe334aa8ee283678bcc98f6e6976ee",
+      "fetch_ms": 369,
+      "sha256": "e2a061effa343ed501b92ddbbe5b21757964dc7af48e5cb757414c34e3d50c26",
       "status": "unsupported",
       "players_updated": 0
     },
@@ -48,8 +48,8 @@
       "records_extracted": 41,
       "source_updated_at": "14/11/2026",
       "attempts": 1,
-      "fetch_ms": 780,
-      "sha256": "49399cc7679112d8f476039ca5d452db65758907b71c68aaaef9ac19f61ab424",
+      "fetch_ms": 687,
+      "sha256": "36ea7790341995e05e242ee08ac8757f12a655ae123d4696101a7bcf47a1a9c5",
       "status": "data_applied",
       "players_updated": 35
     },
@@ -57,10 +57,10 @@
       "name": "lineups_fantacalcio",
       "url": "https://www.fantacalcio.it/probabili-formazioni-serie-a/",
       "records_extracted": 479,
-      "source_updated_at": "13/11/2026 10:42",
+      "source_updated_at": "14/11/2026 08:54",
       "attempts": 1,
-      "fetch_ms": 876,
-      "sha256": "d3b17050e97b2e080df14d8490b745e169e955ab8e274046714e540bc894b770",
+      "fetch_ms": 708,
+      "sha256": "414bba998b71666f4258938ee4ba52d46f2bad45bac09997c5d91a89f0ff5e85",
       "status": "extracted",
       "records_resolved": 424,
       "players_updated": 0
@@ -71,8 +71,8 @@
       "records_extracted": 501,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 971,
-      "sha256": "229dbc052e87a34845171bc667e326c079a9462ee4e1bd8e69325803d79b1bd7",
+      "fetch_ms": 667,
+      "sha256": "bd80acb141f505d985a7024ba6c862b9070b660a5cc5340617f0aab947b016cd",
       "status": "extracted",
       "records_resolved": 430,
       "players_updated": 0
@@ -83,8 +83,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1383,
-      "sha256": "e9eb68f20edc1aa58e022a58aa47928a38affe41e8ec268cde24218ce743b3df",
+      "fetch_ms": 936,
+      "sha256": "3c45bd9ae27827c6e7f254fb61d7f9a9db80d9d76adc4bd1897888a640e82bd0",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -92,12 +92,38 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 1,
+      "players_updated": 5,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
       "single_source_bench_updates": 0,
       "sample": [
+        {
+          "id": 381,
+          "name": "Pedraza",
+          "club": "LAZ",
+          "starter": 72.5,
+          "previous_starter": 67.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 85.0,
+            "lineups_sosfanta": 60.0
+          }
+        },
+        {
+          "id": 563,
+          "name": "Dele-Bashiru",
+          "club": "LAZ",
+          "starter": 87.5,
+          "previous_starter": 40.0,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 80.0,
+            "lineups_sosfanta": 95.0
+          }
+        },
         {
           "id": 438,
           "name": "Juan Jesus",
@@ -109,6 +135,32 @@
           "sources": {
             "lineups_fantacalcio": 90.0,
             "lineups_sosfanta": 95.0
+          }
+        },
+        {
+          "id": 137,
+          "name": "Bernardeschi",
+          "club": "BOL",
+          "starter": 59.5,
+          "previous_starter": 54.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 70.0,
+            "lineups_sosfanta": 49.0
+          }
+        },
+        {
+          "id": 38,
+          "name": "Cambiaghi",
+          "club": "BOL",
+          "starter": 50.5,
+          "previous_starter": 65.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 50.0,
+            "lineups_sosfanta": 51.0
           }
         }
       ],
@@ -210,14 +262,6 @@
           }
         },
         {
-          "id": 187,
-          "name": "Frattesi",
-          "reason": "only_one_source",
-          "sources": {
-            "lineups_fantacalcio": 70.0
-          }
-        },
-        {
           "id": 477,
           "name": "Lazzari",
           "reason": "spread_exceeded",
@@ -231,7 +275,7 @@
           "name": "Rovella",
           "reason": "spread_exceeded",
           "sources": {
-            "lineups_fantacalcio": 40.0,
+            "lineups_fantacalcio": 55.0,
             "lineups_sosfanta": 5.0
           }
         },
@@ -240,17 +284,25 @@
           "name": "Cataldi",
           "reason": "spread_exceeded",
           "sources": {
-            "lineups_fantacalcio": 55.0,
+            "lineups_fantacalcio": 60.0,
             "lineups_sosfanta": 5.0
           }
         },
         {
-          "id": 563,
-          "name": "Dele-Bashiru",
+          "id": 187,
+          "name": "Frattesi",
+          "reason": "only_one_source",
+          "sources": {
+            "lineups_fantacalcio": 50.0
+          }
+        },
+        {
+          "id": 141,
+          "name": "Gudmundsson A.",
           "reason": "spread_exceeded",
           "sources": {
-            "lineups_fantacalcio": 60.0,
-            "lineups_sosfanta": 95.0
+            "lineups_fantacalcio": 50.0,
+            "lineups_sosfanta": 5.0
           }
         },
         {
@@ -623,5 +675,5 @@
     "config_calendario_scaduto:aggiornare_round_e_fixtures"
   ],
   "errors": [],
-  "duration_ms": 2063
+  "duration_ms": 2414
 }
