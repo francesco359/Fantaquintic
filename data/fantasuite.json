@@ -1,9 +1,9 @@
 {
   "schema_version": 8,
-  "generated_at": "2026-11-14T20:47:08Z",
+  "generated_at": "2026-11-15T01:58:49Z",
   "aggiornamento_riuscito": true,
   "dati_precedenti_mantenuti": false,
-  "giocatori_cambiati": 80,
+  "giocatori_cambiati": 69,
   "fonti": [
     {
       "name": "injuries_sos",
@@ -11,10 +11,10 @@
       "records_extracted": 95,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 520,
-      "sha256": "9459689648682675a6763514504f4d052f4d5f85c422a512b4441fe7b60d7b7a",
+      "fetch_ms": 488,
+      "sha256": "5e93e4036751ef466b1f3beb0d071869295f80b6a306c2e13dc7b211af240bd7",
       "status": "data_applied",
-      "players_updated": 37
+      "players_updated": 34
     },
     {
       "name": "injuries_sky",
@@ -22,8 +22,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 341,
-      "sha256": "6d96b51492036495b5d4670b24215ca5fc8f16957e87bd121209e496b8626003",
+      "fetch_ms": 318,
+      "sha256": "f551a76397e78f5e7623d4fee57f2040cb0a72255815853772be282ba852b2a8",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -33,7 +33,7 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 822,
+      "fetch_ms": 1272,
       "sha256": "e2a061effa343ed501b92ddbbe5b21757964dc7af48e5cb757414c34e3d50c26",
       "status": "unsupported",
       "players_updated": 0
@@ -41,13 +41,13 @@
     {
       "name": "injuries_official",
       "url": "https://www.fantacalcio-online.com/it/infortunati-serie-a",
-      "records_extracted": 41,
-      "source_updated_at": "14/11/2026",
+      "records_extracted": 40,
+      "source_updated_at": "15/11/2026",
       "attempts": 1,
-      "fetch_ms": 670,
-      "sha256": "d42306c23e465458009b1ab542991dd2ad5626811b7dc1aa5ccccaf9a2fbe850",
+      "fetch_ms": 938,
+      "sha256": "94bfe2ebb4a5aff6da115a3dbe367c2b1f4809b9f37d7c6f082c06a69da764a3",
       "status": "data_applied",
-      "players_updated": 35
+      "players_updated": 34
     },
     {
       "name": "lineups_fantacalcio",
@@ -55,7 +55,7 @@
       "records_extracted": 479,
       "source_updated_at": "14/11/2026 18:47",
       "attempts": 1,
-      "fetch_ms": 760,
+      "fetch_ms": 1124,
       "sha256": "8fa8eaa453c118ab98fa7b66f22aa818f7b1c0a8efa3f7051d3063065a4794db",
       "status": "extracted",
       "records_resolved": 424,
@@ -67,8 +67,8 @@
       "records_extracted": 501,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 255,
-      "sha256": "57e772ca33f4fddfb1a6a0ebee04e5c9ae44c5b4b4fc6525c98aeff5a826ac21",
+      "fetch_ms": 1042,
+      "sha256": "75f767ffd56199bb9d658fa1fdf1d335223aa834659216e79180d20bde4201f9",
       "status": "extracted",
       "records_resolved": 430,
       "players_updated": 0
@@ -79,8 +79,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1340,
-      "sha256": "66d52028fa041dccf0e5a26ff701ced865c3d7bf2c4c604595aa3e59e6c628bb",
+      "fetch_ms": 1437,
+      "sha256": "78d3dccb9fa4d1a13ad40b9da901bab5b93133bcbe9286849b15234112be891b",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -88,51 +88,12 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 8,
+      "players_updated": 1,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
-      "single_source_bench_updates": 1,
+      "single_source_bench_updates": 0,
       "sample": [
-        {
-          "id": 37,
-          "name": "Baturina",
-          "club": "COM",
-          "starter": 65.0,
-          "previous_starter": 70.0,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 70.0,
-            "lineups_sosfanta": 60.0
-          }
-        },
-        {
-          "id": 378,
-          "name": "Diego Carlos",
-          "club": "PAR",
-          "starter": 34.5,
-          "previous_starter": 82.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 20.0,
-            "lineups_sosfanta": 49.0
-          }
-        },
-        {
-          "id": 486,
-          "name": "Carboni F.",
-          "club": "PAR",
-          "starter": 44.5,
-          "previous_starter": 47.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 40.0,
-            "lineups_sosfanta": 49.0
-          }
-        },
         {
           "id": 438,
           "name": "Juan Jesus",
@@ -144,57 +105,6 @@
           "sources": {
             "lineups_fantacalcio": 90.0,
             "lineups_sosfanta": 95.0
-          }
-        },
-        {
-          "id": 18,
-          "name": "Zielinski",
-          "club": "INT",
-          "starter": 57.5,
-          "previous_starter": 100,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 70.0,
-            "lineups_sosfanta": 45.0
-          }
-        },
-        {
-          "id": 547,
-          "name": "Zeballos",
-          "club": "N/D",
-          "starter": 65.0,
-          "previous_starter": 47.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 70.0,
-            "lineups_sosfanta": 60.0
-          }
-        },
-        {
-          "id": 21,
-          "name": "Robinson J.",
-          "club": "MON",
-          "starter": 30.0,
-          "previous_starter": 70.0,
-          "confidence": "low",
-          "rule": "single_source_bench_downgrade",
-          "sources": {
-            "lineups_fantacalcio": 30.0
-          }
-        },
-        {
-          "id": 204,
-          "name": "Cutrone",
-          "club": "MON",
-          "starter": 50.0,
-          "previous_starter": 54.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 60.0,
-            "lineups_sosfanta": 40.0
           }
         }
       ],
