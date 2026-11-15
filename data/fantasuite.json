@@ -1,9 +1,9 @@
 {
   "schema_version": 8,
-  "generated_at": "2026-11-15T01:58:49Z",
+  "generated_at": "2026-11-15T09:35:35Z",
   "aggiornamento_riuscito": true,
   "dati_precedenti_mantenuti": false,
-  "giocatori_cambiati": 69,
+  "giocatori_cambiati": 71,
   "fonti": [
     {
       "name": "injuries_sos",
@@ -11,10 +11,10 @@
       "records_extracted": 95,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 488,
-      "sha256": "5e93e4036751ef466b1f3beb0d071869295f80b6a306c2e13dc7b211af240bd7",
+      "fetch_ms": 927,
+      "sha256": "fd77724d1130fe5d5d4324d55e88ed771ff59ca260515d0eb984e2796cce44b5",
       "status": "data_applied",
-      "players_updated": 34
+      "players_updated": 33
     },
     {
       "name": "injuries_sky",
@@ -22,8 +22,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 318,
-      "sha256": "f551a76397e78f5e7623d4fee57f2040cb0a72255815853772be282ba852b2a8",
+      "fetch_ms": 807,
+      "sha256": "b438453ffffaedcd353df3bb6b997cffd7d353db386d19534180197d80e71fe7",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -33,30 +33,30 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1272,
-      "sha256": "e2a061effa343ed501b92ddbbe5b21757964dc7af48e5cb757414c34e3d50c26",
+      "fetch_ms": 1371,
+      "sha256": "015f80f9b8f147bf82e605a016333e919e97d21b5cd7c22f4fb55be871952e98",
       "status": "unsupported",
       "players_updated": 0
     },
     {
       "name": "injuries_official",
       "url": "https://www.fantacalcio-online.com/it/infortunati-serie-a",
-      "records_extracted": 40,
+      "records_extracted": 41,
       "source_updated_at": "15/11/2026",
       "attempts": 1,
-      "fetch_ms": 938,
-      "sha256": "94bfe2ebb4a5aff6da115a3dbe367c2b1f4809b9f37d7c6f082c06a69da764a3",
+      "fetch_ms": 932,
+      "sha256": "44fe558d9a3914628edaec3d9e756f63fcc1ae4f0cdc81beeeb17c1e706e2828",
       "status": "data_applied",
-      "players_updated": 34
+      "players_updated": 35
     },
     {
       "name": "lineups_fantacalcio",
       "url": "https://www.fantacalcio.it/probabili-formazioni-serie-a/",
       "records_extracted": 479,
-      "source_updated_at": "14/11/2026 18:47",
+      "source_updated_at": "15/11/2026 10:11",
       "attempts": 1,
-      "fetch_ms": 1124,
-      "sha256": "8fa8eaa453c118ab98fa7b66f22aa818f7b1c0a8efa3f7051d3063065a4794db",
+      "fetch_ms": 1253,
+      "sha256": "4e9be1024f2ad3765efb49e4e22e5ad0f429319aa9bc62761eaddd9853882118",
       "status": "extracted",
       "records_resolved": 424,
       "players_updated": 0
@@ -64,11 +64,11 @@
     {
       "name": "lineups_sosfanta",
       "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
-      "records_extracted": 501,
+      "records_extracted": 500,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1042,
-      "sha256": "75f767ffd56199bb9d658fa1fdf1d335223aa834659216e79180d20bde4201f9",
+      "fetch_ms": 1003,
+      "sha256": "7f67aad2cf2b932634f9709800877c154de0a472431390e6bd08bf1237bf2ee4",
       "status": "extracted",
       "records_resolved": 430,
       "players_updated": 0
@@ -79,8 +79,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1437,
-      "sha256": "78d3dccb9fa4d1a13ad40b9da901bab5b93133bcbe9286849b15234112be891b",
+      "fetch_ms": 1281,
+      "sha256": "6883c47018b57c1c741ce3704517028250b5fdc9581a35c5490e5e126b0c26ca",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -88,12 +88,38 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 1,
+      "players_updated": 3,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
       "single_source_bench_updates": 0,
       "sample": [
+        {
+          "id": 142,
+          "name": "Mora",
+          "club": "ROM",
+          "starter": 59.5,
+          "previous_starter": 65.0,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 70.0,
+            "lineups_sosfanta": 49.0
+          }
+        },
+        {
+          "id": 145,
+          "name": "Dybala",
+          "club": "ROM",
+          "starter": 53.0,
+          "previous_starter": 0,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 55.0,
+            "lineups_sosfanta": 51.0
+          }
+        },
         {
           "id": 438,
           "name": "Juan Jesus",
@@ -373,6 +399,15 @@
           }
         },
         {
+          "id": 116,
+          "name": "Pisilli",
+          "reason": "spread_exceeded",
+          "sources": {
+            "lineups_fantacalcio": 60.0,
+            "lineups_sosfanta": 5.0
+          }
+        },
+        {
           "id": 41,
           "name": "De Roon",
           "reason": "spread_exceeded",
@@ -387,15 +422,6 @@
           "reason": "spread_exceeded",
           "sources": {
             "lineups_fantacalcio": 50.0,
-            "lineups_sosfanta": 5.0
-          }
-        },
-        {
-          "id": 145,
-          "name": "Dybala",
-          "reason": "spread_exceeded",
-          "sources": {
-            "lineups_fantacalcio": 55.0,
             "lineups_sosfanta": 5.0
           }
         },
@@ -581,7 +607,6 @@
     "lineups_sosfanta:N'Dicka",
     "lineups_sosfanta:Tourè E. - Elphege",
     "lineups_sosfanta:Britschgi - Cremaschi",
-    "lineups_sosfanta:Mora - Pisilli",
     "lineups_sosfanta:Molina N. - Lulli",
     "lineups_sosfanta:Balerdi - Ghilardi",
     "lineups_sosfanta:Svilar - Gollini",
@@ -616,6 +641,7 @@
     "lineups_sosfanta:Cinquegrano - Van Der Brempt",
     "lineups_sosfanta:Messias - Baldanzi",
     "lineups_sosfanta:Wiafe - Meichtry",
-    "lineups_sosfanta:Musah"
+    "lineups_sosfanta:Musah",
+    "lineups_sosfanta:Cissè A. - Hutchinson"
   ]
 }
