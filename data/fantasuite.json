@@ -1,9 +1,9 @@
 {
   "schema_version": 8,
-  "generated_at": "2026-11-15T22:57:05Z",
+  "generated_at": "2026-11-16T06:45:15Z",
   "aggiornamento_riuscito": true,
   "dati_precedenti_mantenuti": false,
-  "giocatori_cambiati": 75,
+  "giocatori_cambiati": 69,
   "fonti": [
     {
       "name": "injuries_sos",
@@ -11,8 +11,8 @@
       "records_extracted": 95,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 427,
-      "sha256": "51fe55e6e41ca41f41e4972091568f2157fefd565a994edcec73c6e57390be1f",
+      "fetch_ms": 919,
+      "sha256": "fad9e04cd4cf75ebabe7278fdccbe7d719147ccb59264744253698f130ff9d39",
       "status": "data_applied",
       "players_updated": 34
     },
@@ -22,8 +22,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 505,
-      "sha256": "bf916019e656e7ddbd69a5ea65edb82e3f090f0672aad6bee227ce5fb3337ba8",
+      "fetch_ms": 861,
+      "sha256": "2a72ef7a8d53c3a3d09912c79ac899f072cfca6539360c4defd4668487d9269e",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -33,21 +33,21 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 966,
-      "sha256": "348467e143a740dc1b0e8244ebbf213780f21fd14539caef544e132aa9cfc6cd",
+      "fetch_ms": 1255,
+      "sha256": "27e1002fced6df5a5f08ddc6499becb031a6e9dc0b504f77f9073d888e219be5",
       "status": "unsupported",
       "players_updated": 0
     },
     {
       "name": "injuries_official",
       "url": "https://www.fantacalcio-online.com/it/infortunati-serie-a",
-      "records_extracted": 41,
-      "source_updated_at": "15/11/2026",
+      "records_extracted": 40,
+      "source_updated_at": "16/11/2026",
       "attempts": 1,
-      "fetch_ms": 682,
-      "sha256": "22c35bc4a499682195c88dd3544293d19f29e9ed9f46e49ec011803229ecdcc4",
+      "fetch_ms": 979,
+      "sha256": "6b151612c5e5c49bddc89341fd6497a746fa08cb21ed0a83e0d44d49f2e633f4",
       "status": "data_applied",
-      "players_updated": 35
+      "players_updated": 34
     },
     {
       "name": "lineups_fantacalcio",
@@ -55,7 +55,7 @@
       "records_extracted": 479,
       "source_updated_at": "15/11/2026 10:11",
       "attempts": 1,
-      "fetch_ms": 903,
+      "fetch_ms": 693,
       "sha256": "8c4c0493380049c6e7cb8c988c5b880fd40f79961e5034be0ad143a971220c5a",
       "status": "extracted",
       "records_resolved": 424,
@@ -67,8 +67,8 @@
       "records_extracted": 501,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 372,
-      "sha256": "dfbab8575c2b4f6c7474199d9c1be6812d4bf54b057d51afda52890492b7b773",
+      "fetch_ms": 1137,
+      "sha256": "0926bed0e04c9763d5b2fa9593fb1d07161a7955a88df275313aab2fecd770f3",
       "status": "extracted",
       "records_resolved": 430,
       "players_updated": 0
@@ -79,8 +79,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 983,
-      "sha256": "2d33d86ee9b53a8928e0a4541fac4fdae0b2c5d9ea68ebec790743431018fa91",
+      "fetch_ms": 1232,
+      "sha256": "a4e4de21ab161c142b9f5a12f8d03c7c00fe4ded2af33ec6e9a9290020384ce0",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -88,25 +88,12 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 6,
+      "players_updated": 1,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
       "single_source_bench_updates": 0,
       "sample": [
-        {
-          "id": 118,
-          "name": "Vlasic",
-          "club": "TOR",
-          "starter": 59.5,
-          "previous_starter": 92.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 70.0,
-            "lineups_sosfanta": 49.0
-          }
-        },
         {
           "id": 438,
           "name": "Juan Jesus",
@@ -118,58 +105,6 @@
           "sources": {
             "lineups_fantacalcio": 90.0,
             "lineups_sosfanta": 95.0
-          }
-        },
-        {
-          "id": 501,
-          "name": "Muric",
-          "club": "SAS",
-          "starter": 87.5,
-          "previous_starter": 82.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 80.0,
-            "lineups_sosfanta": 95.0
-          }
-        },
-        {
-          "id": 251,
-          "name": "Bakola",
-          "club": "SAS",
-          "starter": 65.0,
-          "previous_starter": 57.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 70.0,
-            "lineups_sosfanta": 60.0
-          }
-        },
-        {
-          "id": 523,
-          "name": "Turati",
-          "club": "SAS",
-          "starter": 12.5,
-          "previous_starter": 17.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 20.0,
-            "lineups_sosfanta": 5.0
-          }
-        },
-        {
-          "id": 36,
-          "name": "Adzic",
-          "club": "SAS",
-          "starter": 47.5,
-          "previous_starter": 55.0,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 55.0,
-            "lineups_sosfanta": 40.0
           }
         }
       ],
