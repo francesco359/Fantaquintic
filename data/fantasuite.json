@@ -1,9 +1,9 @@
 {
   "schema_version": 8,
-  "generated_at": "2026-11-16T06:45:15Z",
+  "generated_at": "2026-11-16T18:39:48Z",
   "aggiornamento_riuscito": true,
   "dati_precedenti_mantenuti": false,
-  "giocatori_cambiati": 69,
+  "giocatori_cambiati": 72,
   "fonti": [
     {
       "name": "injuries_sos",
@@ -11,8 +11,8 @@
       "records_extracted": 95,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 919,
-      "sha256": "fad9e04cd4cf75ebabe7278fdccbe7d719147ccb59264744253698f130ff9d39",
+      "fetch_ms": 776,
+      "sha256": "488cc79517c4ad2614a36f1b24d92dc018bb55d79b2a28f9c38e981dd99639fe",
       "status": "data_applied",
       "players_updated": 34
     },
@@ -22,8 +22,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 861,
-      "sha256": "2a72ef7a8d53c3a3d09912c79ac899f072cfca6539360c4defd4668487d9269e",
+      "fetch_ms": 1673,
+      "sha256": "84227ec93279f4a5f278df2b765ddabc34c8f99ae1ca6fba8e2e84b7b945c622",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -33,8 +33,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1255,
-      "sha256": "27e1002fced6df5a5f08ddc6499becb031a6e9dc0b504f77f9073d888e219be5",
+      "fetch_ms": 1231,
+      "sha256": "8d8eec4bdc32f2fc61260727d77542ca23f63af24e9fb37c530cb8420afb751b",
       "status": "unsupported",
       "players_updated": 0
     },
@@ -44,33 +44,33 @@
       "records_extracted": 40,
       "source_updated_at": "16/11/2026",
       "attempts": 1,
-      "fetch_ms": 979,
-      "sha256": "6b151612c5e5c49bddc89341fd6497a746fa08cb21ed0a83e0d44d49f2e633f4",
+      "fetch_ms": 921,
+      "sha256": "cf7a00ef4066717ddee1b1e7a7d1a239a21cf9e2ce884b17456cd3d83192beaf",
       "status": "data_applied",
       "players_updated": 34
     },
     {
       "name": "lineups_fantacalcio",
       "url": "https://www.fantacalcio.it/probabili-formazioni-serie-a/",
-      "records_extracted": 479,
-      "source_updated_at": "15/11/2026 10:11",
+      "records_extracted": 481,
+      "source_updated_at": "16/11/2026 10:26",
       "attempts": 1,
-      "fetch_ms": 693,
-      "sha256": "8c4c0493380049c6e7cb8c988c5b880fd40f79961e5034be0ad143a971220c5a",
+      "fetch_ms": 1100,
+      "sha256": "4ee5b9c5d4609f4e0fcbde169c5a81a3ee674ac30049bd37129b4f7c3b499998",
       "status": "extracted",
-      "records_resolved": 424,
+      "records_resolved": 426,
       "players_updated": 0
     },
     {
       "name": "lineups_sosfanta",
       "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
-      "records_extracted": 501,
+      "records_extracted": 496,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1137,
-      "sha256": "0926bed0e04c9763d5b2fa9593fb1d07161a7955a88df275313aab2fecd770f3",
+      "fetch_ms": 862,
+      "sha256": "70fd35d4c3bec8873a57e2c7aac13b379a0abd40a1a2024253851df4e4bef42d",
       "status": "extracted",
-      "records_resolved": 430,
+      "records_resolved": 427,
       "players_updated": 0
     },
     {
@@ -79,8 +79,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1232,
-      "sha256": "a4e4de21ab161c142b9f5a12f8d03c7c00fe4ded2af33ec6e9a9290020384ce0",
+      "fetch_ms": 1529,
+      "sha256": "6100a9cdb96cc497b26f20138e3acc326971b97c67c52bc9445e747437031ee1",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -88,12 +88,24 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 1,
+      "players_updated": 4,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
-      "single_source_bench_updates": 0,
+      "single_source_bench_updates": 1,
       "sample": [
+        {
+          "id": 168,
+          "name": "Zhegrova",
+          "club": "JUV",
+          "starter": 20.0,
+          "previous_starter": 57.5,
+          "confidence": "low",
+          "rule": "single_source_bench_downgrade",
+          "sources": {
+            "lineups_fantacalcio": 20.0
+          }
+        },
         {
           "id": 438,
           "name": "Juan Jesus",
@@ -104,6 +116,32 @@
           "rule": "consensus",
           "sources": {
             "lineups_fantacalcio": 90.0,
+            "lineups_sosfanta": 95.0
+          }
+        },
+        {
+          "id": 252,
+          "name": "Thorstvedt",
+          "club": "SAS",
+          "starter": 90.0,
+          "previous_starter": 72.5,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 85.0,
+            "lineups_sosfanta": 95.0
+          }
+        },
+        {
+          "id": 251,
+          "name": "Bakola",
+          "club": "SAS",
+          "starter": 82.5,
+          "previous_starter": 65.0,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 70.0,
             "lineups_sosfanta": 95.0
           }
         }
@@ -593,10 +631,10 @@
     "lineups_sosfanta:Frigan",
     "lineups_sosfanta:Rrahmani",
     "lineups_sosfanta:Gilmour",
+    "lineups_sosfanta:Oristanio",
     "lineups_sosfanta:Politano - Vergara",
     "lineups_sosfanta:Giovane",
     "lineups_sosfanta:Braganca",
-    "lineups_sosfanta:Oristanio",
     "lineups_sosfanta:Basic",
     "lineups_sosfanta:Alajbegovic - Boga",
     "lineups_sosfanta:Mazzocchi - Haps",
@@ -613,12 +651,12 @@
     "lineups_sosfanta:Miller L.",
     "lineups_sosfanta:Bayo V.",
     "lineups_sosfanta:Traorè Hj.",
-    "lineups_sosfanta:Thorstvedt - Adzic",
-    "lineups_sosfanta:Bakola - Adzic",
     "lineups_sosfanta:Cinquegrano - Van Der Brempt",
     "lineups_sosfanta:Messias - Baldanzi",
     "lineups_sosfanta:Wiafe - Meichtry",
     "lineups_sosfanta:Musah",
-    "lineups_sosfanta:Cissè A. - Hutchinson"
+    "lineups_sosfanta:Cissè A. - Hutchinson",
+    "lineups_sosfanta:Birligea - Bobcek",
+    "lineups_sosfanta:Cittadini - Calvani"
   ]
 }
