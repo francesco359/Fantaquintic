@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-23T02:53:57Z",
+  "generated_at": "2026-11-23T14:53:31Z",
   "round": 8,
   "players": 502,
-  "player_updates": 55,
+  "player_updates": 59,
   "fresh_player_data": true,
   "data_confirmed": true,
   "sources_ok": 5,
@@ -15,10 +15,10 @@
       "records_extracted": 81,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 863,
-      "sha256": "cca6cbb4f272df23f4af3effb52b2dad1ccce3b6a8533a8e9d93ce807b888e76",
+      "fetch_ms": 763,
+      "sha256": "1e4a1fd140173abe65b3a25c8fbd876f85194393cd61c8bd60969424a5d48fb6",
       "status": "data_applied",
-      "players_updated": 27
+      "players_updated": 25
     },
     {
       "name": "injuries_sky",
@@ -26,8 +26,8 @@
       "records_extracted": 24,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1119,
-      "sha256": "c63915a9797ef1f9d26a0e6b380e3ff2b5cd971f64ea0fb995cd13ecea7774fb",
+      "fetch_ms": 581,
+      "sha256": "7b0d06be97a3ea2a6e1131d938a20a6b03a19c5c1283fd70cffa6657ea6f4529",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -37,21 +37,21 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1372,
-      "sha256": "c2174b7f8fb48e4d333978ad2e1432dcd60a028263142950fa360820a0cceeab",
+      "fetch_ms": 855,
+      "sha256": "c5cf61f757235e5b06773ec0ccaab777f99ca35dbbb8763f498d3a613fcd6661",
       "status": "unsupported",
       "players_updated": 0
     },
     {
       "name": "injuries_official",
       "url": "https://www.fantacalcio-online.com/it/infortunati-serie-a",
-      "records_extracted": 32,
+      "records_extracted": 34,
       "source_updated_at": "23/11/2026",
       "attempts": 1,
-      "fetch_ms": 964,
-      "sha256": "c169905f9ce3da4cc25e24299edef45f15abb761b53aa659827f7413468caed3",
+      "fetch_ms": 727,
+      "sha256": "5e60858ef8b0e9ecaecfd3f91a4d8d9a0c20b5c114be2a988d48291b9f01a505",
       "status": "data_applied",
-      "players_updated": 26
+      "players_updated": 28
     },
     {
       "name": "lineups_fantacalcio",
@@ -59,7 +59,7 @@
       "records_extracted": 470,
       "source_updated_at": "21/11/2026 14:07",
       "attempts": 1,
-      "fetch_ms": 1269,
+      "fetch_ms": 633,
       "sha256": "906bf2d4cfae875612d6538d956bc30fac2080f5495d1b284c601baaa45abb81",
       "status": "extracted",
       "records_resolved": 420,
@@ -68,13 +68,13 @@
     {
       "name": "lineups_sosfanta",
       "url": "https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/",
-      "records_extracted": 464,
+      "records_extracted": 465,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1039,
-      "sha256": "0957a851c8ffa6e87e6c54535be157aa49c8765069b5c688526f1f1f8e752263",
+      "fetch_ms": 696,
+      "sha256": "be6347a74ca8f578fb195e6df35c7ae64d24d3dfb2e41bd92c7ee224c346d4dd",
       "status": "extracted",
-      "records_resolved": 423,
+      "records_resolved": 422,
       "players_updated": 0
     },
     {
@@ -83,8 +83,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1415,
-      "sha256": "0ffb9d1626055ed95f92dc4cfee4fc4a4f852443b95a075f8c833a3ea046d0a7",
+      "fetch_ms": 873,
+      "sha256": "08b0d9f3b2d4ccdd743156380552cafb6cbdc2d12b284c90d95e53f3a7880562",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -92,7 +92,7 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 2,
+      "players_updated": 6,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
@@ -122,6 +122,58 @@
           "sources": {
             "lineups_fantacalcio": 100.0,
             "lineups_sosfanta": 100.0
+          }
+        },
+        {
+          "id": 360,
+          "name": "Colombo L.",
+          "club": "MON",
+          "starter": 42.5,
+          "previous_starter": 52.0,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 55.0,
+            "lineups_sosfanta": 30.0
+          }
+        },
+        {
+          "id": 15,
+          "name": "Njie",
+          "club": "FIO",
+          "starter": 52.0,
+          "previous_starter": 53.0,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 55.0,
+            "lineups_sosfanta": 49.0
+          }
+        },
+        {
+          "id": 443,
+          "name": "Ranieri L.",
+          "club": "FIO",
+          "starter": 45.5,
+          "previous_starter": 10.0,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 40.0,
+            "lineups_sosfanta": 51.0
+          }
+        },
+        {
+          "id": 210,
+          "name": "Gnonto",
+          "club": "FIO",
+          "starter": 48.0,
+          "previous_starter": 47.0,
+          "confidence": "medium",
+          "rule": "consensus",
+          "sources": {
+            "lineups_fantacalcio": 45.0,
+            "lineups_sosfanta": 51.0
           }
         }
       ],
@@ -617,8 +669,10 @@
     "lineups_sosfanta:Ndour",
     "lineups_sosfanta:Oulai",
     "lineups_sosfanta:Robinson J. - Zeballos",
-    "lineups_sosfanta:Njie - Gnonto",
+    "lineups_sosfanta:Thiam - Tornqvist",
+    "lineups_sosfanta:Gnonto - Njie",
     "lineups_sosfanta:Ndour - Brescianini",
+    "lineups_sosfanta:Ranieri L. - Viery",
     "lineups_sosfanta:Pessina",
     "lineups_sosfanta:Brescianini"
   ],
@@ -627,5 +681,5 @@
     "config_calendario_scaduto:aggiornare_round_e_fixtures"
   ],
   "errors": [],
-  "duration_ms": 2354
+  "duration_ms": 1814
 }
