@@ -1,9 +1,9 @@
 {
   "schema_version": 8,
-  "generated_at": "2026-11-25T00:51:47Z",
+  "generated_at": "2026-11-25T11:27:24Z",
   "aggiornamento_riuscito": true,
   "dati_precedenti_mantenuti": false,
-  "giocatori_cambiati": 61,
+  "giocatori_cambiati": 52,
   "fonti": [
     {
       "name": "injuries_sos",
@@ -11,10 +11,10 @@
       "records_extracted": 88,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 500,
-      "sha256": "49c164c9252edbeb18665ba9be0d8f22270f989570daefbd54fe18b0dfc57e44",
+      "fetch_ms": 526,
+      "sha256": "153f3d28289387f808103b714498b6d62bfd77fe515b0a8e9df9535cb383eda6",
       "status": "data_applied",
-      "players_updated": 27
+      "players_updated": 23
     },
     {
       "name": "injuries_sky",
@@ -22,8 +22,8 @@
       "records_extracted": 22,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 608,
-      "sha256": "532ed9d75e97952537604b2ab9ebfcdbdebf7eba3822b54b4fd91057c375d4be",
+      "fetch_ms": 532,
+      "sha256": "b85017681f8146cc9b18ac0c1bfbea91d1b12afce642ed0c2078b08a623d574f",
       "status": "data_applied",
       "players_updated": 0
     },
@@ -33,8 +33,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1312,
-      "sha256": "a709411d88dd880b8cab43baeadc4ad025b37f0b63b1e3a3c37e04a187123e09",
+      "fetch_ms": 798,
+      "sha256": "13f349aeb2160b31620e1190bfd15b6a2a5a8ee29a5fcd68a236c64f4de13949",
       "status": "unsupported",
       "players_updated": 0
     },
@@ -44,19 +44,19 @@
       "records_extracted": 33,
       "source_updated_at": "25/11/2026",
       "attempts": 1,
-      "fetch_ms": 942,
-      "sha256": "4ade0825a6a354b2740f10cf16cb81cd6d81339ce2817ea07683492af81f4508",
+      "fetch_ms": 636,
+      "sha256": "fe2207bbd6f37fc42dd45a706da1caba6bdb72158512afe495f7b242c9ad350e",
       "status": "data_applied",
-      "players_updated": 24
+      "players_updated": 27
     },
     {
       "name": "lineups_fantacalcio",
       "url": "https://www.fantacalcio.it/probabili-formazioni-serie-a/",
       "records_extracted": 474,
-      "source_updated_at": "24/11/2026 11:00",
+      "source_updated_at": "25/11/2026 08:37",
       "attempts": 1,
-      "fetch_ms": 611,
-      "sha256": "79a2bd54b5c48ba23e74ce0f155746dbf164601b8237894966dd86348dbb3535",
+      "fetch_ms": 740,
+      "sha256": "0c79e98d9a15a995c4109b7ece491db9b982ad1bda73ef95a5507a5f9aa0c943",
       "status": "extracted",
       "records_resolved": 423,
       "players_updated": 0
@@ -67,8 +67,8 @@
       "records_extracted": 514,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 889,
-      "sha256": "aba031c21429cdedb0c7cec0e288b42cd73b51b8b21978f356d6d0d281e4507f",
+      "fetch_ms": 631,
+      "sha256": "ea0a3f50c7f94ce39a969905e571634e8e2f2bd497a0f8a161c700db29872750",
       "status": "extracted",
       "records_resolved": 440,
       "players_updated": 0
@@ -79,8 +79,8 @@
       "records_extracted": 0,
       "source_updated_at": null,
       "attempts": 1,
-      "fetch_ms": 1911,
-      "sha256": "a207d669e4dc1ed6e0c78084c3b402aae24effc904326f729db899ea83a077fd",
+      "fetch_ms": 1074,
+      "sha256": "939b2e03514b2c556a05de0468b26d189b7760da0e272a184d8862f8622cab8c",
       "status": "reachable_no_updates",
       "records_resolved": 0,
       "players_updated": 0
@@ -88,11 +88,11 @@
     {
       "name": "lineup_consensus",
       "status": "data_applied",
-      "players_updated": 10,
+      "players_updated": 2,
       "configured_sources": 3,
       "minimum_sources": 2,
       "maximum_spread": 30,
-      "single_source_bench_updates": 1,
+      "single_source_bench_updates": 0,
       "sample": [
         {
           "id": 438,
@@ -118,109 +118,6 @@
           "sources": {
             "lineups_fantacalcio": 65.0,
             "lineups_sosfanta": 95.0
-          }
-        },
-        {
-          "id": 28,
-          "name": "Balerdi",
-          "club": "ROM",
-          "starter": 42.5,
-          "previous_starter": 35.0,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 40.0,
-            "lineups_sosfanta": 45.0
-          }
-        },
-        {
-          "id": 426,
-          "name": "Carboni A.",
-          "club": "MON",
-          "starter": 82.5,
-          "previous_starter": 97.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 70.0,
-            "lineups_sosfanta": 95.0
-          }
-        },
-        {
-          "id": 175,
-          "name": "Butez",
-          "club": "COM",
-          "starter": 65.5,
-          "previous_starter": 63.0,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 80.0,
-            "lineups_sosfanta": 51.0
-          }
-        },
-        {
-          "id": 37,
-          "name": "Baturina",
-          "club": "COM",
-          "starter": 82.5,
-          "previous_starter": 87.5,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 70.0,
-            "lineups_sosfanta": 95.0
-          }
-        },
-        {
-          "id": 309,
-          "name": "Ngom",
-          "club": "LEC",
-          "starter": 65.5,
-          "previous_starter": 47.0,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 80.0,
-            "lineups_sosfanta": 51.0
-          }
-        },
-        {
-          "id": 339,
-          "name": "Kaba",
-          "club": "LEC",
-          "starter": 39.5,
-          "previous_starter": 53.0,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 30.0,
-            "lineups_sosfanta": 49.0
-          }
-        },
-        {
-          "id": 310,
-          "name": "Jashari",
-          "club": "MIL",
-          "starter": 82.5,
-          "previous_starter": 100,
-          "confidence": "medium",
-          "rule": "consensus",
-          "sources": {
-            "lineups_fantacalcio": 70.0,
-            "lineups_sosfanta": 95.0
-          }
-        },
-        {
-          "id": 114,
-          "name": "Modric",
-          "club": "MIL",
-          "starter": 20.0,
-          "previous_starter": 82.5,
-          "confidence": "low",
-          "rule": "single_source_bench_downgrade",
-          "sources": {
-            "lineups_fantacalcio": 20.0
           }
         }
       ],

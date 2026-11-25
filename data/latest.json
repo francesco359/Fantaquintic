@@ -1,6 +1,6 @@
 {
   "schema": "FantaSuite.latest.v6.9",
-  "generated_at": "2026-11-25T00:51:47Z",
+  "generated_at": "2026-11-25T11:27:24Z",
   "round": 8,
   "players": [
     {
@@ -678,9 +678,9 @@
       "club": "NAP",
       "role": "C",
       "efm": 0.0,
-      "starter": 100,
-      "appearance": 100,
-      "status": "doubt",
+      "starter": 0.0,
+      "appearance": 0.0,
+      "status": "unavailable",
       "usual": 7.5,
       "delta": -7.5,
       "surprise": 0.0,
@@ -690,17 +690,17 @@
       "coach": "Massimiliano Allegri",
       "coachScore": 38.0,
       "surpriseEligible": false,
-      "reason": "- Lesione di alto grado del bicipite femorale della coscia sinistra, in dubbio per la 24a.",
+      "reason": "Lesione distrattiva di medio grado del soleo destro",
       "availability_type": "injury",
-      "expected_return": "08/11/2026",
-      "updated_by": "injuries_sos",
-      "updated_at": "2026-11-24T02:56:55Z",
-      "expected_minutes": 75.0,
+      "expected_return": "23/02/2027",
+      "updated_by": "injuries_official",
+      "updated_at": "2026-11-25T11:27:24Z",
+      "expected_minutes": 0.0,
       "expected_vote": 0.0,
       "expected_fantavote": 0.0,
       "formation_index": 0.0,
-      "starter_probability": 1.0,
-      "appearance_probability": 1.0,
+      "starter_probability": 0.0,
+      "appearance_probability": 0.0,
       "expected_fantasy_average": 0.0,
       "surprise_score": 0.0,
       "base_expected_vote": 0.0,
@@ -733,7 +733,7 @@
       "coachScore": 74.0,
       "surpriseEligible": true,
       "updated_by": "injuries_official",
-      "updated_at": "2026-11-25T00:51:47Z",
+      "updated_at": "2026-11-25T11:27:24Z",
       "expected_minutes": 0.0,
       "base_expected_vote": 7.1,
       "base_expected_fantavote": 6.78,
@@ -1965,7 +1965,7 @@
       "availability_type": "injury",
       "reason": "Sindrome femoro-rotulea al ginocchio",
       "updated_by": "lineup_consensus",
-      "updated_at": "2026-11-25T00:51:47Z",
+      "updated_at": "2026-11-25T11:27:24Z",
       "expected_return": "01/01/2027",
       "expected_minutes": 72.0,
       "expected_vote": 0.0,
@@ -2725,7 +2725,7 @@
       "reason": "Distorsione alla caviglia destra senza lesioni ossee né danni capsulo-legamentosi",
       "availability_type": "injury",
       "updated_by": "injuries_official",
-      "updated_at": "2026-11-25T00:51:47Z",
+      "updated_at": "2026-11-25T11:27:24Z",
       "expected_return": "08/02/2027",
       "expected_minutes": 0.0,
       "expected_vote": 0.0,
@@ -3318,7 +3318,7 @@
       "coachScore": 26.0,
       "surpriseEligible": true,
       "updated_by": "injuries_official",
-      "updated_at": "2026-11-25T00:51:47Z",
+      "updated_at": "2026-11-25T11:27:24Z",
       "expected_minutes": 0.0,
       "base_expected_vote": 6.12,
       "base_expected_fantavote": 6.07,
@@ -3479,7 +3479,7 @@
       "reason": "Problema all'anca sinistra, entità da definire con visita specialistica",
       "availability_type": "injury",
       "updated_by": "injuries_official",
-      "updated_at": "2026-11-25T00:51:47Z",
+      "updated_at": "2026-11-25T11:27:24Z",
       "expected_minutes": 0.0,
       "base_expected_vote": 6.8,
       "base_expected_fantavote": 6.85,
@@ -3958,7 +3958,7 @@
       "coachScore": 14.0,
       "surpriseEligible": true,
       "updated_by": "injuries_official",
-      "updated_at": "2026-11-25T00:51:47Z",
+      "updated_at": "2026-11-25T11:27:24Z",
       "expected_minutes": 0.0,
       "base_expected_vote": 7.88,
       "base_expected_fantavote": 7.22,
@@ -4541,12 +4541,12 @@
       "team": "KFC",
       "club": "MIL",
       "role": "C",
-      "efm": 5.92,
-      "starter": 20.0,
-      "appearance": 55.0,
-      "status": "doubt",
+      "efm": 0.0,
+      "starter": 0.0,
+      "appearance": 0.0,
+      "status": "unavailable",
       "usual": 6.0,
-      "delta": -0.08,
+      "delta": -6.0,
       "surprise": 68.3,
       "hidden": 74.4,
       "reliability": 88.9,
@@ -4554,14 +4554,14 @@
       "coach": "Rúben Amorim",
       "coachScore": 62.0,
       "surpriseEligible": true,
-      "updated_by": "lineup_single_source_bench_downgrade",
-      "updated_at": "2026-11-25T00:51:47Z",
-      "expected_minutes": 42.5,
+      "updated_by": "injuries_official",
+      "updated_at": "2026-11-25T11:27:24Z",
+      "expected_minutes": 0.0,
       "base_expected_vote": 6.0,
       "base_expected_fantavote": 6.42,
-      "expected_vote": 5.66,
-      "expected_fantavote": 5.92,
-      "formation_index": 5.12,
+      "expected_vote": 0.0,
+      "expected_fantavote": 0.0,
+      "formation_index": 0.0,
       "minute_model": {
         "vote_factor": 0.9437,
         "bonus_factor": 0.6042,
@@ -4569,12 +4569,13 @@
         "individual_bonus_factor": 1.0,
         "profile_confidence": "neutral"
       },
-      "starter_probability": 0.2,
-      "appearance_probability": 0.55,
-      "expected_fantasy_average": 5.92,
+      "starter_probability": 0.0,
+      "appearance_probability": 0.0,
+      "expected_fantasy_average": 0.0,
       "surprise_score": 68.3,
-      "reason": "- Risentimento al retto femorale, in dubbio per la 13a.",
-      "availability_type": "injury"
+      "reason": "Risentimento muscolare al retto femorale della coscia destra",
+      "availability_type": "injury",
+      "expected_return": "06/12/2026"
     },
     {
       "id": 115,
@@ -4799,7 +4800,7 @@
       "coachScore": 74.0,
       "surpriseEligible": false,
       "updated_by": "injuries_official",
-      "updated_at": "2026-11-25T00:51:47Z",
+      "updated_at": "2026-11-25T11:27:24Z",
       "expected_minutes": 0.0,
       "base_expected_vote": 7.17,
       "base_expected_fantavote": 6.87,
@@ -4960,7 +4961,7 @@
       "coachScore": 74.0,
       "surpriseEligible": false,
       "updated_by": "injuries_official",
-      "updated_at": "2026-11-25T00:51:47Z",
+      "updated_at": "2026-11-25T11:27:24Z",
       "expected_minutes": 0.0,
       "base_expected_vote": 8.7,
       "base_expected_fantavote": 8.06,
@@ -5243,7 +5244,7 @@
       "reason": "Lesione al bicipite femorale della coscia destra",
       "availability_type": "injury",
       "updated_by": "injuries_official",
-      "updated_at": "2026-11-25T00:51:47Z",
+      "updated_at": "2026-11-25T11:27:24Z",
       "expected_return": "29/01/2027",
       "expected_minutes": 0.0,
       "expected_vote": 0.0,
@@ -6272,7 +6273,7 @@
       "coachScore": 14.0,
       "surpriseEligible": true,
       "updated_by": "injuries_official",
-      "updated_at": "2026-11-25T00:51:47Z",
+      "updated_at": "2026-11-25T11:27:24Z",
       "expected_minutes": 0.0,
       "base_expected_vote": 6.0,
       "base_expected_fantavote": 6.12,
@@ -6314,7 +6315,7 @@
       "coachScore": 86.0,
       "surpriseEligible": true,
       "updated_by": "injuries_official",
-      "updated_at": "2026-11-25T00:51:47Z",
+      "updated_at": "2026-11-25T11:27:24Z",
       "expected_minutes": 0.0,
       "base_expected_vote": 7.25,
       "base_expected_fantavote": 6.55,
@@ -6462,12 +6463,12 @@
       "team": "Salernitana",
       "club": "INT",
       "role": "C",
-      "efm": 7.25,
-      "starter": 100,
-      "appearance": 100,
-      "status": "doubt",
+      "efm": 0.0,
+      "starter": 0.0,
+      "appearance": 0.0,
+      "status": "unavailable",
       "usual": 8.5,
-      "delta": -1.25,
+      "delta": -8.5,
       "surprise": 16.1,
       "hidden": 68.5,
       "reliability": 82.1,
@@ -6475,12 +6476,12 @@
       "coach": "Cristian Chivu",
       "coachScore": 74.0,
       "surpriseEligible": false,
-      "expected_minutes": 75.0,
+      "expected_minutes": 0.0,
       "base_expected_vote": 8.5,
       "base_expected_fantavote": 7.22,
-      "expected_vote": 8.37,
-      "expected_fantavote": 7.25,
-      "formation_index": 7.25,
+      "expected_vote": 0.0,
+      "expected_fantavote": 0.0,
+      "formation_index": 0.0,
       "minute_model": {
         "vote_factor": 0.9843,
         "bonus_factor": 0.875,
@@ -6488,14 +6489,15 @@
         "individual_bonus_factor": 1.0,
         "profile_confidence": "neutral"
       },
-      "starter_probability": 1.0,
-      "appearance_probability": 1.0,
-      "expected_fantasy_average": 7.25,
+      "starter_probability": 0.0,
+      "appearance_probability": 0.0,
+      "expected_fantasy_average": 0.0,
       "surprise_score": 16.1,
-      "updated_by": "injuries_sos",
-      "updated_at": "2026-11-24T02:56:55Z",
-      "reason": "- Problema al flessore della coscia destra, in dubbio per la 14a.",
-      "availability_type": "injury"
+      "updated_by": "injuries_official",
+      "updated_at": "2026-11-25T11:27:24Z",
+      "reason": "Risentimento muscolare all'adduttore della coscia destra",
+      "availability_type": "injury",
+      "expected_return": "22/12/2026"
     },
     {
       "id": 163,
@@ -6961,7 +6963,7 @@
       "reason": "Infortunio al piede sinistro, possibile intervento chirurgico",
       "availability_type": "injury",
       "updated_by": "injuries_official",
-      "updated_at": "2026-11-25T00:51:47Z",
+      "updated_at": "2026-11-25T11:27:24Z",
       "expected_return": "26/11/2026",
       "expected_minutes": 0.0,
       "expected_vote": 0.0,
@@ -8136,7 +8138,7 @@
       "reason": "Distorsione alla caviglia destra, con sospetto interessamento dei legamenti da accertare",
       "availability_type": "injury",
       "updated_by": "injuries_official",
-      "updated_at": "2026-11-25T00:51:47Z",
+      "updated_at": "2026-11-25T11:27:24Z",
       "expected_return": "05/01/2027",
       "expected_minutes": 0.0,
       "expected_vote": 0.0,
@@ -8842,7 +8844,7 @@
       "coachScore": 38.0,
       "surpriseEligible": true,
       "updated_by": "injuries_official",
-      "updated_at": "2026-11-25T00:51:47Z",
+      "updated_at": "2026-11-25T11:27:24Z",
       "expected_minutes": 0.0,
       "base_expected_vote": 6.39,
       "base_expected_fantavote": 6.24,
@@ -10837,7 +10839,7 @@
       "reason": "Lesione del bicipite femorale della coscia sinistra",
       "availability_type": "injury",
       "updated_by": "injuries_official",
-      "updated_at": "2026-11-25T00:51:47Z",
+      "updated_at": "2026-11-25T11:27:24Z",
       "expected_return": "04/12/2026"
     },
     {
@@ -12302,7 +12304,7 @@
       "reason": "Distorsione importante del ginocchio sinistro, in attesa di esami strumentali",
       "availability_type": "injury",
       "updated_by": "injuries_official",
-      "updated_at": "2026-11-25T00:51:47Z",
+      "updated_at": "2026-11-25T11:27:24Z",
       "expected_minutes": 0.0,
       "expected_vote": 0.0,
       "expected_fantavote": 0.0,
@@ -12769,7 +12771,7 @@
       "coachScore": 86.0,
       "surpriseEligible": false,
       "updated_by": "injuries_official",
-      "updated_at": "2026-11-25T00:51:47Z",
+      "updated_at": "2026-11-25T11:27:24Z",
       "expected_minutes": 0.0,
       "base_expected_vote": 5.97,
       "base_expected_fantavote": 6.08,
@@ -13690,7 +13692,7 @@
       "availability_type": "injury",
       "expected_return": "01/12/2026",
       "updated_by": "injuries_official",
-      "updated_at": "2026-11-25T00:51:47Z",
+      "updated_at": "2026-11-25T11:27:24Z",
       "expected_minutes": 0.0,
       "expected_vote": 0.0,
       "expected_fantavote": 0.0,
@@ -13770,7 +13772,7 @@
       "reason": "Problema alla caviglia (natura del problema non specificata)",
       "availability_type": "injury",
       "updated_by": "injuries_official",
-      "updated_at": "2026-11-25T00:51:47Z",
+      "updated_at": "2026-11-25T11:27:24Z",
       "expected_return": "13/01/2027",
       "expected_minutes": 0.0,
       "expected_vote": 0.0,
@@ -14920,7 +14922,7 @@
       "coachScore": 62.0,
       "surpriseEligible": true,
       "updated_by": "lineup_consensus",
-      "updated_at": "2026-11-25T00:51:47Z",
+      "updated_at": "2026-11-25T11:27:24Z",
       "expected_minutes": 82.0,
       "base_expected_vote": 5.91,
       "base_expected_fantavote": 5.95,
@@ -18750,7 +18752,7 @@
       "reason": "Rottura del legamento crociato del ginocchio destro, da trauma distorsivo in allenamento",
       "availability_type": "injury",
       "updated_by": "injuries_official",
-      "updated_at": "2026-11-25T00:51:47Z",
+      "updated_at": "2026-11-25T11:27:24Z",
       "expected_return": "31/07/2027",
       "expected_minutes": 0.0,
       "expected_vote": 0.0,
@@ -19525,7 +19527,7 @@
       "coachScore": 50.0,
       "surpriseEligible": false,
       "updated_by": "injuries_official",
-      "updated_at": "2026-11-25T00:51:47Z",
+      "updated_at": "2026-11-25T11:27:24Z",
       "expected_minutes": 0.0,
       "base_expected_vote": 5.91,
       "base_expected_fantavote": 5.94,
@@ -19688,7 +19690,7 @@
       "reason": "Nuovo infortunio al ginocchio (da accertare con esami strumentali)",
       "availability_type": "injury",
       "updated_by": "injuries_official",
-      "updated_at": "2026-11-25T00:51:47Z",
+      "updated_at": "2026-11-25T11:27:24Z",
       "expected_return": "09/02/2027",
       "expected_minutes": 0.0,
       "expected_vote": 0.0,
@@ -19758,7 +19760,7 @@
       "reason": "Problema al menisco del ginocchio destro (in valutazione, possibile intervento chirurgico o terapia conservativa)",
       "availability_type": "injury",
       "updated_by": "injuries_official",
-      "updated_at": "2026-11-25T00:51:47Z",
+      "updated_at": "2026-11-25T11:27:24Z",
       "expected_return": "08/02/2027",
       "expected_minutes": 0.0,
       "expected_vote": 0.0,
@@ -19971,7 +19973,7 @@
     },
     "best_overall": {
       "module": "3-4-3",
-      "score": 79.17,
+      "score": 79.13,
       "complete": true,
       "players": [
         {
@@ -20010,8 +20012,8 @@
           "role": "C"
         },
         {
-          "id": 162,
-          "name": "Calhanoglu",
+          "id": 43,
+          "name": "Rabiot",
           "role": "C"
         },
         {
@@ -20034,7 +20036,7 @@
     "best_by_module": {
       "3-4-3": {
         "module": "3-4-3",
-        "score": 79.17,
+        "score": 79.13,
         "complete": true,
         "players": [
           {
@@ -20073,8 +20075,8 @@
             "role": "C"
           },
           {
-            "id": 162,
-            "name": "Calhanoglu",
+            "id": 43,
+            "name": "Rabiot",
             "role": "C"
           },
           {
@@ -20096,7 +20098,7 @@
       },
       "3-5-2": {
         "module": "3-5-2",
-        "score": 78.86,
+        "score": 78.76,
         "complete": true,
         "players": [
           {
@@ -20135,13 +20137,13 @@
             "role": "C"
           },
           {
-            "id": 162,
-            "name": "Calhanoglu",
+            "id": 43,
+            "name": "Rabiot",
             "role": "C"
           },
           {
-            "id": 43,
-            "name": "Rabiot",
+            "id": 115,
+            "name": "Moreira",
             "role": "C"
           },
           {
@@ -20220,7 +20222,7 @@
       },
       "4-4-2": {
         "module": "4-4-2",
-        "score": 78.15,
+        "score": 78.11,
         "complete": true,
         "players": [
           {
@@ -20264,8 +20266,8 @@
             "role": "C"
           },
           {
-            "id": 162,
-            "name": "Calhanoglu",
+            "id": 43,
+            "name": "Rabiot",
             "role": "C"
           },
           {
@@ -20282,7 +20284,7 @@
       },
       "4-5-1": {
         "module": "4-5-1",
-        "score": 77.78,
+        "score": 77.68,
         "complete": true,
         "players": [
           {
@@ -20326,13 +20328,13 @@
             "role": "C"
           },
           {
-            "id": 162,
-            "name": "Calhanoglu",
+            "id": 43,
+            "name": "Rabiot",
             "role": "C"
           },
           {
-            "id": 43,
-            "name": "Rabiot",
+            "id": 115,
+            "name": "Moreira",
             "role": "C"
           },
           {
@@ -20406,7 +20408,7 @@
       },
       "5-4-1": {
         "module": "5-4-1",
-        "score": 77.02,
+        "score": 76.98,
         "complete": true,
         "players": [
           {
@@ -20455,8 +20457,8 @@
             "role": "C"
           },
           {
-            "id": 162,
-            "name": "Calhanoglu",
+            "id": 43,
+            "name": "Rabiot",
             "role": "C"
           },
           {
@@ -20471,7 +20473,7 @@
   "validation": {
     "records": 502,
     "critical_errors": [],
-    "player_updates": 61,
+    "player_updates": 52,
     "fresh_player_data": true,
     "canonical_lineup_matching": true
   }
